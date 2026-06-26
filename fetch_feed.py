@@ -4,11 +4,15 @@
 Получает данные о свободных квартирах из API сайтов ЖК Легенда
 и формирует cian_feed.xml по стандарту ЦИАН XML v2.
 
+API-особенности (проверено 2026-06-26):
+- Метод: POST
+- Пагинация: параметр offset (не page!), page_size макс. 100
+- Всего квартир Коренево: ~539
+
 Запуск: python fetch_feed.py
 """
 
 import requests
-import json
 import os
 import sys
 from datetime import datetime
@@ -18,72 +22,77 @@ PROJECTS = [
     {
         "project_id": "a5f9b6b9-037d-4cd8-981c-cbd55e93a5c0",
         "jk_name":    "Легенда Марусино",
-        "jk_cian_id": os.getenv("CIAN_ID_MARUSINO", "MARUSINO_CIAN_ID"),  # задать в .env или GitHub Secrets
+        "jk_cian_id": os.getenv("CIAN_ID_MARUSINO", "MARUSINO_CIAN_ID"),
         "address":    "Россия, Московская область, Люберцы, Марусино",
         "base_url":   "https://legenda-marusino.ru/",
-        "api_url":    "https://legenda-marusino.ru/api/real-estates/",
+        "api_url":    "https://legenda-marusino.ru/api/realty-filter/custom/real-estates",
     },
     {
         "project_id": "61b193a5-aa22-4f3a-bf22-216ebc5648b1",
         "jk_name":    "Легенда Коренево",
-        "jk_cian_id": os.getenv("CIAN_ID_KORENEVO", "KORENEVO_CIAN_ID"),  # задать в .env или GitHub Secrets
+        "jk_cian_id": os.getenv("CIAN_ID_KORENEVO", "KORENEVO_CIAN_ID"),
         "address":    "Россия, Московская область, Железнодорожный, Коренево",
-        "base_url":   "https://legenda-korenevo.ru/",
-        "api_url":    "https://legenda-korenevo.ru/api/real-estates/",
+        "base_url":   "https://legendakorenevo.ru/",
+        "api_url":    "https://legendakorenevo.ru/api/realty-filter/custom/real-estates",
     },
 ]
 
-PAGE_SIZE = 100
+PAGE_SIZE   = 100   # максимум, который принимает API
 OUTPUT_FILE = "cian_feed.xml"
-EMAIL = "info@rusich.group"
+EMAIL       = "info@rusich.group"
 
-# ─── Запрос с автоматической пагинацией ──────────────────────────────────────
+
+# ─── Запрос с offset-пагинацией ──────────────────────────────────────────────
 def fetch_all_flats(cfg: dict) -> list:
-    """Загружает все свободные квартиры по проекту, обходя все страницы."""
-    flats = []
-    page = 1
-    headers = {"Accept": "application/json"}
+    """
+    Загружает все свободные квартиры по проекту через POST-запросы.
+    API legendakorenevo.ru использует offset-пагинацию (не page).
+    Останавливается когда пришло менее PAGE_SIZE записей.
+    """
+    flats  = []
+    offset = 0
+    headers = {"Content-Type": "application/json", "Accept": "application/json"}
 
     while True:
-        params = {
-            "complex_id": cfg["project_id"],
-            "status": "free",
-            "page": page,
-            "page_size": PAGE_SIZE,
+        body = {
+            "project_id": cfg["project_id"],
+            "status":     ["free"],
+            "page_size":  PAGE_SIZE,
+            "offset":     offset,
         }
         try:
-            resp = requests.get(cfg["api_url"], params=params, headers=headers, timeout=30)
+            resp = requests.post(
+                cfg["api_url"],
+                json=body,
+                headers=headers,
+                timeout=30,
+            )
             resp.raise_for_status()
         except requests.RequestException as e:
-            print(f"  ⚠ Ошибка запроса ({cfg['jk_name']} стр.{page}): {e}", file=sys.stderr)
+            print(f"  ⚠ Ошибка запроса ({cfg['jk_name']} offset={offset}): {e}", file=sys.stderr)
             break
 
         data = resp.json()
 
-        # API может вернуть:
-        # 1. Список напрямую: [...]
-        # 2. Объект с results/items + пагинацией: {"results": [...], "next": "..."}
+        # API возвращает список напрямую
         if isinstance(data, list):
-            flats.extend(data)
-            break  # нет пагинации
+            batch = data
         else:
-            items = data.get("results") or data.get("items") or data.get("data") or []
-            flats.extend(items)
-            # Пагинация: поле next или считаем по count
-            if data.get("next"):
-                page += 1
-            elif len(items) == PAGE_SIZE:
-                # Если нет поля next но вернулась полная страница — пробуем следующую
-                page += 1
-            else:
-                break
+            batch = data.get("results") or data.get("items") or data.get("data") or []
+
+        flats.extend(batch)
+        print(f"   offset={offset}: получено {len(batch)}, итого {len(flats)}")
+
+        if len(batch) < PAGE_SIZE:
+            break  # последняя страница
+
+        offset += PAGE_SIZE
 
     return flats
 
 
 # ─── XML-утилиты ─────────────────────────────────────────────────────────────
 def esc(s) -> str:
-    """XML-экранирование."""
     if s is None:
         return ""
     return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
@@ -187,9 +196,9 @@ def main():
     all_objects = []
 
     for cfg in PROJECTS:
-        print(f"📥 Загрузка {cfg['jk_name']}...")
+        print(f"\n📥 Загрузка {cfg['jk_name']} ({cfg['api_url']})...")
         flats = fetch_all_flats(cfg)
-        print(f"   → {len(flats)} квартир")
+        print(f"   ✓ Итого: {len(flats)} квартир")
         for flat in flats:
             all_objects.append(make_object_xml(flat, cfg))
 
