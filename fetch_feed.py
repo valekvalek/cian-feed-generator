@@ -1,23 +1,18 @@
 #!/usr/bin/env python3
 """
 Автоматический генератор XML-фида для ЦИАН.
-Получает данные о свободных квартирах из API сайтов ЖК Легенда
-и формирует cian_feed.xml по стандарту ЦИАН XML v2.
-
-API-особенности (проверено 2026-06-26):
-- Метод: POST
-- Пагинация: offset, page_size макс. 100
-- API игнорирует фильтр status на сервере — фильтруем локально
-
+API-особенности: POST, offset-пагинация, page_size макс. 100.
+API игнорирует status-фильтр — фильтруем локально: status==free и price != None.
 Запуск: python fetch_feed.py
 """
 
 import requests
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
+from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
 
-# ─── Конфигурация проектов ────────────────────────────────────────────────────
+# ─── Конфигурация ───────────────────────────────────────────────────────────
 PROJECTS = [
     {
         "project_id": "a5f9b6b9-037d-4cd8-981c-cbd55e93a5c0",
@@ -42,14 +37,8 @@ OUTPUT_FILE = "cian_feed.xml"
 EMAIL       = "info@rusich.group"
 
 
-# ─── Загрузка всех квартир через offset-пагинацию ──────────────────────────────
+# ─── Загрузка данных ───────────────────────────────────────────────────────────
 def fetch_all_flats(cfg: dict) -> list:
-    """
-    Скачивает все квартиры через offset-пагинацию.
-    API игнорирует фильтр status на сервере, поэтому фильтруем после получения:
-      - status == 'free'
-      - price не None и больше 0
-    """
     flats  = []
     offset = 0
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
@@ -79,148 +68,128 @@ def fetch_all_flats(cfg: dict) -> list:
             break
 
         total_fetched += len(batch)
-
-        # Локальная фильтрация: только свободные и с ценой
         valid = [
             f for f in batch
             if f.get("status") == "free" and f.get("price") not in (None, 0, "")
         ]
         skipped = len(batch) - len(valid)
         total_skipped += skipped
-
         flats.extend(valid)
-        print(f"   offset={offset}: получено {len(batch)}, прошло фильтр {len(valid)} (пропущено: {skipped}), итого {len(flats)}")
+        print(f"   offset={offset}: +{len(batch)} загр., в фид {len(valid)} (пропущено {skipped}), итого {len(flats)}")
 
         if len(batch) < PAGE_SIZE:
             break
-
         offset += PAGE_SIZE
 
-    print(f"   → всего загружено {total_fetched}, пропущено (booked/без цены): {total_skipped}, в фид: {len(flats)}")
+    print(f"   → загружено {total_fetched}, пропущено {total_skipped}, в фид: {len(flats)}")
     return flats
 
 
-# ─── XML-утилиты ─────────────────────────────────────────────────────────────
-def esc(s) -> str:
-    if s is None:
-        return ""
-    return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
-
-
+# ─── Сборка XML-объекта ───────────────────────────────────────────────────────
 def quarter_str(q: int) -> str:
     return {1: "first", 2: "second", 3: "third", 4: "fourth"}.get(q, "fourth")
 
 
-def make_object_xml(flat: dict, cfg: dict) -> str:
-    ext_id   = flat.get("external_id", "")
-    rooms    = flat.get("rooms", 0)
-    total    = flat.get("total_area", 0)
-    living   = flat.get("living_area", 0)
-    kitchen  = flat.get("kitchen_area", 0)
-    floor    = flat.get("floor_number", "")
-    section  = flat.get("section_number", "")
-    number   = flat.get("number", "")
-    price    = int(flat.get("price", 0))
-    axis     = flat.get("axis", "")
-    bld_num  = flat.get("building_number", "")
-    q        = flat.get("completion_quarter")
-    yr       = flat.get("completion_year")
-    is_ready = flat.get("is_ready", False)
-    base     = cfg["base_url"]
-    jk_name  = cfg["jk_name"]
-    jk_cid   = cfg["jk_cian_id"]
+def txt(parent: Element, tag: str, value) -> Element:
+    """SubElement с текстом, пропускает None."""
+    el = SubElement(parent, tag)
+    el.text = str(value) if value is not None else ""
+    return el
 
+
+def make_object_element(flat: dict, cfg: dict) -> Element:
+    obj = Element("object")
+
+    txt(obj, "ExternalId",       flat.get("external_id", ""))
+    txt(obj, "Description",      f"ЖК {cfg['jk_name']}, этаж {flat.get('floor_number', '')}, номер квартиры {flat.get('number', '')}")
+    txt(obj, "Category",         "newBuildingFlatSale")
+    txt(obj, "FlatOnFloorNumber", flat.get("axis", ""))
+    txt(obj, "Address",          cfg["address"])
+    txt(obj, "FlatRoomsCount",   flat.get("rooms", 0))
+    txt(obj, "TotalArea",        flat.get("total_area", 0))
+    txt(obj, "LivingArea",       flat.get("living_area", 0))
+    txt(obj, "KitchenArea",      flat.get("kitchen_area", 0))
+    txt(obj, "FloorNumber",      flat.get("floor_number", ""))
+
+    # JKSchema
+    jk = SubElement(obj, "JKSchema")
+    txt(jk, "Id",   cfg["jk_cian_id"])
+    txt(jk, "Name", cfg["jk_name"])
+    house = SubElement(jk, "House")
+    bld = flat.get("building_number", "")
+    txt(house, "Id",   bld)
+    txt(house, "Name", bld)
+    flat_el = SubElement(house, "Flat")
+    txt(flat_el, "FlatNumber",    flat.get("number", ""))
+    txt(flat_el, "SectionNumber", flat.get("section_number", ""))
+
+    # SubAgent
+    agent = SubElement(obj, "SubAgent")
+    txt(agent, "Email", EMAIL)
+
+    # LayoutPhoto
     plan = flat.get("plan") or flat.get("layout_plan", "")
-    layout_xml = ""
     if plan:
-        url = plan if plan.startswith("http") else base + plan
-        layout_xml = (
-            f"<LayoutPhoto><FullUrl>{esc(url)}</FullUrl>"
-            f"<PhotoType>realtyObjectLayout</PhotoType></LayoutPhoto>"
-        )
+        url = plan if plan.startswith("http") else cfg["base_url"] + plan
+        lp = SubElement(obj, "LayoutPhoto")
+        txt(lp, "FullUrl",   url)
+        txt(lp, "PhotoType", "realtyObjectLayout")
 
+    # Photos
     images = flat.get("images", [])
-    imgs_xml = ""
     if images:
-        items_xml = ""
+        photos = SubElement(obj, "Photos")
         for img in images:
             u = img.get("url") or img.get("full_url", "")
             if u:
-                items_xml += (
-                    f"<PhotoSchema><FullUrl>{esc(u)}</FullUrl>"
-                    f"<PhotoType>realtyObject</PhotoType></PhotoSchema>"
-                )
-        if items_xml:
-            imgs_xml = f"<Photos>{items_xml}</Photos>"
+                ps = SubElement(photos, "PhotoSchema")
+                txt(ps, "FullUrl",   u)
+                txt(ps, "PhotoType", "realtyObject")
 
-    deadline_xml = ""
+    # Building / Deadline
+    building = SubElement(obj, "Building")
+    q  = flat.get("completion_quarter")
+    yr = flat.get("completion_year")
     if q and yr:
-        done = "true" if is_ready else "false"
-        deadline_xml = (
-            f"<Deadline><Quarter>{quarter_str(q)}</Quarter>"
-            f"<Year>{yr}</Year>"
-            f"<IsComplete>{done}</IsComplete></Deadline>"
-        )
+        dl = SubElement(building, "Deadline")
+        txt(dl, "Quarter",    quarter_str(q))
+        txt(dl, "Year",       yr)
+        txt(dl, "IsComplete", "true" if flat.get("is_ready") else "false")
 
-    desc = f"ЖК {jk_name}, этаж {floor}, номер квартиры {number}"
+    # BargainTerms
+    bt = SubElement(obj, "BargainTerms")
+    txt(bt, "Price",           int(flat.get("price", 0)))
+    txt(bt, "Currency",        "rur")
+    txt(bt, "MortgageAllowed", "true")
 
-    return (
-        f"<object>"
-        f"<ExternalId>{esc(ext_id)}</ExternalId>"
-        f"<Description>{esc(desc)}</Description>"
-        f"<Category>newBuildingFlatSale</Category>"
-        f"<FlatOnFloorNumber>{esc(str(axis))}</FlatOnFloorNumber>"
-        f"<Address>{esc(cfg['address'])}</Address>"
-        f"<FlatRoomsCount>{rooms}</FlatRoomsCount>"
-        f"<TotalArea>{total}</TotalArea>"
-        f"<LivingArea>{living}</LivingArea>"
-        f"<KitchenArea>{kitchen}</KitchenArea>"
-        f"<FloorNumber>{floor}</FloorNumber>"
-        f"<JKSchema>"
-        f"<Id>{esc(jk_cid)}</Id>"
-        f"<Name>{esc(jk_name)}</Name>"
-        f"<House><Id>{esc(bld_num)}</Id><Name>{esc(bld_num)}</Name>"
-        f"<Flat><FlatNumber>{esc(number)}</FlatNumber>"
-        f"<SectionNumber>{esc(section)}</SectionNumber></Flat>"
-        f"</House></JKSchema>"
-        f"<SubAgent><Email>{EMAIL}</Email></SubAgent>"
-        f"{layout_xml}"
-        f"{imgs_xml}"
-        f"<Building>{deadline_xml}</Building>"
-        f"<BargainTerms>"
-        f"<Price>{price}</Price>"
-        f"<Currency>rur</Currency>"
-        f"<MortgageAllowed>true</MortgageAllowed>"
-        f"</BargainTerms>"
-        f"</object>"
-    )
+    return obj
 
 
 # ─── Главный блок ─────────────────────────────────────────────────────────────
 def main():
-    all_objects = []
+    root = Element("feed")
+    txt(root, "feed_version", "2")
+    txt(root, "generated", datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
 
+    total_objects = 0
     for cfg in PROJECTS:
         print(f"\n📥 Загрузка {cfg['jk_name']}...")
         flats = fetch_all_flats(cfg)
-        print(f"   ✓ В фид: {len(flats)} квартир (status=free, цена указана)")
+        print(f"   ✓ В фид: {len(flats)} квартир")
         for flat in flats:
-            all_objects.append(make_object_xml(flat, cfg))
+            root.append(make_object_element(flat, cfg))
+            total_objects += 1
 
-    xml_out = (
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<feed><feed_version>2</feed_version>'
-        + "".join(all_objects)
-        + "</feed>"
-    )
+    # Красивые отступы (indent доступен с Python 3.9+)
+    indent(root, space="  ")
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(xml_out)
+    tree = ElementTree(root)
+    with open(OUTPUT_FILE, "wb") as f:
+        tree.write(f, encoding="utf-8", xml_declaration=True)
 
-    total = len(all_objects)
-    size  = os.path.getsize(OUTPUT_FILE)
-    ts    = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"\n✅ [{ts}] Готово: {total} объектов → {OUTPUT_FILE} ({size:,} байт)")
+    size = os.path.getsize(OUTPUT_FILE)
+    ts   = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"\n✅ [{ts}] Готово: {total_objects} объектов → {OUTPUT_FILE} ({size:,} байт)")
 
 
 if __name__ == "__main__":
