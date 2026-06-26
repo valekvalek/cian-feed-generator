@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-06-26T08:57:10Z</generated>
+  <generated>2026-06-26T09:07:07Z</generated>
   <object>
     <ExternalId>4</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К4</Description>
@@ -33,6 +33,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -76,6 +77,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -119,6 +121,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -162,6 +165,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -205,6 +209,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -248,6 +253,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -291,6 +297,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -334,6 +341,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -377,6 +385,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -420,6 +429,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -463,6 +473,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -506,6 +517,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -549,6 +561,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -592,6 +605,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -635,6 +649,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -678,6 +693,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -721,6 +737,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -764,6 +781,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -807,6 +825,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -850,6 +869,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -893,6 +913,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -936,6 +957,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -979,6 +1001,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1022,6 +1045,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1065,6 +1089,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1108,6 +1133,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1151,6 +1177,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1194,6 +1221,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1237,6 +1265,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1280,6 +1309,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1323,6 +1353,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1366,6 +1397,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1409,6 +1441,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1452,6 +1485,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1495,6 +1529,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1538,6 +1573,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1581,6 +1617,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1624,6 +1661,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1667,6 +1705,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1710,6 +1749,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
+      <FloorsCount>7</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2026</Year>
@@ -1752,7 +1792,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/5f89/94d1/5f8994d18bec55cebfae6cb48d5c3518.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>10971444</Price>
       <Currency>rur</Currency>
@@ -1789,7 +1831,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/6540/3361/65403361bdb5543e92ea28d586eb9480.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>18679600</Price>
       <Currency>rur</Currency>
@@ -1826,7 +1870,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/25e8/4808/25e8480880605735b503806dccada28e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>10171740</Price>
       <Currency>rur</Currency>
@@ -1863,7 +1909,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/5ff4/dd56/5ff4dd564d045e9bb32cc2496d454964.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>5892560</Price>
       <Currency>rur</Currency>
@@ -1900,7 +1948,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/7e41/cf83/7e41cf83a3795b32b9d17cf659d37bf9.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>11801440</Price>
       <Currency>rur</Currency>
@@ -1937,7 +1987,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/918b/e29c/918be29c79fe5e90aef729de4a92814f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>11791600</Price>
       <Currency>rur</Currency>
@@ -1974,7 +2026,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/baa9/dd78/baa9dd78d01257a29fa714f435e56091.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>11837420</Price>
       <Currency>rur</Currency>
@@ -2011,7 +2065,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/9e09/8d9d/9e098d9d33485459a7f6d45532e85d81.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>10085600</Price>
       <Currency>rur</Currency>
@@ -2048,7 +2104,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/32b1/2646/32b126460d0d5c30a538adddcc8e6317.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>18733160</Price>
       <Currency>rur</Currency>
@@ -2085,7 +2143,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/1550/e729/1550e72964b654cbb72175c278eb4886.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>10278840</Price>
       <Currency>rur</Currency>
@@ -2122,7 +2182,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/1771/1c9d/17711c9de2085082ab182016ae1238ac.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>10665135</Price>
       <Currency>rur</Currency>
@@ -2159,7 +2221,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/859b/59b9/859b59b9a75d513ba3082bb2b6543e2c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>10063530</Price>
       <Currency>rur</Currency>
@@ -2196,7 +2260,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/0863/7f00/08637f004de05f4b9115cde7cc7f4bc2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>9241989</Price>
       <Currency>rur</Currency>
@@ -2233,7 +2299,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/fc15/929f/fc15929fcd595c82ba9cafd4556cf8c3.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>18709080</Price>
       <Currency>rur</Currency>
@@ -2270,7 +2338,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/2c9c/6347/2c9c63474dc45f39ae73ed117f188179.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>11899450</Price>
       <Currency>rur</Currency>
@@ -2307,7 +2377,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/0a31/5595/0a31559559a85478ae14cc777f544862.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>5884020</Price>
       <Currency>rur</Currency>
@@ -2344,7 +2416,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/b470/0c86/b4700c868c0c576b8b9fde8703b57498.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>11801440</Price>
       <Currency>rur</Currency>
@@ -2381,7 +2455,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/ffe7/f0a8/ffe7f0a87fdc55e192909b34c6fc8fb1.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>5913000</Price>
       <Currency>rur</Currency>
@@ -2418,7 +2494,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/705c/b808/705cb808988b550b9651609efaaffb8a.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>11827550</Price>
       <Currency>rur</Currency>
@@ -2455,7 +2533,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/3db7/e795/3db7e795ba6a55628fe44a5b54989215.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>18684960</Price>
       <Currency>rur</Currency>
@@ -2492,7 +2572,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/3241/12d2/324112d2e5cd5e10ac9616aff8e5513c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>10121620</Price>
       <Currency>rur</Currency>
@@ -2529,7 +2611,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/ada8/0f2d/ada80f2dd7e55bec91c21819e4dc883d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>11844000</Price>
       <Currency>rur</Currency>
@@ -2566,7 +2650,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/2d2f/a6bb/2d2fa6bb26e75f36aacd35926ce74970.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>18684960</Price>
       <Currency>rur</Currency>
@@ -2603,7 +2689,9 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/2898/aee9/2898aee97e445692829a5269453f850e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
-    <Building />
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
     <BargainTerms>
       <Price>9409470</Price>
       <Currency>rur</Currency>
