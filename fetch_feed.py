@@ -2,7 +2,7 @@
 """
 Автоматический генератор XML-фида для ЦИАН.
 API: POST, offset-пагинация, page_size макс. 100.
-total_floors в API всегда null — этажность берётся из BUILDING_FLOORS.
+Этажность берётся из BUILDING_FLOORS — в API поле total_floors всегда null.
 Источник: официальные сайты + каталоги новостроек.
 Запуск: python fetch_feed.py
 """
@@ -153,12 +153,9 @@ def make_object_element(flat: dict, cfg: dict) -> Element:
                 txt(ps, "FullUrl",   u)
                 txt(ps, "PhotoType", "realtyObject")
 
-    # Building
+    # Building — этажность из справочника BUILDING_FLOORS
     building = SubElement(obj, "Building")
-    floors_count = (
-        flat.get("total_floors")
-        or BUILDING_FLOORS.get(str(flat.get("building_number", "")), DEFAULT_FLOORS)
-    )
+    floors_count = BUILDING_FLOORS.get(str(bld), DEFAULT_FLOORS)
     txt(building, "FloorsCount", floors_count)
 
     q  = flat.get("completion_quarter")
