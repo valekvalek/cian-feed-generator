@@ -6,6 +6,9 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:  # Ручной запуск из интерфейса GitHub
 
+permissions:
+  contents: write  # разрешаем git push из Actions
+
 jobs:
   generate:
     runs-on: ubuntu-latest
