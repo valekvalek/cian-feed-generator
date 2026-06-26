@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Автоматический генератор XML-фида для ЦИАН.
-API-особенности: POST, offset-пагинация, page_size макс. 100.
-API игнорирует status-фильтр — фильтруем локально: status==free и price != None.
+API: POST, offset-пагинация, page_size макс. 100.
+total_floors в API всегда null — этажность берётся из BUILDING_FLOORS ниже.
 Запуск: python fetch_feed.py
 """
 
@@ -12,7 +12,20 @@ import sys
 from datetime import datetime, timezone
 from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
 
-# ─── Конфигурация ───────────────────────────────────────────────────────────
+# ─── Количество этажей по корпусам (задаётся вручную, т.к. API всегда возвращает null)
+# Ключ — building_number из API, значение — число этажей
+BUILDING_FLOORS = {
+    # Легенда Марусино
+    "1.1": 9,
+    "1.2": 9,
+    "1.3": 9,
+    # Легенда Коренево
+    "Корпус 1": 9,
+    "Корпус 2": 9,
+}
+DEFAULT_FLOORS = 9  # запасное значение если корпус не в списке
+
+# ─── Конфигурация проектов ──────────────────────────────────────────────
 PROJECTS = [
     {
         "project_id": "a5f9b6b9-037d-4cd8-981c-cbd55e93a5c0",
@@ -37,45 +50,35 @@ OUTPUT_FILE = "cian_feed.xml"
 EMAIL       = "info@rusich.group"
 
 
-# ─── Загрузка данных ───────────────────────────────────────────────────────────
+# ─── Загрузка ─────────────────────────────────────────────────────────────
 def fetch_all_flats(cfg: dict) -> list:
-    flats  = []
-    offset = 0
+    flats, offset = [], 0
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
-    total_fetched = 0
-    total_skipped = 0
+    total_fetched = total_skipped = 0
 
     while True:
-        body = {
-            "project_id": cfg["project_id"],
-            "status":     ["free"],
-            "page_size":  PAGE_SIZE,
-            "offset":     offset,
-        }
+        body = {"project_id": cfg["project_id"], "status": ["free"],
+                "page_size": PAGE_SIZE, "offset": offset}
         try:
             resp = requests.post(cfg["api_url"], json=body, headers=headers, timeout=30)
             resp.raise_for_status()
         except requests.RequestException as e:
-            print(f"  ⚠ Ошибка ({cfg['jk_name']} offset={offset}): {e}", file=sys.stderr)
+            print(f"  ⚠ ({cfg['jk_name']} offset={offset}): {e}", file=sys.stderr)
             break
 
         data = resp.json()
         batch = data if isinstance(data, list) else (
-            data.get("results") or data.get("items") or data.get("data") or []
-        )
+            data.get("results") or data.get("items") or data.get("data") or [])
 
         if not batch:
             break
 
         total_fetched += len(batch)
-        valid = [
-            f for f in batch
-            if f.get("status") == "free" and f.get("price") not in (None, 0, "")
-        ]
-        skipped = len(batch) - len(valid)
-        total_skipped += skipped
+        valid = [f for f in batch
+                 if f.get("status") == "free" and f.get("price") not in (None, 0, "")]
+        total_skipped += len(batch) - len(valid)
         flats.extend(valid)
-        print(f"   offset={offset}: +{len(batch)} загр., в фид {len(valid)} (пропущено {skipped}), итого {len(flats)}")
+        print(f"   offset={offset}: +{len(batch)}, в фид {len(valid)}, итого {len(flats)}")
 
         if len(batch) < PAGE_SIZE:
             break
@@ -85,17 +88,14 @@ def fetch_all_flats(cfg: dict) -> list:
     return flats
 
 
-# ─── Сборка XML-объекта ───────────────────────────────────────────────────────
+# ─── XML ────────────────────────────────────────────────────────────────────────
 def quarter_str(q: int) -> str:
     return {1: "first", 2: "second", 3: "third", 4: "fourth"}.get(q, "fourth")
 
-
-def txt(parent: Element, tag: str, value) -> Element:
-    """SubElement с текстом, пропускает None."""
+def txt(parent, tag, value):
     el = SubElement(parent, tag)
     el.text = str(value) if value is not None else ""
     return el
-
 
 def make_object_element(flat: dict, cfg: dict) -> Element:
     obj = Element("object")
@@ -146,8 +146,14 @@ def make_object_element(flat: dict, cfg: dict) -> Element:
                 txt(ps, "FullUrl",   u)
                 txt(ps, "PhotoType", "realtyObject")
 
-    # Building / Deadline
+    # Building — FloorsCount берём из справочника (API всегда даёт null)
     building = SubElement(obj, "Building")
+    floors_count = (
+        flat.get("total_floors")
+        or BUILDING_FLOORS.get(str(flat.get("building_number", "")), DEFAULT_FLOORS)
+    )
+    txt(building, "FloorsCount", floors_count)
+
     q  = flat.get("completion_quarter")
     yr = flat.get("completion_year")
     if q and yr:
@@ -165,7 +171,7 @@ def make_object_element(flat: dict, cfg: dict) -> Element:
     return obj
 
 
-# ─── Главный блок ─────────────────────────────────────────────────────────────
+# ─── main ──────────────────────────────────────────────────────────────────────
 def main():
     root = Element("feed")
     txt(root, "feed_version", "2")
@@ -180,9 +186,7 @@ def main():
             root.append(make_object_element(flat, cfg))
             total_objects += 1
 
-    # Красивые отступы (indent доступен с Python 3.9+)
     indent(root, space="  ")
-
     tree = ElementTree(root)
     with open(OUTPUT_FILE, "wb") as f:
         tree.write(f, encoding="utf-8", xml_declaration=True)
