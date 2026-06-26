@@ -2,7 +2,8 @@
 """
 Автоматический генератор XML-фида для ЦИАН.
 API: POST, offset-пагинация, page_size макс. 100.
-total_floors в API всегда null — этажность берётся из BUILDING_FLOORS ниже.
+total_floors в API всегда null — этажность берётся из BUILDING_FLOORS.
+Источник: официальные сайты + каталоги новостроек.
 Запуск: python fetch_feed.py
 """
 
@@ -12,20 +13,26 @@ import sys
 from datetime import datetime, timezone
 from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
 
-# ─── Количество этажей по корпусам (задаётся вручную, т.к. API всегда возвращает null)
-# Ключ — building_number из API, значение — число этажей
+# ─── Этажность по корпусам ─────────────────────────────────────────────────
+# Легенда Коренево — 5 корпусов по 8 этажей
+# https://www.gdeetotdom.ru/zhk-legenda-korenevo-59668/
+# Легенда Марусино — 2 корпуса переменной этажности 4-7 этажей
+# https://legendamarusino.ru
 BUILDING_FLOORS = {
-    # Легенда Марусино
-    "1.1": 9,
-    "1.2": 9,
-    "1.3": 9,
-    # Легенда Коренево
-    "Корпус 1": 9,
-    "Корпус 2": 9,
+    # Легенда Марусино (переменная этажность 4-7)
+    "1.1": 7,
+    "1.2": 7,
+    "1.3": 7,
+    # Легенда Коренево — все 5 корпусов по 8 этажей
+    "Корпус 1": 8,
+    "Корпус 2": 8,
+    "Корпус 3": 8,
+    "Корпус 4": 8,
+    "Корпус 5": 8,
 }
-DEFAULT_FLOORS = 9  # запасное значение если корпус не в списке
+DEFAULT_FLOORS = 8
 
-# ─── Конфигурация проектов ──────────────────────────────────────────────
+# ─── Проекты ──────────────────────────────────────────────────────────────────
 PROJECTS = [
     {
         "project_id": "a5f9b6b9-037d-4cd8-981c-cbd55e93a5c0",
@@ -146,7 +153,7 @@ def make_object_element(flat: dict, cfg: dict) -> Element:
                 txt(ps, "FullUrl",   u)
                 txt(ps, "PhotoType", "realtyObject")
 
-    # Building — FloorsCount берём из справочника (API всегда даёт null)
+    # Building
     building = SubElement(obj, "Building")
     floors_count = (
         flat.get("total_floors")
