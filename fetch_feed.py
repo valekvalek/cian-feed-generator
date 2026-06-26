@@ -7,7 +7,7 @@
 API-особенности (проверено 2026-06-26):
 - Метод: POST
 - Пагинация: параметр offset (не page!), page_size макс. 100
-- Всего квартир Коренево: ~539
+- Всего квартир: Коренево ~539, Марусино ~206
 
 Запуск: python fetch_feed.py
 """
@@ -24,8 +24,8 @@ PROJECTS = [
         "jk_name":    "Легенда Марусино",
         "jk_cian_id": os.getenv("CIAN_ID_MARUSINO", "MARUSINO_CIAN_ID"),
         "address":    "Россия, Московская область, Люберцы, Марусино",
-        "base_url":   "https://legenda-marusino.ru/",
-        "api_url":    "https://legenda-marusino.ru/api/realty-filter/custom/real-estates",
+        "base_url":   "https://legendamarusino.ru/",
+        "api_url":    "https://legendamarusino.ru/api/realty-filter/custom/real-estates",
     },
     {
         "project_id": "61b193a5-aa22-4f3a-bf22-216ebc5648b1",
@@ -46,8 +46,7 @@ EMAIL       = "info@rusich.group"
 def fetch_all_flats(cfg: dict) -> list:
     """
     Загружает все свободные квартиры по проекту через POST-запросы.
-    API legendakorenevo.ru использует offset-пагинацию (не page).
-    Останавливается когда пришло менее PAGE_SIZE записей.
+    API использует offset-пагинацию (не page), page_size макс 100.
     """
     flats  = []
     offset = 0
@@ -80,8 +79,11 @@ def fetch_all_flats(cfg: dict) -> list:
         else:
             batch = data.get("results") or data.get("items") or data.get("data") or []
 
+        if not batch:
+            break  # пустой ответ — всё скачали
+
         flats.extend(batch)
-        print(f"   offset={offset}: получено {len(batch)}, итого {len(flats)}")
+        print(f"   offset={offset}: +{len(batch)} кв., итого {len(flats)}")
 
         if len(batch) < PAGE_SIZE:
             break  # последняя страница
