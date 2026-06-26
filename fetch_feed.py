@@ -6,8 +6,8 @@
 
 API-особенности (проверено 2026-06-26):
 - Метод: POST
-- Пагинация: параметр offset (не page!), page_size макс. 100
-- Всего квартир: Коренево ~539, Марусино ~206
+- Пагинация: offset, page_size макс. 100
+- API игнорирует фильтр status на сервере — фильтруем локально
 
 Запуск: python fetch_feed.py
 """
@@ -37,20 +37,24 @@ PROJECTS = [
     },
 ]
 
-PAGE_SIZE   = 100   # максимум, который принимает API
+PAGE_SIZE   = 100
 OUTPUT_FILE = "cian_feed.xml"
 EMAIL       = "info@rusich.group"
 
 
-# ─── Запрос с offset-пагинацией ──────────────────────────────────────────────
+# ─── Загрузка всех квартир через offset-пагинацию ──────────────────────────────
 def fetch_all_flats(cfg: dict) -> list:
     """
-    Загружает все свободные квартиры по проекту через POST-запросы.
-    API использует offset-пагинацию (не page), page_size макс 100.
+    Скачивает все квартиры через offset-пагинацию.
+    API игнорирует фильтр status на сервере, поэтому фильтруем после получения:
+      - status == 'free'
+      - price не None и больше 0
     """
     flats  = []
     offset = 0
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
+    total_fetched = 0
+    total_skipped = 0
 
     while True:
         body = {
@@ -60,36 +64,39 @@ def fetch_all_flats(cfg: dict) -> list:
             "offset":     offset,
         }
         try:
-            resp = requests.post(
-                cfg["api_url"],
-                json=body,
-                headers=headers,
-                timeout=30,
-            )
+            resp = requests.post(cfg["api_url"], json=body, headers=headers, timeout=30)
             resp.raise_for_status()
         except requests.RequestException as e:
-            print(f"  ⚠ Ошибка запроса ({cfg['jk_name']} offset={offset}): {e}", file=sys.stderr)
+            print(f"  ⚠ Ошибка ({cfg['jk_name']} offset={offset}): {e}", file=sys.stderr)
             break
 
         data = resp.json()
-
-        # API возвращает список напрямую
-        if isinstance(data, list):
-            batch = data
-        else:
-            batch = data.get("results") or data.get("items") or data.get("data") or []
+        batch = data if isinstance(data, list) else (
+            data.get("results") or data.get("items") or data.get("data") or []
+        )
 
         if not batch:
-            break  # пустой ответ — всё скачали
+            break
 
-        flats.extend(batch)
-        print(f"   offset={offset}: +{len(batch)} кв., итого {len(flats)}")
+        total_fetched += len(batch)
+
+        # Локальная фильтрация: только свободные и с ценой
+        valid = [
+            f for f in batch
+            if f.get("status") == "free" and f.get("price") not in (None, 0, "")
+        ]
+        skipped = len(batch) - len(valid)
+        total_skipped += skipped
+
+        flats.extend(valid)
+        print(f"   offset={offset}: получено {len(batch)}, прошло фильтр {len(valid)} (пропущено: {skipped}), итого {len(flats)}")
 
         if len(batch) < PAGE_SIZE:
-            break  # последняя страница
+            break
 
         offset += PAGE_SIZE
 
+    print(f"   → всего загружено {total_fetched}, пропущено (booked/без цены): {total_skipped}, в фид: {len(flats)}")
     return flats
 
 
@@ -105,7 +112,6 @@ def quarter_str(q: int) -> str:
 
 
 def make_object_xml(flat: dict, cfg: dict) -> str:
-    """Формирует XML-блок <object> для одной квартиры."""
     ext_id   = flat.get("external_id", "")
     rooms    = flat.get("rooms", 0)
     total    = flat.get("total_area", 0)
@@ -124,7 +130,6 @@ def make_object_xml(flat: dict, cfg: dict) -> str:
     jk_name  = cfg["jk_name"]
     jk_cid   = cfg["jk_cian_id"]
 
-    # Планировка
     plan = flat.get("plan") or flat.get("layout_plan", "")
     layout_xml = ""
     if plan:
@@ -134,7 +139,6 @@ def make_object_xml(flat: dict, cfg: dict) -> str:
             f"<PhotoType>realtyObjectLayout</PhotoType></LayoutPhoto>"
         )
 
-    # Фотографии
     images = flat.get("images", [])
     imgs_xml = ""
     if images:
@@ -149,7 +153,6 @@ def make_object_xml(flat: dict, cfg: dict) -> str:
         if items_xml:
             imgs_xml = f"<Photos>{items_xml}</Photos>"
 
-    # Срок сдачи
     deadline_xml = ""
     if q and yr:
         done = "true" if is_ready else "false"
@@ -198,9 +201,9 @@ def main():
     all_objects = []
 
     for cfg in PROJECTS:
-        print(f"\n📥 Загрузка {cfg['jk_name']} ({cfg['api_url']})...")
+        print(f"\n📥 Загрузка {cfg['jk_name']}...")
         flats = fetch_all_flats(cfg)
-        print(f"   ✓ Итого: {len(flats)} квартир")
+        print(f"   ✓ В фид: {len(flats)} квартир (status=free, цена указана)")
         for flat in flats:
             all_objects.append(make_object_xml(flat, cfg))
 
