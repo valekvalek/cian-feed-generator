@@ -109,10 +109,10 @@ def txt(parent, tag, value):
 def make_object_element(flat: dict, cfg: dict) -> Element:
     obj = Element("object")
 
-    # Студии (rooms=0) преобразуем в 1-комнатные
+    # Студии (rooms=0) преобразуем в 9 (однокомнатные на сайте)
     rooms = flat.get("rooms", 0)
     if not rooms or int(rooms) == 0:
-        rooms = 1
+        rooms = 9
 
     txt(obj, "ExternalId",       flat.get("external_id", ""))
     txt(obj, "Description",      f"ЖК {cfg['jk_name']}, этаж {flat.get('floor_number', '')}, номер квартиры {flat.get('number', '')}")
