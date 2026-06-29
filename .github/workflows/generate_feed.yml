@@ -2,12 +2,11 @@ name: Generate CIAN Feed
 
 on:
   schedule:
-    # Каждый час в 00 минут
     - cron: '0 * * * *'
-  workflow_dispatch:  # Ручной запуск из интерфейса GitHub
+  workflow_dispatch:
 
 permissions:
-  contents: write  # разрешаем git push из Actions
+  contents: write
 
 jobs:
   generate:
@@ -29,12 +28,13 @@ jobs:
         env:
           CIAN_ID_MARUSINO: ${{ secrets.CIAN_ID_MARUSINO }}
           CIAN_ID_KORENEVO: ${{ secrets.CIAN_ID_KORENEVO }}
+          CIAN_ID_SVET: ${{ secrets.CIAN_ID_SVET }}
         run: python fetch_feed.py
 
       - name: Commit and push feeds
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cian_feed.xml marusino_feed.xml korenevo_feed.xml
+          git add cian_feed.xml marusino_feed.xml korenevo_feed.xml svet_feed.xml
           git diff --staged --quiet || git commit -m "chore: update feeds [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
