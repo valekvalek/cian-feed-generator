@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-06-29T15:05:56Z</generated>
+  <generated>2026-06-29T15:20:21Z</generated>
   <object>
     <ExternalId>4</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К4</Description>
@@ -96,7 +96,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Люберцы, Марусино</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>24.1</TotalArea>
     <LivingArea>13.3</LivingArea>
     <KitchenArea>3.3</KitchenArea>
@@ -536,7 +536,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>6</FlatOnFloorNumber>
     <Address>Россия, Московская область, Люберцы, Марусино</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>23.6</TotalArea>
     <LivingArea>12.5</LivingArea>
     <KitchenArea>3.7</KitchenArea>
@@ -580,7 +580,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>8</FlatOnFloorNumber>
     <Address>Россия, Московская область, Люберцы, Марусино</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>23.4</TotalArea>
     <LivingArea>12.5</LivingArea>
     <KitchenArea>3.7</KitchenArea>
@@ -668,7 +668,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>6</FlatOnFloorNumber>
     <Address>Россия, Московская область, Люберцы, Марусино</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>23.6</TotalArea>
     <LivingArea>12.5</LivingArea>
     <KitchenArea>3.7</KitchenArea>
@@ -800,7 +800,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>6</FlatOnFloorNumber>
     <Address>Россия, Московская область, Люберцы, Марусино</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>23.7</TotalArea>
     <LivingArea>12.1</LivingArea>
     <KitchenArea>4.1</KitchenArea>
@@ -888,7 +888,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>6</FlatOnFloorNumber>
     <Address>Россия, Московская область, Люберцы, Марусино</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>23.3</TotalArea>
     <LivingArea>13.4</LivingArea>
     <KitchenArea>2.7</KitchenArea>
@@ -932,7 +932,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>6</FlatOnFloorNumber>
     <Address>Россия, Московская область, Люберцы, Марусино</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>23.3</TotalArea>
     <LivingArea>13.4</LivingArea>
     <KitchenArea>2.7</KitchenArea>
@@ -1064,7 +1064,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Люберцы, Марусино</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>23.3</TotalArea>
     <LivingArea>13.4</LivingArea>
     <KitchenArea>2.7</KitchenArea>
@@ -1680,7 +1680,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>6</FlatOnFloorNumber>
     <Address>Россия, Московская область, Люберцы, Марусино</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>24.7</TotalArea>
     <LivingArea>12.8</LivingArea>
     <KitchenArea>3.7</KitchenArea>
@@ -1724,7 +1724,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>7</FlatOnFloorNumber>
     <Address>Россия, Московская область, Люберцы, Марусино</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>30.7</TotalArea>
     <LivingArea>17.0</LivingArea>
     <KitchenArea>4.3</KitchenArea>
@@ -1846,7 +1846,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>28.2</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
@@ -1885,7 +1885,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>8</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>28.1</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
@@ -2041,7 +2041,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>28.0</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
@@ -2119,7 +2119,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>6</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>28.6</TotalArea>
     <LivingArea>15.0</LivingArea>
     <KitchenArea>5.5</KitchenArea>
@@ -2197,7 +2197,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>8</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>27.9</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>0.0</KitchenArea>
@@ -2236,7 +2236,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>28.0</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
@@ -2353,7 +2353,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>8</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>28.0</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
@@ -2431,7 +2431,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>8</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>28.0</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
@@ -2548,7 +2548,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>28.1</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
@@ -2665,7 +2665,7 @@
     <Category>newBuildingFlatSale</Category>
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>0</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>28.1</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
