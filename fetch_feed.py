@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """
-Автоматический генератор XML-фида для ЦИАН.
+Автоматический генератор XML-фидов для ЦИАН.
 API: POST, offset-пагинация, page_size макс. 100.
 Этажность берётся из BUILDING_FLOORS — в API поле total_floors всегда null.
 Источник: официальные сайты + каталоги новостроек.
 Запуск: python fetch_feed.py
+
+Выходные файлы:
+  cian_feed.xml        — общий фид (все ЖК)
+  marusino_feed.xml    — только Легенда Марусино
+  korenevo_feed.xml    — только Легенда Коренево
 """
 
 import requests
@@ -14,10 +19,6 @@ from datetime import datetime, timezone
 from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
 
 # ─── Этажность по корпусам ─────────────────────────────────────────────────
-# Легенда Коренево — 5 корпусов по 8 этажей
-# https://www.gdeetotdom.ru/zhk-legenda-korenevo-59668/
-# Легенда Марусино — 2 корпуса переменной этажности 4-7 этажей
-# https://legendamarusino.ru
 BUILDING_FLOORS = {
     # Легенда Марусино (переменная этажность 4-7)
     "1.1": 7,
@@ -41,6 +42,7 @@ PROJECTS = [
         "address":    "Россия, Московская область, Люберцы, Марусино",
         "base_url":   "https://legendamarusino.ru/",
         "api_url":    "https://legendamarusino.ru/api/realty-filter/custom/real-estates",
+        "output_file": "marusino_feed.xml",
     },
     {
         "project_id": "61b193a5-aa22-4f3a-bf22-216ebc5648b1",
@@ -49,12 +51,12 @@ PROJECTS = [
         "address":    "Россия, Московская область, Железнодорожный, Коренево",
         "base_url":   "https://legendakorenevo.ru/",
         "api_url":    "https://legendakorenevo.ru/api/realty-filter/custom/real-estates",
+        "output_file": "korenevo_feed.xml",
     },
 ]
 
-PAGE_SIZE   = 100
-OUTPUT_FILE = "cian_feed.xml"
-EMAIL       = "info@rusich.group"
+PAGE_SIZE = 100
+EMAIL     = "info@rusich.group"
 
 
 # ─── Загрузка ─────────────────────────────────────────────────────────────
@@ -95,7 +97,7 @@ def fetch_all_flats(cfg: dict) -> list:
     return flats
 
 
-# ─── XML ────────────────────────────────────────────────────────────────────────
+# ─── XML ──────────────────────────────────────────────────────────────────────
 def quarter_str(q: int) -> str:
     return {1: "first", 2: "second", 3: "third", 4: "fourth"}.get(q, "fourth")
 
@@ -118,7 +120,6 @@ def make_object_element(flat: dict, cfg: dict) -> Element:
     txt(obj, "KitchenArea",      flat.get("kitchen_area", 0))
     txt(obj, "FloorNumber",      flat.get("floor_number", ""))
 
-    # JKSchema
     jk = SubElement(obj, "JKSchema")
     txt(jk, "Id",   cfg["jk_cian_id"])
     txt(jk, "Name", cfg["jk_name"])
@@ -130,11 +131,9 @@ def make_object_element(flat: dict, cfg: dict) -> Element:
     txt(flat_el, "FlatNumber",    flat.get("number", ""))
     txt(flat_el, "SectionNumber", flat.get("section_number", ""))
 
-    # SubAgent
     agent = SubElement(obj, "SubAgent")
     txt(agent, "Email", EMAIL)
 
-    # LayoutPhoto
     plan = flat.get("plan") or flat.get("layout_plan", "")
     if plan:
         url = plan if plan.startswith("http") else cfg["base_url"] + plan
@@ -142,7 +141,6 @@ def make_object_element(flat: dict, cfg: dict) -> Element:
         txt(lp, "FullUrl",   url)
         txt(lp, "PhotoType", "realtyObjectLayout")
 
-    # Photos
     images = flat.get("images", [])
     if images:
         photos = SubElement(obj, "Photos")
@@ -153,7 +151,6 @@ def make_object_element(flat: dict, cfg: dict) -> Element:
                 txt(ps, "FullUrl",   u)
                 txt(ps, "PhotoType", "realtyObject")
 
-    # Building — этажность из справочника BUILDING_FLOORS
     building = SubElement(obj, "Building")
     floors_count = BUILDING_FLOORS.get(str(bld), DEFAULT_FLOORS)
     txt(building, "FloorsCount", floors_count)
@@ -166,7 +163,6 @@ def make_object_element(flat: dict, cfg: dict) -> Element:
         txt(dl, "Year",       yr)
         txt(dl, "IsComplete", "true" if flat.get("is_ready") else "false")
 
-    # BargainTerms
     bt = SubElement(obj, "BargainTerms")
     txt(bt, "Price",           int(flat.get("price", 0)))
     txt(bt, "Currency",        "rur")
@@ -175,29 +171,41 @@ def make_object_element(flat: dict, cfg: dict) -> Element:
     return obj
 
 
-# ─── main ──────────────────────────────────────────────────────────────────────
-def main():
+def write_feed(objects: list, output_file: str):
     root = Element("feed")
     txt(root, "feed_version", "2")
     txt(root, "generated", datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
+    for obj in objects:
+        root.append(obj)
+    indent(root, space="  ")
+    tree = ElementTree(root)
+    with open(output_file, "wb") as f:
+        tree.write(f, encoding="utf-8", xml_declaration=True)
+    size = os.path.getsize(output_file)
+    print(f"   💾 {output_file} ({size:,} байт)")
 
-    total_objects = 0
+
+# ─── main ─────────────────────────────────────────────────────────────────────
+def main():
+    all_objects = []
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
     for cfg in PROJECTS:
         print(f"\n📥 Загрузка {cfg['jk_name']}...")
         flats = fetch_all_flats(cfg)
         print(f"   ✓ В фид: {len(flats)} квартир")
-        for flat in flats:
-            root.append(make_object_element(flat, cfg))
-            total_objects += 1
 
-    indent(root, space="  ")
-    tree = ElementTree(root)
-    with open(OUTPUT_FILE, "wb") as f:
-        tree.write(f, encoding="utf-8", xml_declaration=True)
+        objects = [make_object_element(f, cfg) for f in flats]
 
-    size = os.path.getsize(OUTPUT_FILE)
-    ts   = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"\n✅ [{ts}] Готово: {total_objects} объектов → {OUTPUT_FILE} ({size:,} байт)")
+        # Отдельный фид для каждого ЖК
+        write_feed(objects, cfg["output_file"])
+
+        all_objects.extend(objects)
+
+    # Общий фид
+    write_feed(all_objects, "cian_feed.xml")
+
+    print(f"\n✅ [{ts}] Готово: {len(all_objects)} объектов")
 
 
 if __name__ == "__main__":
