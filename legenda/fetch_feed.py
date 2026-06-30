@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 """
-Автоматический генератор XML-фидов для ЦИАН.
+Автоматический генератор XML-фидов для ЦИАН — ГК Некрасовка (Легенда).
 Запуск: python legenda/fetch_feed.py
 
 Выходные файлы:
   legenda/nekrasovka_feed.xml — ГК Некрасовка (Легенда Марусино + Легенда Коренево)
   legenda/marusino_feed.xml   — Легенда Марусино
   legenda/korenevo_feed.xml   — Легенда Коренево
-  legenda/dominanta_feed.xml  — Доминанта (ЖК Свет)
-  legenda/svet_feed.xml       — ЖК Свет (отдельный)
 """
 
 import requests
@@ -38,7 +36,6 @@ PROJECTS = [
         "base_url":    "https://legendamarusino.ru/",
         "api_url":     "https://legendamarusino.ru/api/realty-filter/custom/real-estates",
         "output_file": "legenda/marusino_feed.xml",
-        "group":       "nekrasovka",
         "source":      "legenda",
     },
     {
@@ -49,19 +46,7 @@ PROJECTS = [
         "base_url":    "https://legendakorenevo.ru/",
         "api_url":     "https://legendakorenevo.ru/api/realty-filter/custom/real-estates",
         "output_file": "legenda/korenevo_feed.xml",
-        "group":       "nekrasovka",
         "source":      "legenda",
-    },
-    {
-        "jk_name":     "Свет",
-        "jk_cian_id":  os.getenv("CIAN_ID_SVET", "SVET_CIAN_ID"),
-        "address":     "Россия, Москва",
-        "base_url":    "https://d-a.ru",
-        "api_url":     "https://d-a.ru/ajax/flats/",
-        "project_code": "svet",
-        "output_file": "legenda/svet_feed.xml",
-        "group":       "dominanta",
-        "source":      "dominanta",
     },
 ]
 
@@ -103,62 +88,6 @@ def fetch_legenda(cfg: dict) -> list:
         offset += PAGE_SIZE
 
     print(f"   → загружено {total_fetched}, пропущено {total_skipped}, в фид: {len(flats)}")
-    return flats
-
-
-# ─── Загрузка Dominanta (GET + page) ─────────────────────────────────────────
-def fetch_dominanta(cfg: dict) -> list:
-    flats = []
-    page  = 1
-    cnt   = 50
-    headers = {
-        "Accept": "application/json, text/javascript, */*; q=0.01",
-        "X-Requested-With": "XMLHttpRequest",
-        "Referer": "https://d-a.ru/projects/residential/svet/choose/",
-    }
-
-    while True:
-        params = {
-            "filter[price][0]": "0",
-            "filter[price][1]": "0",
-            "filter[sq][0]": "0",
-            "filter[sq][1]": "0",
-            "filter[profile]": "Жилая",
-            "filter[project_code]": cfg["project_code"],
-            "filter[hide_reserved][0]": "Y",
-            "sort[price]": "1",
-            "page": str(page),
-            "cnt": str(cnt),
-        }
-        try:
-            resp = requests.get(cfg["api_url"], params=params, headers=headers, timeout=30)
-            resp.raise_for_status()
-            data = resp.json()
-        except Exception as e:
-            print(f"  ⚠ ({cfg['jk_name']} page={page}): {e}", file=sys.stderr)
-            break
-
-        if isinstance(data, list):
-            batch = data
-        elif isinstance(data, dict):
-            batch = (data.get("items") or data.get("data") or
-                     data.get("flats") or data.get("results") or [])
-        else:
-            break
-
-        if not batch:
-            break
-
-        valid = [f for f in batch if f.get("reserved", "Y") == "N"
-                 and f.get("real_price") not in (None, "", "0", 0)]
-        flats.extend(valid)
-        print(f"   page={page}: +{len(batch)}, в фид {len(valid)}, итого {len(flats)}")
-
-        if len(batch) < cnt:
-            break
-        page += 1
-
-    print(f"   → в фид: {len(flats)}")
     return flats
 
 
@@ -260,84 +189,6 @@ def make_legenda_object(flat: dict, cfg: dict) -> Element:
     return obj
 
 
-# ─ Dominanta ─────────────────────────────────────────────────────────────────
-def make_dominanta_object(flat: dict, cfg: dict) -> Element:
-    obj = Element("object")
-
-    rooms = flat.get("rooms", "0")
-    if not rooms or str(rooms) == "0":
-        rooms = 9
-    else:
-        rooms = int(rooms)
-
-    floor        = flat.get("floor", "")
-    flat_num     = flat.get("num", "")
-    section      = flat.get("section", "")
-    building     = flat.get("building", "1")
-    total_floors = flat.get("totalfloors", "")
-    sq           = flat.get("sq", "0")
-    price        = clean_price(flat.get("real_price", "0"))
-    flat_id      = flat.get("id", "")
-
-    plan_url = ""
-    plans = flat.get("plans", {})
-    if isinstance(plans, dict):
-        default_plans = plans.get("default") or []
-        if default_plans:
-            chosen = next((p for p in default_plans if "без" in p.get("name", "").lower()), default_plans[0])
-            plan_url = chosen.get("url", "")
-        elif plans.get("1"):
-            plan_url = plans["1"]
-        elif plans.get("0"):
-            plan_url = plans["0"]
-    if plan_url and not plan_url.startswith("http"):
-        plan_url = cfg["base_url"] + plan_url
-
-    project = flat.get("project", {})
-    fin_q   = project.get("finish_quarter", "")
-    fin_y   = project.get("finish_year", "")
-
-    txt(obj, "ExternalId",     flat_id)
-    txt(obj, "Description",    f"ЖК {cfg['jk_name']}, этаж {floor}, номер квартиры {flat_num}")
-    txt(obj, "Category",       "newBuildingFlatSale")
-    txt(obj, "Address",        cfg["address"])
-    txt(obj, "FlatRoomsCount", rooms)
-    txt(obj, "TotalArea",      sq)
-    txt(obj, "FloorNumber",    floor)
-
-    jk = SubElement(obj, "JKSchema")
-    txt(jk, "Id",   cfg["jk_cian_id"])
-    txt(jk, "Name", cfg["jk_name"])
-    house = SubElement(jk, "House")
-    txt(house, "Id",   building)
-    txt(house, "Name", building)
-    flat_el = SubElement(house, "Flat")
-    txt(flat_el, "FlatNumber",    flat_num)
-    txt(flat_el, "SectionNumber", section)
-
-    agent = SubElement(obj, "SubAgent")
-    txt(agent, "Email", EMAIL)
-
-    if plan_url:
-        lp = SubElement(obj, "LayoutPhoto")
-        txt(lp, "FullUrl",   plan_url)
-        txt(lp, "PhotoType", "realtyObjectLayout")
-
-    bld_el = SubElement(obj, "Building")
-    txt(bld_el, "FloorsCount", total_floors or DEFAULT_FLOORS)
-    if fin_q and fin_y:
-        dl = SubElement(bld_el, "Deadline")
-        txt(dl, "Quarter",    quarter_str(fin_q))
-        txt(dl, "Year",       fin_y)
-        txt(dl, "IsComplete", "false")
-
-    bt = SubElement(obj, "BargainTerms")
-    txt(bt, "Price",           price)
-    txt(bt, "Currency",        "rur")
-    txt(bt, "MortgageAllowed", "true")
-    return obj
-
-
 # ─── Запись фида ─────────────────────────────────────────────────────────────
 def write_feed(objects: list, output_file: str):
     root = Element("feed")
@@ -356,35 +207,20 @@ def write_feed(objects: list, output_file: str):
 # ─── main ─────────────────────────────────────────────────────────────────────
 def main():
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
     nekrasovka_objects = []
-    dominanta_objects  = []
 
     for cfg in PROJECTS:
         print(f"\n📥 Загрузка {cfg['jk_name']}...")
-        source = cfg.get("source", "legenda")
-
-        if source == "dominanta":
-            flats   = fetch_dominanta(cfg)
-            objects = [make_dominanta_object(f, cfg) for f in flats]
-        else:
-            flats   = fetch_legenda(cfg)
-            objects = [make_legenda_object(f, cfg) for f in flats]
-
+        flats   = fetch_legenda(cfg)
+        objects = [make_legenda_object(f, cfg) for f in flats]
         print(f"   ✓ В фид: {len(objects)} квартир")
         write_feed(objects, cfg["output_file"])
-
-        if cfg["group"] == "nekrasovka":
-            nekrasovka_objects.extend(objects)
-        elif cfg["group"] == "dominanta":
-            dominanta_objects.extend(objects)
+        nekrasovka_objects.extend(objects)
 
     write_feed(nekrasovka_objects, "legenda/nekrasovka_feed.xml")
-    write_feed(dominanta_objects,  "legenda/dominanta_feed.xml")
 
     print(f"\n✅ [{ts}] Готово:")
-    print(f"   ГК Некрасовка  → legenda/nekrasovka_feed.xml ({len(nekrasovka_objects)} объектов)")
-    print(f"   Доминанта      → legenda/dominanta_feed.xml  ({len(dominanta_objects)} объектов)")
+    print(f"   ГК Некрасовка → legenda/nekrasovka_feed.xml ({len(nekrasovka_objects)} объектов)")
 
 
 if __name__ == "__main__":

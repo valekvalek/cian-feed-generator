@@ -28,8 +28,12 @@ jobs:
         env:
           CIAN_ID_MARUSINO: ${{ secrets.CIAN_ID_MARUSINO }}
           CIAN_ID_KORENEVO: ${{ secrets.CIAN_ID_KORENEVO }}
-          CIAN_ID_SVET: ${{ secrets.CIAN_ID_SVET }}
         run: python legenda/fetch_feed.py
+
+      - name: Generate Dominanta feeds
+        env:
+          CIAN_ID_SVET: ${{ secrets.CIAN_ID_SVET }}
+        run: python dominanta/fetch_dominanta.py
 
       - name: Generate Aeon feed
         run: python aeon/fetch_aeon.py
@@ -38,6 +42,12 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add legenda/marusino_feed.xml legenda/korenevo_feed.xml legenda/svet_feed.xml legenda/nekrasovka_feed.xml legenda/dominanta_feed.xml aeon/aeon_riverpark_feed.xml
+          git add \
+            legenda/marusino_feed.xml \
+            legenda/korenevo_feed.xml \
+            legenda/nekrasovka_feed.xml \
+            dominanta/svet_feed.xml \
+            dominanta/dominanta_feed.xml \
+            aeon/aeon_riverpark_feed.xml
           git diff --staged --quiet || git commit -m "chore: update feeds [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
