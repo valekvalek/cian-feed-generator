@@ -40,8 +40,10 @@ PARAMS_BASE = {
 }
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-# rooms: S=студия(9), 1=1к, 2=2к, ...
-ROOMS_MAP = {"S": 9, "1": 1, "2": 2, "3": 3, "4": 4}
+# Соответствие по регламенту ЦИАН:
+# https://www.cian.ru/xml_import/doc/#flatRent
+# 7 = свободное назначение (студия/апартамент без отдельной спальни)
+ROOMS_MAP = {"S": 7, "1": 1, "2": 2, "3": 3, "4": 4}
 
 
 def fetch_all_lots() -> list:
@@ -75,7 +77,6 @@ def txt(parent, tag, value):
 def make_aeon_object(lot: dict) -> Element:
     obj = Element("object")
 
-    # ExternalId — обязательное поле ЦИАН
     external_id = lot.get("lotcode") or lot.get("id", "")
     txt(obj, "ExternalId", external_id)
     txt(obj, "Description", f"ЖК {JK_NAME}, этаж {lot.get('floor', '')}, лот {lot.get('num', '')}")
@@ -83,12 +84,11 @@ def make_aeon_object(lot: dict) -> Element:
     txt(obj, "Address", ADDRESS)
 
     rooms_raw = lot.get("rooms", "S")
-    rooms = ROOMS_MAP.get(str(rooms_raw), 9)
+    rooms = ROOMS_MAP.get(str(rooms_raw), 7)  # дефолт 7 = свободное назначение
     txt(obj, "FlatRoomsCount", rooms)
     txt(obj, "TotalArea", lot.get("sq", 0))
     txt(obj, "FloorNumber", lot.get("floor", ""))
 
-    # JKSchema — обязательный блок с name и external_id ЖК
     jk = SubElement(obj, "JKSchema")
     txt(jk, "Id",   JK_CIAN_ID)
     txt(jk, "Name", JK_NAME)
@@ -103,20 +103,26 @@ def make_aeon_object(lot: dict) -> Element:
     agent = SubElement(obj, "SubAgent")
     txt(agent, "Email", EMAIL)
 
-    # Планировка
     layout = lot.get("layout", "")
     if layout:
         lp = SubElement(obj, "LayoutPhoto")
         txt(lp, "FullUrl",   BASE_URL + layout if not layout.startswith("http") else layout)
         txt(lp, "PhotoType", "realtyObjectLayout")
 
-    # Корпус / срок сдачи
     bld_el = SubElement(obj, "Building")
-    txt(bld_el, "FloorsCount", lot.get("totalfloors", 0) or 0)
+
+    # FloorsCount пишем только если значение есть и > 0,
+    # чтобы циан не показывал "3 из 0"
+    total_floors = lot.get("totalfloors")
+    try:
+        total_floors = int(total_floors)
+    except (TypeError, ValueError):
+        total_floors = 0
+    if total_floors > 0:
+        txt(bld_el, "FloorsCount", total_floors)
 
     ready_raw = str(lot.get("ready", ""))
-    # ready вида "25101" = Q1 2025, "25552" = Q2 2025 и т.д.
-    quarter_map = {"1": "first", "2": "second", "3": "third", "4": "fifth"}
+    quarter_map = {"1": "first", "2": "second", "3": "third", "4": "fourth"}
     if len(ready_raw) == 5:
         year    = "20" + ready_raw[:2]
         q_digit = ready_raw[2]
@@ -126,7 +132,6 @@ def make_aeon_object(lot: dict) -> Element:
         txt(dl, "Year",       year)
         txt(dl, "IsComplete", "false")
 
-    # Цена
     bt = SubElement(obj, "BargainTerms")
     txt(bt, "Price",           clean_price(lot.get("real_price", 0)))
     txt(bt, "Currency",        "rur")
