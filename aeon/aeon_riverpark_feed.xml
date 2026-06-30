@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-06-30T15:23:13Z</generated>
+  <generated>2026-06-30T15:36:06Z</generated>
   <object>
     <ExternalId>12.1.3.12</ExternalId>
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 12</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -30,7 +30,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -48,7 +48,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 19</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -71,7 +71,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -89,7 +89,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 40</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.4</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -112,7 +112,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -130,7 +130,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 26</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -153,7 +153,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -171,7 +171,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 33</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -194,7 +194,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -212,7 +212,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 68</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.3</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -235,7 +235,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -253,7 +253,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 54</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -276,7 +276,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -294,7 +294,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 61</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -317,7 +317,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -335,7 +335,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 82</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.4</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -358,7 +358,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -376,7 +376,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 75</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -399,7 +399,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -417,7 +417,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 47</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>37.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -440,7 +440,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -458,7 +458,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 32</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>37.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -481,7 +481,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -499,7 +499,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 62</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>37.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -522,7 +522,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -540,7 +540,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 137</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>37.1</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -563,7 +563,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -581,7 +581,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 9</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.6</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -604,7 +604,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -622,7 +622,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 138</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>36.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -645,7 +645,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -663,7 +663,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 20</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -686,7 +686,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -704,7 +704,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 184</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.7</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -727,7 +727,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -745,7 +745,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 38</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -768,7 +768,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -786,7 +786,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 23</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -809,7 +809,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -827,7 +827,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 31</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -850,7 +850,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -868,7 +868,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 24</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -891,7 +891,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -909,7 +909,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 42</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -932,7 +932,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -950,7 +950,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 64</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -973,7 +973,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -991,7 +991,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 39</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -1014,7 +1014,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1032,7 +1032,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 54</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -1055,7 +1055,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1073,7 +1073,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 119</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -1096,7 +1096,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1114,7 +1114,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 15</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -1137,7 +1137,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1155,7 +1155,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 190</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -1178,7 +1178,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1196,7 +1196,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 86</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.6</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -1219,7 +1219,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1237,7 +1237,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 388</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.9</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -1260,7 +1260,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1278,7 +1278,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 37</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.3</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -1301,7 +1301,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1319,7 +1319,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 13</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -1342,7 +1342,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1360,7 +1360,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 24</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.9</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -1383,7 +1383,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1401,7 +1401,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 34</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -1424,7 +1424,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -1442,7 +1442,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 35</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -1465,7 +1465,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1483,7 +1483,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 13</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -1506,7 +1506,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -1524,7 +1524,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 20</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -1547,7 +1547,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -1565,7 +1565,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 143</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -1588,7 +1588,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1606,7 +1606,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 62</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.4</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -1629,7 +1629,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -1647,7 +1647,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 114</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -1670,7 +1670,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1688,7 +1688,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 173</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.2</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -1711,7 +1711,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1729,7 +1729,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 76</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -1752,7 +1752,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -1770,7 +1770,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 41</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.7</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -1793,7 +1793,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -1811,7 +1811,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 158</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -1834,7 +1834,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1852,7 +1852,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 112</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -1875,7 +1875,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1893,7 +1893,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 83</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -1916,7 +1916,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -1934,7 +1934,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 19</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -1957,7 +1957,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -1975,7 +1975,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 44</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -1998,7 +1998,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2016,7 +2016,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 274</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.6</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -2039,7 +2039,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2057,7 +2057,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 292</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.6</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -2080,7 +2080,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2098,7 +2098,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 208</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -2121,7 +2121,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2139,7 +2139,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 59</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -2162,7 +2162,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2180,7 +2180,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 89</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.4</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -2203,7 +2203,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2221,7 +2221,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 310</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.7</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -2244,7 +2244,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2262,7 +2262,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 134</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.3</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -2285,7 +2285,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2303,7 +2303,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 30</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -2326,7 +2326,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2344,7 +2344,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 226</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -2367,7 +2367,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2385,7 +2385,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 381</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.6</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -2408,7 +2408,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2426,7 +2426,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 386</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.3</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -2449,7 +2449,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2467,7 +2467,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 334</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -2490,7 +2490,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2508,7 +2508,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 352</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -2531,7 +2531,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2549,7 +2549,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 118</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -2572,7 +2572,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2590,7 +2590,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 22</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>43.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -2613,7 +2613,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2631,7 +2631,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 86</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.8</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -2654,7 +2654,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -2672,7 +2672,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 207</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>43.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -2695,7 +2695,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2713,7 +2713,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 92</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -2736,7 +2736,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -2754,7 +2754,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 297</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>43.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -2777,7 +2777,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2795,7 +2795,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 231</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -2818,7 +2818,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2836,7 +2836,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 206</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>43.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -2859,7 +2859,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2877,7 +2877,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 224</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>43.8</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -2900,7 +2900,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2918,7 +2918,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 249</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -2941,7 +2941,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -2959,7 +2959,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 267</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.1</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -2982,7 +2982,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3000,7 +3000,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 303</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -3023,7 +3023,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3041,7 +3041,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 117</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.5</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -3064,7 +3064,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3082,7 +3082,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 242</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>43.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -3105,7 +3105,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3123,7 +3123,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 44</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>43.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -3146,7 +3146,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3164,7 +3164,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 260</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>43.9</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -3187,7 +3187,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3205,7 +3205,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 172</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -3228,7 +3228,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3246,7 +3246,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 142</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -3269,7 +3269,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3287,7 +3287,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 285</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -3310,7 +3310,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3328,7 +3328,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 14</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -3351,7 +3351,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3369,7 +3369,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 321</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.1</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -3392,7 +3392,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3410,7 +3410,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 187</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.9</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -3433,7 +3433,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3451,7 +3451,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 5</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -3474,7 +3474,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3492,7 +3492,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 175</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -3515,7 +3515,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3533,7 +3533,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 102</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.3</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -3556,7 +3556,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3574,7 +3574,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 160</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -3597,7 +3597,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3615,7 +3615,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 33</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -3638,7 +3638,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3656,7 +3656,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 55</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -3679,7 +3679,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3697,7 +3697,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 391</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -3720,7 +3720,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3738,7 +3738,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 190</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -3761,7 +3761,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3779,7 +3779,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 172</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.6</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -3802,7 +3802,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3820,7 +3820,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 141</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -3843,7 +3843,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3861,7 +3861,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 173</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.7</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -3884,7 +3884,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3902,7 +3902,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 220</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -3925,7 +3925,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3943,7 +3943,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 156</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -3966,7 +3966,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -3984,7 +3984,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 171</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -4007,7 +4007,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4025,7 +4025,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 390</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.3</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -4048,7 +4048,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4066,7 +4066,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 216</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.7</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -4089,7 +4089,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4107,7 +4107,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 121</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -4130,7 +4130,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4148,7 +4148,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 10</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -4171,7 +4171,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4189,7 +4189,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 31</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -4212,7 +4212,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4230,7 +4230,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 20</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -4253,7 +4253,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4271,7 +4271,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 35</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -4294,7 +4294,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4312,7 +4312,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 382</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>46.7</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -4335,7 +4335,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4353,7 +4353,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 235</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>47.9</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -4376,7 +4376,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4394,7 +4394,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 91</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -4417,7 +4417,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4435,7 +4435,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 121</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.1</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -4458,7 +4458,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4476,7 +4476,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 80</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -4499,7 +4499,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4517,7 +4517,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 106</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -4540,7 +4540,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4558,7 +4558,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 253</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>47.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -4581,7 +4581,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4599,7 +4599,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 65</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -4622,7 +4622,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4640,7 +4640,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 171</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -4663,7 +4663,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4681,7 +4681,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 136</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -4704,7 +4704,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4722,7 +4722,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 146</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -4745,7 +4745,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4763,7 +4763,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 307</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>48</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -4786,7 +4786,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4804,7 +4804,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 149</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -4827,7 +4827,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4845,7 +4845,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 361</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>48.1</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -4868,7 +4868,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4886,7 +4886,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 9</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -4909,7 +4909,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -4927,7 +4927,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 164</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.8</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -4950,7 +4950,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -4968,7 +4968,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 23</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -4991,7 +4991,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5009,7 +5009,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 16</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.9</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -5032,7 +5032,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5050,7 +5050,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 8</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -5073,7 +5073,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5091,7 +5091,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 15</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -5114,7 +5114,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5132,7 +5132,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 37</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.8</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -5155,7 +5155,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5173,7 +5173,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 29</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -5196,7 +5196,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5214,7 +5214,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 22</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -5237,7 +5237,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5255,7 +5255,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 44</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.8</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -5278,7 +5278,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5296,7 +5296,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 161</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -5319,7 +5319,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -5337,7 +5337,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 36</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -5360,7 +5360,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5378,7 +5378,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 191</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -5401,7 +5401,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -5419,7 +5419,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 25</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -5442,7 +5442,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -5460,7 +5460,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 176</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -5483,7 +5483,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -5501,7 +5501,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 43</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -5524,7 +5524,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5542,7 +5542,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 57</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -5565,7 +5565,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5583,7 +5583,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 40</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -5606,7 +5606,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -5624,7 +5624,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 55</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -5647,7 +5647,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -5665,7 +5665,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 221</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -5688,7 +5688,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -5706,7 +5706,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 70</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -5729,7 +5729,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -5747,7 +5747,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 100</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -5770,7 +5770,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -5788,7 +5788,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 17</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>37.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -5811,7 +5811,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5829,7 +5829,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 10</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>37.3</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -5852,7 +5852,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5870,7 +5870,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 73</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>37</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -5893,7 +5893,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5911,7 +5911,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 159</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>46</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -5934,7 +5934,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -5952,7 +5952,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 88</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>46</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -5975,7 +5975,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -5993,7 +5993,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 94</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -6016,7 +6016,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -6034,7 +6034,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 100</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -6057,7 +6057,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -6075,7 +6075,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 136</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.3</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -6098,7 +6098,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -6116,7 +6116,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 21</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -6139,7 +6139,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6157,7 +6157,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 148</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -6180,7 +6180,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6198,7 +6198,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 170</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.6</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -6221,7 +6221,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6239,7 +6239,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 11</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.5</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -6262,7 +6262,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6280,7 +6280,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 163</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -6303,7 +6303,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6321,7 +6321,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 193</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -6344,7 +6344,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6362,7 +6362,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 230</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>56</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -6385,7 +6385,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6403,7 +6403,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 178</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.4</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -6426,7 +6426,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6444,7 +6444,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 238</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.2</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -6467,7 +6467,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6485,7 +6485,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 223</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -6508,7 +6508,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6526,7 +6526,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 65</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.7</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -6549,7 +6549,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6567,7 +6567,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 109</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.6</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -6590,7 +6590,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6608,7 +6608,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 120</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.6</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -6631,7 +6631,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6649,7 +6649,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 6</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.2</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -6672,7 +6672,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6690,7 +6690,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 15</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.3</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -6713,7 +6713,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6731,7 +6731,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 28</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -6754,7 +6754,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6772,7 +6772,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 43</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -6795,7 +6795,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6813,7 +6813,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 58</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -6836,7 +6836,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6854,7 +6854,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 73</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.1</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -6877,7 +6877,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6895,7 +6895,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 103</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -6918,7 +6918,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6936,7 +6936,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 133</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -6959,7 +6959,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -6977,7 +6977,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 19</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>60.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -7000,7 +7000,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7018,7 +7018,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 313</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.6</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -7041,7 +7041,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7059,7 +7059,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 26</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -7082,7 +7082,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7100,7 +7100,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 181</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -7123,7 +7123,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7141,7 +7141,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 186</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.3</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -7164,7 +7164,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7182,7 +7182,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 196</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -7205,7 +7205,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7223,7 +7223,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 152</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -7246,7 +7246,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7264,7 +7264,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 256</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.1</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -7287,7 +7287,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7305,7 +7305,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 167</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -7328,7 +7328,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7346,7 +7346,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 282</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.2</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -7369,7 +7369,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7387,7 +7387,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 36</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -7410,7 +7410,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7428,7 +7428,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 51</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -7451,7 +7451,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7469,7 +7469,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 21</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.3</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -7492,7 +7492,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7510,7 +7510,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 81</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -7533,7 +7533,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7551,7 +7551,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 96</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -7574,7 +7574,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7592,7 +7592,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 66</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -7615,7 +7615,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7633,7 +7633,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 45</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -7656,7 +7656,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7674,7 +7674,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 18</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>59.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -7697,7 +7697,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7715,7 +7715,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 140</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -7738,7 +7738,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7756,7 +7756,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 141</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.1</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -7779,7 +7779,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7797,7 +7797,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 105</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -7820,7 +7820,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7838,7 +7838,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 12</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.9</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -7861,7 +7861,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7879,7 +7879,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 120</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.4</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -7902,7 +7902,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7920,7 +7920,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 52</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -7943,7 +7943,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -7961,7 +7961,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 150</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.4</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -7984,7 +7984,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8002,7 +8002,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 135</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.5</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -8025,7 +8025,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8043,7 +8043,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 182</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.4</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -8066,7 +8066,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8084,7 +8084,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 32</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -8107,7 +8107,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8125,7 +8125,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 166</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.5</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -8148,7 +8148,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8166,7 +8166,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 43</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.3</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -8189,7 +8189,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8207,7 +8207,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 155</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>60</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -8230,7 +8230,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8248,7 +8248,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 29</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>59.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -8271,7 +8271,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8289,7 +8289,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 51</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>59.6</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -8312,7 +8312,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8330,7 +8330,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 40</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>59.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -8353,7 +8353,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8371,7 +8371,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 87</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.3</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -8394,7 +8394,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8412,7 +8412,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 276</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.3</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -8435,7 +8435,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8453,7 +8453,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 34</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -8476,7 +8476,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8494,7 +8494,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 348</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.3</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -8517,7 +8517,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8535,7 +8535,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 78</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.2</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -8558,7 +8558,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8576,7 +8576,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 18</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -8599,7 +8599,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8617,7 +8617,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 33</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -8640,7 +8640,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8658,7 +8658,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 93</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.5</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -8681,7 +8681,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8699,7 +8699,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 78</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.6</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -8722,7 +8722,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8740,7 +8740,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 48</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -8763,7 +8763,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8781,7 +8781,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 63</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -8804,7 +8804,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8822,7 +8822,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 49</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -8845,7 +8845,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8863,7 +8863,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 385</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>65</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -8886,7 +8886,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8904,7 +8904,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 153</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.5</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -8927,7 +8927,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8945,7 +8945,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 34</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -8968,7 +8968,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -8986,7 +8986,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 27</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -9009,7 +9009,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9027,7 +9027,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 42</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.9</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -9050,7 +9050,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9068,7 +9068,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 87</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.8</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -9091,7 +9091,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9109,7 +9109,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 94</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -9132,7 +9132,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9150,7 +9150,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 64</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.9</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -9173,7 +9173,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9191,7 +9191,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 56</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -9214,7 +9214,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9232,7 +9232,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 41</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -9255,7 +9255,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9273,7 +9273,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 71</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>59.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -9296,7 +9296,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9314,7 +9314,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 139</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>65.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -9337,7 +9337,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9355,7 +9355,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 214</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>65.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -9378,7 +9378,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9396,7 +9396,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 177</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -9419,7 +9419,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9437,7 +9437,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 22</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -9460,7 +9460,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9478,7 +9478,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 272</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>65.2</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -9501,7 +9501,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9519,7 +9519,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 237</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.8</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -9542,7 +9542,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9560,7 +9560,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 37</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -9583,7 +9583,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9601,7 +9601,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 12</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -9624,7 +9624,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9642,7 +9642,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 49</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -9665,7 +9665,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9683,7 +9683,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 222</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>69.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -9706,7 +9706,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9724,7 +9724,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 67</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.7</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -9747,7 +9747,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9765,7 +9765,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 16</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>65.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -9788,7 +9788,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9806,7 +9806,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 82</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.8</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -9829,7 +9829,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9847,7 +9847,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 23</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -9870,7 +9870,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9888,7 +9888,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 294</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>69.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -9911,7 +9911,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9929,7 +9929,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 97</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.2</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -9952,7 +9952,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -9970,7 +9970,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 67</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.8</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -9993,7 +9993,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10011,7 +10011,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 45</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -10034,7 +10034,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10052,7 +10052,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 218</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -10075,7 +10075,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10093,7 +10093,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 383</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>69.7</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -10116,7 +10116,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10134,7 +10134,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 100</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.9</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -10157,7 +10157,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10175,7 +10175,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 269</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -10198,7 +10198,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10216,7 +10216,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 8, лот 305</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
@@ -10239,7 +10239,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10257,7 +10257,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 13, лот 393</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.3</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
@@ -10280,7 +10280,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10298,7 +10298,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 376</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -10321,7 +10321,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10339,7 +10339,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 147</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -10362,7 +10362,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10380,7 +10380,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 162</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>65.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -10403,7 +10403,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10421,7 +10421,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 17</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -10444,7 +10444,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10462,7 +10462,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 192</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -10485,7 +10485,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10503,7 +10503,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 252</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.3</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -10526,7 +10526,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>12</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -10544,7 +10544,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 90</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>58.2</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -10567,7 +10567,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -10585,7 +10585,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 85</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>71.3</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -10608,7 +10608,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -10626,7 +10626,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 102</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>57.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -10649,7 +10649,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -10667,7 +10667,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 96</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>57.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -10690,7 +10690,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -10708,7 +10708,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 89</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>57</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -10731,7 +10731,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -10749,7 +10749,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 120</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>57.6</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -10772,7 +10772,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -10790,7 +10790,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 150</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>57.3</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -10813,7 +10813,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -10831,7 +10831,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 91</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>70.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -10854,7 +10854,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -10872,7 +10872,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 115</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>70.4</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -10895,7 +10895,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -10913,7 +10913,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 109</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>70.6</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -10936,7 +10936,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -10954,7 +10954,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 127</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>70.4</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
@@ -10977,7 +10977,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -10995,7 +10995,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 7, лот 119</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>56.2</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
@@ -11018,7 +11018,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -11036,7 +11036,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 10, лот 137</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>56.1</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
@@ -11059,7 +11059,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -11077,7 +11077,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 11</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -11100,7 +11100,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -11118,7 +11118,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 18</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -11141,7 +11141,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -11159,7 +11159,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 25</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -11182,7 +11182,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -11200,7 +11200,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 250</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>75.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -11223,7 +11223,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -11241,7 +11241,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 21</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>73.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -11264,7 +11264,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -11282,7 +11282,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 14</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>73.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -11305,7 +11305,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -11323,7 +11323,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 268</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>75.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
@@ -11346,7 +11346,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -11364,7 +11364,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 5, лот 28</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>73.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
@@ -11387,7 +11387,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -11405,7 +11405,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 358</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>75.2</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
@@ -11428,7 +11428,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -11446,7 +11446,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 12, лот 367</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>77.7</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
@@ -11469,7 +11469,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2025</Year>
@@ -11487,7 +11487,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 2, лот 87</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>78.5</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
@@ -11510,7 +11510,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -11528,7 +11528,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 93</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>77.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
@@ -11551,7 +11551,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
@@ -11569,7 +11569,7 @@
     <Description>ЖК Ривер Парк Бизнес, этаж 4, лот 99</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>78</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
@@ -11592,7 +11592,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>0</FloorsCount>
+      <FloorsCount>13</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2025</Year>
