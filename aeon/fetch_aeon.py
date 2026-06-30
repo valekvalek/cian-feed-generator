@@ -45,6 +45,14 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 # 7 = свободное назначение (студия/апартамент без отдельной спальни)
 ROOMS_MAP = {"S": 7, "1": 1, "2": 2, "3": 3, "4": 4}
 
+# Этажность по корпусам — по максимальному доступному этажу из API
+BUILDING_FLOORS = {
+    "7":  12,
+    "12": 13,
+    "14": 13,
+}
+DEFAULT_FLOORS = 13  # fallback для неизвестных корпусов
+
 
 def fetch_all_lots() -> list:
     p    = dict(PARAMS_BASE, page=1)
@@ -84,7 +92,7 @@ def make_aeon_object(lot: dict) -> Element:
     txt(obj, "Address", ADDRESS)
 
     rooms_raw = lot.get("rooms", "S")
-    rooms = ROOMS_MAP.get(str(rooms_raw), 7)  # дефолт 7 = свободное назначение
+    rooms = ROOMS_MAP.get(str(rooms_raw), 7)
     txt(obj, "FlatRoomsCount", rooms)
     txt(obj, "TotalArea", lot.get("sq", 0))
     txt(obj, "FloorNumber", lot.get("floor", ""))
@@ -93,7 +101,7 @@ def make_aeon_object(lot: dict) -> Element:
     txt(jk, "Id",   JK_CIAN_ID)
     txt(jk, "Name", JK_NAME)
     house = SubElement(jk, "House")
-    building = lot.get("building", "1")
+    building = str(lot.get("building", ""))
     txt(house, "Id",   building)
     txt(house, "Name", building)
     flat_el = SubElement(house, "Flat")
@@ -111,15 +119,9 @@ def make_aeon_object(lot: dict) -> Element:
 
     bld_el = SubElement(obj, "Building")
 
-    # FloorsCount пишем только если значение есть и > 0,
-    # чтобы циан не показывал "3 из 0"
-    total_floors = lot.get("totalfloors")
-    try:
-        total_floors = int(total_floors)
-    except (TypeError, ValueError):
-        total_floors = 0
-    if total_floors > 0:
-        txt(bld_el, "FloorsCount", total_floors)
+    # Этажность: берём из словаря по номеру корпуса
+    floors = BUILDING_FLOORS.get(building, DEFAULT_FLOORS)
+    txt(bld_el, "FloorsCount", floors)
 
     ready_raw = str(lot.get("ready", ""))
     quarter_map = {"1": "first", "2": "second", "3": "third", "4": "fourth"}
