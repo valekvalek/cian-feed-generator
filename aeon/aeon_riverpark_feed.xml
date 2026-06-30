@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-06-30T15:40:34Z</generated>
+  <generated>2026-06-30T16:02:54Z</generated>
   <object>
     <ExternalId>12.1.3.12</ExternalId>
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 12</Description>
@@ -441,11 +441,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>14344198</Price>
@@ -482,11 +477,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>14364076</Price>
@@ -523,11 +513,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>14401648</Price>
@@ -564,11 +549,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>14456611</Price>
@@ -605,11 +585,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>14469536</Price>
@@ -646,11 +621,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>14676604</Price>
@@ -687,11 +657,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>14832955</Price>
@@ -728,11 +693,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>14894992</Price>
@@ -769,11 +729,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>14971559</Price>
@@ -810,11 +765,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>14988593</Price>
@@ -851,11 +801,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15046822</Price>
@@ -892,11 +837,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15060369</Price>
@@ -933,11 +873,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15066265</Price>
@@ -974,11 +909,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15105150</Price>
@@ -1015,11 +945,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15118929</Price>
@@ -1056,11 +981,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15138473</Price>
@@ -1097,11 +1017,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15162876</Price>
@@ -1138,11 +1053,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15170445</Price>
@@ -1179,11 +1089,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15175726</Price>
@@ -1220,11 +1125,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15183370</Price>
@@ -1261,11 +1161,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15201548</Price>
@@ -1302,11 +1197,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15248979</Price>
@@ -1343,11 +1233,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15287103</Price>
@@ -1384,11 +1269,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15308263</Price>
@@ -1466,11 +1346,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15329422</Price>
@@ -1589,11 +1464,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15410935</Price>
@@ -1671,11 +1541,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15432251</Price>
@@ -1712,11 +1577,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15451537</Price>
@@ -1835,11 +1695,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15508009</Price>
@@ -1876,11 +1731,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15514478</Price>
@@ -1958,11 +1808,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15530206</Price>
@@ -1999,11 +1844,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15623812</Price>
@@ -2040,11 +1880,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15663193</Price>
@@ -2081,11 +1916,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15683191</Price>
@@ -2122,11 +1952,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15716130</Price>
@@ -2163,11 +1988,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15720430</Price>
@@ -2204,11 +2024,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15724363</Price>
@@ -2245,11 +2060,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15742844</Price>
@@ -2286,11 +2096,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15748951</Price>
@@ -2327,11 +2132,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15754628</Price>
@@ -2368,11 +2168,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15776499</Price>
@@ -2409,11 +2204,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15785021</Price>
@@ -2450,11 +2240,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15868617</Price>
@@ -2491,11 +2276,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15893154</Price>
@@ -2532,11 +2312,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15912597</Price>
@@ -2573,11 +2348,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>15917844</Price>
@@ -2614,11 +2384,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16003452</Price>
@@ -2696,11 +2461,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16018406</Price>
@@ -2778,11 +2538,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16127234</Price>
@@ -2819,11 +2574,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16130629</Price>
@@ -2860,11 +2610,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16151249</Price>
@@ -2901,11 +2646,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16173368</Price>
@@ -2942,11 +2682,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16190295</Price>
@@ -2983,11 +2718,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16211556</Price>
@@ -3024,11 +2754,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16215469</Price>
@@ -3065,11 +2790,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16220389</Price>
@@ -3106,11 +2826,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16232463</Price>
@@ -3147,11 +2862,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16247317</Price>
@@ -3188,11 +2898,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16254633</Price>
@@ -3229,11 +2934,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16266086</Price>
@@ -3270,11 +2970,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16266454</Price>
@@ -3311,11 +3006,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16271374</Price>
@@ -3352,11 +3042,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16274319</Price>
@@ -3393,11 +3078,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16275337</Price>
@@ -3434,11 +3114,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16286236</Price>
@@ -3475,11 +3150,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16301551</Price>
@@ -3516,11 +3186,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16304233</Price>
@@ -3557,11 +3222,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16307660</Price>
@@ -3598,11 +3258,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16333555</Price>
@@ -3639,11 +3294,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16372984</Price>
@@ -3680,11 +3330,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16380667</Price>
@@ -3721,11 +3366,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16399240</Price>
@@ -3762,11 +3402,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16399522</Price>
@@ -3803,11 +3438,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16424852</Price>
@@ -3844,11 +3474,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16460218</Price>
@@ -3885,11 +3510,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16463956</Price>
@@ -3926,11 +3546,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16481557</Price>
@@ -3967,11 +3582,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16521314</Price>
@@ -4008,11 +3618,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16541867</Price>
@@ -4049,11 +3654,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16577378</Price>
@@ -4090,11 +3690,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16585687</Price>
@@ -4131,11 +3726,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16589320</Price>
@@ -4172,11 +3762,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16776454</Price>
@@ -4213,11 +3798,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16847601</Price>
@@ -4254,11 +3834,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16947487</Price>
@@ -4295,11 +3870,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16968798</Price>
@@ -4336,11 +3906,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>16995779</Price>
@@ -4377,11 +3942,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17019780</Price>
@@ -4418,11 +3978,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17020882</Price>
@@ -4459,11 +4014,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17023069</Price>
@@ -4500,11 +4050,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17032731</Price>
@@ -4541,11 +4086,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17042193</Price>
@@ -4582,11 +4122,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17044260</Price>
@@ -4623,11 +4158,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17051731</Price>
@@ -4664,11 +4194,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17079267</Price>
@@ -4705,11 +4230,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17084815</Price>
@@ -4746,11 +4266,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17146171</Price>
@@ -4787,11 +4302,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17152272</Price>
@@ -4828,11 +4338,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17212766</Price>
@@ -4869,11 +4374,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17261169</Price>
@@ -4951,11 +4451,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17315191</Price>
@@ -5320,11 +4815,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17402573</Price>
@@ -5402,11 +4892,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17431044</Price>
@@ -5443,11 +4928,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17437722</Price>
@@ -5484,11 +4964,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17446192</Price>
@@ -5607,11 +5082,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17460750</Price>
@@ -5648,11 +5118,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17483778</Price>
@@ -5689,11 +5154,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17515427</Price>
@@ -5730,11 +5190,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17545198</Price>
@@ -5771,11 +5226,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>17552862</Price>
@@ -5935,11 +5385,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>18627068</Price>
@@ -6140,11 +5585,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>20976898</Price>
@@ -6181,11 +5621,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21155256</Price>
@@ -6222,11 +5657,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21170980</Price>
@@ -6263,11 +5693,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21264968</Price>
@@ -6304,11 +5729,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21337572</Price>
@@ -6345,11 +5765,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21432080</Price>
@@ -6386,11 +5801,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21436409</Price>
@@ -6427,11 +5837,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21442859</Price>
@@ -6468,11 +5873,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21476952</Price>
@@ -6509,11 +5909,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21487933</Price>
@@ -6550,11 +5945,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21501875</Price>
@@ -6591,11 +5981,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21575584</Price>
@@ -6632,11 +6017,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21603662</Price>
@@ -6673,11 +6053,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21678238</Price>
@@ -6714,11 +6089,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21711527</Price>
@@ -6755,11 +6125,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21759298</Price>
@@ -6796,11 +6161,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21790154</Price>
@@ -6837,11 +6197,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21821009</Price>
@@ -6878,11 +6233,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21851865</Price>
@@ -6919,11 +6269,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21913576</Price>
@@ -6960,11 +6305,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>21939321</Price>
@@ -7001,11 +6341,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22006936</Price>
@@ -7042,11 +6377,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22066107</Price>
@@ -7083,11 +6413,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22194174</Price>
@@ -7124,11 +6449,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22235439</Price>
@@ -7165,11 +6485,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22316882</Price>
@@ -7206,11 +6521,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22337944</Price>
@@ -7247,11 +6557,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22428348</Price>
@@ -7288,11 +6593,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22430061</Price>
@@ -7329,11 +6629,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22495840</Price>
@@ -7370,11 +6665,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22529440</Price>
@@ -7411,11 +6701,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22576080</Price>
@@ -7452,11 +6737,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22593923</Price>
@@ -7493,11 +6773,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22603766</Price>
@@ -7534,11 +6809,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22620159</Price>
@@ -7575,11 +6845,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22688004</Price>
@@ -7616,11 +6881,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22698150</Price>
@@ -7657,11 +6917,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22717774</Price>
@@ -7698,11 +6953,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22771314</Price>
@@ -7739,11 +6989,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22780862</Price>
@@ -7780,11 +7025,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22782086</Price>
@@ -7821,11 +7061,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22804601</Price>
@@ -7862,11 +7097,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22853711</Price>
@@ -7903,11 +7133,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22872809</Price>
@@ -7944,11 +7169,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22919907</Price>
@@ -7985,11 +7205,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22934823</Price>
@@ -8026,11 +7241,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22941119</Price>
@@ -8067,11 +7277,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22996837</Price>
@@ -8108,11 +7313,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>22998202</Price>
@@ -8149,11 +7349,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23003234</Price>
@@ -8190,11 +7385,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23029159</Price>
@@ -8231,11 +7421,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23051755</Price>
@@ -8272,11 +7457,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23064868</Price>
@@ -8313,11 +7493,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23086430</Price>
@@ -8354,11 +7529,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23133702</Price>
@@ -8395,11 +7565,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23152985</Price>
@@ -8436,11 +7601,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23187118</Price>
@@ -8477,11 +7637,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23200250</Price>
@@ -8518,11 +7673,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23317004</Price>
@@ -8559,11 +7709,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23364682</Price>
@@ -8600,11 +7745,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23521390</Price>
@@ -8641,11 +7781,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23555073</Price>
@@ -8682,11 +7817,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23618773</Price>
@@ -8723,11 +7853,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23620657</Price>
@@ -8764,11 +7889,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23624122</Price>
@@ -8805,11 +7925,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23657856</Price>
@@ -8846,11 +7961,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23683273</Price>
@@ -8887,11 +7997,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23714749</Price>
@@ -8928,11 +8033,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23753103</Price>
@@ -8969,11 +8069,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23790399</Price>
@@ -9010,11 +8105,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23794504</Price>
@@ -9051,11 +8141,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23864069</Price>
@@ -9092,11 +8177,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23923380</Price>
@@ -9133,11 +8213,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23925941</Price>
@@ -9174,11 +8249,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23939215</Price>
@@ -9215,11 +8285,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23991732</Price>
@@ -9256,11 +8321,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>23999635</Price>
@@ -9297,11 +8357,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24154851</Price>
@@ -9338,11 +8393,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24339946</Price>
@@ -9379,11 +8429,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24430508</Price>
@@ -9420,11 +8465,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24480290</Price>
@@ -9461,11 +8501,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24492527</Price>
@@ -9502,11 +8537,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24524799</Price>
@@ -9543,11 +8573,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24575432</Price>
@@ -9584,11 +8609,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24581016</Price>
@@ -9625,11 +8645,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24588646</Price>
@@ -9666,11 +8681,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24655766</Price>
@@ -9707,11 +8717,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24663223</Price>
@@ -9748,11 +8753,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24668119</Price>
@@ -9789,11 +8789,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24671287</Price>
@@ -9830,11 +8825,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24738770</Price>
@@ -9871,11 +8861,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24755957</Price>
@@ -9912,11 +8897,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24803209</Price>
@@ -9953,11 +8933,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24817193</Price>
@@ -9994,11 +8969,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24928009</Price>
@@ -10035,11 +9005,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>24969887</Price>
@@ -10076,11 +9041,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>25095811</Price>
@@ -10117,11 +9077,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>25122366</Price>
@@ -10158,11 +9113,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>25180153</Price>
@@ -10199,11 +9149,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>25198413</Price>
@@ -10240,11 +9185,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>25210098</Price>
@@ -10281,11 +9221,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>25380302</Price>
@@ -10322,11 +9257,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>25383977</Price>
@@ -10363,11 +9293,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>25573475</Price>
@@ -10404,11 +9329,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>25683219</Price>
@@ -10445,11 +9365,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>25989206</Price>
@@ -10486,11 +9401,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>26197271</Price>
@@ -10527,11 +9437,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>12</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>26369786</Price>
@@ -11224,11 +10129,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>28130708</Price>
@@ -11347,11 +10247,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>28206142</Price>
@@ -11429,11 +10324,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>28396022</Price>
@@ -11470,11 +10360,6 @@
     </LayoutPhoto>
     <Building>
       <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
     </Building>
     <BargainTerms>
       <Price>29884277</Price>
