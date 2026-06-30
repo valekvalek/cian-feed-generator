@@ -4,10 +4,11 @@
 Запуск: python fetch_feed.py
 
 Выходные файлы:
-  cian_feed.xml      — общий фид (все ЖК)
-  marusino_feed.xml  — Легенда Марусино
-  korenevo_feed.xml  — Легенда Коренево
-  svet_feed.xml      — Свет (Dominanta)
+  nekrasovka_feed.xml — ГК Некрасовка (Легенда Марусино + Легенда Коренево)
+  marusino_feed.xml   — Легенда Марусино
+  korenevo_feed.xml   — Легенда Коренево
+  dominanta_feed.xml  — Доминанта (ЖК Свет)
+  svet_feed.xml       — ЖК Свет (отдельный)
 """
 
 import requests
@@ -27,7 +28,7 @@ BUILDING_FLOORS = {
 }
 DEFAULT_FLOORS = 8
 
-# ─── Проекты (Легенда) ───────────────────────────────────────────────────
+# ─── Проекты ─────────────────────────────────────────────────────────────────
 PROJECTS = [
     {
         "project_id":  "a5f9b6b9-037d-4cd8-981c-cbd55e93a5c0",
@@ -37,6 +38,7 @@ PROJECTS = [
         "base_url":    "https://legendamarusino.ru/",
         "api_url":     "https://legendamarusino.ru/api/realty-filter/custom/real-estates",
         "output_file": "marusino_feed.xml",
+        "group":       "nekrasovka",
         "source":      "legenda",
     },
     {
@@ -47,6 +49,7 @@ PROJECTS = [
         "base_url":    "https://legendakorenevo.ru/",
         "api_url":     "https://legendakorenevo.ru/api/realty-filter/custom/real-estates",
         "output_file": "korenevo_feed.xml",
+        "group":       "nekrasovka",
         "source":      "legenda",
     },
     {
@@ -57,6 +60,7 @@ PROJECTS = [
         "api_url":     "https://d-a.ru/ajax/flats/",
         "project_code": "svet",
         "output_file": "svet_feed.xml",
+        "group":       "dominanta",
         "source":      "dominanta",
     },
 ]
@@ -65,7 +69,7 @@ PAGE_SIZE = 100
 EMAIL     = "info@rusich.group"
 
 
-# ─── Загрузка Легенда (POST + offset) ───────────────────────────────────
+# ─── Загрузка Легенда (POST + offset) ────────────────────────────────────────
 def fetch_legenda(cfg: dict) -> list:
     flats, offset = [], 0
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
@@ -102,7 +106,7 @@ def fetch_legenda(cfg: dict) -> list:
     return flats
 
 
-# ─── Загрузка Dominanta (GET + page) ──────────────────────────────────────
+# ─── Загрузка Dominanta (GET + page) ─────────────────────────────────────────
 def fetch_dominanta(cfg: dict) -> list:
     flats = []
     page  = 1
@@ -158,7 +162,7 @@ def fetch_dominanta(cfg: dict) -> list:
     return flats
 
 
-# ─── XML ──────────────────────────────────────────────────────────────────────
+# ─── XML-утилиты ─────────────────────────────────────────────────────────────
 def quarter_str(q) -> str:
     return {"1": "first", "2": "second", "3": "third", "4": "fourth",
             1: "first",   2: "second",   3: "third",   4: "fourth"}.get(str(q), "fourth")
@@ -225,21 +229,15 @@ def make_legenda_object(flat: dict, cfg: dict) -> Element:
 
     # ─ Photos: images[] → building_render → genplan ──────────────────────────
     photo_urls = []
-
-    # 1. Массив images (если есть)
     for img in flat.get("images", []):
-        u = img.get("url") or img.get("full_url") or ""
-        u = abs_url(u, cfg["base_url"])
+        u = abs_url(img.get("url") or img.get("full_url") or "", cfg["base_url"])
         if u:
             photo_urls.append(u)
-
-    # 2. Если images пустой — берём building_render и genplan
     if not photo_urls:
         for field in ("building_render", "genplan"):
             u = abs_url(flat.get(field, ""), cfg["base_url"])
             if u:
                 photo_urls.append(u)
-
     if photo_urls:
         photos = SubElement(obj, "Photos")
         for u in photo_urls:
@@ -266,7 +264,7 @@ def make_legenda_object(flat: dict, cfg: dict) -> Element:
     return obj
 
 
-# ─ Dominanta ──────────────────────────────────────────────────────────────────
+# ─ Dominanta ─────────────────────────────────────────────────────────────────
 def make_dominanta_object(flat: dict, cfg: dict) -> Element:
     obj = Element("object")
 
@@ -276,16 +274,15 @@ def make_dominanta_object(flat: dict, cfg: dict) -> Element:
     else:
         rooms = int(rooms)
 
-    floor      = flat.get("floor", "")
-    flat_num   = flat.get("num", "")
-    section    = flat.get("section", "")
-    building   = flat.get("building", "1")
+    floor        = flat.get("floor", "")
+    flat_num     = flat.get("num", "")
+    section      = flat.get("section", "")
+    building     = flat.get("building", "1")
     total_floors = flat.get("totalfloors", "")
-    sq         = flat.get("sq", "0")
-    price      = clean_price(flat.get("real_price", "0"))
-    flat_id    = flat.get("id", "")
+    sq           = flat.get("sq", "0")
+    price        = clean_price(flat.get("real_price", "0"))
+    flat_id      = flat.get("id", "")
 
-    # План из plans.default[1] (без мебели) или plans["0"]
     plan_url = ""
     plans = flat.get("plans", {})
     if isinstance(plans, dict):
@@ -300,18 +297,17 @@ def make_dominanta_object(flat: dict, cfg: dict) -> Element:
     if plan_url and not plan_url.startswith("http"):
         plan_url = cfg["base_url"] + plan_url
 
-    # Срок сдачи из project
-    project    = flat.get("project", {})
-    fin_q      = project.get("finish_quarter", "")
-    fin_y      = project.get("finish_year", "")
+    project = flat.get("project", {})
+    fin_q   = project.get("finish_quarter", "")
+    fin_y   = project.get("finish_year", "")
 
-    txt(obj, "ExternalId",       flat_id)
-    txt(obj, "Description",      f"ЖК {cfg['jk_name']}, этаж {floor}, номер квартиры {flat_num}")
-    txt(obj, "Category",         "newBuildingFlatSale")
-    txt(obj, "Address",          cfg["address"])
-    txt(obj, "FlatRoomsCount",   rooms)
-    txt(obj, "TotalArea",        sq)
-    txt(obj, "FloorNumber",      floor)
+    txt(obj, "ExternalId",     flat_id)
+    txt(obj, "Description",    f"ЖК {cfg['jk_name']}, этаж {floor}, номер квартиры {flat_num}")
+    txt(obj, "Category",       "newBuildingFlatSale")
+    txt(obj, "Address",        cfg["address"])
+    txt(obj, "FlatRoomsCount", rooms)
+    txt(obj, "TotalArea",      sq)
+    txt(obj, "FloorNumber",    floor)
 
     jk = SubElement(obj, "JKSchema")
     txt(jk, "Id",   cfg["jk_cian_id"])
@@ -346,7 +342,7 @@ def make_dominanta_object(flat: dict, cfg: dict) -> Element:
     return obj
 
 
-# ─── Общая запись фида ──────────────────────────────────────────────────────────
+# ─── Запись фида ─────────────────────────────────────────────────────────────
 def write_feed(objects: list, output_file: str):
     root = Element("feed")
     txt(root, "feed_version", "2")
@@ -363,8 +359,10 @@ def write_feed(objects: list, output_file: str):
 
 # ─── main ─────────────────────────────────────────────────────────────────────
 def main():
-    all_objects = []
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    nekrasovka_objects = []
+    dominanta_objects  = []
 
     for cfg in PROJECTS:
         print(f"\n📥 Загрузка {cfg['jk_name']}...")
@@ -379,10 +377,18 @@ def main():
 
         print(f"   ✓ В фид: {len(objects)} квартир")
         write_feed(objects, cfg["output_file"])
-        all_objects.extend(objects)
 
-    write_feed(all_objects, "cian_feed.xml")
-    print(f"\n✅ [{ts}] Готово: {len(all_objects)} объектов")
+        if cfg["group"] == "nekrasovka":
+            nekrasovka_objects.extend(objects)
+        elif cfg["group"] == "dominanta":
+            dominanta_objects.extend(objects)
+
+    write_feed(nekrasovka_objects, "nekrasovka_feed.xml")
+    write_feed(dominanta_objects,  "dominanta_feed.xml")
+
+    print(f"\n✅ [{ts}] Готово:")
+    print(f"   ГК Некрасовка  → nekrasovka_feed.xml ({len(nekrasovka_objects)} объектов)")
+    print(f"   Доминанта      → dominanta_feed.xml  ({len(dominanta_objects)} объектов)")
 
 
 if __name__ == "__main__":
