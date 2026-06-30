@@ -134,7 +134,6 @@ def fetch_dominanta(cfg: dict) -> list:
             print(f"  ⚠ ({cfg['jk_name']} page={page}): {e}", file=sys.stderr)
             break
 
-        # Ответ может быть списком или объектом {"items": [...], "total": N}
         if isinstance(data, list):
             batch = data
         elif isinstance(data, dict):
@@ -170,8 +169,18 @@ def txt(parent, tag, value):
     return el
 
 def clean_price(val) -> int:
-    """'17 418 321' → 17418321"""
+    "'17 418 321' → 17418321"
     return int(re.sub(r"\D", "", str(val))) if val else 0
+
+def abs_url(path: str, base_url: str) -> str:
+    """Превращает относительный путь в абсолютный URL."""
+    if not path:
+        return ""
+    if path.startswith("http"):
+        return path
+    base = base_url.rstrip("/")
+    path = path.lstrip("/")
+    return f"{base}/{path}"
 
 
 # ─ Легенда ───────────────────────────────────────────────────────────────────
@@ -206,22 +215,37 @@ def make_legenda_object(flat: dict, cfg: dict) -> Element:
     agent = SubElement(obj, "SubAgent")
     txt(agent, "Email", EMAIL)
 
-    plan = flat.get("plan") or flat.get("layout_plan", "")
-    if plan:
-        url = plan if plan.startswith("http") else cfg["base_url"] + plan
+    # ─ LayoutPhoto: plan → floor_plan → layout_plan ──────────────────────────
+    plan_path = (flat.get("plan") or flat.get("floor_plan") or flat.get("layout_plan") or "")
+    plan_url = abs_url(plan_path, cfg["base_url"])
+    if plan_url:
         lp = SubElement(obj, "LayoutPhoto")
-        txt(lp, "FullUrl",   url)
+        txt(lp, "FullUrl",   plan_url)
         txt(lp, "PhotoType", "realtyObjectLayout")
 
-    images = flat.get("images", [])
-    if images:
-        photos = SubElement(obj, "Photos")
-        for img in images:
-            u = img.get("url") or img.get("full_url", "")
+    # ─ Photos: images[] → building_render → genplan ──────────────────────────
+    photo_urls = []
+
+    # 1. Массив images (если есть)
+    for img in flat.get("images", []):
+        u = img.get("url") or img.get("full_url") or ""
+        u = abs_url(u, cfg["base_url"])
+        if u:
+            photo_urls.append(u)
+
+    # 2. Если images пустой — берём building_render и genplan
+    if not photo_urls:
+        for field in ("building_render", "genplan"):
+            u = abs_url(flat.get(field, ""), cfg["base_url"])
             if u:
-                ps = SubElement(photos, "PhotoSchema")
-                txt(ps, "FullUrl",   u)
-                txt(ps, "PhotoType", "realtyObject")
+                photo_urls.append(u)
+
+    if photo_urls:
+        photos = SubElement(obj, "Photos")
+        for u in photo_urls:
+            ps = SubElement(photos, "PhotoSchema")
+            txt(ps, "FullUrl",   u)
+            txt(ps, "PhotoType", "realtyObject")
 
     building = SubElement(obj, "Building")
     floors_count = BUILDING_FLOORS.get(str(bld), DEFAULT_FLOORS)
@@ -266,7 +290,6 @@ def make_dominanta_object(flat: dict, cfg: dict) -> Element:
     plans = flat.get("plans", {})
     if isinstance(plans, dict):
         default_plans = plans.get("default") or []
-        # Берём план Без мебели если есть, иначе первый
         if default_plans:
             chosen = next((p for p in default_plans if "без" in p.get("name", "").lower()), default_plans[0])
             plan_url = chosen.get("url", "")
