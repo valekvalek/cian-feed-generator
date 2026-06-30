@@ -41,8 +41,10 @@ PARAMS_BASE = {
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 # Соответствие по регламенту ЦИАН:
-# https://www.cian.ru/xml_import/doc/#flatRent
-# 7 = свободное назначение (студия/апартамент без отдельной спальни)
+# 1-4 — количество комнат
+# 6   — многокомнатная (более 5 комнат)
+# 7   — свободная планировка
+# 9   — студия
 ROOMS_MAP = {"S": 7, "1": 1, "2": 2, "3": 3, "4": 4}
 
 # Этажность по корпусам — по максимальному доступному этажу из API
@@ -73,7 +75,10 @@ def fetch_all_lots() -> list:
 
 
 def clean_price(val) -> int:
-    return int(re.sub(r"\D", "", str(val))) if val else 0
+    if val is None:
+        return 0
+    cleaned = re.sub(r"\D", "", str(val))
+    return int(cleaned) if cleaned else 0
 
 
 def txt(parent, tag, value):
@@ -82,7 +87,24 @@ def txt(parent, tag, value):
     return el
 
 
-def make_aeon_object(lot: dict) -> Element:
+def parse_deadline(ready_raw: str) -> dict | None:
+    """
+    Разбирает поле ready из API.
+    Ожидаемый формат: 5 символов, например '251Q4' → год 2025, квартал 4.
+    Возвращает dict с ключами quarter, year или None если формат не распознан.
+    """
+    quarter_map = {"1": "first", "2": "second", "3": "third", "4": "fourth"}
+    s = str(ready_raw).strip()
+    if len(s) == 5:
+        year    = "20" + s[:2]
+        q_digit = s[2]
+        q_str   = quarter_map.get(q_digit)
+        if q_str and year.isdigit():
+            return {"quarter": q_str, "year": year}
+    return None
+
+
+def make_aeon_object(lot: dict, warnings: list) -> Element:
     obj = Element("object")
 
     external_id = lot.get("lotcode") or lot.get("id", "")
@@ -92,7 +114,10 @@ def make_aeon_object(lot: dict) -> Element:
     txt(obj, "Address", ADDRESS)
 
     rooms_raw = lot.get("rooms", "S")
-    rooms = ROOMS_MAP.get(str(rooms_raw), 7)
+    rooms = ROOMS_MAP.get(str(rooms_raw))
+    if rooms is None:
+        warnings.append(f"[WARN] Лот {external_id}: неизвестный тип комнат '{rooms_raw}', подставляем 7 (свободная планировка)")
+        rooms = 7
     txt(obj, "FlatRoomsCount", rooms)
     txt(obj, "TotalArea", lot.get("sq", 0))
     txt(obj, "FloorNumber", lot.get("floor", ""))
@@ -119,23 +144,25 @@ def make_aeon_object(lot: dict) -> Element:
 
     bld_el = SubElement(obj, "Building")
 
-    # Этажность: берём из словаря по номеру корпуса
     floors = BUILDING_FLOORS.get(building, DEFAULT_FLOORS)
     txt(bld_el, "FloorsCount", floors)
 
-    ready_raw = str(lot.get("ready", ""))
-    quarter_map = {"1": "first", "2": "second", "3": "third", "4": "fourth"}
-    if len(ready_raw) == 5:
-        year    = "20" + ready_raw[:2]
-        q_digit = ready_raw[2]
-        q_str   = quarter_map.get(q_digit, "fourth")
+    ready_raw = lot.get("ready", "")
+    deadline = parse_deadline(ready_raw)
+    if deadline:
         dl = SubElement(bld_el, "Deadline")
-        txt(dl, "Quarter",    q_str)
-        txt(dl, "Year",       year)
+        txt(dl, "Quarter",    deadline["quarter"])
+        txt(dl, "Year",       deadline["year"])
         txt(dl, "IsComplete", "false")
+    else:
+        warnings.append(f"[WARN] Лот {external_id}: поле ready='{ready_raw}' не распознано, блок Deadline не добавлен")
+
+    price = clean_price(lot.get("real_price", 0))
+    if price <= 0:
+        warnings.append(f"[WARN] Лот {external_id}: цена равна 0 или отсутствует, лот всё равно включён в фид")
 
     bt = SubElement(obj, "BargainTerms")
-    txt(bt, "Price",           clean_price(lot.get("real_price", 0)))
+    txt(bt, "Price",           price)
     txt(bt, "Currency",        "rur")
     txt(bt, "MortgageAllowed", "true")
 
@@ -159,17 +186,38 @@ def write_feed(objects: list, output_file: str):
 
 def main():
     lots = fetch_all_lots()
-    objects = []
-    skipped = 0
+    objects  = []
+    skipped  = 0
+    warnings = []
+
     for lot in lots:
-        if not lot.get("real_price") or lot.get("reserved") == "Y":
+        price = clean_price(lot.get("real_price", 0))
+        lot_id = lot.get("lotcode") or lot.get("id", "?")
+
+        # Пропускаем зарезервированные
+        if lot.get("reserved") == "Y":
             skipped += 1
+            print(f"  [SKIP] Лот {lot_id}: зарезервирован")
             continue
-        objects.append(make_aeon_object(lot))
+
+        # Пропускаем только если цена реально отсутствует (None/пусто)
+        # Лоты с price=0 включаем, но фиксируем предупреждение
+        if lot.get("real_price") is None or str(lot.get("real_price", "")).strip() == "":
+            skipped += 1
+            print(f"  [SKIP] Лот {lot_id}: цена отсутствует (None/пусто)")
+            continue
+
+        objects.append(make_aeon_object(lot, warnings))
 
     print(f"\n✓ В фид: {len(objects)}, пропущено: {skipped}")
+
+    if warnings:
+        print(f"\n⚠️  Предупреждения ({len(warnings)}):")
+        for w in warnings:
+            print(" ", w)
+
     write_feed(objects, "aeon/aeon_riverpark_feed.xml")
-    print(f"✅ Готово: aeon/aeon_riverpark_feed.xml ({len(objects)} объектов)")
+    print(f"\n✅ Готово: aeon/aeon_riverpark_feed.xml ({len(objects)} объектов)")
 
 
 if __name__ == "__main__":
