@@ -8,7 +8,6 @@
 """
 
 import requests
-import math
 import os
 import re
 import time
@@ -57,20 +56,43 @@ DEFAULT_FLOORS = 13  # fallback для неизвестных корпусов
 
 
 def fetch_all_lots() -> list:
-    p    = dict(PARAMS_BASE, page=1)
-    r    = requests.get(API_URL, params=p, headers=HEADERS, timeout=30)
-    data = r.json()
-    count = data.get("count", 0)
-    pages = math.ceil(count / 30)
-    print(f"Всего лотов: {count}, страниц: {pages}")
-    all_lots = data.get("data", [])
-    for page in range(2, pages + 1):
-        p    = dict(PARAMS_BASE, page=page)
-        r    = requests.get(API_URL, params=p, headers=HEADERS, timeout=30)
-        lots = r.json().get("data", [])
+    """
+    Загружает все лоты постранично.
+    Пагинация через while-loop: грузим страницы пока API возвращает непустой data.
+    Не используем count/30 — count может быть количеством на странице, а не общим.
+    """
+    all_lots = []
+    page = 1
+    MAX_PAGES = 50  # защита от бесконечного цикла
+
+    while page <= MAX_PAGES:
+        p = dict(PARAMS_BASE, page=page)
+        r = requests.get(API_URL, params=p, headers=HEADERS, timeout=30)
+        data = r.json()
+
+        lots = data.get("data", [])
+
+        # Логируем total только на первой странице (информационно)
+        if page == 1:
+            total = data.get("count", "?")
+            print(f"API count (на странице или всего): {total}")
+
+        if not lots:
+            print(f"  стр {page}: пустой ответ — остановка")
+            break
+
         all_lots.extend(lots)
         print(f"  стр {page}: +{len(lots)}, итого {len(all_lots)}")
+
+        # Если страница неполная — это последняя
+        if len(lots) < PARAMS_BASE["cnt"]:
+            print(f"  стр {page}: страница неполная ({len(lots)} < {PARAMS_BASE['cnt']}) — остановка")
+            break
+
+        page += 1
         time.sleep(0.3)
+
+    print(f"Загружено лотов: {len(all_lots)}")
     return all_lots
 
 
@@ -191,7 +213,6 @@ def main():
     warnings = []
 
     for lot in lots:
-        price = clean_price(lot.get("real_price", 0))
         lot_id = lot.get("lotcode") or lot.get("id", "?")
 
         # Пропускаем зарезервированные
