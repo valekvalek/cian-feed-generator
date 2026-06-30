@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-06-30T15:36:06Z</generated>
+  <generated>2026-06-30T15:40:34Z</generated>
   <object>
     <ExternalId>12.1.3.12</ExternalId>
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 12</Description>
@@ -11,7 +11,7 @@
     <TotalArea>35.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -52,7 +52,7 @@
     <TotalArea>35.5</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -93,7 +93,7 @@
     <TotalArea>35.4</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -134,7 +134,7 @@
     <TotalArea>35.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -175,7 +175,7 @@
     <TotalArea>35.5</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -216,7 +216,7 @@
     <TotalArea>35.3</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -257,7 +257,7 @@
     <TotalArea>35.5</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -298,7 +298,7 @@
     <TotalArea>35.5</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -339,7 +339,7 @@
     <TotalArea>35.4</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -380,7 +380,7 @@
     <TotalArea>35.5</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -421,7 +421,7 @@
     <TotalArea>37.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -462,7 +462,7 @@
     <TotalArea>37.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -503,7 +503,7 @@
     <TotalArea>37.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -544,7 +544,7 @@
     <TotalArea>37.1</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -585,7 +585,7 @@
     <TotalArea>38.6</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -626,7 +626,7 @@
     <TotalArea>36.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -667,7 +667,7 @@
     <TotalArea>38.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -708,7 +708,7 @@
     <TotalArea>39.7</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -749,7 +749,7 @@
     <TotalArea>40.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -790,7 +790,7 @@
     <TotalArea>40.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -831,7 +831,7 @@
     <TotalArea>38.5</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -872,7 +872,7 @@
     <TotalArea>38.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -913,7 +913,7 @@
     <TotalArea>38.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -954,7 +954,7 @@
     <TotalArea>38.5</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -995,7 +995,7 @@
     <TotalArea>38.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -1036,7 +1036,7 @@
     <TotalArea>38.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -1077,7 +1077,7 @@
     <TotalArea>38.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1118,7 +1118,7 @@
     <TotalArea>41.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1159,7 +1159,7 @@
     <TotalArea>38.5</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -1200,7 +1200,7 @@
     <TotalArea>38.6</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1241,7 +1241,7 @@
     <TotalArea>39.9</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -1282,7 +1282,7 @@
     <TotalArea>41.3</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1323,7 +1323,7 @@
     <TotalArea>41.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1364,7 +1364,7 @@
     <TotalArea>41.9</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1405,7 +1405,7 @@
     <TotalArea>38.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -1446,7 +1446,7 @@
     <TotalArea>41.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1487,7 +1487,7 @@
     <TotalArea>38.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -1528,7 +1528,7 @@
     <TotalArea>38.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -1569,7 +1569,7 @@
     <TotalArea>40.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1610,7 +1610,7 @@
     <TotalArea>38.4</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -1651,7 +1651,7 @@
     <TotalArea>41.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1692,7 +1692,7 @@
     <TotalArea>40.2</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1733,7 +1733,7 @@
     <TotalArea>38.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -1774,7 +1774,7 @@
     <TotalArea>38.7</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -1815,7 +1815,7 @@
     <TotalArea>40.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1856,7 +1856,7 @@
     <TotalArea>42</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1897,7 +1897,7 @@
     <TotalArea>38.5</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -1938,7 +1938,7 @@
     <TotalArea>40.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -1979,7 +1979,7 @@
     <TotalArea>41.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2020,7 +2020,7 @@
     <TotalArea>39.6</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2061,7 +2061,7 @@
     <TotalArea>39.6</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2102,7 +2102,7 @@
     <TotalArea>38.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2143,7 +2143,7 @@
     <TotalArea>41.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2184,7 +2184,7 @@
     <TotalArea>41.4</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2225,7 +2225,7 @@
     <TotalArea>39.7</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2266,7 +2266,7 @@
     <TotalArea>41.3</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2307,7 +2307,7 @@
     <TotalArea>40.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -2348,7 +2348,7 @@
     <TotalArea>38.5</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2389,7 +2389,7 @@
     <TotalArea>39.6</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2430,7 +2430,7 @@
     <TotalArea>38.3</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2471,7 +2471,7 @@
     <TotalArea>38.5</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2512,7 +2512,7 @@
     <TotalArea>38.5</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2553,7 +2553,7 @@
     <TotalArea>40.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -2594,7 +2594,7 @@
     <TotalArea>43.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -2635,7 +2635,7 @@
     <TotalArea>40.8</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -2676,7 +2676,7 @@
     <TotalArea>43.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2717,7 +2717,7 @@
     <TotalArea>40.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -2758,7 +2758,7 @@
     <TotalArea>43.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2799,7 +2799,7 @@
     <TotalArea>42</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2840,7 +2840,7 @@
     <TotalArea>43.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2881,7 +2881,7 @@
     <TotalArea>43.8</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2922,7 +2922,7 @@
     <TotalArea>42.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -2963,7 +2963,7 @@
     <TotalArea>42.1</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -3004,7 +3004,7 @@
     <TotalArea>42</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -3045,7 +3045,7 @@
     <TotalArea>39.5</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3086,7 +3086,7 @@
     <TotalArea>43.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -3127,7 +3127,7 @@
     <TotalArea>43.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3168,7 +3168,7 @@
     <TotalArea>43.9</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -3209,7 +3209,7 @@
     <TotalArea>39.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3250,7 +3250,7 @@
     <TotalArea>40</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3291,7 +3291,7 @@
     <TotalArea>42.2</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -3332,7 +3332,7 @@
     <TotalArea>44.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3373,7 +3373,7 @@
     <TotalArea>42.1</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -3414,7 +3414,7 @@
     <TotalArea>39.9</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3455,7 +3455,7 @@
     <TotalArea>42.2</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -3496,7 +3496,7 @@
     <TotalArea>45</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3537,7 +3537,7 @@
     <TotalArea>44.3</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3578,7 +3578,7 @@
     <TotalArea>45.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3619,7 +3619,7 @@
     <TotalArea>44.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3660,7 +3660,7 @@
     <TotalArea>44.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3701,7 +3701,7 @@
     <TotalArea>42.2</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -3742,7 +3742,7 @@
     <TotalArea>45.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3783,7 +3783,7 @@
     <TotalArea>41.6</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -3824,7 +3824,7 @@
     <TotalArea>40.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3865,7 +3865,7 @@
     <TotalArea>41.7</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -3906,7 +3906,7 @@
     <TotalArea>45.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3947,7 +3947,7 @@
     <TotalArea>40.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -3988,7 +3988,7 @@
     <TotalArea>40.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -4029,7 +4029,7 @@
     <TotalArea>42.3</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4070,7 +4070,7 @@
     <TotalArea>40.7</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -4111,7 +4111,7 @@
     <TotalArea>44.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -4152,7 +4152,7 @@
     <TotalArea>45.7</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4193,7 +4193,7 @@
     <TotalArea>42.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4234,7 +4234,7 @@
     <TotalArea>42.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4275,7 +4275,7 @@
     <TotalArea>42.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4316,7 +4316,7 @@
     <TotalArea>46.7</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4357,7 +4357,7 @@
     <TotalArea>47.9</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4398,7 +4398,7 @@
     <TotalArea>42.2</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4439,7 +4439,7 @@
     <TotalArea>42.1</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4480,7 +4480,7 @@
     <TotalArea>42.2</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4521,7 +4521,7 @@
     <TotalArea>42.2</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4562,7 +4562,7 @@
     <TotalArea>47.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4603,7 +4603,7 @@
     <TotalArea>42.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4644,7 +4644,7 @@
     <TotalArea>42</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4685,7 +4685,7 @@
     <TotalArea>42.2</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4726,7 +4726,7 @@
     <TotalArea>45.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -4767,7 +4767,7 @@
     <TotalArea>48</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4808,7 +4808,7 @@
     <TotalArea>42.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -4849,7 +4849,7 @@
     <TotalArea>48.1</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -4890,7 +4890,7 @@
     <TotalArea>44.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -4931,7 +4931,7 @@
     <TotalArea>42.8</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -4972,7 +4972,7 @@
     <TotalArea>44.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5013,7 +5013,7 @@
     <TotalArea>44.9</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5054,7 +5054,7 @@
     <TotalArea>45.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5095,7 +5095,7 @@
     <TotalArea>45.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5136,7 +5136,7 @@
     <TotalArea>44.8</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5177,7 +5177,7 @@
     <TotalArea>45</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5218,7 +5218,7 @@
     <TotalArea>45.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5259,7 +5259,7 @@
     <TotalArea>44.8</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5300,7 +5300,7 @@
     <TotalArea>45.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -5341,7 +5341,7 @@
     <TotalArea>45.1</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5382,7 +5382,7 @@
     <TotalArea>45.6</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -5423,7 +5423,7 @@
     <TotalArea>45.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -5464,7 +5464,7 @@
     <TotalArea>45.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -5505,7 +5505,7 @@
     <TotalArea>45.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5546,7 +5546,7 @@
     <TotalArea>45</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5587,7 +5587,7 @@
     <TotalArea>45.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -5628,7 +5628,7 @@
     <TotalArea>45.6</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -5669,7 +5669,7 @@
     <TotalArea>45.7</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -5710,7 +5710,7 @@
     <TotalArea>45.7</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -5751,7 +5751,7 @@
     <TotalArea>45.6</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -5792,7 +5792,7 @@
     <TotalArea>37.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5833,7 +5833,7 @@
     <TotalArea>37.3</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5874,7 +5874,7 @@
     <TotalArea>37</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5915,7 +5915,7 @@
     <TotalArea>46</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -5956,7 +5956,7 @@
     <TotalArea>46</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -5997,7 +5997,7 @@
     <TotalArea>45.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -6038,7 +6038,7 @@
     <TotalArea>45.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -6079,7 +6079,7 @@
     <TotalArea>45.3</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -6120,7 +6120,7 @@
     <TotalArea>55.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6161,7 +6161,7 @@
     <TotalArea>55.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6202,7 +6202,7 @@
     <TotalArea>55.6</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6243,7 +6243,7 @@
     <TotalArea>55.5</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -6284,7 +6284,7 @@
     <TotalArea>55.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6325,7 +6325,7 @@
     <TotalArea>55.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6366,7 +6366,7 @@
     <TotalArea>56</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6407,7 +6407,7 @@
     <TotalArea>55.4</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6448,7 +6448,7 @@
     <TotalArea>55.2</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6489,7 +6489,7 @@
     <TotalArea>55.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6530,7 +6530,7 @@
     <TotalArea>55.7</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6571,7 +6571,7 @@
     <TotalArea>55.6</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6612,7 +6612,7 @@
     <TotalArea>55.6</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -6653,7 +6653,7 @@
     <TotalArea>62.2</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -6694,7 +6694,7 @@
     <TotalArea>61.3</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -6735,7 +6735,7 @@
     <TotalArea>61.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -6776,7 +6776,7 @@
     <TotalArea>61.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -6817,7 +6817,7 @@
     <TotalArea>61.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -6858,7 +6858,7 @@
     <TotalArea>61.1</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -6899,7 +6899,7 @@
     <TotalArea>61.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -6940,7 +6940,7 @@
     <TotalArea>61</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -6981,7 +6981,7 @@
     <TotalArea>60.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7022,7 +7022,7 @@
     <TotalArea>55.6</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7063,7 +7063,7 @@
     <TotalArea>55.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7104,7 +7104,7 @@
     <TotalArea>63</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -7145,7 +7145,7 @@
     <TotalArea>64.3</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7186,7 +7186,7 @@
     <TotalArea>63.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -7227,7 +7227,7 @@
     <TotalArea>62.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -7268,7 +7268,7 @@
     <TotalArea>63.1</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -7309,7 +7309,7 @@
     <TotalArea>62.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -7350,7 +7350,7 @@
     <TotalArea>63.2</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -7391,7 +7391,7 @@
     <TotalArea>62.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7432,7 +7432,7 @@
     <TotalArea>62.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7473,7 +7473,7 @@
     <TotalArea>62.3</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7514,7 +7514,7 @@
     <TotalArea>62</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7555,7 +7555,7 @@
     <TotalArea>62.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7596,7 +7596,7 @@
     <TotalArea>62.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7637,7 +7637,7 @@
     <TotalArea>61.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7678,7 +7678,7 @@
     <TotalArea>59.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -7719,7 +7719,7 @@
     <TotalArea>61.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -7760,7 +7760,7 @@
     <TotalArea>62.1</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7801,7 +7801,7 @@
     <TotalArea>61.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7842,7 +7842,7 @@
     <TotalArea>63.9</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7883,7 +7883,7 @@
     <TotalArea>61.4</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7924,7 +7924,7 @@
     <TotalArea>63</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -7965,7 +7965,7 @@
     <TotalArea>61.4</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8006,7 +8006,7 @@
     <TotalArea>61.5</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8047,7 +8047,7 @@
     <TotalArea>61.4</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8088,7 +8088,7 @@
     <TotalArea>61.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -8129,7 +8129,7 @@
     <TotalArea>61.5</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8170,7 +8170,7 @@
     <TotalArea>61.3</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -8211,7 +8211,7 @@
     <TotalArea>60</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -8252,7 +8252,7 @@
     <TotalArea>59.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -8293,7 +8293,7 @@
     <TotalArea>59.6</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -8334,7 +8334,7 @@
     <TotalArea>59.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -8375,7 +8375,7 @@
     <TotalArea>61.3</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -8416,7 +8416,7 @@
     <TotalArea>64.3</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8457,7 +8457,7 @@
     <TotalArea>63.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -8498,7 +8498,7 @@
     <TotalArea>64.3</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8539,7 +8539,7 @@
     <TotalArea>63.2</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -8580,7 +8580,7 @@
     <TotalArea>66.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8621,7 +8621,7 @@
     <TotalArea>66.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8662,7 +8662,7 @@
     <TotalArea>66.5</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8703,7 +8703,7 @@
     <TotalArea>66.6</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8744,7 +8744,7 @@
     <TotalArea>66.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8785,7 +8785,7 @@
     <TotalArea>66.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8826,7 +8826,7 @@
     <TotalArea>66.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8867,7 +8867,7 @@
     <TotalArea>65</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8908,7 +8908,7 @@
     <TotalArea>66.5</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8949,7 +8949,7 @@
     <TotalArea>67.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -8990,7 +8990,7 @@
     <TotalArea>63.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9031,7 +9031,7 @@
     <TotalArea>63.9</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9072,7 +9072,7 @@
     <TotalArea>63.8</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9113,7 +9113,7 @@
     <TotalArea>67.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9154,7 +9154,7 @@
     <TotalArea>64.9</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9195,7 +9195,7 @@
     <TotalArea>61.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9236,7 +9236,7 @@
     <TotalArea>61.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9277,7 +9277,7 @@
     <TotalArea>59.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9318,7 +9318,7 @@
     <TotalArea>65.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -9359,7 +9359,7 @@
     <TotalArea>65.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -9400,7 +9400,7 @@
     <TotalArea>62.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -9441,7 +9441,7 @@
     <TotalArea>68.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9482,7 +9482,7 @@
     <TotalArea>65.2</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -9523,7 +9523,7 @@
     <TotalArea>62.8</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -9564,7 +9564,7 @@
     <TotalArea>67.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9605,7 +9605,7 @@
     <TotalArea>68.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -9646,7 +9646,7 @@
     <TotalArea>64.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -9687,7 +9687,7 @@
     <TotalArea>69.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9728,7 +9728,7 @@
     <TotalArea>68.7</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9769,7 +9769,7 @@
     <TotalArea>65.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -9810,7 +9810,7 @@
     <TotalArea>68.8</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9851,7 +9851,7 @@
     <TotalArea>66.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -9892,7 +9892,7 @@
     <TotalArea>69.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9933,7 +9933,7 @@
     <TotalArea>67.2</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -9974,7 +9974,7 @@
     <TotalArea>66.8</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -10015,7 +10015,7 @@
     <TotalArea>68.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -10056,7 +10056,7 @@
     <TotalArea>68.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -10097,7 +10097,7 @@
     <TotalArea>69.7</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -10138,7 +10138,7 @@
     <TotalArea>68.9</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -10179,7 +10179,7 @@
     <TotalArea>66</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -10220,7 +10220,7 @@
     <TotalArea>67.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -10261,7 +10261,7 @@
     <TotalArea>67.3</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -10302,7 +10302,7 @@
     <TotalArea>67.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -10343,7 +10343,7 @@
     <TotalArea>68.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -10384,7 +10384,7 @@
     <TotalArea>65.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -10425,7 +10425,7 @@
     <TotalArea>62.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -10466,7 +10466,7 @@
     <TotalArea>68.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -10507,7 +10507,7 @@
     <TotalArea>68.3</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>7</Id>
@@ -10548,7 +10548,7 @@
     <TotalArea>58.2</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -10589,7 +10589,7 @@
     <TotalArea>71.3</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -10630,7 +10630,7 @@
     <TotalArea>57.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -10671,7 +10671,7 @@
     <TotalArea>57.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -10712,7 +10712,7 @@
     <TotalArea>57</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -10753,7 +10753,7 @@
     <TotalArea>57.6</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -10794,7 +10794,7 @@
     <TotalArea>57.3</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -10835,7 +10835,7 @@
     <TotalArea>70.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -10876,7 +10876,7 @@
     <TotalArea>70.4</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -10917,7 +10917,7 @@
     <TotalArea>70.6</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -10958,7 +10958,7 @@
     <TotalArea>70.4</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -10999,7 +10999,7 @@
     <TotalArea>56.2</TotalArea>
     <FloorNumber>7</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -11040,7 +11040,7 @@
     <TotalArea>56.1</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -11081,7 +11081,7 @@
     <TotalArea>64.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -11122,7 +11122,7 @@
     <TotalArea>64.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -11163,7 +11163,7 @@
     <TotalArea>64.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -11204,7 +11204,7 @@
     <TotalArea>75.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -11245,7 +11245,7 @@
     <TotalArea>73.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -11286,7 +11286,7 @@
     <TotalArea>73.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -11327,7 +11327,7 @@
     <TotalArea>75.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -11368,7 +11368,7 @@
     <TotalArea>73.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -11409,7 +11409,7 @@
     <TotalArea>75.2</TotalArea>
     <FloorNumber>11</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -11450,7 +11450,7 @@
     <TotalArea>77.7</TotalArea>
     <FloorNumber>12</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>14</Id>
@@ -11491,7 +11491,7 @@
     <TotalArea>78.5</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -11532,7 +11532,7 @@
     <TotalArea>77.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
@@ -11573,7 +11573,7 @@
     <TotalArea>78</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>AEON_CIAN_ID</Id>
+      <Id>CIAN_ID_AEON</Id>
       <Name>Ривер Парк Бизнес</Name>
       <House>
         <Id>12</Id>
