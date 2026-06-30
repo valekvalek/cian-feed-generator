@@ -24,17 +24,20 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Generate feed
+      - name: Generate Legenda feeds
         env:
           CIAN_ID_MARUSINO: ${{ secrets.CIAN_ID_MARUSINO }}
           CIAN_ID_KORENEVO: ${{ secrets.CIAN_ID_KORENEVO }}
           CIAN_ID_SVET: ${{ secrets.CIAN_ID_SVET }}
         run: python fetch_feed.py
 
+      - name: Generate Aeon feed
+        run: python fetch_aeon.py
+
       - name: Commit and push feeds
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add marusino_feed.xml korenevo_feed.xml svet_feed.xml nekrasovka_feed.xml dominanta_feed.xml
+          git add marusino_feed.xml korenevo_feed.xml svet_feed.xml nekrasovka_feed.xml dominanta_feed.xml aeon_riverpark_feed.xml
           git diff --staged --quiet || git commit -m "chore: update feeds [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
