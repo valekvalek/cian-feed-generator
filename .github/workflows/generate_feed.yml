@@ -36,6 +36,8 @@ jobs:
         run: python dominanta/fetch_dominanta.py
 
       - name: Generate Aeon feed
+        env:
+          CIAN_ID_AEON: ${{ secrets.CIAN_ID_AEON }}
         run: python aeon/fetch_aeon.py
 
       - name: Commit and push feeds
