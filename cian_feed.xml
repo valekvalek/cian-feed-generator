@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-06-30T04:14:30Z</generated>
+  <generated>2026-06-30T08:02:14Z</generated>
   <object>
     <ExternalId>4</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К4</Description>
@@ -32,6 +32,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/74e784a63e284783823c3f5e97e57389.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -76,6 +86,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/0f0e0d5629b64756a920913a5ee82e7f.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -120,6 +140,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/b6e28b0f6b6546a29876a43671ced768.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -164,6 +194,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/70fb4f3ed29c48048890e375b5e06da1.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -208,6 +248,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/3432d243631f4eaeb63fd818f7f72a13.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -252,6 +302,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/2aea7a78d0a34c8cb2b2f6154ff2bdbe.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -296,6 +356,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/473bdc7d6abd456190f2ba3711152fda.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -340,6 +410,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/b9d91c3479d94100b09cacfe59fc92e3.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -384,6 +464,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/b5119ee7201448efb1e9fef4c928d514.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -428,6 +518,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/7989b77e7c784fb8a51c0b2ad1acff11.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -472,6 +572,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/677a1330dd5c4e65a69d8f915747dbaa.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -516,6 +626,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/9c9289e2098f47b8bc75f55fd36a45d5.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -560,6 +680,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/2b646e1bc5ed4533909ad6e2218c6933.svg</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -604,6 +734,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/fdd1b7ed778a403f91f477da1de4827a.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -648,6 +788,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/e5c297f9dfc9473ab1f242317d0fecea.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -692,6 +842,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/fcf9d69a475d4e51bdc67b7b16b95ff0.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -736,6 +896,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/a0e7e6d4ceef4f62a0e1981a79a10251.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -780,6 +950,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/3e63e6b138c9424fb6bdbe015785738e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -824,6 +1004,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/c2711191cdc647d59c6b50ebc2644df7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -868,6 +1058,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/91f75b703611493f92e7a082a6838616.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -912,6 +1112,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/265a9df0b2194698a088c24d25a8dc27.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -956,6 +1166,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/3c282ed1604645eb8ee4585bd94e58ec.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1000,6 +1220,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/d1f2b517a7714ed68d60ed73b123a5eb.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1044,6 +1274,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/5a465347a4c640fb9058e4412cba2583.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1088,6 +1328,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/243968aa766b4e67b94f0a4eea83018c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1132,6 +1382,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/e0c60abea44e4a1dbbc8e2c4c4971dce.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1176,6 +1436,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/d75145af6c6c484e8e56e8fedb4fa7e2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1220,6 +1490,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/09c316bc703f4b139463a0aa254e02d8.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1264,6 +1544,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/c0d9cc780e1b464bb466d278e3408ac4.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1308,6 +1598,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/2dbbd98f80fd4888b1cc63ea72f06243.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1352,6 +1652,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/dfe8dde2bd6447bb9ddbc7e7b41f1ab6.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1396,6 +1706,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/8153e6ba116e404c8087bd34ff2d4a03.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1440,6 +1760,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/80b377ad8b284a84ad3e385b2958da82.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1484,6 +1814,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/16d102e00e414adbb3a0d7eed4507c5d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1528,6 +1868,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/a7cf9ac0a9744907a62872486194775b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1572,6 +1922,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/461a13b99a8c48a48fe7d31bad4dae27.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1616,6 +1976,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/48eab917da8447328482f2dedcb69cb7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1660,6 +2030,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/a42cdf1795db409a83675c9df8e73c3d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1704,6 +2084,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/5e4958d12a504d09b8aafca6b1c02570.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1748,6 +2138,16 @@
       <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/46b87a687cc64a3e86d9a7349ab412c5.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>7</FloorsCount>
       <Deadline>
@@ -1792,6 +2192,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/5f89/94d1/5f8994d18bec55cebfae6cb48d5c3518.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -1831,6 +2241,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/6540/3361/65403361bdb5543e92ea28d586eb9480.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -1870,6 +2290,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/25e8/4808/25e8480880605735b503806dccada28e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -1909,6 +2339,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/5ff4/dd56/5ff4dd564d045e9bb32cc2496d454964.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -1948,6 +2388,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/7e41/cf83/7e41cf83a3795b32b9d17cf659d37bf9.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -1987,6 +2437,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/918b/e29c/918be29c79fe5e90aef729de4a92814f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2026,6 +2486,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/baa9/dd78/baa9dd78d01257a29fa714f435e56091.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2065,6 +2535,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/9e09/8d9d/9e098d9d33485459a7f6d45532e85d81.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2104,6 +2584,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/32b1/2646/32b126460d0d5c30a538adddcc8e6317.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2143,6 +2633,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/1550/e729/1550e72964b654cbb72175c278eb4886.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2182,6 +2682,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/1771/1c9d/17711c9de2085082ab182016ae1238ac.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2221,6 +2731,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/859b/59b9/859b59b9a75d513ba3082bb2b6543e2c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2260,6 +2780,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/0863/7f00/08637f004de05f4b9115cde7cc7f4bc2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2299,6 +2829,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/fc15/929f/fc15929fcd595c82ba9cafd4556cf8c3.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2338,6 +2878,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/2c9c/6347/2c9c63474dc45f39ae73ed117f188179.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2377,6 +2927,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/0a31/5595/0a31559559a85478ae14cc777f544862.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2416,6 +2976,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/b470/0c86/b4700c868c0c576b8b9fde8703b57498.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2455,6 +3025,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/ffe7/f0a8/ffe7f0a87fdc55e192909b34c6fc8fb1.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2494,6 +3074,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/705c/b808/705cb808988b550b9651609efaaffb8a.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2533,6 +3123,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/3db7/e795/3db7e795ba6a55628fe44a5b54989215.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2572,6 +3172,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/3241/12d2/324112d2e5cd5e10ac9616aff8e5513c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2611,6 +3221,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/ada8/0f2d/ada80f2dd7e55bec91c21819e4dc883d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2650,6 +3270,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/2d2f/a6bb/2d2fa6bb26e75f36aacd35926ce74970.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
@@ -2689,6 +3319,16 @@
       <FullUrl>https://legendakorenevo.ru/catalog/plans/2898/aee9/2898aee97e445692829a5269453f850e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>8</FloorsCount>
     </Building>
