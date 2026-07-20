@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-07-20T12:13:39Z</generated>
+  <generated>2026-07-20T15:07:27Z</generated>
   <object>
     <ExternalId>23093</ExternalId>
     <Description>ЖК Свет, этаж 44, номер квартиры 571</Description>
@@ -2755,7 +2755,7 @@
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>55.7</TotalArea>
+    <TotalArea />
     <FloorNumber>20</FloorNumber>
     <JKSchema>
       <Id>CIAN_ID_SVET</Id>
