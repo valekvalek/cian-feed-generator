@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-07-27T06:34:34Z</generated>
+  <generated>2026-07-27T10:38:14Z</generated>
   <object>
     <ExternalId>23093</ExternalId>
     <Description>ЖК Свет, этаж 44, номер квартиры 571</Description>
@@ -1360,7 +1360,7 @@
     <Description>ЖК Свет, этаж 39, номер квартиры 504</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
+    <FlatRoomsCount>9</FlatRoomsCount>
     <TotalArea>46.6</TotalArea>
     <FloorNumber>39</FloorNumber>
     <JKSchema>
