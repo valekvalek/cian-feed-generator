@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-07-28T13:53:18Z</generated>
+  <generated>2026-07-28T16:03:04Z</generated>
   <object>
     <ExternalId>4</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К4</Description>
@@ -2353,7 +2353,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>5892560</Price>
+      <Price>5986000</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2941,7 +2941,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>5884020</Price>
+      <Price>5965500</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3039,7 +3039,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>5913000</Price>
+      <Price>5986000</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
