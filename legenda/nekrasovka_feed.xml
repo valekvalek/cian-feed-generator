@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-07-28T11:13:12Z</generated>
+  <generated>2026-07-28T13:53:18Z</generated>
   <object>
     <ExternalId>4</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К4</Description>
@@ -2169,7 +2169,7 @@
     <FlatOnFloorNumber>2</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>32.7</TotalArea>
+    <TotalArea>34.2</TotalArea>
     <LivingArea>14.1</LivingArea>
     <KitchenArea>8.1</KitchenArea>
     <FloorNumber>4</FloorNumber>
@@ -2218,7 +2218,7 @@
     <FlatOnFloorNumber>3</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>2</FlatRoomsCount>
-    <TotalArea>53.6</TotalArea>
+    <TotalArea>56.5</TotalArea>
     <LivingArea>31.6</LivingArea>
     <KitchenArea>6.0</KitchenArea>
     <FloorNumber>5</FloorNumber>
@@ -2267,7 +2267,7 @@
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>28.2</TotalArea>
+    <TotalArea>29.4</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
     <FloorNumber>3</FloorNumber>
@@ -2316,7 +2316,7 @@
     <FlatOnFloorNumber>8</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>28.1</TotalArea>
+    <TotalArea>29.2</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
     <FloorNumber>5</FloorNumber>
@@ -2365,7 +2365,7 @@
     <FlatOnFloorNumber>11</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>32.8</TotalArea>
+    <TotalArea>34.3</TotalArea>
     <LivingArea>14.1</LivingArea>
     <KitchenArea>8.1</KitchenArea>
     <FloorNumber>6</FloorNumber>
@@ -2414,7 +2414,7 @@
     <FlatOnFloorNumber>11</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>32.8</TotalArea>
+    <TotalArea>34.3</TotalArea>
     <LivingArea>14.1</LivingArea>
     <KitchenArea>8.1</KitchenArea>
     <FloorNumber>4</FloorNumber>
@@ -2463,7 +2463,7 @@
     <FlatOnFloorNumber>12</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>32.9</TotalArea>
+    <TotalArea>34.4</TotalArea>
     <LivingArea>14.1</LivingArea>
     <KitchenArea>8.1</KitchenArea>
     <FloorNumber>6</FloorNumber>
@@ -2512,7 +2512,7 @@
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>28.0</TotalArea>
+    <TotalArea>29.2</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
     <FloorNumber>8</FloorNumber>
@@ -2561,7 +2561,7 @@
     <FlatOnFloorNumber>10</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>2</FlatRoomsCount>
-    <TotalArea>53.8</TotalArea>
+    <TotalArea>56.6</TotalArea>
     <LivingArea>31.6</LivingArea>
     <KitchenArea>6.0</KitchenArea>
     <FloorNumber>2</FloorNumber>
@@ -2610,7 +2610,7 @@
     <FlatOnFloorNumber>6</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>28.6</TotalArea>
+    <TotalArea>29.6</TotalArea>
     <LivingArea>15.0</LivingArea>
     <KitchenArea>5.5</KitchenArea>
     <FloorNumber>4</FloorNumber>
@@ -2659,7 +2659,7 @@
     <FlatOnFloorNumber>1</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>32.9</TotalArea>
+    <TotalArea>34.4</TotalArea>
     <LivingArea>14.1</LivingArea>
     <KitchenArea>8.1</KitchenArea>
     <FloorNumber>7</FloorNumber>
@@ -2708,7 +2708,7 @@
     <FlatOnFloorNumber>8</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>27.9</TotalArea>
+    <TotalArea>29.0</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>0.0</KitchenArea>
     <FloorNumber>2</FloorNumber>
@@ -2757,7 +2757,7 @@
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>28.0</TotalArea>
+    <TotalArea>29.1</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
     <FloorNumber>4</FloorNumber>
@@ -2806,7 +2806,7 @@
     <FlatOnFloorNumber>10</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>2</FlatRoomsCount>
-    <TotalArea>53.7</TotalArea>
+    <TotalArea>56.5</TotalArea>
     <LivingArea>31.6</LivingArea>
     <KitchenArea>6.0</KitchenArea>
     <FloorNumber>6</FloorNumber>
@@ -2855,7 +2855,7 @@
     <FlatOnFloorNumber>12</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>33.1</TotalArea>
+    <TotalArea>34.5</TotalArea>
     <LivingArea>14.1</LivingArea>
     <KitchenArea>8.1</KitchenArea>
     <FloorNumber>8</FloorNumber>
@@ -2904,7 +2904,7 @@
     <FlatOnFloorNumber>8</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>28.0</TotalArea>
+    <TotalArea>29.1</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
     <FloorNumber>6</FloorNumber>
@@ -2953,7 +2953,7 @@
     <FlatOnFloorNumber>2</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>32.8</TotalArea>
+    <TotalArea>34.3</TotalArea>
     <LivingArea>14.1</LivingArea>
     <KitchenArea>8.1</KitchenArea>
     <FloorNumber>3</FloorNumber>
@@ -3002,7 +3002,7 @@
     <FlatOnFloorNumber>8</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>28.0</TotalArea>
+    <TotalArea>29.2</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
     <FloorNumber>3</FloorNumber>
@@ -3051,7 +3051,7 @@
     <FlatOnFloorNumber>1</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>32.9</TotalArea>
+    <TotalArea>34.3</TotalArea>
     <LivingArea>14.1</LivingArea>
     <KitchenArea>8.1</KitchenArea>
     <FloorNumber>8</FloorNumber>
@@ -3100,7 +3100,7 @@
     <FlatOnFloorNumber>10</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>2</FlatRoomsCount>
-    <TotalArea>53.6</TotalArea>
+    <TotalArea>56.4</TotalArea>
     <LivingArea>31.6</LivingArea>
     <KitchenArea>6.0</KitchenArea>
     <FloorNumber>5</FloorNumber>
@@ -3149,7 +3149,7 @@
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>28.1</TotalArea>
+    <TotalArea>29.3</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
     <FloorNumber>5</FloorNumber>
@@ -3198,7 +3198,7 @@
     <FlatOnFloorNumber>1</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>32.9</TotalArea>
+    <TotalArea>34.4</TotalArea>
     <LivingArea>14.1</LivingArea>
     <KitchenArea>8.1</KitchenArea>
     <FloorNumber>6</FloorNumber>
@@ -3247,7 +3247,7 @@
     <FlatOnFloorNumber>9</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>2</FlatRoomsCount>
-    <TotalArea>53.6</TotalArea>
+    <TotalArea>56.4</TotalArea>
     <LivingArea>31.6</LivingArea>
     <KitchenArea>6.0</KitchenArea>
     <FloorNumber>6</FloorNumber>
@@ -3296,7 +3296,7 @@
     <FlatOnFloorNumber>5</FlatOnFloorNumber>
     <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
     <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>28.1</TotalArea>
+    <TotalArea>29.3</TotalArea>
     <LivingArea>14.4</LivingArea>
     <KitchenArea>5.5</KitchenArea>
     <FloorNumber>2</FloorNumber>
