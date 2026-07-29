@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-07-29T15:51:23Z</generated>
+  <generated>2026-07-29T17:10:55Z</generated>
   <object>
     <ExternalId>12.1.3.12</ExternalId>
     <Description>ЖК Ривер Парк Бизнес, этаж 3, лот 12</Description>
@@ -208,47 +208,6 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>12.1.11.68</ExternalId>
-    <Description>ЖК Ривер Парк Бизнес, этаж 11, лот 68</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>35.3</TotalArea>
-    <FloorNumber>11</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_AEON</Id>
-      <Name>Ривер Парк Бизнес</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>68</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://river-park.ru/bitrix/templates/riverpark/i/flats/plans/flats/k12_kv68.svg</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-      <Deadline>
-        <Quarter>first</Quarter>
-        <Year>2025</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>14168609</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
     <ExternalId>12.1.9.54</ExternalId>
     <Description>ЖК Ривер Парк Бизнес, этаж 9, лот 54</Description>
     <Category>newBuildingFlatSale</Category>
@@ -444,42 +403,6 @@
     </Building>
     <BargainTerms>
       <Price>14396012</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>14.1.6.62</ExternalId>
-    <Description>ЖК Ривер Парк Бизнес, этаж 6, лот 62</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, Коломенская набережная</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>37.2</TotalArea>
-    <FloorNumber>6</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_AEON</Id>
-      <Name>Ривер Парк Бизнес</Name>
-      <House>
-        <Id>14</Id>
-        <Name>14</Name>
-        <Flat>
-          <FlatNumber>62</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://river-park.ru/bitrix/templates/riverpark/i/flats/plans/flats/odc_ap62.svg</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>14433584</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
