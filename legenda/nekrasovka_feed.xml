@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-07-30T15:48:30Z</generated>
+  <generated>2026-07-30T17:20:53Z</generated>
   <object>
     <ExternalId>69</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К69</Description>
@@ -1834,6 +1834,60 @@
     </Building>
     <BargainTerms>
       <Price>13456244</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>281</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 2, номер квартиры К281</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>1</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>48.9</TotalArea>
+    <LivingArea>16.4</LivingArea>
+    <KitchenArea>15.8</KitchenArea>
+    <FloorNumber>2</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.2</Id>
+        <Name>1.2</Name>
+        <Flat>
+          <FlatNumber>К281</FlatNumber>
+          <SectionNumber>7</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/ab1abfa909134941984fb533c811a061.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>13403546</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
