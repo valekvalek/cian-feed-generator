@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-08-01T08:12:32Z</generated>
+  <generated>2026-08-01T10:37:25Z</generated>
   <object>
     <ExternalId>23322</ExternalId>
     <Description>ЖК Свет, этаж 50, номер квартиры 649</Description>
@@ -2900,7 +2900,7 @@
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Building>
-      <FloorsCount>51</FloorsCount>
+      <FloorsCount>8</FloorsCount>
       <Deadline>
         <Quarter>first</Quarter>
         <Year>2029</Year>
