@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-08-04T22:58:35Z</generated>
+  <generated>2026-08-05T00:07:11Z</generated>
   <object>
     <ExternalId>23322</ExternalId>
     <Description>ЖК Свет, этаж 50, номер квартиры 649</Description>
@@ -3694,12 +3694,12 @@
   </object>
   <object>
     <ExternalId>20652</ExternalId>
-    <Description>ЖК Свет, этаж 20, номер квартиры 248</Description>
+    <Description>ЖК Свет, этаж , номер квартиры 248</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва</Address>
     <FlatRoomsCount>2</FlatRoomsCount>
     <TotalArea>79.4</TotalArea>
-    <FloorNumber>20</FloorNumber>
+    <FloorNumber />
     <JKSchema>
       <Id>CIAN_ID_SVET</Id>
       <Name>Свет</Name>
