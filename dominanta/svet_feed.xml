@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-08-14T12:54:57Z</generated>
+  <generated>2026-08-14T14:13:29Z</generated>
   <object>
     <ExternalId>23322</ExternalId>
     <Description>ЖК Свет, этаж 50, номер квартиры 649</Description>
@@ -121,6 +121,47 @@
     </Building>
     <BargainTerms>
       <Price>18456649</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>23400</ExternalId>
+    <Description>ЖК Свет, этаж 28, номер квартиры 358</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>38.4</TotalArea>
+    <FloorNumber>28</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_SVET</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>358</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/dh4zlbsge5rlz3xvf22qakdm.jpg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>18900169</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
