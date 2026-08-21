@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-08-21T10:24:11Z</generated>
+  <generated>2026-08-21T11:20:26Z</generated>
   <object>
     <ExternalId>69</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К69</Description>
@@ -651,6 +651,60 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>29</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К29</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>1</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>64.7</TotalArea>
+    <LivingArea>30.7</LivingArea>
+    <KitchenArea>14.2</KitchenArea>
+    <FloorNumber>1</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.1</Id>
+        <Name>1.1</Name>
+        <Flat>
+          <FlatNumber>К29</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/e27afbd5fd79480e974c64e4af5078dc.svg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>12500687</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>33</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 2, номер квартиры К33</Description>
     <Category>newBuildingFlatSale</Category>
@@ -753,7 +807,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>12534848</Price>
+      <Price>15618048</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -808,6 +862,60 @@
     </Building>
     <BargainTerms>
       <Price>8438400</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>72</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К72</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>6</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>57.1</TotalArea>
+    <LivingArea>29.0</LivingArea>
+    <KitchenArea>16.0</KitchenArea>
+    <FloorNumber>1</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.1</Id>
+        <Name>1.1</Name>
+        <Flat>
+          <FlatNumber>К72</FlatNumber>
+          <SectionNumber>3</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/35c0034dfc7646ca848d877872c24d33.svg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>12062375</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -916,6 +1024,60 @@
     </Building>
     <BargainTerms>
       <Price>13795976</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>103</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 5, номер квартиры К103</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>6</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>56.8</TotalArea>
+    <LivingArea>29.3</LivingArea>
+    <KitchenArea>15.7</KitchenArea>
+    <FloorNumber>5</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.1</Id>
+        <Name>1.1</Name>
+        <Flat>
+          <FlatNumber>К103</FlatNumber>
+          <SectionNumber>3</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/489e59e9286a44a8baee24ffb8cd2e62.svg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>11999000</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1137,6 +1299,60 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>127</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 2, номер квартиры К127</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>8</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>9</FlatRoomsCount>
+    <TotalArea>23.4</TotalArea>
+    <LivingArea>12.5</LivingArea>
+    <KitchenArea>3.7</KitchenArea>
+    <FloorNumber>2</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.1</Id>
+        <Name>1.1</Name>
+        <Flat>
+          <FlatNumber>К127</FlatNumber>
+          <SectionNumber>4</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/84a703635c1a4e56b564ebdc30711958.svg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>6210126</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>138</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 3, номер квартиры К138</Description>
     <Category>newBuildingFlatSale</Category>
@@ -1245,6 +1461,60 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>141</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 3, номер квартиры К141</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>11</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>58.8</TotalArea>
+    <LivingArea>31.6</LivingArea>
+    <KitchenArea>13.1</KitchenArea>
+    <FloorNumber>3</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.1</Id>
+        <Name>1.1</Name>
+        <Flat>
+          <FlatNumber>К141</FlatNumber>
+          <SectionNumber>4</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/b7c6b2b6eaf843bba147fd5fd4eed17d.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>12421500</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>147</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 4, номер квартиры К147</Description>
     <Category>newBuildingFlatSale</Category>
@@ -1294,6 +1564,114 @@
     </Building>
     <BargainTerms>
       <Price>6263204</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>149</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 4, номер квартиры К149</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>8</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>9</FlatRoomsCount>
+    <TotalArea>23.6</TotalArea>
+    <LivingArea>12.5</LivingArea>
+    <KitchenArea>3.7</KitchenArea>
+    <FloorNumber>4</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.1</Id>
+        <Name>1.1</Name>
+        <Flat>
+          <FlatNumber>К149</FlatNumber>
+          <SectionNumber>4</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/5daa5aad66d74b8db0abe32219a8983f.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>7372404</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>158</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 5, номер квартиры К158</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>6</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>9</FlatRoomsCount>
+    <TotalArea>23.5</TotalArea>
+    <LivingArea>12.1</LivingArea>
+    <KitchenArea>4.1</KitchenArea>
+    <FloorNumber>5</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.1</Id>
+        <Name>1.1</Name>
+        <Flat>
+          <FlatNumber>К158</FlatNumber>
+          <SectionNumber>4</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/ddc89914389f4dd39bab8b61c0df5bcf.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>6236665</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1401,7 +1779,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>12442625</Price>
+      <Price>15210925</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1456,6 +1834,114 @@
     </Building>
     <BargainTerms>
       <Price>6183587</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>187</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 2, номер квартиры К187</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>8</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>9</FlatRoomsCount>
+    <TotalArea>23.5</TotalArea>
+    <LivingArea>13.4</LivingArea>
+    <KitchenArea>2.7</KitchenArea>
+    <FloorNumber>2</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.2</Id>
+        <Name>1.2</Name>
+        <Flat>
+          <FlatNumber>К187</FlatNumber>
+          <SectionNumber>5</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/3eb234ea214048dc8653af93b48725bf.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>6236665</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>199</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 3, номер квартиры К199</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>10</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>64.0</TotalArea>
+    <LivingArea>27.1</LivingArea>
+    <KitchenArea>13.4</KitchenArea>
+    <FloorNumber>3</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.2</Id>
+        <Name>1.2</Name>
+        <Flat>
+          <FlatNumber>К199</FlatNumber>
+          <SectionNumber>5</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/60b6907bd7ef4b96aee12ad0c5b3d526.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>12365440</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1677,6 +2163,222 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>235</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К235</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>2</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>9</FlatRoomsCount>
+    <TotalArea>30.6</TotalArea>
+    <LivingArea>18.1</LivingArea>
+    <KitchenArea>4.3</KitchenArea>
+    <FloorNumber>1</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.2</Id>
+        <Name>1.2</Name>
+        <Flat>
+          <FlatNumber>К235</FlatNumber>
+          <SectionNumber>6</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/de50ff9564b84c73aeb3a2107034af83.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>8422344</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>238</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К238</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>5</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>60.7</TotalArea>
+    <LivingArea>35.5</LivingArea>
+    <KitchenArea>12.3</KitchenArea>
+    <FloorNumber>1</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.2</Id>
+        <Name>1.2</Name>
+        <Flat>
+          <FlatNumber>К238</FlatNumber>
+          <SectionNumber>6</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/79007d1d3fee4fb7accd6f521b0ee6d6.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>12758533</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>263</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 4, номер квартиры К259</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>3</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>9</FlatRoomsCount>
+    <TotalArea>29.9</TotalArea>
+    <LivingArea>18.1</LivingArea>
+    <KitchenArea>4.3</KitchenArea>
+    <FloorNumber>4</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.2</Id>
+        <Name>1.2</Name>
+        <Flat>
+          <FlatNumber>К259</FlatNumber>
+          <SectionNumber>6</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/24343251e43941b89450d278d548182f.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>6824376</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>258</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 4, номер квартиры К262</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>6</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>63.0</TotalArea>
+    <LivingArea>35.5</LivingArea>
+    <KitchenArea>12.3</KitchenArea>
+    <FloorNumber>4</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.2</Id>
+        <Name>1.2</Name>
+        <Flat>
+          <FlatNumber>К262</FlatNumber>
+          <SectionNumber>6</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/01ddd33c3d9241a1a443d01fcb1679ac.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>13241970</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>259</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 4, номер квартиры К263</Description>
     <Category>newBuildingFlatSale</Category>
@@ -1779,7 +2481,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>9074754</Price>
+      <Price>11034654</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1833,7 +2535,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>10381959</Price>
+      <Price>12680259</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1887,7 +2589,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>14720763</Price>
+      <Price>18382063</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2104,6 +2806,114 @@
     </Building>
     <BargainTerms>
       <Price>6555133</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>333</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 2, номер квартиры К333</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>7</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>9</FlatRoomsCount>
+    <TotalArea>30.8</TotalArea>
+    <LivingArea>17.0</LivingArea>
+    <KitchenArea>4.3</KitchenArea>
+    <FloorNumber>2</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.2</Id>
+        <Name>1.2</Name>
+        <Flat>
+          <FlatNumber>К333</FlatNumber>
+          <SectionNumber>9</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/27619b7357294204af365203db9775ae.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>8477392</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>347</ExternalId>
+    <Description>ЖК Легенда Марусино, этаж 4, номер квартиры К347</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>7</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Люберцы, Марусино</Address>
+    <FlatRoomsCount>9</FlatRoomsCount>
+    <TotalArea>30.8</TotalArea>
+    <LivingArea>17.0</LivingArea>
+    <KitchenArea>4.3</KitchenArea>
+    <FloorNumber>4</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_MARUSINO</Id>
+      <Name>Легенда Марусино</Name>
+      <House>
+        <Id>1.2</Id>
+        <Name>1.2</Name>
+        <Flat>
+          <FlatNumber>К347</FlatNumber>
+          <SectionNumber>9</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/ff2bf3aaef1d4de892f7a455d29dd37f.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>7</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2026</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>7029792</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
