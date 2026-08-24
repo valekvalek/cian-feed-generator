@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-08-24T11:22:11Z</generated>
+  <generated>2026-08-24T12:38:28Z</generated>
   <object>
     <ExternalId>69</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К69</Description>
@@ -2962,7 +2962,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>6860000</Price>
+      <Price>7063766</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3011,7 +3011,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>10902800</Price>
+      <Price>11227158</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3060,7 +3060,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>5986000</Price>
+      <Price>6163868</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3109,7 +3109,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>11150200</Price>
+      <Price>11481655</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3158,7 +3158,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>6840000</Price>
+      <Price>7043171</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3207,7 +3207,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>5965500</Price>
+      <Price>6142759</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3256,56 +3256,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>6047500</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>67d54563-90ea-ee11-b20e-faa2509cb15a</ExternalId>
-    <Description>ЖК Легенда Коренево, этаж 4, номер квартиры К26</Description>
-    <Category>newBuildingFlatSale</Category>
-    <FlatOnFloorNumber>2</FlatOnFloorNumber>
-    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>34.2</TotalArea>
-    <LivingArea>14.1</LivingArea>
-    <KitchenArea>8.1</KitchenArea>
-    <FloorNumber>4</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_KORENEVO</Id>
-      <Name>Легенда Коренево</Name>
-      <House>
-        <Id>Корпус 1</Id>
-        <Name>Корпус 1</Name>
-        <Flat>
-          <FlatNumber>К26</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/5f89/94d1/5f8994d18bec55cebfae6cb48d5c3518.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>8</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>10971444</Price>
+      <Price>6227196</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3354,7 +3305,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18679600</Price>
+      <Price>14291675</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3403,7 +3354,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>10171740</Price>
+      <Price>6398028</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3452,7 +3403,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>11801440</Price>
+      <Price>7282233</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3501,7 +3452,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>8660000</Price>
+      <Price>6441552</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3550,7 +3501,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16193000</Price>
+      <Price>11794932</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3599,56 +3550,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>11791600</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>cd4249af-91ea-ee11-b20e-faa2509cb15a</ExternalId>
-    <Description>ЖК Легенда Коренево, этаж 6, номер квартиры К60</Description>
-    <Category>newBuildingFlatSale</Category>
-    <FlatOnFloorNumber>12</FlatOnFloorNumber>
-    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>34.4</TotalArea>
-    <LivingArea>14.1</LivingArea>
-    <KitchenArea>8.1</KitchenArea>
-    <FloorNumber>6</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_KORENEVO</Id>
-      <Name>Легенда Коренево</Name>
-      <House>
-        <Id>Корпус 2</Id>
-        <Name>Корпус 2</Name>
-        <Flat>
-          <FlatNumber>К60</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/baa9/dd78/baa9dd78d01257a29fa714f435e56091.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>8</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>11837420</Price>
+      <Price>7282233</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3697,7 +3599,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>10085600</Price>
+      <Price>7726904</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3746,7 +3648,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>8506000</Price>
+      <Price>6376266</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3795,7 +3697,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>9898000</Price>
+      <Price>7261002</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3844,56 +3746,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>10278840</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>566f0d6f-92ea-ee11-b20e-faa2509cb15a</ExternalId>
-    <Description>ЖК Легенда Коренево, этаж 7, номер квартиры К145</Description>
-    <Category>newBuildingFlatSale</Category>
-    <FlatOnFloorNumber>1</FlatOnFloorNumber>
-    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>34.4</TotalArea>
-    <LivingArea>14.1</LivingArea>
-    <KitchenArea>8.1</KitchenArea>
-    <FloorNumber>7</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_KORENEVO</Id>
-      <Name>Легенда Коренево</Name>
-      <House>
-        <Id>Корпус 2</Id>
-        <Name>Корпус 2</Name>
-        <Flat>
-          <FlatNumber>К145</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/1771/1c9d/17711c9de2085082ab182016ae1238ac.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>8</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>10665135</Price>
+      <Price>6441552</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3942,7 +3795,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>10063530</Price>
+      <Price>6310980</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3991,7 +3844,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>9241989</Price>
+      <Price>6332742</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4040,7 +3893,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>8633000</Price>
+      <Price>7806290</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4089,7 +3942,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18709080</Price>
+      <Price>11875735</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4138,7 +3991,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>11899450</Price>
+      <Price>7874280</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4187,7 +4040,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>8621000</Price>
+      <Price>6419790</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4236,7 +4089,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>11801440</Price>
+      <Price>7282233</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4285,7 +4138,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>8470000</Price>
+      <Price>6310980</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4334,7 +4187,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16153000</Price>
+      <Price>11815845</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4383,7 +4236,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>9875000</Price>
+      <Price>8842471</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4432,7 +4285,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>11827550</Price>
+      <Price>7828632</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4481,7 +4334,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18684960</Price>
+      <Price>14445732</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4530,7 +4383,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>9912000</Price>
+      <Price>7261002</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4579,7 +4432,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16125000</Price>
+      <Price>11753106</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4628,7 +4481,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>10121620</Price>
+      <Price>6376266</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4677,7 +4530,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>11844000</Price>
+      <Price>9468256</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4726,7 +4579,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18684960</Price>
+      <Price>11794932</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4775,7 +4628,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>9409470</Price>
+      <Price>6376266</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4824,7 +4677,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16359000</Price>
+      <Price>11857671</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
