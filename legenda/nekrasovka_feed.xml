@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-08-24T09:41:17Z</generated>
+  <generated>2026-08-24T10:32:14Z</generated>
   <object>
     <ExternalId>69</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К69</Description>
@@ -3213,55 +3213,6 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>0640430f-95ea-ee11-b20e-faa2509cb15a</ExternalId>
-    <Description>ЖК Легенда Коренево, этаж 3, номер квартиры К20</Description>
-    <Category>newBuildingFlatSale</Category>
-    <FlatOnFloorNumber>8</FlatOnFloorNumber>
-    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>29.2</TotalArea>
-    <LivingArea>14.4</LivingArea>
-    <KitchenArea>5.5</KitchenArea>
-    <FloorNumber>3</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_KORENEVO</Id>
-      <Name>Легенда Коренево</Name>
-      <House>
-        <Id>Корпус 4</Id>
-        <Name>Корпус 4</Name>
-        <Flat>
-          <FlatNumber>К20</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/ffe7/f0a8/ffe7f0a87fdc55e192909b34c6fc8fb1.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>8</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>5986000</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
     <ExternalId>4dff8fd7-95ea-ee11-b20e-faa2509cb15a</ExternalId>
     <Description>ЖК Легенда Коренево, этаж 3, номер квартиры К103</Description>
     <Category>newBuildingFlatSale</Category>
@@ -3306,104 +3257,6 @@
     </Building>
     <BargainTerms>
       <Price>6047500</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>d892c28b-96ea-ee11-b20e-faa2509cb15a</ExternalId>
-    <Description>ЖК Легенда Коренево, этаж 2, номер квартиры К18</Description>
-    <Category>newBuildingFlatSale</Category>
-    <FlatOnFloorNumber>9</FlatOnFloorNumber>
-    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>2</FlatRoomsCount>
-    <TotalArea>56.5</TotalArea>
-    <LivingArea>31.6</LivingArea>
-    <KitchenArea>6.0</KitchenArea>
-    <FloorNumber>2</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_KORENEVO</Id>
-      <Name>Легенда Коренево</Name>
-      <House>
-        <Id>Корпус 5</Id>
-        <Name>Корпус 5</Name>
-        <Flat>
-          <FlatNumber>К18</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/9e09/735c/9e09735cbd9a5c23ac4bc49c98ae447b.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>8</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>11130500</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>c9bd345f-97ea-ee11-b20e-faa2509cb15a</ExternalId>
-    <Description>ЖК Легенда Коренево, этаж 4, номер квартиры К130</Description>
-    <Category>newBuildingFlatSale</Category>
-    <FlatOnFloorNumber>11</FlatOnFloorNumber>
-    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>34.4</TotalArea>
-    <LivingArea>14.1</LivingArea>
-    <KitchenArea>8.1</KitchenArea>
-    <FloorNumber>4</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_KORENEVO</Id>
-      <Name>Легенда Коренево</Name>
-      <House>
-        <Id>Корпус 5</Id>
-        <Name>Корпус 5</Name>
-        <Flat>
-          <FlatNumber>К130</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/b6c1/cccb/b6c1cccbe3f45b4f94becf697ab0e5ab.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>8</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>6880000</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
