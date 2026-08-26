@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-08-26T07:41:11Z</generated>
+  <generated>2026-08-26T08:37:09Z</generated>
   <object>
     <ExternalId>23322</ExternalId>
     <Description>ЖК Свет, этаж 50, номер квартиры 649</Description>
@@ -79,48 +79,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>18299689</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>23097</ExternalId>
-    <Description>ЖК Свет, этаж 49, номер квартиры 636</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>30.9</TotalArea>
-    <FloorNumber>49</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
-      <Name>Свет</Name>
-      <House>
-        <Id>1</Id>
-        <Name>1</Name>
-        <Flat>
-          <FlatNumber>636</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/7rqoija7hgqoo1d7ofxnaq76.jpg</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>first</Quarter>
-        <Year>2029</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>18456649</Price>
+      <Price>18757181</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -208,6 +167,47 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>23097</ExternalId>
+    <Description>ЖК Свет, этаж 49, номер квартиры 636</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>9</FlatRoomsCount>
+    <TotalArea>30.9</TotalArea>
+    <FloorNumber>49</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_SVET</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>636</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/7rqoija7hgqoo1d7ofxnaq76.jpg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>18918065</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>23090</ExternalId>
     <Description>ЖК Свет, этаж 34, номер квартиры 434</Description>
     <Category>newBuildingFlatSale</Category>
@@ -243,7 +243,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>19120448</Price>
+      <Price>19598459</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -284,7 +284,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>19493129</Price>
+      <Price>19980457</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -325,7 +325,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>19595838</Price>
+      <Price>20085734</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -366,7 +366,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>19767020</Price>
+      <Price>20261196</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -407,7 +407,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>20058985</Price>
+      <Price>20560460</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -448,130 +448,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>20130593</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>22030</ExternalId>
-    <Description>ЖК Свет, этаж 41, номер квартиры 528</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>38.9</TotalArea>
-    <FloorNumber>41</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
-      <Name>Свет</Name>
-      <House>
-        <Id>1</Id>
-        <Name>1</Name>
-        <Flat>
-          <FlatNumber>528</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ezpnwo0vi7x0vvslxa6lys2i.jpg</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>first</Quarter>
-        <Year>2029</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>20302493</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>22040</ExternalId>
-    <Description>ЖК Свет, этаж 45, номер квартиры 580</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>38.9</TotalArea>
-    <FloorNumber>45</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
-      <Name>Свет</Name>
-      <House>
-        <Id>1</Id>
-        <Name>1</Name>
-        <Flat>
-          <FlatNumber>580</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/gyicw2ixennnhuhwwmrrd8h7.jpg</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>first</Quarter>
-        <Year>2029</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>20446824</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>22046</ExternalId>
-    <Description>ЖК Свет, этаж 47, номер квартиры 606</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>38.9</TotalArea>
-    <FloorNumber>47</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
-      <Name>Свет</Name>
-      <House>
-        <Id>1</Id>
-        <Name>1</Name>
-        <Flat>
-          <FlatNumber>606</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/idwdgweilynb68ynj9xp8xtk.jpg</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>first</Quarter>
-        <Year>2029</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>20699402</Price>
+      <Price>20633858</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -618,6 +495,129 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>22030</ExternalId>
+    <Description>ЖК Свет, этаж 41, номер квартиры 528</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>38.9</TotalArea>
+    <FloorNumber>41</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_SVET</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>528</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ezpnwo0vi7x0vvslxa6lys2i.jpg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>20810055</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>22040</ExternalId>
+    <Description>ЖК Свет, этаж 45, номер квартиры 580</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>38.9</TotalArea>
+    <FloorNumber>45</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_SVET</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>580</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/gyicw2ixennnhuhwwmrrd8h7.jpg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>20957994</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>22046</ExternalId>
+    <Description>ЖК Свет, этаж 47, номер квартиры 606</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>38.9</TotalArea>
+    <FloorNumber>47</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_SVET</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>606</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/idwdgweilynb68ynj9xp8xtk.jpg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>21216888</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>20469</ExternalId>
     <Description>ЖК Свет, этаж 3, номер квартиры 27</Description>
     <Category>newBuildingFlatSale</Category>
@@ -653,7 +653,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>21836561</Price>
+      <Price>22382475</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -694,7 +694,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>21880156</Price>
+      <Price>22427161</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -735,7 +735,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>21882090</Price>
+      <Price>22429143</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -776,7 +776,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>21905536</Price>
+      <Price>22453174</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -817,7 +817,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>22067296</Price>
+      <Price>22618978</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -858,7 +858,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>22359712</Price>
+      <Price>22918706</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -899,7 +899,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>22490501</Price>
+      <Price>23052764</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -940,7 +940,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>22524898</Price>
+      <Price>23088021</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -981,7 +981,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>22534095</Price>
+      <Price>23097448</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1022,7 +1022,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>22782023</Price>
+      <Price>23351574</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1063,7 +1063,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23017238</Price>
+      <Price>23592669</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1104,7 +1104,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23063060</Price>
+      <Price>23639637</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1145,7 +1145,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23136863</Price>
+      <Price>23715285</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1186,7 +1186,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23180924</Price>
+      <Price>23760447</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1227,7 +1227,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23183194</Price>
+      <Price>23762775</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1268,7 +1268,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23230223</Price>
+      <Price>23810978</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1309,7 +1309,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23292170</Price>
+      <Price>23874475</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1350,7 +1350,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23378608</Price>
+      <Price>23963073</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1391,7 +1391,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23427906</Price>
+      <Price>24013604</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1432,7 +1432,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23514356</Price>
+      <Price>24102216</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1473,7 +1473,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23516353</Price>
+      <Price>24104261</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1514,7 +1514,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23753543</Price>
+      <Price>24347381</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1555,7 +1555,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23773705</Price>
+      <Price>24368048</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1596,89 +1596,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23988779</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>22044</ExternalId>
-    <Description>ЖК Свет, этаж 47, номер квартиры 601</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>48.4</TotalArea>
-    <FloorNumber>47</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
-      <Name>Свет</Name>
-      <House>
-        <Id>1</Id>
-        <Name>1</Name>
-        <Flat>
-          <FlatNumber>601</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/saywyqiz0sc0ay7dng3uqycj.jpg</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>first</Quarter>
-        <Year>2029</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>24480068</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>20635</ExternalId>
-    <Description>ЖК Свет, этаж 18, номер квартиры 231</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>51.1</TotalArea>
-    <FloorNumber>18</FloorNumber>
-    <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
-      <Name>Свет</Name>
-      <House>
-        <Id>1</Id>
-        <Name>1</Name>
-        <Flat>
-          <FlatNumber>231</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/7gqo7ho9esc0pgjjwx6qt3t8.jpg</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>first</Quarter>
-        <Year>2029</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>24524595</Price>
+      <Price>24588499</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1725,6 +1643,88 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>22044</ExternalId>
+    <Description>ЖК Свет, этаж 47, номер квартиры 601</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>48.4</TotalArea>
+    <FloorNumber>47</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_SVET</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>601</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/saywyqiz0sc0ay7dng3uqycj.jpg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>25092070</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>20635</ExternalId>
+    <Description>ЖК Свет, этаж 18, номер квартиры 231</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>51.1</TotalArea>
+    <FloorNumber>18</FloorNumber>
+    <JKSchema>
+      <Id>CIAN_ID_SVET</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>231</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/7gqo7ho9esc0pgjjwx6qt3t8.jpg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>25137711</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>20600</ExternalId>
     <Description>ЖК Свет, этаж 13, номер квартиры 156</Description>
     <Category>newBuildingFlatSale</Category>
@@ -1760,7 +1760,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24854824</Price>
+      <Price>25476194</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1801,7 +1801,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25045985</Price>
+      <Price>25672135</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1842,7 +1842,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25198137</Price>
+      <Price>25828090</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1883,7 +1883,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25219827</Price>
+      <Price>25850323</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1924,7 +1924,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25269915</Price>
+      <Price>25901663</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1965,7 +1965,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25356375</Price>
+      <Price>25990285</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2006,7 +2006,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25406669</Price>
+      <Price>26041836</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2047,7 +2047,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25407670</Price>
+      <Price>26042863</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2088,7 +2088,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25454440</Price>
+      <Price>26090801</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2129,7 +2129,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25647343</Price>
+      <Price>26288527</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2170,7 +2170,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25664145</Price>
+      <Price>26305749</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2211,7 +2211,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25718717</Price>
+      <Price>26361685</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2252,7 +2252,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25731927</Price>
+      <Price>26375226</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2293,7 +2293,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25784911</Price>
+      <Price>26429535</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2334,7 +2334,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25875295</Price>
+      <Price>26522178</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2375,7 +2375,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25884207</Price>
+      <Price>26531312</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2416,7 +2416,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26030292</Price>
+      <Price>26681050</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2457,7 +2457,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26081959</Price>
+      <Price>26734009</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2498,7 +2498,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26082801</Price>
+      <Price>26734871</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2539,7 +2539,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26119494</Price>
+      <Price>26772482</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2580,7 +2580,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26317461</Price>
+      <Price>26975397</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2621,7 +2621,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26406174</Price>
+      <Price>27066329</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2662,7 +2662,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26426402</Price>
+      <Price>27087063</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2703,7 +2703,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26509916</Price>
+      <Price>27172664</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2744,7 +2744,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26532013</Price>
+      <Price>27195313</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2785,7 +2785,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26546952</Price>
+      <Price>27210627</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2826,7 +2826,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26598617</Price>
+      <Price>27263583</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2867,7 +2867,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26611630</Price>
+      <Price>27276921</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2908,7 +2908,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26661535</Price>
+      <Price>27328074</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2949,7 +2949,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26908614</Price>
+      <Price>27581330</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2990,7 +2990,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27115278</Price>
+      <Price>27793161</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3031,7 +3031,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27136665</Price>
+      <Price>27815082</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3072,7 +3072,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27188980</Price>
+      <Price>27868705</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3113,7 +3113,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27455698</Price>
+      <Price>28142091</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3154,7 +3154,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27933383</Price>
+      <Price>28631718</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3195,7 +3195,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28273413</Price>
+      <Price>28980248</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3236,7 +3236,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28953488</Price>
+      <Price>29677326</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3277,7 +3277,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29088865</Price>
+      <Price>29816087</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3318,7 +3318,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29110702</Price>
+      <Price>29838470</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3359,7 +3359,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>30764526</Price>
+      <Price>31533639</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3400,7 +3400,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>30865206</Price>
+      <Price>31636836</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3441,7 +3441,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>30978989</Price>
+      <Price>31753464</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3482,7 +3482,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>31021914</Price>
+      <Price>31797462</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3523,7 +3523,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>31043007</Price>
+      <Price>31819083</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3564,7 +3564,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>31600269</Price>
+      <Price>32390277</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3605,7 +3605,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>31632449</Price>
+      <Price>32423260</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3646,7 +3646,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>31883358</Price>
+      <Price>32680443</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3687,7 +3687,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>31925139</Price>
+      <Price>32723268</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3728,7 +3728,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32079634</Price>
+      <Price>32881626</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3769,7 +3769,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32092608</Price>
+      <Price>32894924</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3810,7 +3810,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32147954</Price>
+      <Price>32951653</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3851,7 +3851,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32216274</Price>
+      <Price>33021681</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3892,7 +3892,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32259723</Price>
+      <Price>33066217</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3933,7 +3933,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32489556</Price>
+      <Price>33301796</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3974,7 +3974,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32728776</Price>
+      <Price>33546996</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4015,7 +4015,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32734098</Price>
+      <Price>33552450</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4056,7 +4056,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32917990</Price>
+      <Price>33740940</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4097,7 +4097,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33077850</Price>
+      <Price>33904797</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4138,7 +4138,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33170276</Price>
+      <Price>33999533</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4179,7 +4179,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33182343</Price>
+      <Price>34011903</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4220,7 +4220,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33542741</Price>
+      <Price>34381310</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4261,7 +4261,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33595363</Price>
+      <Price>34435248</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4302,7 +4302,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33691568</Price>
+      <Price>34533858</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4343,7 +4343,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33733037</Price>
+      <Price>34576363</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4384,7 +4384,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33788338</Price>
+      <Price>34633047</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4425,7 +4425,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>34053629</Price>
+      <Price>34904970</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4466,7 +4466,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>34192163</Price>
+      <Price>35046967</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4507,7 +4507,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>34330697</Price>
+      <Price>35188965</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4548,7 +4548,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>34356779</Price>
+      <Price>35215698</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4589,7 +4589,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>34469230</Price>
+      <Price>35330961</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4630,7 +4630,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>34677033</Price>
+      <Price>35543959</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4671,7 +4671,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>35213710</Price>
+      <Price>36094053</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4712,7 +4712,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>35886339</Price>
+      <Price>36783498</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4753,7 +4753,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>36409071</Price>
+      <Price>37319298</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4794,7 +4794,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>36454931</Price>
+      <Price>37366305</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4835,7 +4835,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>36553112</Price>
+      <Price>37466940</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
