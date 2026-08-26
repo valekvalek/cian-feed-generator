@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-08-26T14:39:02Z</generated>
+  <generated>2026-08-26T16:14:06Z</generated>
   <object>
     <ExternalId>29105251-90ea-ee11-b20e-faa2509cb15a</ExternalId>
     <Description>ЖК Легенда Коренево, этаж 2, номер квартиры К11</Description>
@@ -389,7 +389,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>14291675</Price>
+      <Price>11636175</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -683,7 +683,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>7726904</Price>
+      <Price>6354504</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -977,7 +977,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>7806290</Price>
+      <Price>6419790</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1320,7 +1320,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>8842471</Price>
+      <Price>7239771</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1418,7 +1418,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>14445732</Price>
+      <Price>11794932</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1614,7 +1614,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>9468256</Price>
+      <Price>7851456</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
