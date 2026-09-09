@@ -8,12 +8,18 @@
   dominanta/dominanta_feed.xml — сводный фид Доминанта
 """
 
-import requests
-import os
-import re
-import sys
 from datetime import datetime, timezone
-from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
+from xml.etree.ElementTree import Element, SubElement
+
+from feed_common import (
+    FeedGenerationError,
+    add_text,
+    build_http_session,
+    parse_price,
+    request_json,
+    require_cian_id,
+    write_feed_atomic,
+)
 
 DEFAULT_FLOORS = 8
 EMAIL = "info@rusich.group"
@@ -21,17 +27,18 @@ EMAIL = "info@rusich.group"
 PROJECTS = [
     {
         "jk_name":      "Свет",
-        "jk_cian_id":   os.getenv("CIAN_ID_SVET", "SVET_CIAN_ID"),
+        "cian_env":     "CIAN_ID_SVET",
         "address":      "Россия, Москва",
         "base_url":     "https://d-a.ru",
         "api_url":      "https://d-a.ru/ajax/flats/",
         "project_code": "svet",
         "output_file":  "dominanta/svet_feed.xml",
+        "min_objects":  10,
     },
 ]
 
 
-def fetch_dominanta(cfg: dict) -> list:
+def fetch_dominanta(cfg: dict, session=None) -> list:
     flats = []
     page  = 1
     cnt   = 50
@@ -40,6 +47,8 @@ def fetch_dominanta(cfg: dict) -> list:
         "X-Requested-With": "XMLHttpRequest",
         "Referer": "https://d-a.ru/projects/residential/svet/choose/",
     }
+    session = session or build_http_session()
+    seen_pages: set[tuple] = set()
     while True:
         params = {
             "filter[price][0]": "0",
@@ -53,13 +62,7 @@ def fetch_dominanta(cfg: dict) -> list:
             "page": str(page),
             "cnt": str(cnt),
         }
-        try:
-            resp = requests.get(cfg["api_url"], params=params, headers=headers, timeout=30)
-            resp.raise_for_status()
-            data = resp.json()
-        except Exception as e:
-            print(f"  ⚠ ({cfg['jk_name']} page={page}): {e}", file=sys.stderr)
-            break
+        data = request_json(session, "GET", cfg["api_url"], params=params, headers=headers)
 
         if isinstance(data, list):
             batch = data
@@ -67,10 +70,20 @@ def fetch_dominanta(cfg: dict) -> list:
             batch = (data.get("items") or data.get("data") or
                      data.get("flats") or data.get("results") or [])
         else:
-            break
+            raise FeedGenerationError(
+                f"{cfg['jk_name']}: API вернул {type(data).__name__} вместо списка/объекта"
+            )
+
+        if not isinstance(batch, list):
+            raise FeedGenerationError(f"{cfg['jk_name']}: поле с объектами не является списком")
 
         if not batch:
             break
+
+        page_key = tuple(str(item.get("id")) for item in batch)
+        if page_key in seen_pages:
+            raise FeedGenerationError(f"{cfg['jk_name']}: API повторил страницу page={page}")
+        seen_pages.add(page_key)
 
         valid = [f for f in batch if f.get("reserved", "Y") == "N"
                  and f.get("real_price") not in (None, "", "0", 0)]
@@ -86,16 +99,13 @@ def fetch_dominanta(cfg: dict) -> list:
 
 
 def quarter_str(q) -> str:
-    return {"1": "first", "2": "second", "3": "third", "4": "fourth",
-            1: "first",   2: "second",   3: "third",   4: "fourth"}.get(str(q), "fourth")
+    result = {"1": "first", "2": "second", "3": "third", "4": "fourth"}.get(str(q))
+    if result is None:
+        raise FeedGenerationError(f"Неизвестный квартал сдачи: {q!r}")
+    return result
 
 def txt(parent, tag, value):
-    el = SubElement(parent, tag)
-    el.text = str(value) if value is not None else ""
-    return el
-
-def clean_price(val) -> int:
-    return int(re.sub(r"\D", "", str(val))) if val else 0
+    return add_text(parent, tag, value)
 
 
 def make_dominanta_object(flat: dict, cfg: dict) -> Element:
@@ -110,7 +120,7 @@ def make_dominanta_object(flat: dict, cfg: dict) -> Element:
     building     = flat.get("building", "1")
     total_floors = flat.get("totalfloors", "")
     sq           = flat.get("sq", "0")
-    price        = clean_price(flat.get("real_price", "0"))
+    price        = parse_price(flat.get("real_price"))
     flat_id      = flat.get("id", "")
 
     plan_url = ""
@@ -172,33 +182,32 @@ def make_dominanta_object(flat: dict, cfg: dict) -> Element:
     return obj
 
 
-def write_feed(objects: list, output_file: str):
-    root = Element("feed")
-    txt(root, "feed_version", "2")
-    txt(root, "generated", datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
-    for o in objects:
-        root.append(o)
-    indent(root, space="  ")
-    tree = ElementTree(root)
-    with open(output_file, "wb") as f:
-        tree.write(f, encoding="utf-8", xml_declaration=True)
-    size = os.path.getsize(output_file)
-    print(f"   💾 {output_file} ({size:,} байт)")
-
-
 def main():
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     all_objects = []
 
-    for cfg in PROJECTS:
+    for raw_cfg in PROJECTS:
+        cfg = dict(raw_cfg)
+        cfg["jk_cian_id"] = require_cian_id(cfg["cian_env"])
         print(f"\n📥 Загрузка {cfg['jk_name']}...")
         flats   = fetch_dominanta(cfg)
         objects = [make_dominanta_object(f, cfg) for f in flats]
         print(f"   ✓ В фид: {len(objects)} квартир")
-        write_feed(objects, cfg["output_file"])
+        write_feed_atomic(
+            objects,
+            cfg["output_file"],
+            generated_at=generated_at,
+            min_objects=cfg["min_objects"],
+        )
         all_objects.extend(objects)
 
-    write_feed(all_objects, "dominanta/dominanta_feed.xml")
+    write_feed_atomic(
+        all_objects,
+        "dominanta/dominanta_feed.xml",
+        generated_at=generated_at,
+        min_objects=10,
+    )
 
     print(f"\n✅ [{ts}] Готово:")
     print(f"   ЖК Свет   → dominanta/svet_feed.xml      ({len(all_objects)} объектов)")

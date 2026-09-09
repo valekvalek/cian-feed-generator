@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id": "dominanta-1",
+      "reserved": "N",
+      "real_price": "21 000 000 ₽",
+      "rooms": "2",
+      "floor": "5",
+      "num": "51",
+      "section": "2",
+      "building": "1",
+      "totalfloors": "20",
+      "sq": "57.8",
+      "project": {
+        "finish_quarter": "3",
+        "finish_year": "2027"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "external_id": "legenda-1",
+      "status": "free",
+      "price": "10 500 000.00",
+      "rooms": 1,
+      "number": "10",
+      "axis": "2",
+      "total_area": "38.4",
+      "living_area": "17.0",
+      "kitchen_area": "10.2",
+      "floor_number": 3,
+      "building_number": "1.1",
+      "section_number": "1",
+      "completion_quarter": 4,
+      "completion_year": 2026,
+      "is_ready": false
+    }
+  ]
+}
