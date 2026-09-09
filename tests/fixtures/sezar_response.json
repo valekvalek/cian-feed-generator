@@ -1,0 +1,26 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": "01148bf8-3ad5-4eac-8b92-3973356ad801",
+      "article": "SC_1_2_1_3_12",
+      "project_name": "СЕЗАР СИТИ",
+      "project_is_selling": true,
+      "section_number": 1,
+      "floor_number": 3,
+      "rooms": 1,
+      "area": "47.50",
+      "price": "24890000.00",
+      "building_number": "2",
+      "plan": "https://website.yandexcloud.net/sezar/media/plan.svg",
+      "type": "flat",
+      "number": "12",
+      "completion_year": 2027,
+      "completion_quarter": 3,
+      "max_floor": 28,
+      "project_slug": "sezarcity"
+    }
+  ]
+}

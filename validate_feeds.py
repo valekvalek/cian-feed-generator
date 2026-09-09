@@ -19,6 +19,7 @@ ACTIVE_FEEDS = {
     Path("dominanta/svet_feed.xml"): 10,
     Path("dominanta/dominanta_feed.xml"): 10,
     Path("aeon/aeon_riverpark_feed.xml"): 20,
+    Path("sezar/sezar_city_feed.xml"): 100,
 }
 
 LEGACY_ALIASES = {

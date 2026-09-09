@@ -1,6 +1,6 @@
 # CIAN Feed Generator
 
-Автоматический генератор XML-фидов CIAN XML v2 из API трёх застройщиков.
+Автоматический генератор XML-фидов CIAN XML v2 из API четырёх застройщиков.
 
 ## Источники и актуальные фиды
 
@@ -12,6 +12,7 @@
 | Доминанта | Свет | `dominanta/svet_feed.xml` |
 | Доминанта | Сводный фид | `dominanta/dominanta_feed.xml` |
 | Aeon | Ривер Парк Бизнес | `aeon/aeon_riverpark_feed.xml` |
+| Sezar Group | СЕЗАР СИТИ | `sezar/sezar_city_feed.xml` |
 
 Для CIAN используйте Raw URL нужного канонического файла, например:
 
@@ -43,6 +44,7 @@ JSON, пустом фиде, повторяющихся ID, неправильн
 | `CIAN_ID_KORENEVO` | ЖК «Легенда Коренево» |
 | `CIAN_ID_SVET` | ЖК «Свет» |
 | `CIAN_ID_AEON` | ЖК «Ривер Парк Бизнес» |
+| `CIAN_ID_SEZAR_CITY` | ЖК «СЕЗАР СИТИ» (`4850351`) |
 
 Все значения обязательны и должны быть числовыми. Они являются идентификаторами
 объектов CIAN и попадают в публичные XML-файлы — не используйте здесь пароли или
@@ -59,15 +61,18 @@ export CIAN_ID_MARUSINO=1234567
 export CIAN_ID_KORENEVO=7654321
 export CIAN_ID_SVET=2345678
 export CIAN_ID_AEON=3456789
+export CIAN_ID_SEZAR_CITY=4850351
 
 python -m legenda.fetch_feed
 python -m dominanta.fetch_dominanta
 python -m aeon.fetch_aeon
+python -m sezar.fetch_sezar
 python validate_feeds.py
 ```
 
-Совместимые команды `python fetch_feed.py`, `python fetch_dominanta.py` и
-`python fetch_aeon.py` также запускают соответствующие генераторы.
+Совместимые команды `python fetch_feed.py`, `python fetch_dominanta.py`,
+`python fetch_aeon.py` и `python fetch_sezar.py` также запускают соответствующие
+генераторы.
 
 ## Проверки
 

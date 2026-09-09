@@ -63,8 +63,9 @@ def build_http_session() -> requests.Session:
 
 
 def request_json(session: requests.Session, method: str, url: str, **kwargs):
+    timeout = kwargs.pop("timeout", 30)
     try:
-        response = session.request(method, url, timeout=30, **kwargs)
+        response = session.request(method, url, timeout=timeout, **kwargs)
         response.raise_for_status()
         return response.json()
     except (requests.RequestException, ValueError) as exc:

@@ -8,6 +8,7 @@ from aeon.fetch_aeon import fetch_all_lots
 from dominanta.fetch_dominanta import PROJECTS as DOMINANTA_PROJECTS, fetch_dominanta
 from feed_common import FeedGenerationError
 from legenda.fetch_feed import PROJECTS as LEGENDA_PROJECTS, fetch_legenda
+from sezar.fetch_sezar import fetch_sezar_flats
 
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -53,6 +54,10 @@ class FetcherTests(unittest.TestCase):
             len(fetch_all_lots(FakeSession(fixture("aeon_response.json")))),
             4,
         )
+        self.assertEqual(
+            len(fetch_sezar_flats(FakeSession(fixture("sezar_response.json")))),
+            1,
+        )
 
     def test_network_error_is_fatal_for_every_source(self):
         error = requests.ConnectionError("offline")
@@ -60,6 +65,7 @@ class FetcherTests(unittest.TestCase):
             lambda: fetch_legenda(LEGENDA_PROJECTS[0], FakeSession(error=error)),
             lambda: fetch_dominanta(DOMINANTA_PROJECTS[0], FakeSession(error=error)),
             lambda: fetch_all_lots(FakeSession(error=error)),
+            lambda: fetch_sezar_flats(FakeSession(error=error)),
         ):
             with self.subTest(callback=callback):
                 with self.assertRaises(FeedGenerationError):
