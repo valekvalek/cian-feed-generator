@@ -7,17 +7,25 @@
   aeon/aeon_riverpark_feed.xml
 """
 
-import requests
-import os
 import re
 import time
+from collections import Counter
 from datetime import datetime, timezone
-from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
+from xml.etree.ElementTree import Element, SubElement
+
+from feed_common import (
+    FeedGenerationError,
+    add_text,
+    build_http_session,
+    parse_price,
+    request_json,
+    require_cian_id,
+    write_feed_atomic,
+)
 
 BASE_URL   = "https://river-park.ru"
 API_URL    = f"{BASE_URL}/ajax/flats/"
 JK_NAME    = "Ривер Парк Бизнес"
-JK_CIAN_ID = os.getenv("CIAN_ID_AEON", "AEON_CIAN_ID")
 ADDRESS    = "Россия, Москва, Коломенская набережная"
 EMAIL      = "info@rusich.group"
 
@@ -44,7 +52,13 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 # 6   — многокомнатная (более 5 комнат)
 # 7   — свободная планировка
 # 9   — студия
-ROOMS_MAP = {"S": 7, "1": 1, "2": 2, "3": 3, "4": 4}
+# S/M/L в API — размерные классы апартаментов. Поле roomreal для них содержит
+# варианты 0/1e/1, поэтому точное число комнат из API определить нельзя.
+FREE_LAYOUT_CODES = {"S", "M", "L"}
+ROOMS_MAP = {"0": 9, "1": 1, "2": 2, "3": 3, "4": 4, "6": 6, "7": 7, "9": 9}
+ALLOWED_ARTICLE_TYPES = {"квартира"}
+ALLOWED_ARTICLE_SUBTYPES = {"апартаменты", "квартира"}
+KNOWN_COMPLETE_BUILDINGS = {"4", "7", "12", "14"}
 
 # Этажность по корпусам — по максимальному доступному этажу из API
 BUILDING_FLOORS = {
@@ -55,7 +69,7 @@ BUILDING_FLOORS = {
 DEFAULT_FLOORS = 13  # fallback для неизвестных корпусов
 
 
-def fetch_all_lots() -> list:
+def fetch_all_lots(session=None) -> list:
     """
     Загружает все лоты постранично.
     Пагинация через while-loop: грузим страницы пока API возвращает непустой data.
@@ -64,13 +78,18 @@ def fetch_all_lots() -> list:
     all_lots = []
     page = 1
     MAX_PAGES = 50  # защита от бесконечного цикла
+    session = session or build_http_session()
+    seen_pages: set[tuple] = set()
 
     while page <= MAX_PAGES:
         p = dict(PARAMS_BASE, page=page)
-        r = requests.get(API_URL, params=p, headers=HEADERS, timeout=30)
-        data = r.json()
+        data = request_json(session, "GET", API_URL, params=p, headers=HEADERS)
+        if not isinstance(data, dict):
+            raise FeedGenerationError(f"Aeon: API вернул {type(data).__name__} вместо объекта")
 
         lots = data.get("data", [])
+        if not isinstance(lots, list):
+            raise FeedGenerationError("Aeon: поле data не является списком")
 
         # Логируем total только на первой странице (информационно)
         if page == 1:
@@ -80,6 +99,11 @@ def fetch_all_lots() -> list:
         if not lots:
             print(f"  стр {page}: пустой ответ — остановка")
             break
+
+        page_key = tuple(str(item.get("lotcode") or item.get("id")) for item in lots)
+        if page_key in seen_pages:
+            raise FeedGenerationError(f"Aeon: API повторил страницу {page}")
+        seen_pages.add(page_key)
 
         all_lots.extend(lots)
         print(f"  стр {page}: +{len(lots)}, итого {len(all_lots)}")
@@ -96,56 +120,66 @@ def fetch_all_lots() -> list:
     return all_lots
 
 
-def clean_price(val) -> int:
-    if val is None:
-        return 0
-    cleaned = re.sub(r"\D", "", str(val))
-    return int(cleaned) if cleaned else 0
-
-
 def txt(parent, tag, value):
-    el = SubElement(parent, tag)
-    el.text = str(value) if value is not None else ""
-    return el
+    return add_text(parent, tag, value)
 
 
 def parse_deadline(ready_raw: str) -> dict | None:
     """
-    Разбирает поле ready из API.
-    Ожидаемый формат: 5 символов, например '251Q4' → год 2025, квартал 4.
-    Возвращает dict с ключами quarter, year или None если формат не распознан.
+    Разбирает подтверждённые форматы срока сдачи.
+
+    API сейчас возвращает внутренние коды вида YYQNN. Квартал можно извлекать
+    только когда третий символ находится в диапазоне 1..4, например 25101.
+    Также поддерживаются явные значения 25Q4 и 2025Q4. Коды 25552/25099 не
+    интерпретируются: придумывать для них квартал опаснее, чем опустить Deadline.
     """
     quarter_map = {"1": "first", "2": "second", "3": "third", "4": "fourth"}
     s = str(ready_raw).strip()
-    if len(s) == 5:
-        year    = "20" + s[:2]
-        q_digit = s[2]
-        q_str   = quarter_map.get(q_digit)
-        if q_str and year.isdigit():
-            return {"quarter": q_str, "year": year}
+    explicit = re.fullmatch(r"(?:20)?(?P<year>\d{2})Q(?P<quarter>[1-4])", s, re.I)
+    internal = re.fullmatch(r"(?P<year>\d{2})(?P<quarter>[1-4])\d{2}", s)
+    match = explicit or internal
+    if match:
+        return {
+            "quarter": quarter_map[match.group("quarter")],
+            "year": "20" + match.group("year"),
+        }
     return None
 
 
-def make_aeon_object(lot: dict, warnings: list) -> Element:
+def map_rooms(rooms_raw) -> int:
+    code = str(rooms_raw).strip().upper()
+    if code in FREE_LAYOUT_CODES:
+        return 7
+    if code in ROOMS_MAP:
+        return ROOMS_MAP[code]
+    raise FeedGenerationError(f"Aeon: неизвестный тип комнат {rooms_raw!r}")
+
+
+def map_category(lot: dict) -> str:
+    article_type = str(lot.get("articletype", "")).strip().casefold()
+    article_subtype = str(lot.get("articlesubtype", "")).strip().casefold()
+    if article_type not in ALLOWED_ARTICLE_TYPES:
+        raise FeedGenerationError(f"Aeon: неподдерживаемый тип объекта {article_type!r}")
+    if article_subtype not in ALLOWED_ARTICLE_SUBTYPES:
+        raise FeedGenerationError(f"Aeon: неподдерживаемый подтип объекта {article_subtype!r}")
+    return "newBuildingFlatSale"
+
+
+def make_aeon_object(lot: dict, cian_id: str, warnings: Counter) -> Element:
     obj = Element("object")
 
     external_id = lot.get("lotcode") or lot.get("id", "")
     txt(obj, "ExternalId", external_id)
     txt(obj, "Description", f"ЖК {JK_NAME}, этаж {lot.get('floor', '')}, лот {lot.get('num', '')}")
-    txt(obj, "Category", "newBuildingFlatSale")
+    txt(obj, "Category", map_category(lot))
     txt(obj, "Address", ADDRESS)
 
-    rooms_raw = lot.get("rooms", "S")
-    rooms = ROOMS_MAP.get(str(rooms_raw))
-    if rooms is None:
-        warnings.append(f"[WARN] Лот {external_id}: неизвестный тип комнат '{rooms_raw}', подставляем 7 (свободная планировка)")
-        rooms = 7
-    txt(obj, "FlatRoomsCount", rooms)
+    txt(obj, "FlatRoomsCount", map_rooms(lot.get("rooms")))
     txt(obj, "TotalArea", lot.get("sq", 0))
     txt(obj, "FloorNumber", lot.get("floor", ""))
 
     jk = SubElement(obj, "JKSchema")
-    txt(jk, "Id",   JK_CIAN_ID)
+    txt(jk, "Id",   cian_id)
     txt(jk, "Name", JK_NAME)
     house = SubElement(jk, "House")
     building = str(lot.get("building", ""))
@@ -175,13 +209,11 @@ def make_aeon_object(lot: dict, warnings: list) -> Element:
         dl = SubElement(bld_el, "Deadline")
         txt(dl, "Quarter",    deadline["quarter"])
         txt(dl, "Year",       deadline["year"])
-        txt(dl, "IsComplete", "false")
+        txt(dl, "IsComplete", "true" if building in KNOWN_COMPLETE_BUILDINGS else "false")
     else:
-        warnings.append(f"[WARN] Лот {external_id}: поле ready='{ready_raw}' не распознано, блок Deadline не добавлен")
+        warnings[str(ready_raw)] += 1
 
-    price = clean_price(lot.get("real_price", 0))
-    if price <= 0:
-        warnings.append(f"[WARN] Лот {external_id}: цена равна 0 или отсутствует, лот всё равно включён в фид")
+    price = parse_price(lot.get("real_price"))
 
     bt = SubElement(obj, "BargainTerms")
     txt(bt, "Price",           price)
@@ -191,26 +223,12 @@ def make_aeon_object(lot: dict, warnings: list) -> Element:
     return obj
 
 
-def write_feed(objects: list, output_file: str):
-    root = Element("feed")
-    txt(root, "feed_version", "2")
-    txt(root, "generated", datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
-    for o in objects:
-        root.append(o)
-    indent(root, space="  ")
-    tree = ElementTree(root)
-    with open(output_file, "wb") as f:
-        tree.write(f, encoding="utf-8", xml_declaration=True)
-    import os as _os
-    size = _os.path.getsize(output_file)
-    print(f"   💾 {output_file} ({size:,} байт)")
-
-
 def main():
+    cian_id = require_cian_id("CIAN_ID_AEON")
     lots = fetch_all_lots()
     objects  = []
     skipped  = 0
-    warnings = []
+    warnings: Counter = Counter()
 
     for lot in lots:
         lot_id = lot.get("lotcode") or lot.get("id", "?")
@@ -228,16 +246,21 @@ def main():
             print(f"  [SKIP] Лот {lot_id}: цена отсутствует (None/пусто)")
             continue
 
-        objects.append(make_aeon_object(lot, warnings))
+        objects.append(make_aeon_object(lot, cian_id, warnings))
 
     print(f"\n✓ В фид: {len(objects)}, пропущено: {skipped}")
 
     if warnings:
-        print(f"\n⚠️  Предупреждения ({len(warnings)}):")
-        for w in warnings:
-            print(" ", w)
+        print(f"\n⚠️  Нераспознанные коды ready ({sum(warnings.values())} лотов):")
+        for code, count in sorted(warnings.items()):
+            print(f"   ready={code!r}: {count}")
 
-    write_feed(objects, "aeon/aeon_riverpark_feed.xml")
+    write_feed_atomic(
+        objects,
+        "aeon/aeon_riverpark_feed.xml",
+        generated_at=datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        min_objects=20,
+    )
     print(f"\n✅ Готово: aeon/aeon_riverpark_feed.xml ({len(objects)} объектов)")
 
 

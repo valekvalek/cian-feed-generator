@@ -1,60 +1,82 @@
 # CIAN Feed Generator
 
-Автоматический генератор XML-фида для ЦИАН из API сайтов ЖК Легенда.
+Автоматический генератор XML-фидов CIAN XML v2 из API трёх застройщиков.
 
-## Что делает
+## Источники и актуальные фиды
 
-- Каждый час запрашивает свободные квартиры через API сайтов ЖК
-- Формирует `cian_feed.xml` по стандарту **ЦИАН XML v2**
-- Коммитит обновлённый файл в репозиторий автоматически
+| Источник | Проект | Канонический файл |
+|---|---|---|
+| Легенда | Марусино | `legenda/marusino_feed.xml` |
+| Легенда | Коренево | `legenda/korenevo_feed.xml` |
+| Легенда | ГК Некрасовка (сводный) | `legenda/nekrasovka_feed.xml` |
+| Доминанта | Свет | `dominanta/svet_feed.xml` |
+| Доминанта | Сводный фид | `dominanta/dominanta_feed.xml` |
+| Aeon | Ривер Парк Бизнес | `aeon/aeon_riverpark_feed.xml` |
 
-## Структура
+Для CIAN используйте Raw URL нужного канонического файла, например:
 
+```text
+https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/nekrasovka_feed.xml
 ```
-cian-feed-generator/
-├── fetch_feed.py                  # Основной скрипт
-├── cian_feed.xml                  # Генерируемый фид (обновляется автоматически)
-├── .github/workflows/
-│   └── generate_feed.yml          # GitHub Actions: запуск каждый час
-└── README.md
-```
 
-## Первоначальная настройка
+Корневые XML-файлы и `legenda/svet_feed.xml` / `legenda/dominanta_feed.xml`
+оставлены как временные совместимые адреса. Workflow синхронизирует их с
+каноническими файлами. Для новых интеграций эти адреса использовать не следует.
 
-### 1. Добавить ЦИАН-ID ЖК в Secrets
+## Как работает обновление
 
-Перейти в репозитории: **Settings → Secrets and variables → Actions → New repository secret**
+GitHub Actions запускает три генератора, валидирует новые XML, синхронизирует
+устаревшие адреса и только затем коммитит результат. При ошибке API, некорректном
+JSON, пустом фиде, повторяющихся ID, неправильном CIAN ID или падении числа
+объектов более чем на 50% предыдущая рабочая версия не заменяется.
 
-| Secret name | Значение |
+Расписание настроено через cron раз в час. GitHub не гарантирует точное время
+запуска scheduled workflow, поэтому это не следует считать часовым SLA.
+
+## Обязательные Secrets
+
+В **Settings → Secrets and variables → Actions** должны быть заданы:
+
+| Secret | Назначение |
 |---|---|
-| `CIAN_ID_MARUSINO` | Числовой ID ЖК «Легенда Марусино» в базе ЦИАН |
-| `CIAN_ID_KORENEVO` | Числовой ID ЖК «Легенда Коренево» в базе ЦИАН |
+| `CIAN_ID_MARUSINO` | ЖК «Легенда Марусино» |
+| `CIAN_ID_KORENEVO` | ЖК «Легенда Коренево» |
+| `CIAN_ID_SVET` | ЖК «Свет» |
+| `CIAN_ID_AEON` | ЖК «Ривер Парк Бизнес» |
 
-### 2. Уточнить API-эндпоинты
-
-В файле `fetch_feed.py` в разделе `PROJECTS` указаны предполагаемые URL:
-```python
-"api_url": "https://legenda-korenevo.ru/api/real-estates/"
-```
-Проверьте точный URL через DevTools (вкладка Network → Fetch/XHR) и при необходимости скорректируйте.
-
-### 3. Ручной запуск
-
-GitHub → **Actions** → **Generate CIAN Feed** → **Run workflow**
+Все значения обязательны и должны быть числовыми. Они являются идентификаторами
+объектов CIAN и попадают в публичные XML-файлы — не используйте здесь пароли или
+API-ключи.
 
 ## Локальный запуск
 
 ```bash
-pip install requests
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 
-# Опционально: задать ЦИАН-ID через переменные окружения
 export CIAN_ID_MARUSINO=1234567
 export CIAN_ID_KORENEVO=7654321
+export CIAN_ID_SVET=2345678
+export CIAN_ID_AEON=3456789
 
-python fetch_feed.py
+python -m legenda.fetch_feed
+python -m dominanta.fetch_dominanta
+python -m aeon.fetch_aeon
+python validate_feeds.py
 ```
 
-## Расписание
+Совместимые команды `python fetch_feed.py`, `python fetch_dominanta.py` и
+`python fetch_aeon.py` также запускают соответствующие генераторы.
 
-Фид обновляется **каждый час** автоматически через GitHub Actions.
-Для изменения частоты отредактируйте `cron` в `.github/workflows/generate_feed.yml`.
+## Проверки
+
+```bash
+python -m unittest discover -s tests -v
+python validate_feeds.py
+python sync_legacy_feeds.py
+python validate_feeds.py --include-legacy
+```
+
+Тесты используют сохранённые примеры ответов API и не обращаются к сайтам
+застройщиков.

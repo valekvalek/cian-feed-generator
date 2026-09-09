@@ -9,12 +9,18 @@
   legenda/korenevo_feed.xml   — Легенда Коренево
 """
 
-import requests
-import os
-import sys
-import re
 from datetime import datetime, timezone
-from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
+from xml.etree.ElementTree import Element, SubElement
+
+from feed_common import (
+    FeedGenerationError,
+    add_text,
+    build_http_session,
+    parse_price,
+    request_json,
+    require_cian_id,
+    write_feed_atomic,
+)
 
 # ─── Этажность по корпусам ─────────────────────────────────────────────────
 BUILDING_FLOORS = {
@@ -31,22 +37,22 @@ PROJECTS = [
     {
         "project_id":  "a5f9b6b9-037d-4cd8-981c-cbd55e93a5c0",
         "jk_name":     "Легенда Марусино",
-        "jk_cian_id":  os.getenv("CIAN_ID_MARUSINO", "MARUSINO_CIAN_ID"),
+        "cian_env":    "CIAN_ID_MARUSINO",
         "address":     "Россия, Московская область, Люберцы, Марусино",
         "base_url":    "https://legendamarusino.ru/",
         "api_url":     "https://legendamarusino.ru/api/realty-filter/custom/real-estates",
         "output_file": "legenda/marusino_feed.xml",
-        "source":      "legenda",
+        "min_objects": 5,
     },
     {
         "project_id":  "61b193a5-aa22-4f3a-bf22-216ebc5648b1",
         "jk_name":     "Легенда Коренево",
-        "jk_cian_id":  os.getenv("CIAN_ID_KORENEVO", "KORENEVO_CIAN_ID"),
+        "cian_env":    "CIAN_ID_KORENEVO",
         "address":     "Россия, Московская область, Железнодорожный, Коренево",
         "base_url":    "https://legendakorenevo.ru/",
         "api_url":     "https://legendakorenevo.ru/api/realty-filter/custom/real-estates",
         "output_file": "legenda/korenevo_feed.xml",
-        "source":      "legenda",
+        "min_objects": 5,
     },
 ]
 
@@ -55,26 +61,34 @@ EMAIL     = "info@rusich.group"
 
 
 # ─── Загрузка Легенда (POST + offset) ────────────────────────────────────────
-def fetch_legenda(cfg: dict) -> list:
+def fetch_legenda(cfg: dict, session=None) -> list:
     flats, offset = [], 0
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
     total_fetched = total_skipped = 0
+    session = session or build_http_session()
+    seen_pages: set[tuple] = set()
 
     while True:
         body = {"project_id": cfg["project_id"], "status": ["free"],
                 "page_size": PAGE_SIZE, "offset": offset}
-        try:
-            resp = requests.post(cfg["api_url"], json=body, headers=headers, timeout=30)
-            resp.raise_for_status()
-        except requests.RequestException as e:
-            print(f"  ⚠ ({cfg['jk_name']} offset={offset}): {e}", file=sys.stderr)
-            break
-
-        data = resp.json()
-        batch = data if isinstance(data, list) else (
-            data.get("results") or data.get("items") or data.get("data") or [])
+        data = request_json(session, "POST", cfg["api_url"], json=body, headers=headers)
+        if isinstance(data, list):
+            batch = data
+        elif isinstance(data, dict):
+            batch = data.get("results") or data.get("items") or data.get("data") or []
+        else:
+            raise FeedGenerationError(
+                f"{cfg['jk_name']}: API вернул {type(data).__name__} вместо списка/объекта"
+            )
+        if not isinstance(batch, list):
+            raise FeedGenerationError(f"{cfg['jk_name']}: поле с объектами не является списком")
         if not batch:
             break
+
+        page_key = tuple(str(item.get("external_id") or item.get("id")) for item in batch)
+        if page_key in seen_pages:
+            raise FeedGenerationError(f"{cfg['jk_name']}: API повторил страницу offset={offset}")
+        seen_pages.add(page_key)
 
         total_fetched += len(batch)
         valid = [f for f in batch
@@ -93,16 +107,13 @@ def fetch_legenda(cfg: dict) -> list:
 
 # ─── XML-утилиты ─────────────────────────────────────────────────────────────
 def quarter_str(q) -> str:
-    return {"1": "first", "2": "second", "3": "third", "4": "fourth",
-            1: "first",   2: "second",   3: "third",   4: "fourth"}.get(str(q), "fourth")
+    result = {"1": "first", "2": "second", "3": "third", "4": "fourth"}.get(str(q))
+    if result is None:
+        raise FeedGenerationError(f"Неизвестный квартал сдачи: {q!r}")
+    return result
 
 def txt(parent, tag, value):
-    el = SubElement(parent, tag)
-    el.text = str(value) if value is not None else ""
-    return el
-
-def clean_price(val) -> int:
-    return int(re.sub(r"\D", "", str(val))) if val else 0
+    return add_text(parent, tag, value)
 
 def abs_url(path: str, base_url: str) -> str:
     if not path:
@@ -183,41 +194,40 @@ def make_legenda_object(flat: dict, cfg: dict) -> Element:
         txt(dl, "IsComplete", "true" if flat.get("is_ready") else "false")
 
     bt = SubElement(obj, "BargainTerms")
-    txt(bt, "Price",           int(flat.get("price", 0)))
+    txt(bt, "Price",           parse_price(flat.get("price")))
     txt(bt, "Currency",        "rur")
     txt(bt, "MortgageAllowed", "true")
     return obj
 
 
 # ─── Запись фида ─────────────────────────────────────────────────────────────
-def write_feed(objects: list, output_file: str):
-    root = Element("feed")
-    txt(root, "feed_version", "2")
-    txt(root, "generated", datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
-    for o in objects:
-        root.append(o)
-    indent(root, space="  ")
-    tree = ElementTree(root)
-    with open(output_file, "wb") as f:
-        tree.write(f, encoding="utf-8", xml_declaration=True)
-    size = os.path.getsize(output_file)
-    print(f"   💾 {output_file} ({size:,} байт)")
-
-
 # ─── main ─────────────────────────────────────────────────────────────────────
 def main():
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     nekrasovka_objects = []
 
-    for cfg in PROJECTS:
+    for raw_cfg in PROJECTS:
+        cfg = dict(raw_cfg)
+        cfg["jk_cian_id"] = require_cian_id(cfg["cian_env"])
         print(f"\n📥 Загрузка {cfg['jk_name']}...")
         flats   = fetch_legenda(cfg)
         objects = [make_legenda_object(f, cfg) for f in flats]
         print(f"   ✓ В фид: {len(objects)} квартир")
-        write_feed(objects, cfg["output_file"])
+        write_feed_atomic(
+            objects,
+            cfg["output_file"],
+            generated_at=generated_at,
+            min_objects=cfg["min_objects"],
+        )
         nekrasovka_objects.extend(objects)
 
-    write_feed(nekrasovka_objects, "legenda/nekrasovka_feed.xml")
+    write_feed_atomic(
+        nekrasovka_objects,
+        "legenda/nekrasovka_feed.xml",
+        generated_at=generated_at,
+        min_objects=10,
+    )
 
     print(f"\n✅ [{ts}] Готово:")
     print(f"   ГК Некрасовка → legenda/nekrasovka_feed.xml ({len(nekrasovka_objects)} объектов)")

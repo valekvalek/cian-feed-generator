@@ -1,0 +1,1 @@
+"""Dominanta feed adapter."""

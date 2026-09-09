@@ -1,2 +1,7 @@
-# Этот файл перенесён в legenda/fetch_feed.py
-# Пожалуйста используйте новый путь: python legenda/fetch_feed.py
+"""Backward-compatible entry point for the Legenda generator."""
+
+from legenda.fetch_feed import main
+
+
+if __name__ == "__main__":
+    main()
