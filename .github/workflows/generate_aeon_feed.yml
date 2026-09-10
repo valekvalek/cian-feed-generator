@@ -1,0 +1,55 @@
+name: Generate River Park Feed
+
+on:
+  schedule:
+    - cron: '25 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/generate_aeon_feed.yml'
+      - 'aeon/fetch_aeon.py'
+      - 'feed_common.py'
+      - 'requirements.txt'
+      - 'sync_legacy_feeds.py'
+      - 'validate_feeds.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed-aeon
+  cancel-in-progress: false
+
+jobs:
+  generate-aeon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - name: Generate River Park feed
+        env:
+          CIAN_ID_AEON: ${{ secrets.CIAN_ID_AEON }}
+        run: python -m aeon.fetch_aeon
+      - name: Synchronize public alias
+        run: python sync_legacy_feeds.py --source aeon/aeon_riverpark_feed.xml
+      - name: Validate River Park feed
+        run: python validate_feeds.py --only aeon --include-legacy
+      - name: Commit and push River Park feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add aeon/aeon_riverpark_feed.xml aeon_riverpark_feed.xml
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update River Park feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push; then exit 0; fi
+            done
+            exit 1
+          fi

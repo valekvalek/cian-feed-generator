@@ -9,6 +9,7 @@
   legenda/korenevo_feed.xml   — Легенда Коренево
 """
 
+import argparse
 from datetime import datetime, timezone
 from xml.etree.ElementTree import Element, SubElement
 
@@ -35,6 +36,7 @@ DEFAULT_FLOORS = 8
 # ─── Проекты ─────────────────────────────────────────────────────────────────
 PROJECTS = [
     {
+        "key":         "marusino",
         "project_id":  "a5f9b6b9-037d-4cd8-981c-cbd55e93a5c0",
         "jk_name":     "Легенда Марусино",
         "cian_env":    "CIAN_ID_MARUSINO",
@@ -45,6 +47,7 @@ PROJECTS = [
         "min_objects": 5,
     },
     {
+        "key":         "korenevo",
         "project_id":  "61b193a5-aa22-4f3a-bf22-216ebc5648b1",
         "jk_name":     "Легенда Коренево",
         "cian_env":    "CIAN_ID_KORENEVO",
@@ -202,35 +205,68 @@ def make_legenda_object(flat: dict, cfg: dict) -> Element:
 
 # ─── Запись фида ─────────────────────────────────────────────────────────────
 # ─── main ─────────────────────────────────────────────────────────────────────
+def generate_project(project_key: str, generated_at: str) -> list[Element]:
+    try:
+        raw_cfg = next(cfg for cfg in PROJECTS if cfg["key"] == project_key)
+    except StopIteration as exc:
+        raise FeedGenerationError(f"Неизвестный проект Легенда: {project_key!r}") from exc
+
+    cfg = dict(raw_cfg)
+    cfg["jk_cian_id"] = require_cian_id(cfg["cian_env"])
+    print(f"\n📥 Загрузка {cfg['jk_name']}...")
+    flats = fetch_legenda(cfg)
+    objects = [make_legenda_object(flat, cfg) for flat in flats]
+    print(f"   ✓ В фид: {len(objects)} квартир")
+    write_feed_atomic(
+        objects,
+        cfg["output_file"],
+        generated_at=generated_at,
+        min_objects=cfg["min_objects"],
+    )
+    return objects
+
+
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--project",
+        choices=[cfg["key"] for cfg in PROJECTS] + ["all"],
+        default="all",
+        help="Сгенерировать один проект или все проекты Легенда",
+    )
+    args = parser.parse_args()
+
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    nekrasovka_objects = []
-
-    for raw_cfg in PROJECTS:
-        cfg = dict(raw_cfg)
-        cfg["jk_cian_id"] = require_cian_id(cfg["cian_env"])
-        print(f"\n📥 Загрузка {cfg['jk_name']}...")
-        flats   = fetch_legenda(cfg)
-        objects = [make_legenda_object(f, cfg) for f in flats]
-        print(f"   ✓ В фид: {len(objects)} квартир")
-        write_feed_atomic(
-            objects,
-            cfg["output_file"],
-            generated_at=generated_at,
-            min_objects=cfg["min_objects"],
-        )
-        nekrasovka_objects.extend(objects)
-
-    write_feed_atomic(
-        nekrasovka_objects,
-        "legenda/nekrasovka_feed.xml",
-        generated_at=generated_at,
-        min_objects=10,
+    selected_keys = (
+        [cfg["key"] for cfg in PROJECTS]
+        if args.project == "all"
+        else [args.project]
     )
+    generated: dict[str, list[Element]] = {
+        key: generate_project(key, generated_at) for key in selected_keys
+    }
 
-    print(f"\n✅ [{ts}] Готово:")
-    print(f"   ГК Некрасовка → legenda/nekrasovka_feed.xml ({len(nekrasovka_objects)} объектов)")
+    if args.project == "all":
+        nekrasovka_objects = [
+            obj
+            for cfg in PROJECTS
+            for obj in generated[cfg["key"]]
+        ]
+        write_feed_atomic(
+            nekrasovka_objects,
+            "legenda/nekrasovka_feed.xml",
+            generated_at=generated_at,
+            min_objects=10,
+        )
+        print(f"\n✅ [{ts}] ГК Некрасовка: {len(nekrasovka_objects)} объектов")
+        return
+
+    project = next(cfg for cfg in PROJECTS if cfg["key"] == args.project)
+    print(
+        f"\n✅ [{ts}] {project['jk_name']} → {project['output_file']} "
+        f"({len(generated[args.project])} объектов)"
+    )
 
 
 if __name__ == "__main__":

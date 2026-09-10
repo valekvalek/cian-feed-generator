@@ -1,0 +1,55 @@
+name: Generate Marusino Feed
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/generate_marusino_feed.yml'
+      - 'legenda/fetch_feed.py'
+      - 'feed_common.py'
+      - 'requirements.txt'
+      - 'sync_legacy_feeds.py'
+      - 'validate_feeds.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed-marusino
+  cancel-in-progress: false
+
+jobs:
+  generate-marusino:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - name: Generate Marusino feed
+        env:
+          CIAN_ID_MARUSINO: ${{ secrets.CIAN_ID_MARUSINO }}
+        run: python -m legenda.fetch_feed --project marusino
+      - name: Synchronize public aliases
+        run: python sync_legacy_feeds.py --source legenda/marusino_feed.xml
+      - name: Validate Marusino feed
+        run: python validate_feeds.py --only marusino --include-legacy
+      - name: Commit and push Marusino feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add legenda/marusino_feed.xml marusino_feed.xml
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update Marusino feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push; then exit 0; fi
+            done
+            exit 1
+          fi
