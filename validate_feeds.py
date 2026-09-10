@@ -77,23 +77,18 @@ def validate_sezar_images(*, require_layout_dir: bool = False) -> None:
             raise FeedGenerationError(
                 f"{SEZAR_FEED}: ExternalId={external_id}, планировка не в PNG"
             )
-        if len(photo_urls) != 2:
+        if len(photo_urls) != 1:
             raise FeedGenerationError(
                 f"{SEZAR_FEED}: ExternalId={external_id}, "
-                f"ожидалось 2 изображения, найдено {len(photo_urls)}"
+                f"ожидался 1 дополнительный план этажа, найдено {len(photo_urls)}"
             )
-        if photo_urls[0] != layout_url:
+        if photo_urls[0] == layout_url or not photo_urls[0].endswith(".png"):
             raise FeedGenerationError(
                 f"{SEZAR_FEED}: ExternalId={external_id}, "
-                "PNG-планировка отсутствует первой в Photos"
-            )
-        if photo_urls[1] == layout_url or not photo_urls[1].endswith(".png"):
-            raise FeedGenerationError(
-                f"{SEZAR_FEED}: ExternalId={external_id}, "
-                "второй PNG-план этажа отсутствует в Photos"
+                "дополнительный PNG-план этажа отсутствует в Photos"
             )
 
-        for image_url in photo_urls:
+        for image_url in [layout_url, *photo_urls]:
             local_layout = SEZAR_LAYOUT_DIR / image_url.rsplit("/", 1)[-1]
             if not local_layout.is_file():
                 raise FeedGenerationError(
