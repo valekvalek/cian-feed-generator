@@ -14,6 +14,7 @@ from sezar.fetch_sezar import (
     layout_public_url,
     make_sezar_object,
     map_rooms,
+    normalize_svg_for_print,
 )
 
 
@@ -56,7 +57,7 @@ class SezarTests(unittest.TestCase):
         photos = obj.findall("Photos/PhotoSchema")
         self.assertEqual(
             [photo.findtext("FullUrl") for photo in photos],
-            [layout_url, floor_plan_url],
+            [floor_plan_url],
         )
         self.assertTrue(
             all(photo.findtext("PhotoType") == "realtyObject" for photo in photos)
@@ -87,6 +88,13 @@ class SezarTests(unittest.TestCase):
                 ensure_layout_png(SAMPLE_FLAT["plan"], destination, session=session)
             )
             session.get.assert_called_once()
+
+    def test_all_near_white_svg_colors_are_normalized(self):
+        svg = b"#FFFFFF #FEFEFE #f4f5f6 #FFF #EFEFEF #123456"
+        self.assertEqual(
+            normalize_svg_for_print(svg),
+            b"#111111 #111111 #111111 #111111 #EFEFEF #123456",
+        )
 
     def test_floor_plan_overlay_is_rendered_and_changes_cache_key(self):
         svg = (
