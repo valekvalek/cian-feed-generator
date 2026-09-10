@@ -15,6 +15,8 @@
       "price": "24890000.00",
       "building_number": "2",
       "plan": "https://website.yandexcloud.net/sezar/media/plan.svg",
+      "floor_plan": "https://website.yandexcloud.net/sezar/media/floor-plan.svg",
+      "floor_hover": "<polygon class=\"st5\" points=\"10,10 90,10 90,90 10,90\" />",
       "type": "flat",
       "number": "12",
       "completion_year": 2027,

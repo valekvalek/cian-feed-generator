@@ -6,10 +6,11 @@ from datetime import datetime, timezone
 from hashlib import sha256
 from pathlib import Path
 import re
-from xml.etree.ElementTree import Element, SubElement
+from xml.etree.ElementTree import Element, ParseError, SubElement, fromstring, tostring
 
 import requests
 from cairosvg import svg2png
+from PIL import Image
 
 from feed_common import (
     FeedGenerationError,
@@ -148,16 +149,80 @@ def map_rooms(value) -> int:
     return ROOMS_MAP[rooms]
 
 
-def layout_filename(plan_url: str) -> str:
+def layout_filename(plan_url: str, overlay_svg: str = "") -> str:
     """Return a stable cache filename for a source layout URL."""
     plan_url = str(plan_url or "").strip()
     if not plan_url.startswith("https://"):
         raise FeedGenerationError(f"Sezar: некорректный URL планировки {plan_url!r}")
-    return f"{sha256(plan_url.encode('utf-8')).hexdigest()}.png"
+    cache_key = plan_url if not overlay_svg else f"{plan_url}\0{overlay_svg}"
+    return f"{sha256(cache_key.encode('utf-8')).hexdigest()}.png"
 
 
-def layout_public_url(plan_url: str) -> str:
-    return f"{LAYOUT_PUBLIC_BASE_URL}/{layout_filename(plan_url)}"
+def layout_public_url(plan_url: str, overlay_svg: str = "") -> str:
+    return f"{LAYOUT_PUBLIC_BASE_URL}/{layout_filename(plan_url, overlay_svg)}"
+
+
+def floor_hover_overlay(value) -> str:
+    """Normalize Sezar's selected-flat SVG geometry for safe rasterization."""
+    raw_value = str(value or "").strip()
+    if not raw_value:
+        raise FeedGenerationError("Sezar: API не вернул контур квартиры на плане этажа")
+    try:
+        source = fromstring(f"<g>{raw_value}</g>")
+    except ParseError as exc:
+        raise FeedGenerationError("Sezar: некорректный контур квартиры на плане этажа") from exc
+
+    normalized = Element("g", {"id": "selected-flat"})
+    number_pattern = r"[0-9.+\-]+"
+    for item in source:
+        tag = item.tag.rsplit("}", 1)[-1]
+        clean = Element(tag)
+        if tag == "polygon":
+            points = (item.get("points") or "").strip()
+            if not points or not re.fullmatch(r"[0-9.,+\-\s]+", points):
+                raise FeedGenerationError(
+                    "Sezar: некорректные координаты квартиры на плане этажа"
+                )
+            clean.set("points", points)
+        elif tag == "path":
+            path_data = (item.get("d") or "").strip()
+            if not path_data or not re.fullmatch(
+                r"[MmZzLlHhVvCcSsQqTtAaEe0-9.,+\-\s]+", path_data
+            ):
+                raise FeedGenerationError(
+                    "Sezar: некорректный SVG-путь квартиры на плане этажа"
+                )
+            clean.set("d", path_data)
+        elif tag == "rect":
+            for attribute in ("x", "y", "width", "height"):
+                coordinate = (item.get(attribute) or "").strip()
+                if not re.fullmatch(number_pattern, coordinate):
+                    raise FeedGenerationError(
+                        "Sezar: некорректный прямоугольник квартиры на плане этажа"
+                    )
+                clean.set(attribute, coordinate)
+        else:
+            raise FeedGenerationError(f"Sezar: неподдерживаемый SVG-контур {tag!r}")
+
+        clean.set("fill", "#D8C7A9")
+        clean.set("stroke", "#8A7657")
+        clean.set("stroke-width", "8")
+        clean.set("opacity", "0.9")
+        normalized.append(clean)
+
+    if not len(normalized):
+        raise FeedGenerationError("Sezar: пустой контур квартиры на плане этажа")
+    return tostring(normalized, encoding="unicode")
+
+
+def add_svg_overlay(svg: bytes, overlay_svg: str) -> bytes:
+    if not overlay_svg:
+        return svg
+    closing_tag = b"</svg>"
+    if closing_tag not in svg:
+        raise FeedGenerationError("Sezar: SVG-план не содержит закрывающий тег")
+    before, after = svg.rsplit(closing_tag, 1)
+    return before + overlay_svg.encode("utf-8") + closing_tag + after
 
 
 def is_valid_png(path: Path) -> bool:
@@ -169,7 +234,13 @@ def is_valid_png(path: Path) -> bool:
         return False
 
 
-def ensure_layout_png(plan_url: str, destination: Path, session=None) -> bool:
+def ensure_layout_png(
+    plan_url: str,
+    destination: Path,
+    session=None,
+    *,
+    overlay_svg: str = "",
+) -> bool:
     """Download an SVG plan and atomically render it as a white-background PNG.
 
     Returns True when a new PNG was written and False when the cache was reused.
@@ -191,12 +262,16 @@ def ensure_layout_png(plan_url: str, destination: Path, session=None) -> bool:
         # walls, labels and furniture are white. CIAN uses a white photo canvas,
         # so normalize white vector fills to dark ink before rasterization.
         printable_svg = WHITE_FILL_RE.sub(b"#111111", response.content)
+        printable_svg = add_svg_overlay(printable_svg, overlay_svg)
         svg2png(
             bytestring=printable_svg,
             write_to=str(temp_path),
             output_width=1200,
             background_color="#ffffff",
         )
+        with Image.open(temp_path) as rendered:
+            optimized = rendered.convert("RGB").quantize(colors=64)
+        optimized.save(temp_path, format="PNG", optimize=True)
         if not is_valid_png(temp_path):
             raise FeedGenerationError(f"Sezar: не удалось создать PNG из {plan_url}")
         temp_path.replace(destination)
@@ -221,34 +296,48 @@ def ensure_layout_png(plan_url: str, destination: Path, session=None) -> bool:
 
 def prepare_layout_images(
     flats: list[dict], layout_dir: Path = LAYOUT_DIR
-) -> dict[str, str]:
-    """Build/reuse every plan PNG and return source-to-public URL mapping."""
-    source_urls: set[str] = set()
+) -> dict[tuple[str, str], str]:
+    """Build/reuse apartment and highlighted floor-plan PNGs."""
+    image_specs: set[tuple[str, str]] = set()
     for flat in flats:
         plan_url = str(flat.get("plan") or "").strip()
         if not plan_url:
             raise FeedGenerationError(
                 f"Sezar: у лота {flat.get('id') or flat.get('article')} нет планировки"
             )
+        floor_plan_url = str(flat.get("floor_plan") or "").strip()
+        if not floor_plan_url:
+            raise FeedGenerationError(
+                f"Sezar: у лота {flat.get('id') or flat.get('article')} нет плана этажа"
+            )
+        floor_overlay = floor_hover_overlay(flat.get("floor_hover"))
+
         layout_filename(plan_url)  # Validate before starting concurrent downloads.
-        source_urls.add(plan_url)
+        layout_filename(floor_plan_url, floor_overlay)
+        image_specs.add((plan_url, ""))
+        image_specs.add((floor_plan_url, floor_overlay))
 
     layout_dir.mkdir(parents=True, exist_ok=True)
     destinations = {
-        plan_url: layout_dir / layout_filename(plan_url) for plan_url in source_urls
+        spec: layout_dir / layout_filename(*spec) for spec in image_specs
     }
     missing = {
-        plan_url: destination
-        for plan_url, destination in destinations.items()
+        spec: destination
+        for spec, destination in destinations.items()
         if not is_valid_png(destination)
     }
 
     if missing:
         with ThreadPoolExecutor(max_workers=LAYOUT_MAX_WORKERS) as executor:
-            futures = {
-                executor.submit(ensure_layout_png, plan_url, destination): plan_url
-                for plan_url, destination in missing.items()
-            }
+            futures = {}
+            for (plan_url, overlay_svg), destination in missing.items():
+                future = executor.submit(
+                    ensure_layout_png,
+                    plan_url,
+                    destination,
+                    overlay_svg=overlay_svg,
+                )
+                futures[future] = (plan_url, overlay_svg)
             completed = 0
             for future in as_completed(futures):
                 future.result()
@@ -262,13 +351,21 @@ def prepare_layout_images(
             cached_file.unlink()
 
     print(
-        f"   PNG-планировки: {len(source_urls)} всего, "
-        f"{len(missing)} создано, {len(source_urls) - len(missing)} из кэша"
+        f"   PNG-изображения: {len(image_specs)} всего, "
+        f"{len(missing)} создано, {len(image_specs) - len(missing)} из кэша"
     )
-    return {plan_url: layout_public_url(plan_url) for plan_url in source_urls}
+    return {
+        spec: layout_public_url(*spec)
+        for spec in image_specs
+    }
 
 
-def make_sezar_object(flat: dict, cian_id: str, layout_url: str) -> Element:
+def make_sezar_object(
+    flat: dict,
+    cian_id: str,
+    layout_url: str,
+    floor_plan_url: str,
+) -> Element:
     if flat.get("project_slug") != PROJECT_SLUG:
         raise FeedGenerationError(
             f"Sezar: лот {flat.get('id', '?')} относится к проекту "
@@ -316,15 +413,20 @@ def make_sezar_object(flat: dict, cian_id: str, layout_url: str) -> Element:
         raise FeedGenerationError(
             f"Sezar: некорректный публичный URL PNG-планировки {layout_url!r}"
         )
+    if not floor_plan_url.startswith("https://") or not floor_plan_url.endswith(".png"):
+        raise FeedGenerationError(
+            f"Sezar: некорректный публичный URL PNG-плана этажа {floor_plan_url!r}"
+        )
 
     layout = SubElement(obj, "LayoutPhoto")
     add_text(layout, "FullUrl", layout_url)
     add_text(layout, "PhotoType", "realtyObjectLayout")
 
     photos = SubElement(obj, "Photos")
-    photo = SubElement(photos, "PhotoSchema")
-    add_text(photo, "FullUrl", layout_url)
-    add_text(photo, "PhotoType", "realtyObject")
+    for photo_url in (layout_url, floor_plan_url):
+        photo = SubElement(photos, "PhotoSchema")
+        add_text(photo, "FullUrl", photo_url)
+        add_text(photo, "PhotoType", "realtyObject")
 
     if article:
         add_text(obj, "Url", f"{BASE_URL}/projects/{PROJECT_SLUG}/flats/{article}")
@@ -355,10 +457,21 @@ def main() -> None:
     print(f"\n📥 Загрузка {JK_NAME}...")
     flats = fetch_sezar_flats()
     layout_urls = prepare_layout_images(flats)
-    objects = [
-        make_sezar_object(flat, cian_id, layout_urls[str(flat["plan"]).strip()])
-        for flat in flats
-    ]
+    objects = []
+    for flat in flats:
+        plan_spec = (str(flat["plan"]).strip(), "")
+        floor_plan_spec = (
+            str(flat["floor_plan"]).strip(),
+            floor_hover_overlay(flat.get("floor_hover")),
+        )
+        objects.append(
+            make_sezar_object(
+                flat,
+                cian_id,
+                layout_urls[plan_spec],
+                layout_urls[floor_plan_spec],
+            )
+        )
     write_feed_atomic(
         objects,
         OUTPUT_FILE,
