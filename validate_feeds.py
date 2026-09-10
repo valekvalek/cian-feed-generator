@@ -23,6 +23,18 @@ ACTIVE_FEEDS = {
 }
 SEZAR_FEED = Path("sezar/sezar_city_feed.xml")
 SEZAR_LAYOUT_DIR = Path("sezar/layouts")
+PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
+FEED_GROUPS = {
+    "marusino": (Path("legenda/marusino_feed.xml"),),
+    "korenevo": (Path("legenda/korenevo_feed.xml"),),
+    "nekrasovka": (Path("legenda/nekrasovka_feed.xml"),),
+    "svet": (
+        Path("dominanta/svet_feed.xml"),
+        Path("dominanta/dominanta_feed.xml"),
+    ),
+    "aeon": (Path("aeon/aeon_riverpark_feed.xml"),),
+    "sezar": (SEZAR_FEED,),
+}
 
 LEGACY_ALIASES = {
     Path("cian_feed.xml"): Path("legenda/nekrasovka_feed.xml"),
@@ -73,6 +85,32 @@ def validate_sezar_images(*, require_layout_dir: bool = False) -> None:
             raise FeedGenerationError(
                 f"{SEZAR_FEED}: ExternalId={external_id}, отсутствует {local_layout}"
             )
+        if local_layout.read_bytes()[: len(PNG_SIGNATURE)] != PNG_SIGNATURE:
+            raise FeedGenerationError(
+                f"{SEZAR_FEED}: ExternalId={external_id}, {local_layout} не является PNG"
+            )
+
+
+def validate_group_relationships(group: str) -> None:
+    if group == "nekrasovka":
+        marusino = external_ids(Path("legenda/marusino_feed.xml"))
+        korenevo = external_ids(Path("legenda/korenevo_feed.xml"))
+        combined = external_ids(Path("legenda/nekrasovka_feed.xml"))
+        if combined != marusino + korenevo:
+            raise FeedGenerationError(
+                "nekrasovka_feed.xml не равен объединению Марусино и Коренево"
+            )
+
+    if group == "svet":
+        svet = external_ids(Path("dominanta/svet_feed.xml"))
+        dominanta = external_ids(Path("dominanta/dominanta_feed.xml"))
+        if dominanta != svet:
+            raise FeedGenerationError(
+                "dominanta_feed.xml не совпадает с текущим фидом Свет"
+            )
+
+    if group == "sezar":
+        validate_sezar_images(require_layout_dir=True)
 
 
 def validate_relationships() -> None:
@@ -90,8 +128,10 @@ def validate_relationships() -> None:
     validate_sezar_images()
 
 
-def validate_legacy_aliases() -> None:
+def validate_legacy_aliases(sources: set[Path] | None = None) -> None:
     for alias, source in LEGACY_ALIASES.items():
+        if sources is not None and source not in sources:
+            continue
         validate_feed(alias, min_objects=ACTIVE_FEEDS.get(source, 1))
         if digest(alias) != digest(source):
             raise FeedGenerationError(f"Legacy-файл {alias} не синхронизирован с {source}")
@@ -100,14 +140,24 @@ def validate_legacy_aliases() -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--include-legacy", action="store_true")
-    parser.add_argument("--only-sezar", action="store_true")
+    parser.add_argument("--only", choices=sorted(FEED_GROUPS))
+    parser.add_argument("--only-sezar", action="store_true", help=argparse.SUPPRESS)
     args = parser.parse_args()
 
     try:
-        if args.only_sezar:
-            count = validate_feed(SEZAR_FEED, min_objects=ACTIVE_FEEDS[SEZAR_FEED])
-            validate_sezar_images(require_layout_dir=True)
-            print(f"✓ {SEZAR_FEED}: {count} объектов с PNG-планировками")
+        selected_group = "sezar" if args.only_sezar else args.only
+        if selected_group:
+            selected_paths = set(FEED_GROUPS[selected_group])
+            total = 0
+            for path in FEED_GROUPS[selected_group]:
+                count = validate_feed(path, min_objects=ACTIVE_FEEDS[path])
+                total += count
+                print(f"✓ {path}: {count} объектов")
+            validate_group_relationships(selected_group)
+            if args.include_legacy:
+                validate_legacy_aliases(selected_paths)
+                print(f"✓ Legacy-файлы группы {selected_group} синхронизированы")
+            print(f"✓ Группа {selected_group}: {total} объектов")
             return 0
 
         total = 0

@@ -1,0 +1,52 @@
+name: Build Nekrasovka Feed
+
+on:
+  schedule:
+    - cron: '10 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/generate_nekrasovka_feed.yml'
+      - 'legenda/build_nekrasovka.py'
+      - 'feed_common.py'
+      - 'sync_legacy_feeds.py'
+      - 'validate_feeds.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed-nekrasovka
+  cancel-in-progress: false
+
+jobs:
+  build-nekrasovka:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - name: Build combined Nekrasovka feed
+        run: python -m legenda.build_nekrasovka
+      - name: Synchronize public aliases
+        run: python sync_legacy_feeds.py --source legenda/nekrasovka_feed.xml
+      - name: Validate Nekrasovka feed
+        run: python validate_feeds.py --only nekrasovka --include-legacy
+      - name: Commit and push Nekrasovka feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add legenda/nekrasovka_feed.xml cian_feed.xml nekrasovka_feed.xml
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update Nekrasovka feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push; then exit 0; fi
+            done
+            exit 1
+          fi

@@ -26,13 +26,29 @@ https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/ne
 
 ## Как работает обновление
 
-GitHub Actions запускает три генератора, валидирует новые XML, синхронизирует
-устаревшие адреса и только затем коммитит результат. При ошибке API, некорректном
-JSON, пустом фиде, повторяющихся ID, неправильном CIAN ID или падении числа
-объектов более чем на 50% предыдущая рабочая версия не заменяется.
+Каждый фид запускается отдельным GitHub Actions workflow. Поэтому ошибка API,
+секрета или данных одного ЖК не останавливает обновление остальных, а в Actions
+видны отдельные статус и лог для каждого проекта.
 
-Расписание настроено через cron раз в час. GitHub не гарантирует точное время
-запуска scheduled workflow, поэтому это не следует считать часовым SLA.
+| Workflow | Фид | Запуск (UTC) |
+|---|---|---|
+| `generate_marusino_feed.yml` | Легенда Марусино | каждый час в `:00` |
+| `generate_korenevo_feed.yml` | Легенда Коренево | каждый час в `:05` |
+| `generate_nekrasovka_feed.yml` | ГК Некрасовка (сводный) | каждый час в `:10` |
+| `generate_sezar_feed.yml` | СЕЗАР СИТИ | каждый час в `:15` |
+| `generate_svet_feed.yml` | Свет | каждый час в `:20` |
+| `generate_aeon_feed.yml` | Ривер Парк Бизнес | каждый час в `:25` |
+
+Сводная Некрасовка не обращается к API и не использует секреты: она собирается
+из последних успешно опубликованных фидов Марусино и Коренево. Каждый workflow
+валидирует только свой результат, синхронизирует только свои совместимые адреса
+и коммитит только принадлежащие ему файлы. При некорректном JSON, пустом фиде,
+повторяющихся ID, неправильном CIAN ID или падении числа объектов более чем на
+50% предыдущая рабочая версия этого фида не заменяется.
+
+GitHub не гарантирует точное время запуска scheduled workflow, поэтому расписание
+не следует считать часовым SLA. Любой workflow также можно запустить отдельно
+вручную через **Actions → нужный workflow → Run workflow**.
 
 ## Обязательные Secrets
 
@@ -63,11 +79,18 @@ export CIAN_ID_SVET=2345678
 export CIAN_ID_AEON=3456789
 export CIAN_ID_SEZAR_CITY=4850351
 
-python -m legenda.fetch_feed
+python -m legenda.fetch_feed --project marusino
+python -m legenda.fetch_feed --project korenevo
+python -m legenda.build_nekrasovka
 python -m dominanta.fetch_dominanta
 python -m aeon.fetch_aeon
 python -m sezar.fetch_sezar
-python validate_feeds.py
+python validate_feeds.py --only marusino --include-legacy
+python validate_feeds.py --only korenevo --include-legacy
+python validate_feeds.py --only nekrasovka --include-legacy
+python validate_feeds.py --only svet --include-legacy
+python validate_feeds.py --only aeon --include-legacy
+python validate_feeds.py --only sezar
 ```
 
 Совместимые команды `python fetch_feed.py`, `python fetch_dominanta.py`,
