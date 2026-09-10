@@ -1,4 +1,5 @@
 import unittest
+from hashlib import sha256
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import Mock, patch
@@ -10,6 +11,7 @@ from sezar.fetch_sezar import (
     PNG_SIGNATURE,
     ensure_layout_png,
     floor_hover_overlay,
+    layout_filename,
     prepare_layout_images,
     layout_public_url,
     make_sezar_object,
@@ -124,6 +126,18 @@ class SezarTests(unittest.TestCase):
                 layout_public_url(SAMPLE_FLAT["floor_plan"]),
                 layout_public_url(SAMPLE_FLAT["floor_plan"], overlay),
             )
+
+    def test_floor_plan_cache_key_survives_apartment_renderer_change(self):
+        overlay = floor_hover_overlay(SAMPLE_FLAT["floor_hover"])
+        old_floor_key = f'{SAMPLE_FLAT["floor_plan"]}\0{overlay}'
+        self.assertEqual(
+            layout_filename(SAMPLE_FLAT["floor_plan"], overlay),
+            f"{sha256(old_floor_key.encode('utf-8')).hexdigest()}.png",
+        )
+        self.assertNotEqual(
+            layout_filename(SAMPLE_FLAT["plan"]),
+            f"{sha256(SAMPLE_FLAT['plan'].encode('utf-8')).hexdigest()}.png",
+        )
 
     def test_floor_plan_overlay_accepts_all_live_sezar_shapes(self):
         samples = (
