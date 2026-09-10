@@ -69,26 +69,41 @@ def validate_sezar_images(*, require_layout_dir: bool = False) -> None:
     for obj in parse(SEZAR_FEED).getroot().findall("object"):
         external_id = (obj.findtext("ExternalId") or "").strip()
         layout_url = (obj.findtext("LayoutPhoto/FullUrl") or "").strip()
-        photo_url = (obj.findtext("Photos/PhotoSchema/FullUrl") or "").strip()
+        photo_urls = [
+            (photo.findtext("FullUrl") or "").strip()
+            for photo in obj.findall("Photos/PhotoSchema")
+        ]
         if not layout_url.endswith(".png"):
             raise FeedGenerationError(
                 f"{SEZAR_FEED}: ExternalId={external_id}, планировка не в PNG"
             )
-        if photo_url != layout_url:
+        if len(photo_urls) != 2:
             raise FeedGenerationError(
                 f"{SEZAR_FEED}: ExternalId={external_id}, "
-                "PNG-планировка отсутствует в Photos"
+                f"ожидалось 2 изображения, найдено {len(photo_urls)}"
+            )
+        if photo_urls[0] != layout_url:
+            raise FeedGenerationError(
+                f"{SEZAR_FEED}: ExternalId={external_id}, "
+                "PNG-планировка отсутствует первой в Photos"
+            )
+        if photo_urls[1] == layout_url or not photo_urls[1].endswith(".png"):
+            raise FeedGenerationError(
+                f"{SEZAR_FEED}: ExternalId={external_id}, "
+                "второй PNG-план этажа отсутствует в Photos"
             )
 
-        local_layout = SEZAR_LAYOUT_DIR / layout_url.rsplit("/", 1)[-1]
-        if not local_layout.is_file():
-            raise FeedGenerationError(
-                f"{SEZAR_FEED}: ExternalId={external_id}, отсутствует {local_layout}"
-            )
-        if local_layout.read_bytes()[: len(PNG_SIGNATURE)] != PNG_SIGNATURE:
-            raise FeedGenerationError(
-                f"{SEZAR_FEED}: ExternalId={external_id}, {local_layout} не является PNG"
-            )
+        for image_url in photo_urls:
+            local_layout = SEZAR_LAYOUT_DIR / image_url.rsplit("/", 1)[-1]
+            if not local_layout.is_file():
+                raise FeedGenerationError(
+                    f"{SEZAR_FEED}: ExternalId={external_id}, отсутствует {local_layout}"
+                )
+            if local_layout.read_bytes()[: len(PNG_SIGNATURE)] != PNG_SIGNATURE:
+                raise FeedGenerationError(
+                    f"{SEZAR_FEED}: ExternalId={external_id}, "
+                    f"{local_layout} не является PNG"
+                )
 
 
 def validate_group_relationships(group: str) -> None:
