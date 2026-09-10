@@ -58,6 +58,25 @@ def validate_relationships() -> None:
     if dominanta != svet:
         raise FeedGenerationError("dominanta_feed.xml не совпадает с текущим фидом Свет")
 
+    sezar_path = Path("sezar/sezar_city_feed.xml")
+    sezar_layout_dir = Path("sezar/layouts")
+    # The directory appears on the first generator run after this code is
+    # deployed. Once present, never allow SVG or a missing gallery image back.
+    if sezar_layout_dir.is_dir():
+        for obj in parse(sezar_path).getroot().findall("object"):
+            external_id = (obj.findtext("ExternalId") or "").strip()
+            layout_url = (obj.findtext("LayoutPhoto/FullUrl") or "").strip()
+            photo_url = (obj.findtext("Photos/PhotoSchema/FullUrl") or "").strip()
+            if not layout_url.endswith(".png"):
+                raise FeedGenerationError(
+                    f"{sezar_path}: ExternalId={external_id}, планировка не в PNG"
+                )
+            if photo_url != layout_url:
+                raise FeedGenerationError(
+                    f"{sezar_path}: ExternalId={external_id}, "
+                    "PNG-планировка отсутствует в Photos"
+                )
+
 
 def validate_legacy_aliases() -> None:
     for alias, source in LEGACY_ALIASES.items():
