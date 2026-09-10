@@ -1,7 +1,18 @@
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import Mock
+
+from PIL import Image
 
 from feed_common import FeedGenerationError
-from sezar.fetch_sezar import make_sezar_object, map_rooms
+from sezar.fetch_sezar import (
+    PNG_SIGNATURE,
+    ensure_layout_png,
+    layout_public_url,
+    make_sezar_object,
+    map_rooms,
+)
 
 
 SAMPLE_FLAT = {
@@ -25,12 +36,43 @@ SAMPLE_FLAT = {
 
 class SezarTests(unittest.TestCase):
     def test_object_maps_inventory_fields(self):
-        obj = make_sezar_object(SAMPLE_FLAT, "4850351")
+        layout_url = layout_public_url(SAMPLE_FLAT["plan"])
+        obj = make_sezar_object(SAMPLE_FLAT, "4850351", layout_url)
         self.assertEqual(obj.findtext("JKSchema/Id"), "4850351")
         self.assertEqual(obj.findtext("FlatRoomsCount"), "1")
         self.assertEqual(obj.findtext("Building/Deadline/Quarter"), "third")
         self.assertEqual(obj.findtext("SubAgent/Email"), "info@sezargroup.ru")
         self.assertEqual(obj.findtext("BargainTerms/Price"), "24890000")
+        self.assertEqual(obj.findtext("LayoutPhoto/FullUrl"), layout_url)
+        self.assertEqual(obj.findtext("LayoutPhoto/PhotoType"), "realtyObjectLayout")
+        self.assertEqual(obj.findtext("Photos/PhotoSchema/FullUrl"), layout_url)
+        self.assertEqual(obj.findtext("Photos/PhotoSchema/PhotoType"), "realtyObject")
+
+    def test_svg_plan_is_rendered_to_png_and_cached(self):
+        svg = (
+            b'<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10">'
+            b'<rect width="10" height="10" fill="#FFFFFF"/></svg>'
+        )
+        response = Mock(content=svg)
+        response.raise_for_status.return_value = None
+        session = Mock()
+        session.get.return_value = response
+
+        with TemporaryDirectory() as temp_dir:
+            destination = Path(temp_dir) / "plan.png"
+            self.assertTrue(
+                ensure_layout_png(SAMPLE_FLAT["plan"], destination, session=session)
+            )
+            self.assertTrue(destination.read_bytes().startswith(PNG_SIGNATURE))
+            with Image.open(destination) as rendered:
+                self.assertNotEqual(
+                    rendered.convert("RGB").getpixel((600, 600)),
+                    (255, 255, 255),
+                )
+            self.assertFalse(
+                ensure_layout_png(SAMPLE_FLAT["plan"], destination, session=session)
+            )
+            session.get.assert_called_once()
 
     def test_only_confirmed_room_counts_are_accepted(self):
         self.assertEqual(map_rooms("4"), 4)
@@ -42,7 +84,9 @@ class SezarTests(unittest.TestCase):
             flat = dict(SAMPLE_FLAT, **override)
             with self.subTest(override=override):
                 with self.assertRaises(FeedGenerationError):
-                    make_sezar_object(flat, "4850351")
+                    make_sezar_object(
+                        flat, "4850351", layout_public_url(SAMPLE_FLAT["plan"])
+                    )
 
 
 if __name__ == "__main__":

@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 """Generate the CIAN XML v2 feed for Sezar Group's SEZAR CITY project."""
 
-from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime, timezone
+from hashlib import sha256
+from pathlib import Path
+import re
 from xml.etree.ElementTree import Element, SubElement
+
+import requests
+from cairosvg import svg2png
 
 from feed_common import (
     FeedGenerationError,
@@ -23,12 +29,24 @@ JK_NAME = "СЕЗАР СИТИ"
 ADDRESS = "Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8"
 EMAIL = "info@sezargroup.ru"
 OUTPUT_FILE = "sezar/sezar_city_feed.xml"
+LAYOUT_DIR = Path(__file__).resolve().parent / "layouts"
+LAYOUT_PUBLIC_BASE_URL = (
+    "https://raw.githubusercontent.com/valekvalek/"
+    "cian-feed-generator/main/sezar/layouts"
+)
 PAGE_SIZE = 10
 MAX_WORKERS = 8
+LAYOUT_MAX_WORKERS = 12
+PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
+WHITE_FILL_RE = re.compile(rb"#[fF]{6}\b|#[fF]{3}\b")
 HEADERS = {
     "Accept": "application/json",
     "Referer": f"{BASE_URL}/flats?mode=cards&project={PROJECT_SLUG}",
     "User-Agent": "Mozilla/5.0",
+}
+IMAGE_HEADERS = {
+    **HEADERS,
+    "Accept": "image/svg+xml,image/*;q=0.9,*/*;q=0.8",
 }
 
 ROOMS_MAP = {1: 1, 2: 2, 3: 3, 4: 4, 5: 5}
@@ -130,7 +148,127 @@ def map_rooms(value) -> int:
     return ROOMS_MAP[rooms]
 
 
-def make_sezar_object(flat: dict, cian_id: str) -> Element:
+def layout_filename(plan_url: str) -> str:
+    """Return a stable cache filename for a source layout URL."""
+    plan_url = str(plan_url or "").strip()
+    if not plan_url.startswith("https://"):
+        raise FeedGenerationError(f"Sezar: некорректный URL планировки {plan_url!r}")
+    return f"{sha256(plan_url.encode('utf-8')).hexdigest()}.png"
+
+
+def layout_public_url(plan_url: str) -> str:
+    return f"{LAYOUT_PUBLIC_BASE_URL}/{layout_filename(plan_url)}"
+
+
+def is_valid_png(path: Path) -> bool:
+    try:
+        return path.stat().st_size > len(PNG_SIGNATURE) and path.read_bytes().startswith(
+            PNG_SIGNATURE
+        )
+    except OSError:
+        return False
+
+
+def ensure_layout_png(plan_url: str, destination: Path, session=None) -> bool:
+    """Download an SVG plan and atomically render it as a white-background PNG.
+
+    Returns True when a new PNG was written and False when the cache was reused.
+    """
+    if is_valid_png(destination):
+        return False
+
+    owns_session = session is None
+    session = session or build_http_session()
+    temp_path = destination.with_suffix(".png.tmp")
+    try:
+        response = session.get(plan_url, headers=IMAGE_HEADERS, timeout=45)
+        response.raise_for_status()
+        if not response.content:
+            raise FeedGenerationError(f"Sezar: пустая SVG-планировка {plan_url}")
+
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        # Sezar's SVGs are designed for a dark page background: their visible
+        # walls, labels and furniture are white. CIAN uses a white photo canvas,
+        # so normalize white vector fills to dark ink before rasterization.
+        printable_svg = WHITE_FILL_RE.sub(b"#111111", response.content)
+        svg2png(
+            bytestring=printable_svg,
+            write_to=str(temp_path),
+            output_width=1200,
+            background_color="#ffffff",
+        )
+        if not is_valid_png(temp_path):
+            raise FeedGenerationError(f"Sezar: не удалось создать PNG из {plan_url}")
+        temp_path.replace(destination)
+        return True
+    except FeedGenerationError:
+        raise
+    except (requests.RequestException, OSError, ValueError) as exc:
+        raise FeedGenerationError(
+            f"Sezar: ошибка подготовки PNG-планировки {plan_url}: {exc}"
+        ) from exc
+    except Exception as exc:
+        # CairoSVG can raise parser-specific exceptions that are not part of its
+        # public API. Convert them into the generator's safe failure type.
+        raise FeedGenerationError(
+            f"Sezar: ошибка конвертации SVG-планировки {plan_url}: {exc}"
+        ) from exc
+    finally:
+        temp_path.unlink(missing_ok=True)
+        if owns_session:
+            session.close()
+
+
+def prepare_layout_images(
+    flats: list[dict], layout_dir: Path = LAYOUT_DIR
+) -> dict[str, str]:
+    """Build/reuse every plan PNG and return source-to-public URL mapping."""
+    source_urls: set[str] = set()
+    for flat in flats:
+        plan_url = str(flat.get("plan") or "").strip()
+        if not plan_url:
+            raise FeedGenerationError(
+                f"Sezar: у лота {flat.get('id') or flat.get('article')} нет планировки"
+            )
+        layout_filename(plan_url)  # Validate before starting concurrent downloads.
+        source_urls.add(plan_url)
+
+    layout_dir.mkdir(parents=True, exist_ok=True)
+    destinations = {
+        plan_url: layout_dir / layout_filename(plan_url) for plan_url in source_urls
+    }
+    missing = {
+        plan_url: destination
+        for plan_url, destination in destinations.items()
+        if not is_valid_png(destination)
+    }
+
+    if missing:
+        with ThreadPoolExecutor(max_workers=LAYOUT_MAX_WORKERS) as executor:
+            futures = {
+                executor.submit(ensure_layout_png, plan_url, destination): plan_url
+                for plan_url, destination in missing.items()
+            }
+            completed = 0
+            for future in as_completed(futures):
+                future.result()
+                completed += 1
+                if completed % 25 == 0 or completed == len(futures):
+                    print(f"   PNG-планировки: {completed} из {len(futures)}")
+
+    expected_files = set(destinations.values())
+    for cached_file in layout_dir.glob("*.png"):
+        if cached_file not in expected_files:
+            cached_file.unlink()
+
+    print(
+        f"   PNG-планировки: {len(source_urls)} всего, "
+        f"{len(missing)} создано, {len(source_urls) - len(missing)} из кэша"
+    )
+    return {plan_url: layout_public_url(plan_url) for plan_url in source_urls}
+
+
+def make_sezar_object(flat: dict, cian_id: str, layout_url: str) -> Element:
     if flat.get("project_slug") != PROJECT_SLUG:
         raise FeedGenerationError(
             f"Sezar: лот {flat.get('id', '?')} относится к проекту "
@@ -174,11 +312,19 @@ def make_sezar_object(flat: dict, cian_id: str) -> Element:
     agent = SubElement(obj, "SubAgent")
     add_text(agent, "Email", EMAIL)
 
-    plan_url = str(flat.get("plan") or "").strip()
-    if plan_url:
-        layout = SubElement(obj, "LayoutPhoto")
-        add_text(layout, "FullUrl", plan_url)
-        add_text(layout, "PhotoType", "realtyObjectLayout")
+    if not layout_url.startswith("https://") or not layout_url.endswith(".png"):
+        raise FeedGenerationError(
+            f"Sezar: некорректный публичный URL PNG-планировки {layout_url!r}"
+        )
+
+    layout = SubElement(obj, "LayoutPhoto")
+    add_text(layout, "FullUrl", layout_url)
+    add_text(layout, "PhotoType", "realtyObjectLayout")
+
+    photos = SubElement(obj, "Photos")
+    photo = SubElement(photos, "PhotoSchema")
+    add_text(photo, "FullUrl", layout_url)
+    add_text(photo, "PhotoType", "realtyObject")
 
     if article:
         add_text(obj, "Url", f"{BASE_URL}/projects/{PROJECT_SLUG}/flats/{article}")
@@ -208,7 +354,11 @@ def main() -> None:
     cian_id = require_cian_id("CIAN_ID_SEZAR_CITY")
     print(f"\n📥 Загрузка {JK_NAME}...")
     flats = fetch_sezar_flats()
-    objects = [make_sezar_object(flat, cian_id) for flat in flats]
+    layout_urls = prepare_layout_images(flats)
+    objects = [
+        make_sezar_object(flat, cian_id, layout_urls[str(flat["plan"]).strip()])
+        for flat in flats
+    ]
     write_feed_atomic(
         objects,
         OUTPUT_FILE,
