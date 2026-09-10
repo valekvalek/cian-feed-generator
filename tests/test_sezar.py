@@ -1,7 +1,7 @@
 import unittest
 from pathlib import Path
 from tempfile import TemporaryDirectory
-from unittest.mock import Mock
+from unittest.mock import Mock, patch
 
 from PIL import Image
 
@@ -10,6 +10,7 @@ from sezar.fetch_sezar import (
     PNG_SIGNATURE,
     ensure_layout_png,
     floor_hover_overlay,
+    prepare_layout_images,
     layout_public_url,
     make_sezar_object,
     map_rooms,
@@ -127,6 +128,26 @@ class SezarTests(unittest.TestCase):
             with self.subTest(sample=sample):
                 overlay = floor_hover_overlay(sample)
                 self.assertIn('fill="#D8C7A9"', overlay)
+
+    @patch("sezar.fetch_sezar.download_layout_svg")
+    def test_shared_floor_plan_is_downloaded_once(self, download_svg):
+        download_svg.return_value = (
+            b'<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">'
+            b'<rect width="100" height="100" fill="#FFFFFF"/></svg>'
+        )
+        first = dict(SAMPLE_FLAT)
+        second = dict(
+            SAMPLE_FLAT,
+            id="second",
+            article="second",
+            floor_hover='<rect x="10" y="10" width="20" height="20" />',
+        )
+
+        with TemporaryDirectory() as temp_dir:
+            urls = prepare_layout_images([first, second], Path(temp_dir))
+
+        self.assertEqual(len(urls), 3)
+        self.assertEqual(download_svg.call_count, 2)
 
     def test_only_confirmed_room_counts_are_accepted(self):
         self.assertEqual(map_rooms("4"), 4)

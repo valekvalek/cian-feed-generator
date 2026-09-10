@@ -234,12 +234,34 @@ def is_valid_png(path: Path) -> bool:
         return False
 
 
+def download_layout_svg(plan_url: str, session=None) -> bytes:
+    """Download one source SVG, allowing callers to reuse it for many overlays."""
+    owns_session = session is None
+    session = session or build_http_session()
+    try:
+        response = session.get(plan_url, headers=IMAGE_HEADERS, timeout=45)
+        response.raise_for_status()
+        if not response.content:
+            raise FeedGenerationError(f"Sezar: пустая SVG-планировка {plan_url}")
+        return response.content
+    except FeedGenerationError:
+        raise
+    except requests.RequestException as exc:
+        raise FeedGenerationError(
+            f"Sezar: ошибка загрузки SVG-планировки {plan_url}: {exc}"
+        ) from exc
+    finally:
+        if owns_session:
+            session.close()
+
+
 def ensure_layout_png(
     plan_url: str,
     destination: Path,
     session=None,
     *,
     overlay_svg: str = "",
+    source_svg: bytes | None = None,
 ) -> bool:
     """Download an SVG plan and atomically render it as a white-background PNG.
 
@@ -248,20 +270,18 @@ def ensure_layout_png(
     if is_valid_png(destination):
         return False
 
-    owns_session = session is None
-    session = session or build_http_session()
     temp_path = destination.with_suffix(".png.tmp")
     try:
-        response = session.get(plan_url, headers=IMAGE_HEADERS, timeout=45)
-        response.raise_for_status()
-        if not response.content:
+        if source_svg is None:
+            source_svg = download_layout_svg(plan_url, session=session)
+        if not source_svg:
             raise FeedGenerationError(f"Sezar: пустая SVG-планировка {plan_url}")
 
         destination.parent.mkdir(parents=True, exist_ok=True)
         # Sezar's SVGs are designed for a dark page background: their visible
         # walls, labels and furniture are white. CIAN uses a white photo canvas,
         # so normalize white vector fills to dark ink before rasterization.
-        printable_svg = WHITE_FILL_RE.sub(b"#111111", response.content)
+        printable_svg = WHITE_FILL_RE.sub(b"#111111", source_svg)
         printable_svg = add_svg_overlay(printable_svg, overlay_svg)
         svg2png(
             bytestring=printable_svg,
@@ -290,8 +310,6 @@ def ensure_layout_png(
         ) from exc
     finally:
         temp_path.unlink(missing_ok=True)
-        if owns_session:
-            session.close()
 
 
 def prepare_layout_images(
@@ -328,22 +346,37 @@ def prepare_layout_images(
     }
 
     if missing:
-        with ThreadPoolExecutor(max_workers=LAYOUT_MAX_WORKERS) as executor:
-            futures = {}
-            for (plan_url, overlay_svg), destination in missing.items():
-                future = executor.submit(
-                    ensure_layout_png,
+        missing_by_source: dict[str, list[tuple[str, Path]]] = {}
+        for (plan_url, overlay_svg), destination in missing.items():
+            missing_by_source.setdefault(plan_url, []).append(
+                (overlay_svg, destination)
+            )
+
+        def prepare_source_images(
+            plan_url: str, image_variants: list[tuple[str, Path]]
+        ) -> int:
+            source_svg = download_layout_svg(plan_url)
+            for overlay_svg, destination in image_variants:
+                ensure_layout_png(
                     plan_url,
                     destination,
                     overlay_svg=overlay_svg,
+                    source_svg=source_svg,
                 )
-                futures[future] = (plan_url, overlay_svg)
+            return len(image_variants)
+
+        with ThreadPoolExecutor(max_workers=LAYOUT_MAX_WORKERS) as executor:
+            futures = {
+                executor.submit(
+                    prepare_source_images, plan_url, image_variants
+                ): plan_url
+                for plan_url, image_variants in missing_by_source.items()
+            }
             completed = 0
             for future in as_completed(futures):
-                future.result()
-                completed += 1
-                if completed % 25 == 0 or completed == len(futures):
-                    print(f"   PNG-планировки: {completed} из {len(futures)}")
+                completed += future.result()
+                if completed % 25 == 0 or completed == len(missing):
+                    print(f"   PNG-изображения: {completed} из {len(missing)}")
 
     expected_files = set(destinations.values())
     for cached_file in layout_dir.glob("*.png"):
