@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 from hashlib import sha256
 from pathlib import Path
 import re
+from threading import Lock, local
 from xml.etree.ElementTree import Element, ParseError, SubElement, fromstring, tostring
 
 import requests
@@ -37,7 +38,7 @@ LAYOUT_PUBLIC_BASE_URL = (
 )
 PAGE_SIZE = 10
 MAX_WORKERS = 8
-LAYOUT_MAX_WORKERS = 12
+LAYOUT_MAX_WORKERS = 16
 PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 HEX_COLOR_RE = re.compile(rb"#[0-9a-fA-F]{6}\b|#[fF]{3}\b")
 LAYOUT_RENDER_VERSION = "2"
@@ -155,7 +156,13 @@ def layout_filename(plan_url: str, overlay_svg: str = "") -> str:
     plan_url = str(plan_url or "").strip()
     if not plan_url.startswith("https://"):
         raise FeedGenerationError(f"Sezar: некорректный URL планировки {plan_url!r}")
-    cache_key = f"{LAYOUT_RENDER_VERSION}\0{plan_url}\0{overlay_svg}"
+    # Only apartment layouts need invalidation for renderer changes. Highlighted
+    # floor plans use a separate overlay-aware key and can keep their good cache.
+    cache_key = (
+        f"{plan_url}\0{overlay_svg}"
+        if overlay_svg
+        else f"{LAYOUT_RENDER_VERSION}\0{plan_url}"
+    )
     return f"{sha256(cache_key.encode('utf-8')).hexdigest()}.png"
 
 
@@ -366,10 +373,23 @@ def prepare_layout_images(
                 (overlay_svg, destination)
             )
 
+        thread_state = local()
+        sessions: list[requests.Session] = []
+        sessions_lock = Lock()
+
+        def get_layout_session() -> requests.Session:
+            session = getattr(thread_state, "session", None)
+            if session is None:
+                session = build_http_session()
+                thread_state.session = session
+                with sessions_lock:
+                    sessions.append(session)
+            return session
+
         def prepare_source_images(
             plan_url: str, image_variants: list[tuple[str, Path]]
         ) -> int:
-            source_svg = download_layout_svg(plan_url)
+            source_svg = download_layout_svg(plan_url, session=get_layout_session())
             for overlay_svg, destination in image_variants:
                 ensure_layout_png(
                     plan_url,
@@ -379,18 +399,30 @@ def prepare_layout_images(
                 )
             return len(image_variants)
 
-        with ThreadPoolExecutor(max_workers=LAYOUT_MAX_WORKERS) as executor:
-            futures = {
-                executor.submit(
-                    prepare_source_images, plan_url, image_variants
-                ): plan_url
-                for plan_url, image_variants in missing_by_source.items()
-            }
-            completed = 0
-            for future in as_completed(futures):
-                completed += future.result()
-                if completed % 25 == 0 or completed == len(missing):
-                    print(f"   PNG-изображения: {completed} из {len(missing)}")
+        print(
+            f"   PNG-изображения: нужно создать {len(missing)}, "
+            f"источников {len(missing_by_source)}",
+            flush=True,
+        )
+        try:
+            with ThreadPoolExecutor(max_workers=LAYOUT_MAX_WORKERS) as executor:
+                futures = {
+                    executor.submit(
+                        prepare_source_images, plan_url, image_variants
+                    ): plan_url
+                    for plan_url, image_variants in missing_by_source.items()
+                }
+                completed = 0
+                for future in as_completed(futures):
+                    completed += future.result()
+                    if completed % 25 == 0 or completed == len(missing):
+                        print(
+                            f"   PNG-изображения: {completed} из {len(missing)}",
+                            flush=True,
+                        )
+        finally:
+            for session in sessions:
+                session.close()
 
     expected_files = set(destinations.values())
     for cached_file in layout_dir.glob("*.png"):
