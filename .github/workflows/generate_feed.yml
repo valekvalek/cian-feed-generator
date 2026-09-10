@@ -48,11 +48,6 @@ jobs:
           CIAN_ID_AEON: ${{ secrets.CIAN_ID_AEON }}
         run: python -m aeon.fetch_aeon
 
-      - name: Generate Sezar feed
-        env:
-          CIAN_ID_SEZAR_CITY: ${{ secrets.CIAN_ID_SEZAR_CITY }}
-        run: python -m sezar.fetch_sezar
-
       - name: Validate generated feeds
         run: python validate_feeds.py
 
@@ -81,8 +76,6 @@ jobs:
             legenda/dominanta_feed.xml \
             dominanta/svet_feed.xml \
             dominanta/dominanta_feed.xml \
-            aeon/aeon_riverpark_feed.xml \
-            sezar/sezar_city_feed.xml \
-            sezar/layouts
+            aeon/aeon_riverpark_feed.xml
           git diff --staged --quiet || git commit -m "chore: update feeds [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push

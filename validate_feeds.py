@@ -21,6 +21,8 @@ ACTIVE_FEEDS = {
     Path("aeon/aeon_riverpark_feed.xml"): 20,
     Path("sezar/sezar_city_feed.xml"): 100,
 }
+SEZAR_FEED = Path("sezar/sezar_city_feed.xml")
+SEZAR_LAYOUT_DIR = Path("sezar/layouts")
 
 LEGACY_ALIASES = {
     Path("cian_feed.xml"): Path("legenda/nekrasovka_feed.xml"),
@@ -46,6 +48,33 @@ def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def validate_sezar_images(*, require_layout_dir: bool = False) -> None:
+    if not SEZAR_LAYOUT_DIR.is_dir():
+        if require_layout_dir:
+            raise FeedGenerationError(f"{SEZAR_LAYOUT_DIR}: каталог PNG не создан")
+        return
+
+    for obj in parse(SEZAR_FEED).getroot().findall("object"):
+        external_id = (obj.findtext("ExternalId") or "").strip()
+        layout_url = (obj.findtext("LayoutPhoto/FullUrl") or "").strip()
+        photo_url = (obj.findtext("Photos/PhotoSchema/FullUrl") or "").strip()
+        if not layout_url.endswith(".png"):
+            raise FeedGenerationError(
+                f"{SEZAR_FEED}: ExternalId={external_id}, планировка не в PNG"
+            )
+        if photo_url != layout_url:
+            raise FeedGenerationError(
+                f"{SEZAR_FEED}: ExternalId={external_id}, "
+                "PNG-планировка отсутствует в Photos"
+            )
+
+        local_layout = SEZAR_LAYOUT_DIR / layout_url.rsplit("/", 1)[-1]
+        if not local_layout.is_file():
+            raise FeedGenerationError(
+                f"{SEZAR_FEED}: ExternalId={external_id}, отсутствует {local_layout}"
+            )
+
+
 def validate_relationships() -> None:
     marusino = external_ids(Path("legenda/marusino_feed.xml"))
     korenevo = external_ids(Path("legenda/korenevo_feed.xml"))
@@ -58,24 +87,7 @@ def validate_relationships() -> None:
     if dominanta != svet:
         raise FeedGenerationError("dominanta_feed.xml не совпадает с текущим фидом Свет")
 
-    sezar_path = Path("sezar/sezar_city_feed.xml")
-    sezar_layout_dir = Path("sezar/layouts")
-    # The directory appears on the first generator run after this code is
-    # deployed. Once present, never allow SVG or a missing gallery image back.
-    if sezar_layout_dir.is_dir():
-        for obj in parse(sezar_path).getroot().findall("object"):
-            external_id = (obj.findtext("ExternalId") or "").strip()
-            layout_url = (obj.findtext("LayoutPhoto/FullUrl") or "").strip()
-            photo_url = (obj.findtext("Photos/PhotoSchema/FullUrl") or "").strip()
-            if not layout_url.endswith(".png"):
-                raise FeedGenerationError(
-                    f"{sezar_path}: ExternalId={external_id}, планировка не в PNG"
-                )
-            if photo_url != layout_url:
-                raise FeedGenerationError(
-                    f"{sezar_path}: ExternalId={external_id}, "
-                    "PNG-планировка отсутствует в Photos"
-                )
+    validate_sezar_images()
 
 
 def validate_legacy_aliases() -> None:
@@ -88,9 +100,16 @@ def validate_legacy_aliases() -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--include-legacy", action="store_true")
+    parser.add_argument("--only-sezar", action="store_true")
     args = parser.parse_args()
 
     try:
+        if args.only_sezar:
+            count = validate_feed(SEZAR_FEED, min_objects=ACTIVE_FEEDS[SEZAR_FEED])
+            validate_sezar_images(require_layout_dir=True)
+            print(f"✓ {SEZAR_FEED}: {count} объектов с PNG-планировками")
+            return 0
+
         total = 0
         for path, minimum in ACTIVE_FEEDS.items():
             count = validate_feed(path, min_objects=minimum)
