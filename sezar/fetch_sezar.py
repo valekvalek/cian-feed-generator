@@ -39,7 +39,8 @@ PAGE_SIZE = 10
 MAX_WORKERS = 8
 LAYOUT_MAX_WORKERS = 12
 PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
-WHITE_FILL_RE = re.compile(rb"#[fF]{6}\b|#[fF]{3}\b")
+HEX_COLOR_RE = re.compile(rb"#[0-9a-fA-F]{6}\b|#[fF]{3}\b")
+LAYOUT_RENDER_VERSION = "2"
 HEADERS = {
     "Accept": "application/json",
     "Referer": f"{BASE_URL}/flats?mode=cards&project={PROJECT_SLUG}",
@@ -154,7 +155,7 @@ def layout_filename(plan_url: str, overlay_svg: str = "") -> str:
     plan_url = str(plan_url or "").strip()
     if not plan_url.startswith("https://"):
         raise FeedGenerationError(f"Sezar: некорректный URL планировки {plan_url!r}")
-    cache_key = plan_url if not overlay_svg else f"{plan_url}\0{overlay_svg}"
+    cache_key = f"{LAYOUT_RENDER_VERSION}\0{plan_url}\0{overlay_svg}"
     return f"{sha256(cache_key.encode('utf-8')).hexdigest()}.png"
 
 
@@ -234,6 +235,19 @@ def is_valid_png(path: Path) -> bool:
         return False
 
 
+def normalize_svg_for_print(source_svg: bytes) -> bytes:
+    """Turn Sezar's near-white drawing colors into dark printable ink."""
+
+    def replace_color(match: re.Match[bytes]) -> bytes:
+        value = match.group(0)
+        if len(value) == 4:
+            return b"#111111"
+        channels = (int(value[index : index + 2], 16) for index in (1, 3, 5))
+        return b"#111111" if all(channel >= 0xF0 for channel in channels) else value
+
+    return HEX_COLOR_RE.sub(replace_color, source_svg)
+
+
 def download_layout_svg(plan_url: str, session=None) -> bytes:
     """Download one source SVG, allowing callers to reuse it for many overlays."""
     owns_session = session is None
@@ -279,9 +293,9 @@ def ensure_layout_png(
 
         destination.parent.mkdir(parents=True, exist_ok=True)
         # Sezar's SVGs are designed for a dark page background: their visible
-        # walls, labels and furniture are white. CIAN uses a white photo canvas,
-        # so normalize white vector fills to dark ink before rasterization.
-        printable_svg = WHITE_FILL_RE.sub(b"#111111", source_svg)
+        # walls, labels and furniture use several near-white colors. CIAN uses a
+        # white photo canvas, so normalize all of them before rasterization.
+        printable_svg = normalize_svg_for_print(source_svg)
         printable_svg = add_svg_overlay(printable_svg, overlay_svg)
         svg2png(
             bytestring=printable_svg,
@@ -456,10 +470,9 @@ def make_sezar_object(
     add_text(layout, "PhotoType", "realtyObjectLayout")
 
     photos = SubElement(obj, "Photos")
-    for photo_url in (layout_url, floor_plan_url):
-        photo = SubElement(photos, "PhotoSchema")
-        add_text(photo, "FullUrl", photo_url)
-        add_text(photo, "PhotoType", "realtyObject")
+    photo = SubElement(photos, "PhotoSchema")
+    add_text(photo, "FullUrl", floor_plan_url)
+    add_text(photo, "PhotoType", "realtyObject")
 
     if article:
         add_text(obj, "Url", f"{BASE_URL}/projects/{PROJECT_SLUG}/flats/{article}")
