@@ -18,16 +18,33 @@ class AeonTests(unittest.TestCase):
         self.assertIsNone(parse_deadline("25552"))
         self.assertIsNone(parse_deadline("25099"))
 
-    def test_room_size_classes_are_explicit_free_layouts(self):
+    def test_room_size_classes_cannot_be_mapped_to_flat_rooms(self):
         for code in ("S", "M", "L"):
-            self.assertEqual(map_rooms(code), 7)
+            with self.assertRaises(FeedGenerationError):
+                map_rooms(code)
         self.assertEqual(map_rooms("2"), 2)
         with self.assertRaises(FeedGenerationError):
             map_rooms("UNKNOWN")
 
-    def test_category_rejects_non_residential_api_objects(self):
+    def test_category_maps_size_classes_to_free_appointment_sale(self):
         self.assertEqual(
-            map_category({"articletype": "квартира", "articlesubtype": "апартаменты"}),
+            map_category(
+                {
+                    "articletype": "квартира",
+                    "articlesubtype": "апартаменты",
+                    "rooms": "S",
+                }
+            ),
+            "freeAppointmentObjectSale",
+        )
+        self.assertEqual(
+            map_category(
+                {
+                    "articletype": "квартира",
+                    "articlesubtype": "квартира",
+                    "rooms": "2",
+                }
+            ),
             "newBuildingFlatSale",
         )
         with self.assertRaises(FeedGenerationError):
@@ -47,9 +64,21 @@ class AeonTests(unittest.TestCase):
             for index, lot in enumerate(lots)
         ]
         self.assertEqual(len(objects), 4)
-        self.assertEqual(warnings, Counter({"25552": 2, "25099": 1}))
-        self.assertEqual(objects[0].findtext("FlatRoomsCount"), "7")
+        self.assertEqual(warnings, Counter({"25099": 1}))
+        self.assertEqual(objects[0].findtext("Category"), "freeAppointmentObjectSale")
+        self.assertIsNone(objects[0].find("FlatRoomsCount"))
+        self.assertIsNone(objects[0].find("JKSchema"))
+        self.assertEqual(objects[0].findtext("Layout"), "openSpace")
+        self.assertEqual(objects[0].findtext("Building/Type"), "businessCenter")
+        self.assertEqual(objects[0].findtext("BargainTerms/PriceType"), "all")
+        self.assertEqual(objects[0].findtext("BargainTerms/Tax/Rate"), "22")
+        self.assertEqual(
+            objects[0].findtext("Address"),
+            "Россия, Москва, улица Корабельная, 2",
+        )
+        self.assertEqual(objects[-1].findtext("Category"), "newBuildingFlatSale")
         self.assertEqual(objects[-1].findtext("FlatRoomsCount"), "2")
+        self.assertEqual(objects[-1].findtext("JKSchema/Id"), "123456")
         self.assertTrue(
             all(len(obj.findall("Photos/PhotoSchema")) == 1 for obj in objects)
         )

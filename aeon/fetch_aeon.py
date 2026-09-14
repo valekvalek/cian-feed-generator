@@ -49,14 +49,13 @@ PARAMS_BASE = {
 }
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-# Соответствие по регламенту ЦИАН:
-# 1-4 — количество комнат
-# 6   — многокомнатная (более 5 комнат)
-# 7   — свободная планировка
-# 9   — студия
-# S/M/L в API — размерные классы апартаментов. Поле roomreal для них содержит
-# варианты 0/1e/1, поэтому точное число комнат из API определить нельзя.
-FREE_LAYOUT_CODES = {"S", "M", "L"}
+# S/M/L в API — размерные классы нежилых помещений корпусов 7, 12 и 14.
+# Их нельзя публиковать как квартиры со свободной планировкой: на сайте проекта
+# эти лоты продаются как помещения для бизнеса. По выбранной схеме выгружаем их
+# в коммерческую категорию «помещение свободного назначения».
+COMMERCIAL_SIZE_CODES = {"S", "M", "L"}
+COMMERCIAL_CATEGORY = "freeAppointmentObjectSale"
+RESIDENTIAL_CATEGORY = "newBuildingFlatSale"
 ROOMS_MAP = {"0": 9, "1": 1, "2": 2, "3": 3, "4": 4, "6": 6, "7": 7, "9": 9}
 ALLOWED_ARTICLE_TYPES = {"квартира"}
 ALLOWED_ARTICLE_SUBTYPES = {"апартаменты", "квартира"}
@@ -69,6 +68,13 @@ BUILDING_FLOORS = {
     "14": 13,
 }
 DEFAULT_FLOORS = 13  # fallback для неизвестных корпусов
+
+# Фактические адреса введённых в эксплуатацию коммерческих корпусов.
+COMMERCIAL_BUILDING_ADDRESSES = {
+    "7": "Россия, Москва, улица Корабельная, 7",
+    "12": "Россия, Москва, улица Корабельная, 2",
+    "14": "Россия, Москва, улица Корабельная, 5",
+}
 
 
 def fetch_all_lots(session=None) -> list:
@@ -150,11 +156,13 @@ def parse_deadline(ready_raw: str) -> dict | None:
 
 def map_rooms(rooms_raw) -> int:
     code = str(rooms_raw).strip().upper()
-    if code in FREE_LAYOUT_CODES:
-        return 7
     if code in ROOMS_MAP:
         return ROOMS_MAP[code]
     raise FeedGenerationError(f"Aeon: неизвестный тип комнат {rooms_raw!r}")
+
+
+def is_commercial_lot(lot: dict) -> bool:
+    return str(lot.get("rooms", "")).strip().upper() in COMMERCIAL_SIZE_CODES
 
 
 def map_category(lot: dict) -> str:
@@ -164,7 +172,19 @@ def map_category(lot: dict) -> str:
         raise FeedGenerationError(f"Aeon: неподдерживаемый тип объекта {article_type!r}")
     if article_subtype not in ALLOWED_ARTICLE_SUBTYPES:
         raise FeedGenerationError(f"Aeon: неподдерживаемый подтип объекта {article_subtype!r}")
-    return "newBuildingFlatSale"
+    return COMMERCIAL_CATEGORY if is_commercial_lot(lot) else RESIDENTIAL_CATEGORY
+
+
+def object_address(lot: dict) -> str:
+    if not is_commercial_lot(lot):
+        return ADDRESS
+    building = str(lot.get("building", "")).strip()
+    try:
+        return COMMERCIAL_BUILDING_ADDRESSES[building]
+    except KeyError as exc:
+        raise FeedGenerationError(
+            f"Aeon: неизвестный адрес коммерческого корпуса {building!r}"
+        ) from exc
 
 
 def aeon_image_sources(lot: dict) -> tuple[str, str]:
@@ -195,25 +215,37 @@ def make_aeon_object(
     obj = Element("object")
 
     external_id = lot.get("lotcode") or lot.get("id", "")
+    category = map_category(lot)
+    commercial = category == COMMERCIAL_CATEGORY
+    object_kind = "Помещение свободного назначения" if commercial else f"ЖК {JK_NAME}"
     txt(obj, "ExternalId", external_id)
-    txt(obj, "Description", f"ЖК {JK_NAME}, этаж {lot.get('floor', '')}, лот {lot.get('num', '')}")
-    txt(obj, "Category", map_category(lot))
-    txt(obj, "Address", ADDRESS)
+    txt(
+        obj,
+        "Description",
+        f"{object_kind}, корпус {lot.get('building', '')}, "
+        f"этаж {lot.get('floor', '')}, лот {lot.get('num', '')}",
+    )
+    txt(obj, "Category", category)
+    txt(obj, "Address", object_address(lot))
 
-    txt(obj, "FlatRoomsCount", map_rooms(lot.get("rooms")))
+    if not commercial:
+        txt(obj, "FlatRoomsCount", map_rooms(lot.get("rooms")))
     txt(obj, "TotalArea", lot.get("sq", 0))
     txt(obj, "FloorNumber", lot.get("floor", ""))
+    if commercial:
+        txt(obj, "Layout", "openSpace")
 
-    jk = SubElement(obj, "JKSchema")
-    txt(jk, "Id",   cian_id)
-    txt(jk, "Name", JK_NAME)
-    house = SubElement(jk, "House")
     building = str(lot.get("building", ""))
-    txt(house, "Id",   building)
-    txt(house, "Name", building)
-    flat_el = SubElement(house, "Flat")
-    txt(flat_el, "FlatNumber",    lot.get("num", ""))
-    txt(flat_el, "SectionNumber", lot.get("section", ""))
+    if not commercial:
+        jk = SubElement(obj, "JKSchema")
+        txt(jk, "Id",   cian_id)
+        txt(jk, "Name", JK_NAME)
+        house = SubElement(jk, "House")
+        txt(house, "Id",   building)
+        txt(house, "Name", building)
+        flat_el = SubElement(house, "Flat")
+        txt(flat_el, "FlatNumber",    lot.get("num", ""))
+        txt(flat_el, "SectionNumber", lot.get("section", ""))
 
     agent = SubElement(obj, "SubAgent")
     txt(agent, "Email", EMAIL)
@@ -228,24 +260,38 @@ def make_aeon_object(
     bld_el = SubElement(obj, "Building")
 
     floors = BUILDING_FLOORS.get(building, DEFAULT_FLOORS)
+    if commercial:
+        txt(bld_el, "Name", f"Ривер Парк Бизнес, корпус {building}")
     txt(bld_el, "FloorsCount", floors)
+    if commercial:
+        txt(bld_el, "Type", "businessCenter")
+        txt(bld_el, "StatusType", "operational")
 
-    ready_raw = lot.get("ready", "")
-    deadline = parse_deadline(ready_raw)
-    if deadline:
-        dl = SubElement(bld_el, "Deadline")
-        txt(dl, "Quarter",    deadline["quarter"])
-        txt(dl, "Year",       deadline["year"])
-        txt(dl, "IsComplete", "true" if building in KNOWN_COMPLETE_BUILDINGS else "false")
-    else:
-        warnings[str(ready_raw)] += 1
+    if not commercial:
+        ready_raw = lot.get("ready", "")
+        deadline = parse_deadline(ready_raw)
+        if deadline:
+            dl = SubElement(bld_el, "Deadline")
+            txt(dl, "Quarter",    deadline["quarter"])
+            txt(dl, "Year",       deadline["year"])
+            txt(dl, "IsComplete", "true" if building in KNOWN_COMPLETE_BUILDINGS else "false")
+        else:
+            warnings[str(ready_raw)] += 1
 
     price = parse_price(lot.get("real_price"))
 
     bt = SubElement(obj, "BargainTerms")
     txt(bt, "Price",           price)
+    if commercial:
+        txt(bt, "PriceType", "all")
     txt(bt, "Currency",        "rur")
-    txt(bt, "MortgageAllowed", "true")
+    if commercial:
+        tax = SubElement(bt, "Tax")
+        txt(tax, "Type", "vat")
+        txt(tax, "Rate", "22")
+        txt(tax, "IncludedInPrice", "true")
+    else:
+        txt(bt, "MortgageAllowed", "true")
 
     return obj
 

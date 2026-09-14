@@ -17,18 +17,20 @@ from urllib3.util.retry import Retry
 
 
 PLACEHOLDER_RE = re.compile(r"(?:^|_)[A-Z]+_CIAN_ID$")
-REQUIRED_OBJECT_FIELDS = (
+COMMON_REQUIRED_OBJECT_FIELDS = (
     "ExternalId",
     "Category",
     "Address",
-    "FlatRoomsCount",
     "TotalArea",
     "FloorNumber",
-    "JKSchema",
     "SubAgent",
     "Building",
     "BargainTerms",
 )
+CATEGORY_REQUIRED_OBJECT_FIELDS = {
+    "newBuildingFlatSale": ("FlatRoomsCount", "JKSchema"),
+    "freeAppointmentObjectSale": ("Layout",),
+}
 
 
 class FeedGenerationError(RuntimeError):
@@ -151,7 +153,12 @@ def validate_feed(path: str | Path, *, min_objects: int = 1) -> int:
 
     seen_ids: set[str] = set()
     for index, obj in enumerate(objects, start=1):
-        for tag in REQUIRED_OBJECT_FIELDS:
+        category = (obj.findtext("Category") or "").strip()
+        required_fields = (
+            COMMON_REQUIRED_OBJECT_FIELDS
+            + CATEGORY_REQUIRED_OBJECT_FIELDS.get(category, ())
+        )
+        for tag in required_fields:
             element = obj.find(tag)
             if element is None or not "".join(element.itertext()).strip():
                 raise FeedGenerationError(f"{path}: object #{index}, пустое поле {tag}")
@@ -161,9 +168,11 @@ def validate_feed(path: str | Path, *, min_objects: int = 1) -> int:
             raise FeedGenerationError(f"{path}: повторяющийся ExternalId={external_id}")
         seen_ids.add(external_id)
 
-        cian_id = (obj.findtext("JKSchema/Id") or "").strip()
-        if not cian_id.isdigit() or PLACEHOLDER_RE.search(cian_id):
-            raise FeedGenerationError(f"{path}: некорректный CIAN ID={cian_id!r}")
+        jk_schema = obj.find("JKSchema")
+        if jk_schema is not None:
+            cian_id = (jk_schema.findtext("Id") or "").strip()
+            if not cian_id.isdigit() or PLACEHOLDER_RE.search(cian_id):
+                raise FeedGenerationError(f"{path}: некорректный CIAN ID={cian_id!r}")
 
         price = parse_price(obj.findtext("BargainTerms/Price"))
         if price <= 0:  # pragma: no cover - parse_price already enforces this

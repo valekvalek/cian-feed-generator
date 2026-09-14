@@ -40,6 +40,27 @@ def valid_object(external_id: str) -> Element:
     return obj
 
 
+def valid_commercial_object(external_id: str) -> Element:
+    obj = Element("object")
+    for tag, value in (
+        ("ExternalId", external_id),
+        ("Category", "freeAppointmentObjectSale"),
+        ("Address", "Россия, Москва, улица Корабельная, 2"),
+        ("TotalArea", "40"),
+        ("FloorNumber", "2"),
+        ("Layout", "openSpace"),
+    ):
+        add_text(obj, tag, value)
+    agent = SubElement(obj, "SubAgent")
+    add_text(agent, "Email", "test@example.com")
+    building = SubElement(obj, "Building")
+    add_text(building, "FloorsCount", "13")
+    bargain = SubElement(obj, "BargainTerms")
+    add_text(bargain, "Price", "10000000")
+    add_text(bargain, "Currency", "rur")
+    return obj
+
+
 class CommonTests(unittest.TestCase):
     def test_price_parser_handles_decimal_and_grouping(self):
         cases = {
@@ -86,6 +107,16 @@ class CommonTests(unittest.TestCase):
                     path,
                     generated_at="2026-01-01T00:00:00Z",
                 )
+
+    def test_commercial_object_does_not_require_flat_fields(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "feed.xml"
+            write_feed_atomic(
+                [valid_commercial_object("commercial-1")],
+                path,
+                generated_at="2026-01-01T00:00:00Z",
+            )
+            self.assertEqual(validate_feed(path), 1)
 
 
 if __name__ == "__main__":
