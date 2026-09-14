@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-09-14T10:53:17Z</generated>
+  <generated>2026-09-14T11:00:31Z</generated>
   <object>
     <ExternalId>12.1.3.12</ExternalId>
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 12</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -45,6 +46,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 4, лот 19</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -83,6 +85,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 5, лот 26</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -121,6 +124,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 6, лот 33</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -159,6 +163,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 9, лот 54</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -197,6 +202,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 10, лот 61</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -235,6 +241,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 13, лот 82</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.4</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -273,6 +280,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 12, лот 75</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>35.5</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -311,6 +319,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 9</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.6</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -349,6 +358,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 20</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -387,6 +397,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 32</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>37.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -425,6 +436,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 38</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -463,6 +475,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 31</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -501,6 +514,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 190</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -539,6 +553,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 23</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -577,6 +592,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 24</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -615,6 +631,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 39</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -653,6 +670,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 54</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -691,6 +709,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 6, лот 34</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -729,6 +748,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 13</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -767,6 +787,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 4, лот 20</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -805,6 +826,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 10, лот 62</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.4</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -843,6 +865,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 12, лот 76</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -881,6 +904,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 7, лот 41</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.7</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -919,6 +943,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 13, лот 83</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -957,6 +982,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 19</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -995,6 +1021,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 7, лот 274</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.6</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1033,6 +1060,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 13</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1071,6 +1099,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 292</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.6</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1109,6 +1138,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 208</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1147,6 +1177,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 9, лот 310</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.7</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1185,6 +1216,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 30</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1223,6 +1255,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 381</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.6</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1261,6 +1294,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 386</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.3</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1299,6 +1333,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 12, лот 114</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1337,6 +1372,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 10, лот 334</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1375,6 +1411,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 11, лот 352</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>38.5</TotalArea>
     <FloorNumber>11</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1413,6 +1450,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 12, лот 118</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1451,6 +1489,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 143</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1489,6 +1528,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 173</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.2</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1527,6 +1567,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 2, лот 86</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.8</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1565,6 +1606,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 92</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1603,6 +1645,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 22</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>43.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1641,6 +1684,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 231</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1679,6 +1723,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 12, лот 117</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.5</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1717,6 +1762,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 303</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1755,6 +1801,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 7, лот 285</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1793,6 +1840,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 44</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1831,6 +1879,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 5</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1869,6 +1918,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 172</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1907,6 +1957,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 142</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1945,6 +1996,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 6, лот 187</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.9</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -1983,6 +2035,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 44</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>43.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2021,6 +2074,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 175</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2059,6 +2113,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 391</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2097,6 +2152,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 160</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2135,6 +2191,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 172</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.6</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2173,6 +2230,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 141</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2211,6 +2269,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 173</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>41.7</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2249,6 +2308,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 6, лот 190</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2287,6 +2347,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 33</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2325,6 +2386,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 6, лот 55</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2363,6 +2425,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 156</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2401,6 +2464,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 171</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2439,6 +2503,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 8, лот 216</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40.7</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2477,6 +2542,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 10</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2515,6 +2581,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 207</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>43.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2553,6 +2620,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 31</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2591,6 +2659,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 14</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2629,6 +2698,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 20</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2667,6 +2737,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 35</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2705,6 +2776,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 91</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2743,6 +2815,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 10, лот 121</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.1</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2781,6 +2854,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 7, лот 80</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2819,6 +2893,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 9, лот 106</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2857,6 +2932,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 65</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2895,6 +2971,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 171</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2933,6 +3010,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 11, лот 136</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.2</TotalArea>
     <FloorNumber>11</FloorNumber>
     <Layout>openSpace</Layout>
@@ -2971,6 +3049,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 235</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>47.9</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3009,6 +3088,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 146</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3047,6 +3127,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 253</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>47.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3085,6 +3166,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 149</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3123,6 +3205,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 307</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>48</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3161,6 +3244,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 164</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.8</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3199,6 +3283,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 8</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3237,6 +3322,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 11, лот 361</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>48.1</TotalArea>
     <FloorNumber>11</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3275,6 +3361,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 161</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3313,6 +3400,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 4, лот 15</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3351,6 +3439,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 6, лот 29</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3389,6 +3478,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 5, лот 22</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3427,6 +3517,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 6, лот 191</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3465,6 +3556,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 25</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3503,6 +3595,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 176</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3541,6 +3634,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 40</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3579,6 +3673,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 7, лот 36</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3617,6 +3712,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 55</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3655,6 +3751,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 10, лот 57</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3693,6 +3790,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 8, лот 221</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3731,6 +3829,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 70</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.7</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3769,6 +3868,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 100</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3807,6 +3907,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 9</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3845,6 +3946,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 4, лот 16</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.9</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3883,6 +3985,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 210</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3921,6 +4024,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 246</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3959,6 +4063,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 4, лот 17</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>37.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -3997,6 +4102,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 7, лот 282</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.8</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4035,6 +4141,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 300</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.8</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4073,6 +4180,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 264</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.9</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4111,6 +4219,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 10</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>37.3</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4149,6 +4258,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 12, лот 73</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>37</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4187,6 +4297,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 10, лот 336</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.9</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4225,6 +4336,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 11, лот 354</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>39.9</TotalArea>
     <FloorNumber>11</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4263,6 +4375,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 9, лот 318</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4301,6 +4414,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 12, лот 371</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>40</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4339,6 +4453,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 159</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>46</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4377,6 +4492,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 194</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.3</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4415,6 +4531,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 191</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.8</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4453,6 +4570,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 212</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4491,6 +4609,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 230</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4529,6 +4648,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 248</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4567,6 +4687,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 266</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.1</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4605,6 +4726,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 10, лот 338</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.1</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4643,6 +4765,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 390</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.3</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4681,6 +4804,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 209</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4719,6 +4843,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 227</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4757,6 +4882,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 12, лот 373</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>42.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4795,6 +4921,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 263</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.7</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4833,6 +4960,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 2, лот 88</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>46</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4871,6 +4999,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 245</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4909,6 +5038,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 94</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4947,6 +5077,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 193</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.3</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -4985,6 +5116,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 10, лот 335</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.7</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5023,6 +5155,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 299</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.8</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5061,6 +5194,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 4, лот 100</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5099,6 +5233,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 12, лот 370</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.7</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5137,6 +5272,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 9, лот 317</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>44.9</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5175,6 +5311,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 185</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>46.8</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5213,6 +5350,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 10, лот 136</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.3</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5251,6 +5389,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 203</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>46.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5289,6 +5428,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 239</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>46.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5327,6 +5467,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 257</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>46.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5365,6 +5506,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 265</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5403,6 +5545,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 229</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5441,6 +5584,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 247</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.4</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5479,6 +5623,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 211</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5517,6 +5662,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 21</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5555,6 +5701,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 12, лот 372</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.3</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5593,6 +5740,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 10, лот 337</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.4</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5631,6 +5779,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 301</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5669,6 +5818,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 11, лот 355</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>45.6</TotalArea>
     <FloorNumber>11</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5707,6 +5857,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 148</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5745,6 +5896,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 170</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.6</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5783,6 +5935,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 11</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.5</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5821,6 +5974,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 163</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.2</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5859,6 +6013,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 6, лот 193</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5897,6 +6052,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 9, лот 230</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>56</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5935,6 +6091,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 178</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.4</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -5973,6 +6130,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 9, лот 238</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.2</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6011,6 +6169,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 8, лот 223</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6049,6 +6208,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 7, лот 65</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.7</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6087,6 +6247,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 11, лот 109</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.6</TotalArea>
     <FloorNumber>11</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6125,6 +6286,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 12, лот 120</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.6</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6163,6 +6325,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 6</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.2</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6201,6 +6364,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 15</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.3</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6239,6 +6403,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 28</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6277,6 +6442,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 43</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6315,6 +6481,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 58</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6353,6 +6520,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 73</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.1</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6391,6 +6559,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 19</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>60.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6429,6 +6598,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 9, лот 313</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.6</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6467,6 +6637,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 26</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6505,6 +6676,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 36</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6543,6 +6715,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 51</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6581,6 +6754,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 21</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.3</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6619,6 +6793,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 7, лот 81</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6657,6 +6832,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 96</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6695,6 +6871,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 66</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.3</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6733,6 +6910,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 45</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6771,6 +6949,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 18</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>59.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6809,6 +6988,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 140</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6847,6 +7027,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 105</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6885,6 +7066,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 9, лот 120</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.4</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6923,6 +7105,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 52</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6961,6 +7144,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 11, лот 150</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.4</TotalArea>
     <FloorNumber>11</FloorNumber>
     <Layout>openSpace</Layout>
@@ -6999,6 +7183,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 10, лот 135</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.5</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7037,6 +7222,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 32</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7075,6 +7261,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 182</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.4</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7113,6 +7300,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 12, лот 166</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.5</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7151,6 +7339,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 12</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.9</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7189,6 +7378,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 43</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.3</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7227,6 +7417,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 155</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>60</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7265,6 +7456,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 29</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>59.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7303,6 +7495,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 6, лот 51</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>59.6</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7341,6 +7534,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 40</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>59.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7379,6 +7573,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 9, лот 87</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.3</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7417,6 +7612,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 34</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7455,6 +7651,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 7, лот 276</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.3</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7493,6 +7690,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 9, лот 78</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.2</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7531,6 +7729,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 11, лот 348</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.3</TotalArea>
     <FloorNumber>11</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7569,6 +7768,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 18</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7607,6 +7807,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 49</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.7</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7645,6 +7846,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 385</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>65</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7683,6 +7885,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 33</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7721,6 +7924,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 7, лот 78</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.6</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7759,6 +7963,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 48</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7797,6 +8002,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 34</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7835,6 +8041,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 63</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7873,6 +8080,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 94</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.1</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7911,6 +8119,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 64</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.9</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7949,6 +8158,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 27</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -7987,6 +8197,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 56</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.5</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8025,6 +8236,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 41</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>61.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8063,6 +8275,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 42</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.9</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8101,6 +8314,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 71</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>59.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8139,6 +8353,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 7, лот 197</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.7</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8177,6 +8392,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 5, лот 177</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.8</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8215,6 +8431,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 22</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8253,6 +8470,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 9, лот 237</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.8</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8291,6 +8509,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 37</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.1</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8329,6 +8548,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 12</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8367,6 +8587,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 67</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.7</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8405,6 +8626,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 7, лот 82</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.8</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8443,6 +8665,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 23</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8481,6 +8704,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 222</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>69.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8519,6 +8743,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 97</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.2</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8557,6 +8782,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 294</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>69.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8595,6 +8821,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 8, лот 67</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66.8</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8633,6 +8860,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 6, лот 45</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.8</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8671,6 +8899,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 218</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.9</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8709,6 +8938,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 11, лот 100</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.9</TotalArea>
     <FloorNumber>11</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8747,6 +8977,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 269</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>66</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8785,6 +9016,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 305</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.3</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8823,6 +9055,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 383</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>69.7</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8861,6 +9094,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 393</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.3</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8899,6 +9133,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 12, лот 376</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.4</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8937,6 +9172,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 147</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.2</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -8975,6 +9211,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 139</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>65.5</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9013,6 +9250,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 4, лот 162</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>65.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9051,6 +9289,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 2, лот 183</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>60.6</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9089,6 +9328,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 3, лот 17</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9127,6 +9367,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 12, лот 272</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>65.2</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9165,6 +9406,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 6, лот 192</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9203,6 +9445,7 @@
     <Description>Помещение свободного назначения, корпус 7, этаж 10, лот 252</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.3</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9241,6 +9484,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 2, лот 90</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>58.2</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9279,6 +9523,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 259</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.6</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9317,6 +9562,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 205</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>55.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9355,6 +9601,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 201</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>60.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9393,6 +9640,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 2, лот 85</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>71.3</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9431,6 +9679,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 7, лот 273</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>60.8</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9469,6 +9718,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 10, лот 327</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>60.6</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9507,6 +9757,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 380</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>60.4</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9545,6 +9796,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 4, лот 102</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>57.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9583,6 +9835,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 9, лот 309</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>60.7</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9621,6 +9874,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 12, лот 363</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>60.6</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9659,6 +9913,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 96</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>57.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9697,6 +9952,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 2, лот 89</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>57</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9735,6 +9991,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 7, лот 120</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>57.6</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9773,6 +10030,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 12, лот 150</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>57.3</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9811,6 +10069,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 91</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>70.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9849,6 +10108,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 7, лот 115</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>70.4</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9887,6 +10147,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 6, лот 109</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>70.6</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9925,6 +10186,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 7, лот 119</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>56.2</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -9963,6 +10225,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 10, лот 137</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>56.1</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10001,6 +10264,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 3, лот 216</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.6</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10039,6 +10303,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 252</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.6</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10077,6 +10342,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 270</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.6</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10115,6 +10381,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 7, лот 288</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.7</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10153,6 +10420,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 8, лот 306</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.7</TotalArea>
     <FloorNumber>8</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10191,6 +10459,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 9, лот 324</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.7</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10229,6 +10498,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 10, лот 342</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.7</TotalArea>
     <FloorNumber>10</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10267,6 +10537,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 12, лот 377</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.8</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10305,6 +10576,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 11</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>64.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10343,6 +10615,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 250</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>75.1</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10381,6 +10654,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 4, лот 21</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>73.6</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10419,6 +10693,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 14</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>73.8</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10457,6 +10732,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 6, лот 268</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>75.2</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10495,6 +10771,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 5, лот 28</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>73.9</TotalArea>
     <FloorNumber>5</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10533,6 +10810,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 11, лот 358</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>75.2</TotalArea>
     <FloorNumber>11</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10571,6 +10849,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 7, лот 287</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>62.2</TotalArea>
     <FloorNumber>7</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10609,6 +10888,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 13, лот 396</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>63.4</TotalArea>
     <FloorNumber>13</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10647,6 +10927,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 12, лот 367</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>77.7</TotalArea>
     <FloorNumber>12</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10685,6 +10966,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 4, лот 233</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10723,6 +11005,7 @@
     <Description>Помещение свободного назначения, корпус 14, этаж 9, лот 323</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>67.3</TotalArea>
     <FloorNumber>9</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10761,6 +11044,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 2, лот 87</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>78.5</TotalArea>
     <FloorNumber>2</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10799,6 +11083,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 93</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>77.7</TotalArea>
     <FloorNumber>3</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10837,6 +11122,7 @@
     <Description>Помещение свободного назначения, корпус 12, этаж 4, лот 99</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>78</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10875,6 +11161,7 @@
     <Description>Помещение свободного назначения, корпус 4, этаж 4, лот 84</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 1</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>68.7</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10913,6 +11200,7 @@
     <Description>Помещение свободного назначения, корпус 4, этаж 4, лот 85</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 1</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>69</TotalArea>
     <FloorNumber>4</FloorNumber>
     <Layout>openSpace</Layout>
@@ -10951,6 +11239,7 @@
     <Description>Помещение свободного назначения, корпус 4, этаж 6, лот 465</Description>
     <Category>freeAppointmentObjectSale</Category>
     <Address>Россия, Москва, улица Корабельная, 1</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
     <TotalArea>94.1</TotalArea>
     <FloorNumber>6</FloorNumber>
     <Layout>openSpace</Layout>
