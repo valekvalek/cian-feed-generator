@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-09-14T14:17:57Z</generated>
+  <generated>2026-09-14T19:30:41Z</generated>
   <object>
     <ExternalId>12.1.3.12</ExternalId>
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 12</Description>
@@ -2014,6 +2014,49 @@
     </Building>
     <BargainTerms>
       <Price>16465731</Price>
+      <PriceType>all</PriceType>
+      <Currency>rur</Currency>
+      <Tax>
+        <Type>vat</Type>
+        <Rate>22</Rate>
+        <IncludedInPrice>true</IncludedInPrice>
+      </Tax>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>14.2.9.321</ExternalId>
+    <Description>Помещение свободного назначения, корпус 14, этаж 9, лот 321</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Бизнес</Name>
+    </JKSchema>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>42.1</TotalArea>
+    <FloorNumber>9</FloorNumber>
+    <Layout>openSpace</Layout>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/0b3d9a1a1df2f48d4141da3296d1c808d41e2823ab95cbc6f03894a8d8b0f59a.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/093445ccaa724527bb8ce4689b73b1c0f2a8d900ac712ae6b22010db082174ba.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <Name>Ривер Парк Бизнес, корпус 14</Name>
+      <FloorsCount>13</FloorsCount>
+      <Type>businessCenter</Type>
+      <StatusType>operational</StatusType>
+    </Building>
+    <BargainTerms>
+      <Price>16469233</Price>
       <PriceType>all</PriceType>
       <Currency>rur</Currency>
       <Tax>
@@ -5507,49 +5550,6 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>14.2.5.245</ExternalId>
-    <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 245</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Бизнес</Name>
-    </JKSchema>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>44.8</TotalArea>
-    <FloorNumber>5</FloorNumber>
-    <Layout>openSpace</Layout>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/e5cd7daa56c48ce6e29c7ce8fd84bc4dc207a24c5f326400848b46d1b38df4f3.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/2fb029899755f9a959165d8e4062cee97d17dd88529e09409cd58109abdcdc65.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <Name>Ривер Парк Бизнес, корпус 14</Name>
-      <FloorsCount>13</FloorsCount>
-      <Type>businessCenter</Type>
-      <StatusType>operational</StatusType>
-    </Building>
-    <BargainTerms>
-      <Price>20283139</Price>
-      <PriceType>all</PriceType>
-      <Currency>rur</Currency>
-      <Tax>
-        <Type>vat</Type>
-        <Rate>22</Rate>
-        <IncludedInPrice>true</IncludedInPrice>
-      </Tax>
-    </BargainTerms>
-  </object>
-  <object>
     <ExternalId>12.2.3.94</ExternalId>
     <Description>Помещение свободного назначения, корпус 12, этаж 3, лот 94</Description>
     <Category>newBuildingFlatSale</Category>
@@ -6142,49 +6142,6 @@
     </Building>
     <BargainTerms>
       <Price>21096049</Price>
-      <PriceType>all</PriceType>
-      <Currency>rur</Currency>
-      <Tax>
-        <Type>vat</Type>
-        <Rate>22</Rate>
-        <IncludedInPrice>true</IncludedInPrice>
-      </Tax>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>14.2.5.247</ExternalId>
-    <Description>Помещение свободного назначения, корпус 14, этаж 5, лот 247</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Бизнес</Name>
-    </JKSchema>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>45.4</TotalArea>
-    <FloorNumber>5</FloorNumber>
-    <Layout>openSpace</Layout>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/df061016bc7418478a881606f22dbb4956c1d255c40cce6bc203b25a1d66a070.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/66a67131bec1fa889eb033c386b650cd8e1ba02345e09dbd73289cd1339994f7.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <Name>Ривер Парк Бизнес, корпус 14</Name>
-      <FloorsCount>13</FloorsCount>
-      <Type>businessCenter</Type>
-      <StatusType>operational</StatusType>
-    </Building>
-    <BargainTerms>
-      <Price>21118976</Price>
       <PriceType>all</PriceType>
       <Currency>rur</Currency>
       <Tax>
@@ -9195,49 +9152,6 @@
     </Building>
     <BargainTerms>
       <Price>24430266</Price>
-      <PriceType>all</PriceType>
-      <Currency>rur</Currency>
-      <Tax>
-        <Type>vat</Type>
-        <Rate>22</Rate>
-        <IncludedInPrice>true</IncludedInPrice>
-      </Tax>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>7.2.7.197</ExternalId>
-    <Description>Помещение свободного назначения, корпус 7, этаж 7, лот 197</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 7</Address>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Бизнес</Name>
-    </JKSchema>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>62.7</TotalArea>
-    <FloorNumber>7</FloorNumber>
-    <Layout>openSpace</Layout>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/2c2654a18a636f951efd6be8672fb7a7cf1ce62a3eb5e9df03db4be5344ba107.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/cb78af06cb9aa3367300f99746d4170e9bed7efbb1bcd71618b29265a5a8a25c.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <Name>Ривер Парк Бизнес, корпус 7</Name>
-      <FloorsCount>12</FloorsCount>
-      <Type>businessCenter</Type>
-      <StatusType>operational</StatusType>
-    </Building>
-    <BargainTerms>
-      <Price>24697530</Price>
       <PriceType>all</PriceType>
       <Currency>rur</Currency>
       <Tax>
