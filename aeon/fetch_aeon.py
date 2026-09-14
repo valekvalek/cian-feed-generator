@@ -25,6 +25,7 @@ from feed_media import add_two_feed_images, prepare_media_images
 BASE_URL   = "https://river-park.ru"
 API_URL    = f"{BASE_URL}/ajax/flats/"
 JK_NAME    = "Ривер Парк Бизнес"
+JK_ID      = "6178"
 EMAIL      = "info@rusich.group"
 
 PARAMS_BASE = {
@@ -45,9 +46,9 @@ PARAMS_BASE = {
 }
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-# Все лоты этого фида публикуются в коммерческой категории «помещение свободного
-# назначения», включая остаточные лоты корпуса 4 с числовым полем rooms.
-COMMERCIAL_CATEGORY = "freeAppointmentObjectSale"
+# Все лоты публикуются как объекты новостройки со служебным кодом ЦИАН
+# FlatRoomsCount=7 («свободная планировка»).
+CATEGORY = "newBuildingFlatSale"
 ALLOWED_ARTICLE_TYPES = {"квартира"}
 ALLOWED_ARTICLE_SUBTYPES = {"апартаменты", "квартира"}
 
@@ -131,7 +132,7 @@ def map_category(lot: dict) -> str:
         raise FeedGenerationError(f"Aeon: неподдерживаемый тип объекта {article_type!r}")
     if article_subtype not in ALLOWED_ARTICLE_SUBTYPES:
         raise FeedGenerationError(f"Aeon: неподдерживаемый подтип объекта {article_subtype!r}")
-    return COMMERCIAL_CATEGORY
+    return CATEGORY
 
 
 def object_address(lot: dict) -> str:
@@ -180,6 +181,10 @@ def make_aeon_object(
     )
     txt(obj, "Category", category)
     txt(obj, "Address", object_address(lot))
+
+    jk = SubElement(obj, "JKSchema")
+    txt(jk, "Id", JK_ID)
+    txt(jk, "Name", JK_NAME)
 
     # Требование принимающей системы: для всех ПСН передаём код свободной
     # планировки 7, хотя FlatRoomsCount является квартирным полем ЦИАН.
