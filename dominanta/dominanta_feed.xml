@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-09-09T12:39:39Z</generated>
+  <generated>2026-09-14T08:28:45Z</generated>
   <object>
     <ExternalId>23590</ExternalId>
     <Description>ЖК Свет, этаж 2, номер квартиры 2</Description>
@@ -11,7 +11,7 @@
     <TotalArea>28.7</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -52,7 +52,7 @@
     <TotalArea>37.4</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -93,7 +93,7 @@
     <TotalArea>30.9</TotalArea>
     <FloorNumber>44</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -134,7 +134,7 @@
     <TotalArea>30.9</TotalArea>
     <FloorNumber>48</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -175,7 +175,7 @@
     <TotalArea>30.9</TotalArea>
     <FloorNumber>49</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -216,7 +216,7 @@
     <TotalArea>33.5</TotalArea>
     <FloorNumber>32</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -257,7 +257,7 @@
     <TotalArea>33.5</TotalArea>
     <FloorNumber>34</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -298,7 +298,7 @@
     <TotalArea>33.5</TotalArea>
     <FloorNumber>38</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -339,7 +339,7 @@
     <TotalArea>33.7</TotalArea>
     <FloorNumber>41</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -380,7 +380,7 @@
     <TotalArea>33.7</TotalArea>
     <FloorNumber>42</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -421,7 +421,7 @@
     <TotalArea>33.7</TotalArea>
     <FloorNumber>45</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -462,7 +462,7 @@
     <TotalArea>33.7</TotalArea>
     <FloorNumber>50</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -503,7 +503,7 @@
     <TotalArea>38.6</TotalArea>
     <FloorNumber>45</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -544,7 +544,7 @@
     <TotalArea>38.6</TotalArea>
     <FloorNumber>49</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -585,7 +585,7 @@
     <TotalArea>38.9</TotalArea>
     <FloorNumber>41</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -626,7 +626,7 @@
     <TotalArea>38.9</TotalArea>
     <FloorNumber>45</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -667,7 +667,7 @@
     <TotalArea>38.9</TotalArea>
     <FloorNumber>47</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -708,7 +708,7 @@
     <TotalArea>47</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -749,7 +749,7 @@
     <TotalArea>47</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -790,7 +790,7 @@
     <TotalArea>46.2</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -831,7 +831,7 @@
     <TotalArea>43.4</TotalArea>
     <FloorNumber>38</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -872,7 +872,7 @@
     <TotalArea>48.2</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -913,7 +913,7 @@
     <TotalArea>43</TotalArea>
     <FloorNumber>32</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -954,7 +954,7 @@
     <TotalArea>43.3</TotalArea>
     <FloorNumber>49</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -995,7 +995,7 @@
     <TotalArea>47</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1036,7 +1036,7 @@
     <TotalArea>47</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1077,7 +1077,7 @@
     <TotalArea>46.2</TotalArea>
     <FloorNumber>19</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1118,7 +1118,7 @@
     <TotalArea>47</TotalArea>
     <FloorNumber>14</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1159,7 +1159,7 @@
     <TotalArea>46.2</TotalArea>
     <FloorNumber>20</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1200,7 +1200,7 @@
     <TotalArea>49.4</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1241,7 +1241,7 @@
     <TotalArea>49.4</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1282,7 +1282,7 @@
     <TotalArea>47.5</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1323,7 +1323,7 @@
     <TotalArea>47.5</TotalArea>
     <FloorNumber>14</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1364,7 +1364,7 @@
     <TotalArea>50.7</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1405,7 +1405,7 @@
     <TotalArea>50.7</TotalArea>
     <FloorNumber>14</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1446,7 +1446,7 @@
     <TotalArea>49.4</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1487,7 +1487,7 @@
     <TotalArea>49.5</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1528,7 +1528,7 @@
     <TotalArea>46.6</TotalArea>
     <FloorNumber>31</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1569,7 +1569,7 @@
     <TotalArea>46.6</TotalArea>
     <FloorNumber>33</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1610,7 +1610,7 @@
     <TotalArea>49.5</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1651,7 +1651,7 @@
     <TotalArea>48.7</TotalArea>
     <FloorNumber>28</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1692,7 +1692,7 @@
     <TotalArea>46.6</TotalArea>
     <FloorNumber>39</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1733,7 +1733,7 @@
     <TotalArea>51.3</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1774,7 +1774,7 @@
     <TotalArea>48.4</TotalArea>
     <FloorNumber>47</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1815,7 +1815,7 @@
     <TotalArea>51.1</TotalArea>
     <FloorNumber>18</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1856,7 +1856,7 @@
     <TotalArea>51.2</TotalArea>
     <FloorNumber>27</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1897,7 +1897,7 @@
     <TotalArea>57.7</TotalArea>
     <FloorNumber>31</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1938,7 +1938,7 @@
     <TotalArea>53.4</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -1979,7 +1979,7 @@
     <TotalArea>57.7</TotalArea>
     <FloorNumber>33</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2020,7 +2020,7 @@
     <TotalArea>51.1</TotalArea>
     <FloorNumber>24</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2061,7 +2061,7 @@
     <TotalArea>57.7</TotalArea>
     <FloorNumber>37</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2102,7 +2102,7 @@
     <TotalArea>54</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2143,7 +2143,7 @@
     <TotalArea>54</TotalArea>
     <FloorNumber>14</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2184,7 +2184,7 @@
     <TotalArea>55.3</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2225,7 +2225,7 @@
     <TotalArea>51.5</TotalArea>
     <FloorNumber>28</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2266,7 +2266,7 @@
     <TotalArea>55.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2307,7 +2307,7 @@
     <TotalArea>51.5</TotalArea>
     <FloorNumber>29</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2348,7 +2348,7 @@
     <TotalArea>57.9</TotalArea>
     <FloorNumber>44</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2389,7 +2389,7 @@
     <TotalArea>53.4</TotalArea>
     <FloorNumber>14</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2430,7 +2430,7 @@
     <TotalArea>57.9</TotalArea>
     <FloorNumber>48</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2471,7 +2471,7 @@
     <TotalArea>55.3</TotalArea>
     <FloorNumber>9</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2512,7 +2512,7 @@
     <TotalArea>54.8</TotalArea>
     <FloorNumber>19</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2553,7 +2553,7 @@
     <TotalArea>51.7</TotalArea>
     <FloorNumber>43</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2594,7 +2594,7 @@
     <TotalArea>55.7</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2635,7 +2635,7 @@
     <TotalArea>55.7</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2676,7 +2676,7 @@
     <TotalArea>60.8</TotalArea>
     <FloorNumber>19</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2717,7 +2717,7 @@
     <TotalArea>55.7</TotalArea>
     <FloorNumber>14</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2758,7 +2758,7 @@
     <TotalArea>51.6</TotalArea>
     <FloorNumber>42</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2799,7 +2799,7 @@
     <TotalArea>60.8</TotalArea>
     <FloorNumber>20</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2840,7 +2840,7 @@
     <TotalArea>51.4</TotalArea>
     <FloorNumber>48</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2881,7 +2881,7 @@
     <TotalArea>54.2</TotalArea>
     <FloorNumber>25</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2922,7 +2922,7 @@
     <TotalArea>54.8</TotalArea>
     <FloorNumber>20</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -2963,7 +2963,7 @@
     <TotalArea>55.7</TotalArea>
     <FloorNumber>18</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3004,7 +3004,7 @@
     <TotalArea>55.7</TotalArea>
     <FloorNumber>19</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3045,7 +3045,7 @@
     <TotalArea>53.8</TotalArea>
     <FloorNumber>25</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3086,7 +3086,7 @@
     <TotalArea>53.8</TotalArea>
     <FloorNumber>26</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3127,7 +3127,7 @@
     <TotalArea>53.8</TotalArea>
     <FloorNumber>27</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3168,7 +3168,7 @@
     <TotalArea>59.3</TotalArea>
     <FloorNumber>46</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3209,7 +3209,7 @@
     <TotalArea>55.7</TotalArea>
     <FloorNumber>20</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3250,7 +3250,7 @@
     <TotalArea>59.3</TotalArea>
     <FloorNumber>48</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3291,7 +3291,7 @@
     <TotalArea>67.2</TotalArea>
     <FloorNumber>27</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3332,7 +3332,7 @@
     <TotalArea>55.7</TotalArea>
     <FloorNumber>24</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3373,7 +3373,7 @@
     <TotalArea>54.3</TotalArea>
     <FloorNumber>45</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3406,6 +3406,47 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>23706</ExternalId>
+    <Description>ЖК Свет, этаж 22, номер квартиры 282</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>3</FlatRoomsCount>
+    <TotalArea>72.2</TotalArea>
+    <FloorNumber>22</FloorNumber>
+    <JKSchema>
+      <Id>5449798</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>282</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/gx1lwoyua3kpivqtnmie4mty.jpg</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>28780866</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>22687</ExternalId>
     <Description>ЖК Свет, этаж 23, номер квартиры 297</Description>
     <Category>newBuildingFlatSale</Category>
@@ -3414,7 +3455,7 @@
     <TotalArea>66.8</TotalArea>
     <FloorNumber>23</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3455,7 +3496,7 @@
     <TotalArea>61.6</TotalArea>
     <FloorNumber>50</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3496,7 +3537,7 @@
     <TotalArea>62.7</TotalArea>
     <FloorNumber>47</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3537,7 +3578,7 @@
     <TotalArea>62.7</TotalArea>
     <FloorNumber>48</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3578,7 +3619,7 @@
     <TotalArea>55.4</TotalArea>
     <FloorNumber>49</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3619,7 +3660,7 @@
     <TotalArea>74.4</TotalArea>
     <FloorNumber>13</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3660,7 +3701,7 @@
     <TotalArea>74.4</TotalArea>
     <FloorNumber>14</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3701,7 +3742,7 @@
     <TotalArea>72.9</TotalArea>
     <FloorNumber>27</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3742,7 +3783,7 @@
     <TotalArea>72.9</TotalArea>
     <FloorNumber>31</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3783,7 +3824,7 @@
     <TotalArea>82.1</TotalArea>
     <FloorNumber>3</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3824,7 +3865,7 @@
     <TotalArea>79.4</TotalArea>
     <FloorNumber>18</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3865,7 +3906,7 @@
     <TotalArea>69.8</TotalArea>
     <FloorNumber>27</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3906,7 +3947,7 @@
     <TotalArea>79.4</TotalArea>
     <FloorNumber>19</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3947,7 +3988,7 @@
     <TotalArea>68</TotalArea>
     <FloorNumber>48</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -3988,7 +4029,7 @@
     <TotalArea>79.4</TotalArea>
     <FloorNumber>20</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4029,7 +4070,7 @@
     <TotalArea>72.9</TotalArea>
     <FloorNumber>37</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4070,7 +4111,7 @@
     <TotalArea>68.1</TotalArea>
     <FloorNumber>45</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4111,7 +4152,7 @@
     <TotalArea>70</TotalArea>
     <FloorNumber>45</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4152,7 +4193,7 @@
     <TotalArea>79.4</TotalArea>
     <FloorNumber>24</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4193,7 +4234,7 @@
     <TotalArea>74.9</TotalArea>
     <FloorNumber>25</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4234,7 +4275,7 @@
     <TotalArea>73.3</TotalArea>
     <FloorNumber>42</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4275,7 +4316,7 @@
     <TotalArea>79.9</TotalArea>
     <FloorNumber>25</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4316,7 +4357,7 @@
     <TotalArea>79.9</TotalArea>
     <FloorNumber>27</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4357,7 +4398,7 @@
     <TotalArea>73.3</TotalArea>
     <FloorNumber>45</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4398,7 +4439,7 @@
     <TotalArea>79.9</TotalArea>
     <FloorNumber>30</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4439,7 +4480,7 @@
     <TotalArea>73.3</TotalArea>
     <FloorNumber>49</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4480,7 +4521,7 @@
     <TotalArea>80</TotalArea>
     <FloorNumber>31</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4521,7 +4562,7 @@
     <TotalArea>80</TotalArea>
     <FloorNumber>37</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4562,7 +4603,7 @@
     <TotalArea>80</TotalArea>
     <FloorNumber>39</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4603,7 +4644,7 @@
     <TotalArea>73.6</TotalArea>
     <FloorNumber>48</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4644,7 +4685,7 @@
     <TotalArea>82.2</TotalArea>
     <FloorNumber>10</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4685,7 +4726,7 @@
     <TotalArea>86.1</TotalArea>
     <FloorNumber>2</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4726,7 +4767,7 @@
     <TotalArea>80.5</TotalArea>
     <FloorNumber>41</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4767,7 +4808,7 @@
     <TotalArea>75.7</TotalArea>
     <FloorNumber>45</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4808,7 +4849,7 @@
     <TotalArea>80.5</TotalArea>
     <FloorNumber>43</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4849,7 +4890,7 @@
     <TotalArea>86.3</TotalArea>
     <FloorNumber>4</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4890,7 +4931,7 @@
     <TotalArea>80.5</TotalArea>
     <FloorNumber>45</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4931,7 +4972,7 @@
     <TotalArea>80.5</TotalArea>
     <FloorNumber>47</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -4972,7 +5013,7 @@
     <TotalArea>80.5</TotalArea>
     <FloorNumber>50</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -5013,7 +5054,7 @@
     <TotalArea>75.9</TotalArea>
     <FloorNumber>49</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -5054,7 +5095,7 @@
     <TotalArea>82.6</TotalArea>
     <FloorNumber>31</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -5095,7 +5136,7 @@
     <TotalArea>82.6</TotalArea>
     <FloorNumber>32</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -5136,7 +5177,7 @@
     <TotalArea>82.7</TotalArea>
     <FloorNumber>36</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -5177,7 +5218,7 @@
     <TotalArea>83.7</TotalArea>
     <FloorNumber>40</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -5218,7 +5259,7 @@
     <TotalArea>82.6</TotalArea>
     <FloorNumber>39</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -5259,7 +5300,7 @@
     <TotalArea>83.7</TotalArea>
     <FloorNumber>42</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
@@ -5300,7 +5341,7 @@
     <TotalArea>87.5</TotalArea>
     <FloorNumber>36</FloorNumber>
     <JKSchema>
-      <Id>CIAN_ID_SVET</Id>
+      <Id>5449798</Id>
       <Name>Свет</Name>
       <House>
         <Id>1</Id>
