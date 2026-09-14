@@ -11,6 +11,7 @@
 
 import argparse
 from datetime import datetime, timezone
+from pathlib import Path
 from xml.etree.ElementTree import Element, SubElement
 
 from feed_common import (
@@ -22,6 +23,7 @@ from feed_common import (
     require_cian_id,
     write_feed_atomic,
 )
+from feed_media import add_two_feed_images, prepare_media_images
 
 # ─── Этажность по корпусам ─────────────────────────────────────────────────
 BUILDING_FLOORS = {
@@ -42,6 +44,7 @@ PROJECTS = [
         "cian_env":    "CIAN_ID_MARUSINO",
         "address":     "Россия, Московская область, Люберцы, Марусино",
         "base_url":    "https://legendamarusino.ru/",
+        "media_base_url": "https://storage.yandexcloud.net/idalite-media/",
         "api_url":     "https://legendamarusino.ru/api/realty-filter/custom/real-estates",
         "output_file": "legenda/marusino_feed.xml",
         "min_objects": 5,
@@ -53,6 +56,7 @@ PROJECTS = [
         "cian_env":    "CIAN_ID_KORENEVO",
         "address":     "Россия, Московская область, Железнодорожный, Коренево",
         "base_url":    "https://legendakorenevo.ru/",
+        "media_base_url": "https://storage.yandexcloud.net/idalite-media/",
         "api_url":     "https://legendakorenevo.ru/api/realty-filter/custom/real-estates",
         "output_file": "legenda/korenevo_feed.xml",
         "min_objects": 5,
@@ -129,7 +133,29 @@ def abs_url(path: str, base_url: str) -> str:
 
 
 # ─ Легенда ───────────────────────────────────────────────────────────────────
-def make_legenda_object(flat: dict, cfg: dict) -> Element:
+def legenda_image_sources(flat: dict, cfg: dict) -> tuple[str, str]:
+    plan_path = flat.get("plan") or flat.get("layout_plan") or ""
+    floor_plan_path = flat.get("floor_plan") or ""
+    media_base_url = cfg.get("media_base_url", cfg["base_url"])
+    plan_url = abs_url(plan_path, media_base_url)
+    floor_plan_url = abs_url(floor_plan_path, media_base_url)
+    if not plan_url or not floor_plan_url:
+        raise FeedGenerationError(
+            f"{cfg['jk_name']}: у лота {flat.get('external_id')} нет двух планов"
+        )
+    if plan_url == floor_plan_url:
+        raise FeedGenerationError(
+            f"{cfg['jk_name']}: у лота {flat.get('external_id')} планы совпадают"
+        )
+    return plan_url, floor_plan_url
+
+
+def make_legenda_object(
+    flat: dict,
+    cfg: dict,
+    layout_url: str,
+    floor_plan_url: str,
+) -> Element:
     obj = Element("object")
     rooms = flat.get("rooms", 0)
     if not rooms or int(rooms) == 0:
@@ -160,29 +186,12 @@ def make_legenda_object(flat: dict, cfg: dict) -> Element:
     agent = SubElement(obj, "SubAgent")
     txt(agent, "Email", EMAIL)
 
-    plan_path = (flat.get("plan") or flat.get("floor_plan") or flat.get("layout_plan") or "")
-    plan_url = abs_url(plan_path, cfg["base_url"])
-    if plan_url:
-        lp = SubElement(obj, "LayoutPhoto")
-        txt(lp, "FullUrl",   plan_url)
-        txt(lp, "PhotoType", "realtyObjectLayout")
-
-    photo_urls = []
-    for img in flat.get("images", []):
-        u = abs_url(img.get("url") or img.get("full_url") or "", cfg["base_url"])
-        if u:
-            photo_urls.append(u)
-    if not photo_urls:
-        for field in ("building_render", "genplan"):
-            u = abs_url(flat.get(field, ""), cfg["base_url"])
-            if u:
-                photo_urls.append(u)
-    if photo_urls:
-        photos = SubElement(obj, "Photos")
-        for u in photo_urls:
-            ps = SubElement(photos, "PhotoSchema")
-            txt(ps, "FullUrl",   u)
-            txt(ps, "PhotoType", "realtyObject")
+    add_two_feed_images(
+        obj,
+        layout_url,
+        floor_plan_url,
+        label=f"{cfg['jk_name']} / {flat.get('external_id')}",
+    )
 
     building = SubElement(obj, "Building")
     floors_count = BUILDING_FLOORS.get(str(bld), DEFAULT_FLOORS)
@@ -215,7 +224,22 @@ def generate_project(project_key: str, generated_at: str) -> list[Element]:
     cfg["jk_cian_id"] = require_cian_id(cfg["cian_env"])
     print(f"\n📥 Загрузка {cfg['jk_name']}...")
     flats = fetch_legenda(cfg)
-    objects = [make_legenda_object(flat, cfg) for flat in flats]
+    source_pairs = [legenda_image_sources(flat, cfg) for flat in flats]
+    layout_dir = Path(__file__).resolve().parent / f"{project_key}_layouts"
+    public_base_url = (
+        "https://raw.githubusercontent.com/valekvalek/"
+        f"cian-feed-generator/main/legenda/{project_key}_layouts"
+    )
+    image_urls = prepare_media_images(
+        (url for pair in source_pairs for url in pair),
+        layout_dir,
+        public_base_url,
+        label=f"{cfg['jk_name']} изображения",
+    )
+    objects = [
+        make_legenda_object(flat, cfg, image_urls[pair[0]], image_urls[pair[1]])
+        for flat, pair in zip(flats, source_pairs)
+    ]
     print(f"   ✓ В фид: {len(objects)} квартир")
     write_feed_atomic(
         objects,

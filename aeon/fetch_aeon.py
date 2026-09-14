@@ -11,6 +11,7 @@ import re
 import time
 from collections import Counter
 from datetime import datetime, timezone
+from pathlib import Path
 from xml.etree.ElementTree import Element, SubElement
 
 from feed_common import (
@@ -22,6 +23,7 @@ from feed_common import (
     require_cian_id,
     write_feed_atomic,
 )
+from feed_media import add_two_feed_images, prepare_media_images
 
 BASE_URL   = "https://river-park.ru"
 API_URL    = f"{BASE_URL}/ajax/flats/"
@@ -165,7 +167,31 @@ def map_category(lot: dict) -> str:
     return "newBuildingFlatSale"
 
 
-def make_aeon_object(lot: dict, cian_id: str, warnings: Counter) -> Element:
+def aeon_image_sources(lot: dict) -> tuple[str, str]:
+    def absolute(value) -> str:
+        url = str(value or "").strip()
+        return url if url.startswith("http") else BASE_URL.rstrip("/") + "/" + url.lstrip("/")
+
+    layout_url = absolute(lot.get("layout"))
+    floor_card_url = absolute(lot.get("plan"))
+    if not lot.get("layout") or not lot.get("plan"):
+        raise FeedGenerationError(
+            f"Aeon: у лота {lot.get('lotcode') or lot.get('id')} нет двух планов"
+        )
+    if layout_url == floor_card_url:
+        raise FeedGenerationError(
+            f"Aeon: у лота {lot.get('lotcode') or lot.get('id')} планы совпадают"
+        )
+    return layout_url, floor_card_url
+
+
+def make_aeon_object(
+    lot: dict,
+    cian_id: str,
+    warnings: Counter,
+    layout_url: str,
+    floor_card_url: str,
+) -> Element:
     obj = Element("object")
 
     external_id = lot.get("lotcode") or lot.get("id", "")
@@ -192,11 +218,12 @@ def make_aeon_object(lot: dict, cian_id: str, warnings: Counter) -> Element:
     agent = SubElement(obj, "SubAgent")
     txt(agent, "Email", EMAIL)
 
-    layout = lot.get("layout", "")
-    if layout:
-        lp = SubElement(obj, "LayoutPhoto")
-        txt(lp, "FullUrl",   BASE_URL + layout if not layout.startswith("http") else layout)
-        txt(lp, "PhotoType", "realtyObjectLayout")
+    add_two_feed_images(
+        obj,
+        layout_url,
+        floor_card_url,
+        label=f"Aeon / {external_id}",
+    )
 
     bld_el = SubElement(obj, "Building")
 
@@ -226,7 +253,7 @@ def make_aeon_object(lot: dict, cian_id: str, warnings: Counter) -> Element:
 def main():
     cian_id = require_cian_id("CIAN_ID_AEON")
     lots = fetch_all_lots()
-    objects  = []
+    valid_lots = []
     skipped  = 0
     warnings: Counter = Counter()
 
@@ -246,7 +273,30 @@ def main():
             print(f"  [SKIP] Лот {lot_id}: цена отсутствует (None/пусто)")
             continue
 
-        objects.append(make_aeon_object(lot, cian_id, warnings))
+        valid_lots.append(lot)
+
+    source_pairs = [aeon_image_sources(lot) for lot in valid_lots]
+    layout_dir = Path(__file__).resolve().parent / "layouts"
+    public_base_url = (
+        "https://raw.githubusercontent.com/valekvalek/"
+        "cian-feed-generator/main/aeon/layouts"
+    )
+    image_urls = prepare_media_images(
+        (url for pair in source_pairs for url in pair),
+        layout_dir,
+        public_base_url,
+        label="River Park изображения",
+    )
+    objects = [
+        make_aeon_object(
+            lot,
+            cian_id,
+            warnings,
+            image_urls[pair[0]],
+            image_urls[pair[1]],
+        )
+        for lot, pair in zip(valid_lots, source_pairs)
+    ]
 
     print(f"\n✓ В фид: {len(objects)}, пропущено: {skipped}")
 

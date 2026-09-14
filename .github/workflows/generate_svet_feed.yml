@@ -10,6 +10,7 @@ on:
       - '.github/workflows/generate_svet_feed.yml'
       - 'dominanta/fetch_dominanta.py'
       - 'feed_common.py'
+      - 'feed_media.py'
       - 'requirements.txt'
       - 'sync_legacy_feeds.py'
       - 'validate_feeds.py'
@@ -24,7 +25,7 @@ concurrency:
 jobs:
   generate-svet:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -47,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dominanta/svet_feed.xml dominanta/dominanta_feed.xml svet_feed.xml dominanta_feed.xml legenda/svet_feed.xml legenda/dominanta_feed.xml
+          git add dominanta/svet_feed.xml dominanta/dominanta_feed.xml dominanta/layouts svet_feed.xml dominanta_feed.xml legenda/svet_feed.xml legenda/dominanta_feed.xml
           if ! git diff --staged --quiet; then
             git commit -m "chore: update Svet feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             for attempt in 1 2 3; do

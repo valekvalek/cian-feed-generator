@@ -10,6 +10,7 @@ on:
       - '.github/workflows/generate_aeon_feed.yml'
       - 'aeon/fetch_aeon.py'
       - 'feed_common.py'
+      - 'feed_media.py'
       - 'requirements.txt'
       - 'sync_legacy_feeds.py'
       - 'validate_feeds.py'
@@ -24,7 +25,7 @@ concurrency:
 jobs:
   generate-aeon:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -44,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add aeon/aeon_riverpark_feed.xml aeon_riverpark_feed.xml
+          git add aeon/aeon_riverpark_feed.xml aeon/layouts aeon_riverpark_feed.xml
           if ! git diff --staged --quiet; then
             git commit -m "chore: update River Park feed [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             for attempt in 1 2 3; do

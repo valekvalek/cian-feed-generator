@@ -9,6 +9,7 @@
 """
 
 from datetime import datetime, timezone
+from pathlib import Path
 from xml.etree.ElementTree import Element, SubElement
 
 from feed_common import (
@@ -20,6 +21,7 @@ from feed_common import (
     require_cian_id,
     write_feed_atomic,
 )
+from feed_media import add_two_feed_images, prepare_media_images
 
 DEFAULT_FLOORS = 8
 EMAIL = "info@rusich.group"
@@ -108,7 +110,41 @@ def txt(parent, tag, value):
     return add_text(parent, tag, value)
 
 
-def make_dominanta_object(flat: dict, cfg: dict) -> Element:
+def dominanta_image_sources(flat: dict, cfg: dict) -> tuple[str, str]:
+    plans = flat.get("plans") or {}
+    default_plans = plans.get("default") if isinstance(plans, dict) else None
+    if not isinstance(default_plans, list):
+        default_plans = []
+    candidates = [
+        (str(plan.get("name") or ""), str(plan.get("url") or "").strip())
+        for plan in default_plans
+        if isinstance(plan, dict) and str(plan.get("url") or "").strip()
+    ]
+    without_furniture = next(
+        (url for name, url in candidates if "без" in name.casefold()),
+        candidates[0][1] if candidates else "",
+    )
+    with_furniture = next(
+        (url for _, url in candidates if url != without_furniture),
+        "",
+    )
+    if not without_furniture or not with_furniture:
+        raise FeedGenerationError(
+            f"{cfg['jk_name']}: у лота {flat.get('id')} нет двух вариантов планировки"
+        )
+
+    def absolute(url: str) -> str:
+        return url if url.startswith("http") else cfg["base_url"].rstrip("/") + "/" + url.lstrip("/")
+
+    return absolute(without_furniture), absolute(with_furniture)
+
+
+def make_dominanta_object(
+    flat: dict,
+    cfg: dict,
+    layout_url: str,
+    furnished_plan_url: str,
+) -> Element:
     obj = Element("object")
 
     rooms = flat.get("rooms", "0")
@@ -122,20 +158,6 @@ def make_dominanta_object(flat: dict, cfg: dict) -> Element:
     sq           = flat.get("sq", "0")
     price        = parse_price(flat.get("real_price"))
     flat_id      = flat.get("id", "")
-
-    plan_url = ""
-    plans = flat.get("plans", {})
-    if isinstance(plans, dict):
-        default_plans = plans.get("default") or []
-        if default_plans:
-            chosen = next((p for p in default_plans if "без" in p.get("name", "").lower()), default_plans[0])
-            plan_url = chosen.get("url", "")
-        elif plans.get("1"):
-            plan_url = plans["1"]
-        elif plans.get("0"):
-            plan_url = plans["0"]
-    if plan_url and not plan_url.startswith("http"):
-        plan_url = cfg["base_url"] + plan_url
 
     project = flat.get("project", {})
     fin_q   = project.get("finish_quarter", "")
@@ -162,10 +184,12 @@ def make_dominanta_object(flat: dict, cfg: dict) -> Element:
     agent = SubElement(obj, "SubAgent")
     txt(agent, "Email", EMAIL)
 
-    if plan_url:
-        lp = SubElement(obj, "LayoutPhoto")
-        txt(lp, "FullUrl",   plan_url)
-        txt(lp, "PhotoType", "realtyObjectLayout")
+    add_two_feed_images(
+        obj,
+        layout_url,
+        furnished_plan_url,
+        label=f"{cfg['jk_name']} / {flat_id}",
+    )
 
     bld_el = SubElement(obj, "Building")
     txt(bld_el, "FloorsCount", total_floors or DEFAULT_FLOORS)
@@ -192,7 +216,22 @@ def main():
         cfg["jk_cian_id"] = require_cian_id(cfg["cian_env"])
         print(f"\n📥 Загрузка {cfg['jk_name']}...")
         flats   = fetch_dominanta(cfg)
-        objects = [make_dominanta_object(f, cfg) for f in flats]
+        source_pairs = [dominanta_image_sources(flat, cfg) for flat in flats]
+        layout_dir = Path(__file__).resolve().parent / "layouts"
+        public_base_url = (
+            "https://raw.githubusercontent.com/valekvalek/"
+            "cian-feed-generator/main/dominanta/layouts"
+        )
+        image_urls = prepare_media_images(
+            (url for pair in source_pairs for url in pair),
+            layout_dir,
+            public_base_url,
+            label=f"{cfg['jk_name']} изображения",
+        )
+        objects = [
+            make_dominanta_object(flat, cfg, image_urls[pair[0]], image_urls[pair[1]])
+            for flat, pair in zip(flats, source_pairs)
+        ]
         print(f"   ✓ В фид: {len(objects)} квартир")
         write_feed_atomic(
             objects,

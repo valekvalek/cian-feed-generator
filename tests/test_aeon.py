@@ -36,11 +36,23 @@ class AeonTests(unittest.TestCase):
     def test_fixture_maps_without_room_warnings(self):
         lots = json.loads(FIXTURE.read_text(encoding="utf-8"))["data"]
         warnings = Counter()
-        objects = [make_aeon_object(lot, "123456", warnings) for lot in lots]
+        objects = [
+            make_aeon_object(
+                lot,
+                "123456",
+                warnings,
+                f"https://example.com/{index}-layout.png",
+                f"https://example.com/{index}-floor.png",
+            )
+            for index, lot in enumerate(lots)
+        ]
         self.assertEqual(len(objects), 4)
         self.assertEqual(warnings, Counter({"25552": 2, "25099": 1}))
         self.assertEqual(objects[0].findtext("FlatRoomsCount"), "7")
         self.assertEqual(objects[-1].findtext("FlatRoomsCount"), "2")
+        self.assertTrue(
+            all(len(obj.findall("Photos/PhotoSchema")) == 1 for obj in objects)
+        )
 
 
 if __name__ == "__main__":
