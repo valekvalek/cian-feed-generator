@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-09-14T08:33:14Z</generated>
+  <generated>2026-09-14T09:46:59Z</generated>
   <object>
     <ExternalId>69</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К69</Description>
@@ -29,16 +29,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/2aea7a78d0a34c8cb2b2f6154ff2bdbe.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/02c15ccae5b49f4ed0c5ddee9a5bbf156f6c405cb5249a316e34c90b9fb51609.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/ed26f88f0b4e155909b0a7d2445e275f410b31468c82b722ff2f14d8564717b7.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -83,16 +79,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/7989b77e7c784fb8a51c0b2ad1acff11.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/4e9150ee25c8481064bce45d26e520d6714c62ba133c55b757979f86a43d1e26.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/4a76104c3942e18e6b7d137f7009edff4d4f5469b7616f6be6ff2d8b4e54cae8.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -137,16 +129,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/a0e7e6d4ceef4f62a0e1981a79a10251.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/c427abf378ea356e2d57a853906268d769484402edfdb395b9c7fcebfa577878.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/3e2fc8c3c5459f602927cc9935aab4b5aec174de3126e71a82e45f984f629abc.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -191,16 +179,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/c2711191cdc647d59c6b50ebc2644df7.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/23dc7c381a74df66c80b4f746aa88befc4849f9690b914f0bf24845326ce5157.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/3e2fc8c3c5459f602927cc9935aab4b5aec174de3126e71a82e45f984f629abc.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -245,16 +229,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/243968aa766b4e67b94f0a4eea83018c.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/ee43e91648f3a34ebf3f297e1a67cd295387b107ccc3c497c227cb1be10a9106.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/e032128966d13c20da0b3083997bfc11ffb21cf93bed5841f1b4fd7daeb390ed.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -299,16 +279,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/d75145af6c6c484e8e56e8fedb4fa7e2.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/8fe01bc262ee75a92ec7e592a06238acc88846a375d6db204b827cb24364d66c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/1a066b0e595f5a1f4226499a1e962c55d05572b2f0247a632bc4a57e3e868851.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -353,16 +329,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/8153e6ba116e404c8087bd34ff2d4a03.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/f8f813b102224fe5347e906fbe6df8b1e337931c847ada4d9e019d325c7c79b7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/ecb621a5a8873ee2fd3e077a4b69dd9575284cac8a146d5a8bb7017de69c1b9c.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -407,16 +379,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/80b377ad8b284a84ad3e385b2958da82.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/90a732d88941802a5eaf84bf0a957148937da0451836949dcf2cf9490e33ca74.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/530697fd79d7a0106c92222fd5d56c7d95928beac55b41d1c171763bc1c8582c.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -461,16 +429,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/a42cdf1795db409a83675c9df8e73c3d.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/b6771b7bdc6794dd9c0a6035e5f99e0467477ee16d33194ae8f88612dd383ec4.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/6451445badab6dc8ca638b1f8d955411049ffeae8ac59a095b9ca72839cc0dc6.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -515,16 +479,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/46b87a687cc64a3e86d9a7349ab412c5.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/fa28464c711ab1249bd6419f412e4472d8e9e636c5bbe17f8b62a7755522c3cb.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/c1f8ac99d71d3e0f2753a164961147a453dfff2a819b1d648f3b5f2cae32c15b.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -569,16 +529,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/74e784a63e284783823c3f5e97e57389.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/2bdb60023b92324b863bad98795fcfc58b662d954d26d18b49f0eba1d7b47de2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/32a6ef046249134b2cd79950e99f85ef6c9cec0a559e7dd3304c84d36c83ee45.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -623,16 +579,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/7d09e6ef69bf4c35abc1b362281bcfbb.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/7878a398d6b4770ad0e3bb3a960aa25a1bf6b672ad5f815e71b5ded627444975.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/5a01e631258df0d7a0164f5547a8dec1c543fa695abba6ddf881ec6c26bfe2ee.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -677,16 +629,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/e27afbd5fd79480e974c64e4af5078dc.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/b290f3cbd6509ae6fbc85d694edd650a269c7fcbd61b5ace0ca63deab424963b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/b9e4b43af0cbd4e248f4cab8d96b4688565a5e7bd413b2a4c4d07d6b8387a50c.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -731,16 +679,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/0f0e0d5629b64756a920913a5ee82e7f.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/ddd2970ffbe109bc4c7c1cb1defc90158aae1ce9727498e91b5357750bf52039.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/2bd511bc87a9ca4fbb171a8fd8fa79c959576e3b9ae11114fe6928d635e241ea.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -785,16 +729,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/70fb4f3ed29c48048890e375b5e06da1.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/9bb9e9b79ef631c2147800d61200068b9182e031b3c9124f86cf7a9a4ea610aa.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/57ada4529900a8a0dfba454c08170711463fd9b3e96fe4d253e5257974e90211.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -839,16 +779,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/3432d243631f4eaeb63fd818f7f72a13.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/4e64024762f40dae3b386f5caa44dca36e2c74a8345850033cfcded9864dafff.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/ed26f88f0b4e155909b0a7d2445e275f410b31468c82b722ff2f14d8564717b7.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -893,16 +829,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/35c0034dfc7646ca848d877872c24d33.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/0eae8406f18822de88cde043c85b93222d93654d406600fa9187fd85c9c50892.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/ed26f88f0b4e155909b0a7d2445e275f410b31468c82b722ff2f14d8564717b7.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -947,16 +879,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/473bdc7d6abd456190f2ba3711152fda.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/d145d62c11ffdfd495e929ef6d55d570e4eaeec9841e0c3a42146b12d9ca2637.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/b162d5b4d003a011c6af1fb5fa03863e026db24fa62baa2b142eac9a1b54f1fe.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1001,16 +929,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/b9d91c3479d94100b09cacfe59fc92e3.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/22f733c7db9a5244684a5664c37e9fbfd87be2b3681eddc23e1adb4d8d8e8324.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/cc8747bc6b282701dd32628fbca0fbfd1799dbb66a788d4a1a9f004f5aa80d6e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1055,16 +979,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/489e59e9286a44a8baee24ffb8cd2e62.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/eccd17ca9b7a445e170c6317e2e735d3ab83fb112f7e474fe9e8d806f06dc328.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/2d98b7adfbb601fcd77bfe7a860a2997b12585fd90603d83d7a2aab7d1387d64.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1109,16 +1029,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/b5119ee7201448efb1e9fef4c928d514.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/fdb162c812e7370b84c08d490534a78217ae89c60a85f332fff15ec27484fb3e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/2d98b7adfbb601fcd77bfe7a860a2997b12585fd90603d83d7a2aab7d1387d64.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1163,16 +1079,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/677a1330dd5c4e65a69d8f915747dbaa.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/8bea5758e537641dfe02d6498966e0316f4800b5b13980f5447fa83481bb1212.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/4a76104c3942e18e6b7d137f7009edff4d4f5469b7616f6be6ff2d8b4e54cae8.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1217,16 +1129,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/9c9289e2098f47b8bc75f55fd36a45d5.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/69a119acda89c2feaa317de89c26743347119302e56b402c71e8378bd13ea9fa.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/712cc6a3e074dcdb6c8a662f89f589e5fd4a3d2aa3e0e5833eca08251e2040f1.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1271,16 +1179,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/2b646e1bc5ed4533909ad6e2218c6933.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/a79f80fabe8ff731412c3844aef1b4ec19210d1c9af156f4c1752d5eb3764f3d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/712cc6a3e074dcdb6c8a662f89f589e5fd4a3d2aa3e0e5833eca08251e2040f1.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1325,16 +1229,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/84a703635c1a4e56b564ebdc30711958.svg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/a507419fc1b9522a8421a74b13adbd388aecd77d93d61e74b73e24fd059a232b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/712cc6a3e074dcdb6c8a662f89f589e5fd4a3d2aa3e0e5833eca08251e2040f1.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1379,16 +1279,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/fdd1b7ed778a403f91f477da1de4827a.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/b6bc7a0e60538bd2ceee8f91f0262f8e2a976c05c281648d5dedc0032ffd17d0.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/38506982dd80d8db0b18cf70724ce1a18a379679b5b74bee0c4e0763d73c13bd.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1433,16 +1329,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/e5c297f9dfc9473ab1f242317d0fecea.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/08baa55d1aecd634ca0502181bb1f2edf2d04459a965349095a289c7adba473d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/38506982dd80d8db0b18cf70724ce1a18a379679b5b74bee0c4e0763d73c13bd.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1487,16 +1379,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/b7c6b2b6eaf843bba147fd5fd4eed17d.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/6b98fe0512c7cda235a96e08ab6996a68f8050429751d43eb1a25a6bfa1bd474.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/38506982dd80d8db0b18cf70724ce1a18a379679b5b74bee0c4e0763d73c13bd.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1541,16 +1429,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/fcf9d69a475d4e51bdc67b7b16b95ff0.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/8db94b67657c5569a3617bf7610d5c11edada9c6851d959094fe700c2ed81b24.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/dbb51ecacfc3e40efe1d4e46bcb2524e5d40be55fd1177be46db9a4a52278b19.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1595,16 +1479,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/5daa5aad66d74b8db0abe32219a8983f.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/f4c4846530685aa5d49daede6bdaa9bf3d7d14552d5bc8715dd5c8c79ab42c8e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/dbb51ecacfc3e40efe1d4e46bcb2524e5d40be55fd1177be46db9a4a52278b19.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1649,16 +1529,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/ddc89914389f4dd39bab8b61c0df5bcf.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/83393a322ff7f25175bf145bec2b95386d539dcee5463fd71139d01545a16095.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/ca45afd4376a90b249db0c5acb6a7725d5495c2c0f89deb33b3108ac582b529e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1703,16 +1579,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/3e63e6b138c9424fb6bdbe015785738e.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/8c898f27d120981db67e7b58b42ccba00308c7b5c10ff8e0ed42a26546a03259.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/3e2fc8c3c5459f602927cc9935aab4b5aec174de3126e71a82e45f984f629abc.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1757,16 +1629,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/91f75b703611493f92e7a082a6838616.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/8da9eb0f3d87e8d3ce6cedbf4208743fdd55ee9ef9e551cff6c2c0adab073e3a.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/b7eaf03b37d04b9ea93b5e06011d3a76.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/3e2fc8c3c5459f602927cc9935aab4b5aec174de3126e71a82e45f984f629abc.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1811,16 +1679,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/265a9df0b2194698a088c24d25a8dc27.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/25aa8dc4b0f6051f2ed923c7be6c21e7aaa4291d759e916ea59f33432785dc32.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/063569c0c88987ec17789bd65b98780563ab60c81cfec71e19eb571b66afbae8.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1865,16 +1729,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/3eb234ea214048dc8653af93b48725bf.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/41eddb2d7d6ab8d3f967d32f7ae256c1968f578f923361861613c75a02145bd8.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/063569c0c88987ec17789bd65b98780563ab60c81cfec71e19eb571b66afbae8.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1919,16 +1779,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/60b6907bd7ef4b96aee12ad0c5b3d526.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/a37a7729980e667a2a24b8588cea7db21d5baacad23c50fcdbf024dacfc40ec8.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/ad6a37fa57ddf7b8e16e837657f81dbc0168f1f37f60a97dd94ec9eb10648ce0.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1973,16 +1829,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/3c282ed1604645eb8ee4585bd94e58ec.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/dd1fcf92e6fc22def38ad11a6780528ab359dc9f3d41bf0dce6a1d0810b565d3.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/dec20b47d296fa3224cf4f69b6c885707b57cd55c97a80b6e44ffd48421818ed.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2027,16 +1879,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/d1f2b517a7714ed68d60ed73b123a5eb.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/76717bec9a7547e67df376d9ae8e8e2252c78f8ad09471a0b508c47f61284156.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/dec20b47d296fa3224cf4f69b6c885707b57cd55c97a80b6e44ffd48421818ed.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2081,16 +1929,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/e0c60abea44e4a1dbbc8e2c4c4971dce.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/1b35441d8b6b4d10a3fbb349176ac9ead4a56ff3ac4d385b32455bf9f5aaf013.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/e032128966d13c20da0b3083997bfc11ffb21cf93bed5841f1b4fd7daeb390ed.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2135,16 +1979,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/de50ff9564b84c73aeb3a2107034af83.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/7704d6f03041d81a6a68808ee9f12f6206ad7e1414cccb7aa8294571b82f8be3.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/1a066b0e595f5a1f4226499a1e962c55d05572b2f0247a632bc4a57e3e868851.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2189,16 +2029,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/79007d1d3fee4fb7accd6f521b0ee6d6.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/572fc6bcb488fd29e8afd67816f863e1b91e7d368b6e6789fa7c4751eb95ae5b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/1a066b0e595f5a1f4226499a1e962c55d05572b2f0247a632bc4a57e3e868851.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2243,16 +2079,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/24343251e43941b89450d278d548182f.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/a93705d605d4c7b4bc9e64be7d7c991f9771959d4e82ba4ec2471809e6b65b01.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/f10539476a083be38f290606d4bb16f182564d9885f519f7c6358ad14b88229f.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2297,16 +2129,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/01ddd33c3d9241a1a443d01fcb1679ac.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/599a8e3edef30a2f04aaa984a70eee5ab84a27a7638bc11a1b398b2649bf81ea.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/f10539476a083be38f290606d4bb16f182564d9885f519f7c6358ad14b88229f.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2351,16 +2179,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/09c316bc703f4b139463a0aa254e02d8.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/0dc26d02de1a2c71f17325296662d558391dcc1dec371485e6ab93a261ef9d65.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/f10539476a083be38f290606d4bb16f182564d9885f519f7c6358ad14b88229f.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2405,16 +2229,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/2dbbd98f80fd4888b1cc63ea72f06243.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/7b189a6f8a4d847a9fede902ed4fe094a0ce76a25639f3fddaecbed84bcc86a2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/37e570a4de7f7f8839b589324d5fd18d3bc472b45eda118460a091498846589f.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2459,16 +2279,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/ab1abfa909134941984fb533c811a061.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/59732a8113431d01bb34f839e079d184477a01315b14d31a3d1c629cfaca8319.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/561b54e31f0e3d9d178451a14ed8de68af83301266f431adb12ab2e2c0fa790d.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2513,16 +2329,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/dfe8dde2bd6447bb9ddbc7e7b41f1ab6.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/19c34db3f31db0d5b4ffaf986f057b32a5710160e26f60d160d22af67db97e35.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/561b54e31f0e3d9d178451a14ed8de68af83301266f431adb12ab2e2c0fa790d.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2567,16 +2379,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/16d102e00e414adbb3a0d7eed4507c5d.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/a8ca3364beb7d00ca0ce9815b0bf69e7ff4fc1516366d8aa5a114f6b7fb146ba.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/530697fd79d7a0106c92222fd5d56c7d95928beac55b41d1c171763bc1c8582c.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2621,16 +2429,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/a7cf9ac0a9744907a62872486194775b.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/458f917f1f53b5979ccd1fa7b1ae8f0480dd0b2a454c8c25d9b943b98abe42d4.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/6331382f994ea40409d54894792f7e1849e9e786d6ae7d4a8b8746a0ef518f8d.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2675,16 +2479,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/48eab917da8447328482f2dedcb69cb7.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/3a3aca3a953344b970ab2bdd22face426f33064a0a958d066bc202d180afb685.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/4748ba583e9073e9a990eb80eaed9368316fc114b2f7d18845f636b71361e94d.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2729,16 +2529,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/5e4958d12a504d09b8aafca6b1c02570.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/77ccceaf5f44e0e6fed62511a66cfa72b581390a5b72b3f21c911ff370ab4280.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/6451445badab6dc8ca638b1f8d955411049ffeae8ac59a095b9ca72839cc0dc6.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2783,16 +2579,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/27619b7357294204af365203db9775ae.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/5ab08c233de9a07aff3a4172ad9813401db1c6765ffe9ba5bdaccdac9d869821.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/6451445badab6dc8ca638b1f8d955411049ffeae8ac59a095b9ca72839cc0dc6.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2837,16 +2629,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendamarusino.ru/media/catalog/flat/plan2d/ff2bf3aaef1d4de892f7a455d29dd37f.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/d753416672d544905d30933e6d2077dc7107cc7f27a2a2f935aab577136e9bfa.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/building/render/f4b9e7d84f0f4c738ed3d06ee2b613c4.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendamarusino.ru/media/catalog/project/genplan/415242bf8681410280bd1697b2420de5.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/marusino_layouts/ca326480d40f099c2091a523e51fb2a6b5e145a4608732815e6d98e8adf0bf37.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2891,16 +2679,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/920a/3680/920a3680a1455c7283b0efc36a5bad19.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/8366b07f14a4c7b698b8edcdb0b7c752be1f28f7de8e405a8d4e778b134acb1d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/a4454f99517cacd8c4d76de5ac29793481a80de6523701c0b2f436f776f28b8e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2940,16 +2724,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/f736/d65f/f736d65f39b15c8084874bed68961e4f.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/48fa5e6d59441dd9e0dfe4a4080c63b1e432749f0176b9a000cb0b407141e533.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/04a11a021161662e6965a6683239d2e64f5e097be6338f9fec4aad3990decb33.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -2989,16 +2769,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/5ff4/dd56/5ff4dd564d045e9bb32cc2496d454964.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/8c7ddc866500968963ecb94d38c4ef71c933909158f0203886f7d883cacc42f8.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/04a11a021161662e6965a6683239d2e64f5e097be6338f9fec4aad3990decb33.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3038,16 +2814,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/32b1/2646/32b126460d0d5c30a538adddcc8e6317.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/31484f6f7879507a7b3d3daddc7a90a3a63a2dd64d03e20d0d3bd23b076278f8.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3087,16 +2859,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/bb7e/a880/bb7ea880b7e25d8bbb15666c496ca94e.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/9d7c0f102b6daef8240e37fc58d2428d0e0dd130d3dc36c104563629a2fb9f70.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/ceeaf1b597144369112155ec0cf2739623e59a3f12639f884e34eb651e3b394e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3136,16 +2904,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/0a31/5595/0a31559559a85478ae14cc777f544862.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/c4da1e37b22e5462a98c2d88d006f1c644ebfa4c12d50afeadf9dbb4932000e0.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/ceeaf1b597144369112155ec0cf2739623e59a3f12639f884e34eb651e3b394e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3185,16 +2949,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/8a0c/e666/8a0ce666c83552abbbbcec3e95e0d1b1.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/a12ba543ce0a92b0507e91c5b07b2449a702a30bac9789b891e835bbe9fc5a68.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1f08cc6645117e59e6f2bd95ecbdf03657afd98496ab6b66207dd452b7423ad9.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3234,16 +2994,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/be1a/fda0/be1afda0dc035ac4b4de7590ed22bdfa.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/7b1a61ba2f86f0d2a9e6517f8397864ac49808cb582bea1e8820919e6249331f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/885213c2edc21b698c6ae44c4f06503556e16204c8e296a78cc45aa9d4723f93.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3283,16 +3039,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/6540/3361/65403361bdb5543e92ea28d586eb9480.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/3ad2dbae328fbb7341581e864ecdded30aacdc39c79163986dc8fab8adf15c81.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/885213c2edc21b698c6ae44c4f06503556e16204c8e296a78cc45aa9d4723f93.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3332,16 +3084,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/0a97/24f9/0a9724f911e7562098a1e6a6395dcbb4.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/8344a6d56eddf75c2dbd5f9f83fe3ce45a896e88218954dc2eb45aea26d283a7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/885213c2edc21b698c6ae44c4f06503556e16204c8e296a78cc45aa9d4723f93.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3381,16 +3129,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/4edc/219e/4edc219ee461546b979774fc39f25a0b.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/8d9b6a781632b555f4738258ad700fe55c660e87c373cd62139d005423168e74.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/885213c2edc21b698c6ae44c4f06503556e16204c8e296a78cc45aa9d4723f93.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3430,16 +3174,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/3a77/78ab/3a7778abb703517f9be1517dfcfae07c.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/2c2976f4f1f7786e04baf433d57c780a111fc2ff0f94f932072276aab444d8b0.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/885213c2edc21b698c6ae44c4f06503556e16204c8e296a78cc45aa9d4723f93.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3479,16 +3219,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/d7d2/253e/d7d2253e98cf508b836f51236f3be0d6.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/7aa2b1711ce1866a7dcac3dab6235087bf0e3bf5a144cb993f92a6b55b2772c7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/885213c2edc21b698c6ae44c4f06503556e16204c8e296a78cc45aa9d4723f93.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3528,16 +3264,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/25e8/4808/25e8480880605735b503806dccada28e.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6a5094f6a41208ddf78836c89e97e5b8823cbf3ca7deda8ab2aad679299bebbc.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/04a11a021161662e6965a6683239d2e64f5e097be6338f9fec4aad3990decb33.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3577,16 +3309,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/0bb0/4c71/0bb04c717d54576ca1c91a4ece35d733.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/66aaa42c70cb87e58d70213424885d4cc6b1a52556bf01d59bac37cbb6ed5fcc.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/04a11a021161662e6965a6683239d2e64f5e097be6338f9fec4aad3990decb33.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3626,16 +3354,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/7e41/cf83/7e41cf83a3795b32b9d17cf659d37bf9.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/de977854ba734d70b6d971b87be9b90e76dec61a6702d8d204a06fe615a6d195.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/04a11a021161662e6965a6683239d2e64f5e097be6338f9fec4aad3990decb33.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3675,16 +3399,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/e033/bef7/e033bef77bd75c1bb31a0f1b55ea7a0e.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/d7d5972bad264abbd3b4c538255f620f292bf06682855f26ed3a35f7fdb245f9.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/e6bd7ed877854160897deea1685526ab.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/04a11a021161662e6965a6683239d2e64f5e097be6338f9fec4aad3990decb33.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3724,16 +3444,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/aa28/3636/aa283636cf075fe68959efdb3796a3d7.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/10380ddd098bb8af225db808f3f3202a7bfa4bc346be052b8437b48e088b2f63.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/995dee308cf093bf6c9dd5defb2925d3f4c0f6b48b2ef72fcf2f8d3e1db64af2.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3773,16 +3489,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/ec92/c03b/ec92c03b329a58cfbc8154f903518d10.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/49ac36b359928742896369465ec04e85a1d413c15a6b9d79bac383d761b9a901.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/995dee308cf093bf6c9dd5defb2925d3f4c0f6b48b2ef72fcf2f8d3e1db64af2.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3822,16 +3534,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/918b/e29c/918be29c79fe5e90aef729de4a92814f.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/3aeb5fd06c1f78df5f001b6d159075b16daec8115b10183d5c68c623adc89d38.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/995dee308cf093bf6c9dd5defb2925d3f4c0f6b48b2ef72fcf2f8d3e1db64af2.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3871,16 +3579,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/ec27/bf3c/ec27bf3c0e645779aa3fc8ed70255a03.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/c2e14d80711a31587c5cdc7d0157b80bc1eaf12fecbfd290b8e2b572a43c7cf7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/995dee308cf093bf6c9dd5defb2925d3f4c0f6b48b2ef72fcf2f8d3e1db64af2.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3920,16 +3624,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/baa9/dd78/baa9dd78d01257a29fa714f435e56091.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/22da52a2a97a9fbedd7f8be0d274015a60278b136bc8ce1cf50a1187b4051ade.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/995dee308cf093bf6c9dd5defb2925d3f4c0f6b48b2ef72fcf2f8d3e1db64af2.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -3969,16 +3669,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/9e09/8d9d/9e098d9d33485459a7f6d45532e85d81.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/7c80d649996199d3c3750bf8ee448c6229c7d9b778472ed5337ed2f16d859154.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/995dee308cf093bf6c9dd5defb2925d3f4c0f6b48b2ef72fcf2f8d3e1db64af2.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4018,16 +3714,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/d193/e671/d193e6713c0f50e58c1b06bee9bc1942.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/5880d3346206f0d762d7f7b126f42b4edb120959a743f9b721287bf4ae6d232b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4067,16 +3759,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/c518/4af8/c5184af852295062ab0f7cac5e1f6088.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/98e0972403480994c64cb13c648c14d00a995df99f048ecdd5668230f2444b4f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4116,16 +3804,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/cd70/f8b3/cd70f8b335515ad080b3699038fcfbf4.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/ff9d75c523951433ddef8c0c4e02c34261fed93fbcf39800a67a6d3de7e48ffb.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4165,16 +3849,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/1550/e729/1550e72964b654cbb72175c278eb4886.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/a59ecfab20b9210f81b7a2b3f887886a40abb7fa58f57f8fafc33c42bb57a8dc.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4214,16 +3894,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/6a71/d314/6a71d314a0425f579b06bcf3aaca6116.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/a0b0fbd959a1a558d82ec17265f5c3c1592714e1533b82391a4a3954eeece17d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4263,16 +3939,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/c821/ea89/c821ea89d2995c14b865ec1be23e0d76.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6d740849d3feaaf7ce98f6b500eb232962ead10205977290c47d13dcf490a53b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4312,16 +3984,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/fe6d/c9e8/fe6dc9e8c31354de926e2d09b143f55f.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/03c9fef0bc2d6d0bb4c507410b0022d29cb6678fe47993977dd0a8318940f514.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4361,16 +4029,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/e312/d9e8/e312d9e8fe155681a71557c5cd88ecd7.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1b62776f1b2586dc92f8977194bbec20b2ba69ce575fbbf4c4756c2bde808899.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4410,16 +4074,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/ea82/cdaa/ea82cdaa5f115d40a037f50989b1a6bc.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/b7a7d4e66dac57b0d6bd7569510842a6da9bc1b4f96acded02dc828064ac6008.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/f472b29cc0444f33a24cbdbe12bcb310.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4459,16 +4119,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/859b/59b9/859b59b9a75d513ba3082bb2b6543e2c.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1cd69a99e6d062452b81ea0390602f2050dc538c1ff4ba3e9d22a89f991d080e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/86cd8d2e480125212376c488945626009e4594c1519dfd48a28d7cdd975888c1.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4508,16 +4164,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/af1a/dd63/af1add6392df55338e62cc38123398aa.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/f8e48b357d85fd05315e8181d2b1cb80d2dec4a57db8c05969c814054ec66900.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/86cd8d2e480125212376c488945626009e4594c1519dfd48a28d7cdd975888c1.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4557,16 +4209,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/0863/7f00/08637f004de05f4b9115cde7cc7f4bc2.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/0d44a6837c853f19b4416eb330a25a25b14bb7d3aea18e91cde4072456900b33.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/86cd8d2e480125212376c488945626009e4594c1519dfd48a28d7cdd975888c1.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4606,16 +4254,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/6502/09cb/650209cbb546580abcdc736ba0083d7b.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1c6dbad2e2d051de00814776ea667a853fb30f1e38d2f46d72ee027a0285cd65.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/86cd8d2e480125212376c488945626009e4594c1519dfd48a28d7cdd975888c1.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4655,16 +4299,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/2779/6434/277964343c8555fd99f3e5f602a0c698.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cd78b2049ed5e420e5dda720d1e820a3954139c71af07f5b4645b4640cf3a07d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/86cd8d2e480125212376c488945626009e4594c1519dfd48a28d7cdd975888c1.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4704,16 +4344,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/fc15/929f/fc15929fcd595c82ba9cafd4556cf8c3.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/629255a18f38697b3f832559028212620d19ccb875bb70093f0772f49bc5ebf0.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/86cd8d2e480125212376c488945626009e4594c1519dfd48a28d7cdd975888c1.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4753,16 +4389,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/6bc9/031d/6bc9031de49455e3b0d95daf7d376f83.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/c3a5e1e658a415e72651465a390e9d9a355f2f92459794dd11687920c9a666dc.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/86cd8d2e480125212376c488945626009e4594c1519dfd48a28d7cdd975888c1.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4802,16 +4434,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/2c9c/6347/2c9c63474dc45f39ae73ed117f188179.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/a194a7192c143361f1ff7b34f53e42ac4fb2aabf91b706fe6e0aacb749ae3bce.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/86cd8d2e480125212376c488945626009e4594c1519dfd48a28d7cdd975888c1.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4851,16 +4479,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/e4ac/ad03/e4acad035a1c5b42bf75a65892800e02.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/da4ee9270756f441640d3590bef057883ec19b3a64b586c70bc731c6de1d8401.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/ceeaf1b597144369112155ec0cf2739623e59a3f12639f884e34eb651e3b394e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4900,16 +4524,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/5346/a555/5346a555fc89500d89b8371e194f5545.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/2b1d7ec7c6c1a3757e1c3faef54ace0c2b7780e11c251a7e06bd2e51344790a6.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/ceeaf1b597144369112155ec0cf2739623e59a3f12639f884e34eb651e3b394e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4949,16 +4569,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/e778/c877/e778c87715ef559c9fa01998d185150e.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e57c1290c223eb0c6fda4447a0531ffcc6fda954a94594b0212dee49aa60882e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb617aebd89068aac2732a8498897052b4c53873c4da299db7069eb94ef1b740.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -4998,16 +4614,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/b470/0c86/b4700c868c0c576b8b9fde8703b57498.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/94c39a7906dfc2513fbfa56eb09abf402b5d58529a0033a7f04af51bc2b8b3e5.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb617aebd89068aac2732a8498897052b4c53873c4da299db7069eb94ef1b740.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5047,16 +4659,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/7bc3/7573/7bc3757347eb5b0b9c3523d521eedd47.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/86f8f37ba4b51a2c4fc01d256a734d6272f86521c0a08844ccd24c1af37ed2f7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb617aebd89068aac2732a8498897052b4c53873c4da299db7069eb94ef1b740.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5096,16 +4704,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/4063/8b95/40638b95065c544c9b90542c3a6acec5.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/3dda803ac71f38f65d1fcecc0d1dec8f6283c5fd6d4738ed42a110a04ada8d21.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb617aebd89068aac2732a8498897052b4c53873c4da299db7069eb94ef1b740.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5145,16 +4749,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/c9f4/deac/c9f4deac84475163be4766c41170b99c.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/3ecb4ba10bce1ddf8b1f686da1c3efe4b80713e6c1491d5169484172604e2b24.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/9e5058e50f9e48c687328e82df571c37.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb617aebd89068aac2732a8498897052b4c53873c4da299db7069eb94ef1b740.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5194,16 +4794,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/3ae3/f377/3ae3f377aa5c5e31bbaea094ac11b844.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/460308661d78eca5c7f557fc5b5ef02b3de1014f2c2e0e5d8af3a6fcf6d20237.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb53c62c0bbafa68a14a3c7bf0b3025bdd9d1433704302f381957e6e4ef95902.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5243,16 +4839,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/9814/38f7/981438f7759552239d288c2f28a4e4b4.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/a735eb485b484014fb69f357e1e61114502daf9dd2fccafa73fe147442363fe6.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb53c62c0bbafa68a14a3c7bf0b3025bdd9d1433704302f381957e6e4ef95902.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5292,16 +4884,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/5105/acca/5105acca575f5c6eb48d9d94c8d10ff4.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cfefc6a37d653e3ebb6e57c151b0e54d7b153dabd63ccbf9d37685942c0e25df.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb53c62c0bbafa68a14a3c7bf0b3025bdd9d1433704302f381957e6e4ef95902.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5341,16 +4929,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/e4b6/1e84/e4b61e845b335c9f8a8db5933217eca9.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/598f2178572506f571ea692f39cb5bb7fb96668c83ad517cceff124acd761fc9.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb53c62c0bbafa68a14a3c7bf0b3025bdd9d1433704302f381957e6e4ef95902.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5390,16 +4974,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/705c/b808/705cb808988b550b9651609efaaffb8a.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1633cd1a7216f9df1385f91b5faa99077f2ca3a611b8a81467d554164364d98b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb53c62c0bbafa68a14a3c7bf0b3025bdd9d1433704302f381957e6e4ef95902.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5439,16 +5019,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/2a16/d777/2a16d7777e3959868fd58934ddbea321.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/c34d4000a4122da05311c7928e01f4815516aa54ba2b3d0165e331232c86e638.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1f08cc6645117e59e6f2bd95ecbdf03657afd98496ab6b66207dd452b7423ad9.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5488,16 +5064,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/e202/b34f/e202b34f45745472b2aafc451efb22b2.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/531da61cb49d1e1f39f8d54aac0160d370a94dcac152a6d002302dd9ba1b4814.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1f08cc6645117e59e6f2bd95ecbdf03657afd98496ab6b66207dd452b7423ad9.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5537,16 +5109,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/e37c/bdfd/e37cbdfd511d5c61920cb379967e45d8.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/01490ed6ab206a96f3a19d3d109e6ae8a66242a42d0f979da9f049214025a7bd.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1f08cc6645117e59e6f2bd95ecbdf03657afd98496ab6b66207dd452b7423ad9.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5586,16 +5154,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/3db7/e795/3db7e795ba6a55628fe44a5b54989215.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/bdf1dcec6af0c4724cbfa8acb6b2a4dd90e3312df7325a2bc850a783c1935ae7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1f08cc6645117e59e6f2bd95ecbdf03657afd98496ab6b66207dd452b7423ad9.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5635,16 +5199,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/cd4d/3346/cd4d334638b751a2bb0ed4605442ca2b.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/496b2a272b118b0e0b2073c2dfbc3dbfbb781595e010cfa04074c7c51d94d69d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1f08cc6645117e59e6f2bd95ecbdf03657afd98496ab6b66207dd452b7423ad9.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5684,16 +5244,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/fdac/bcc0/fdacbcc011f45e27a4625974781d46f5.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6d29c921e327089c091b20e4918a4fe544e4d9273dd9e0d8667ac38b2c43e85c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1f08cc6645117e59e6f2bd95ecbdf03657afd98496ab6b66207dd452b7423ad9.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5733,16 +5289,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/6300/97eb/630097eb23d65a368732517cd31e4e23.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/3f7c9002e6428d25f44463f6509f0f57ee8d1dbf704a5e2e9ac8173fb7f46a33.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1f08cc6645117e59e6f2bd95ecbdf03657afd98496ab6b66207dd452b7423ad9.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5782,16 +5334,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/55eb/b371/55ebb3717d595235b7494696fb98fa8d.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/5a95511d1a8d11ce25a63568716272222f2399880737553ea7ed64d30fd25836.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/4d9dc3826e3f42a99b9f87711a0a9588.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1f08cc6645117e59e6f2bd95ecbdf03657afd98496ab6b66207dd452b7423ad9.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5831,16 +5379,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/2622/c0c5/2622c0c50180534a8ae9b8e41e87ee4a.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/b923a4d12d4b811a983b13b01a25f8400524f5ea213889ee9c9d0da6d0c431ab.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5880,16 +5424,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/a6c6/f682/a6c6f682c7c85b0db79c45e5f83a0772.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/44347738d60761bc3cad29abfa0dabf7f899df8738f559ac0eb1fe521d316e36.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5929,16 +5469,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/ef52/2857/ef5228577c0d5a339a2fa288e84d8711.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/15ab5a76d703b56481fe1bc1e9fae2e9aefe256c3f94c64e471223a1b4978bb3.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -5978,16 +5514,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/1b0d/6609/1b0d6609de3257dc870af5e948e6f0d7.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1c75bd0b6cf1348f52ff83522b0aa068a67cfd4907b7beb757fc8ca132a91f63.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -6027,16 +5559,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/a1cc/2312/a1cc23123499528997ccb17717e4b2bf.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/4225e3135a3006fd41c7b1bfa0a56ff9efcacfec168450d23106c4c9ed346a3b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -6076,16 +5604,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/3241/12d2/324112d2e5cd5e10ac9616aff8e5513c.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/a1b304c74c0881ed51ea734aca56f2b0bdc0f0245f35c166e0037abe0e22e449.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -6125,16 +5649,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/ada8/0f2d/ada80f2dd7e55bec91c21819e4dc883d.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cc3e3c8ea162e9559506aba6446cdf3bfb94f971539a1918c580b951b1f380f5.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -6174,16 +5694,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/2d2f/a6bb/2d2fa6bb26e75f36aacd35926ce74970.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/8968bc76f8454ce3f1a9cb93e9e12fcb9ef34ca120e3509de2f8d54431860abf.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -6223,16 +5739,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/7557/67e9/755767e99a8151dd9e12d3ab2cff0bc5.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/2a55b3388026b011e8963a919328ed7b4fd04640ac543be6d965a277a7bd013f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -6272,16 +5784,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/a43d/eeaf/a43deeaf14c453e2b94b831d6d0a2dcb.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/42c93926ec9c49f61af6d92debc799297571ea29d49f3d15eb5bce82ba432b9e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -6321,16 +5829,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/2898/aee9/2898aee97e445692829a5269453f850e.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/55e530e4473d4a86557268b4e4f021b9652020685be3e850b43047f8c1544f44.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/b8f31d2056e17b69275047d7d3e6e3440545a11f60822f68251855882887426e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -6370,16 +5874,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/bf42/86ab/bf4286abe0e4534cb55da3d057f93b2b.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/c4b0757b8ce3c8bdd9dc23153e725285e2f727ceb62ad92870bd00b4558bf769.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/b8f31d2056e17b69275047d7d3e6e3440545a11f60822f68251855882887426e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -6419,16 +5919,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://legendakorenevo.ru/catalog/plans/45fe/dc14/45fedc14ee2956f690c641f8678749d0.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/392ae363c57c8d914f4676355f16405029825a24519d0535f0ad08241145b959.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/building/render/2354a75aa45a45b38551840edb73807f.jpg</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-      <PhotoSchema>
-        <FullUrl>https://legendakorenevo.ru/media/catalog/project/genplan/6d2b42e1810b44d9acf5f1a16815747e.jpg</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/b8f31d2056e17b69275047d7d3e6e3440545a11f60822f68251855882887426e.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
