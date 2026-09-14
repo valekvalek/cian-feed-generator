@@ -181,6 +181,9 @@ def make_aeon_object(
     txt(obj, "Category", category)
     txt(obj, "Address", object_address(lot))
 
+    # Требование принимающей системы: для всех ПСН передаём код свободной
+    # планировки 7, хотя FlatRoomsCount является квартирным полем ЦИАН.
+    txt(obj, "FlatRoomsCount", "7")
     txt(obj, "TotalArea", lot.get("sq", 0))
     txt(obj, "FloorNumber", lot.get("floor", ""))
     txt(obj, "Layout", "openSpace")

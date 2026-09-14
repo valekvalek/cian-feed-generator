@@ -39,7 +39,7 @@ class AeonTests(unittest.TestCase):
         self.assertTrue(
             all(obj.findtext("Category") == "freeAppointmentObjectSale" for obj in objects)
         )
-        self.assertTrue(all(obj.find("FlatRoomsCount") is None for obj in objects))
+        self.assertTrue(all(obj.findtext("FlatRoomsCount") == "7" for obj in objects))
         self.assertTrue(all(obj.find("JKSchema") is None for obj in objects))
         self.assertEqual(objects[0].findtext("Layout"), "openSpace")
         self.assertEqual(objects[0].findtext("Building/Type"), "businessCenter")
