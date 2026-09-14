@@ -34,8 +34,6 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python -m unittest discover -s tests -v
       - name: Generate River Park feed
-        env:
-          CIAN_ID_AEON: ${{ secrets.CIAN_ID_AEON }}
         run: python -m aeon.fetch_aeon
       - name: Synchronize public alias
         run: python sync_legacy_feeds.py --source aeon/aeon_riverpark_feed.xml

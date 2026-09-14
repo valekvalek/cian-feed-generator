@@ -7,9 +7,7 @@
   aeon/aeon_riverpark_feed.xml
 """
 
-import re
 import time
-from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from xml.etree.ElementTree import Element, SubElement
@@ -20,7 +18,6 @@ from feed_common import (
     build_http_session,
     parse_price,
     request_json,
-    require_cian_id,
     write_feed_atomic,
 )
 from feed_media import add_two_feed_images, prepare_media_images
@@ -28,7 +25,6 @@ from feed_media import add_two_feed_images, prepare_media_images
 BASE_URL   = "https://river-park.ru"
 API_URL    = f"{BASE_URL}/ajax/flats/"
 JK_NAME    = "Ривер Парк Бизнес"
-ADDRESS    = "Россия, Москва, Коломенская набережная"
 EMAIL      = "info@rusich.group"
 
 PARAMS_BASE = {
@@ -49,20 +45,15 @@ PARAMS_BASE = {
 }
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-# S/M/L в API — размерные классы нежилых помещений корпусов 7, 12 и 14.
-# Их нельзя публиковать как квартиры со свободной планировкой: на сайте проекта
-# эти лоты продаются как помещения для бизнеса. По выбранной схеме выгружаем их
-# в коммерческую категорию «помещение свободного назначения».
-COMMERCIAL_SIZE_CODES = {"S", "M", "L"}
+# Все лоты этого фида публикуются в коммерческой категории «помещение свободного
+# назначения», включая остаточные лоты корпуса 4 с числовым полем rooms.
 COMMERCIAL_CATEGORY = "freeAppointmentObjectSale"
-RESIDENTIAL_CATEGORY = "newBuildingFlatSale"
-ROOMS_MAP = {"0": 9, "1": 1, "2": 2, "3": 3, "4": 4, "6": 6, "7": 7, "9": 9}
 ALLOWED_ARTICLE_TYPES = {"квартира"}
 ALLOWED_ARTICLE_SUBTYPES = {"апартаменты", "квартира"}
-KNOWN_COMPLETE_BUILDINGS = {"4", "7", "12", "14"}
 
 # Этажность по корпусам — по максимальному доступному этажу из API
 BUILDING_FLOORS = {
+    "4":  19,
     "7":  12,
     "12": 13,
     "14": 13,
@@ -71,6 +62,7 @@ DEFAULT_FLOORS = 13  # fallback для неизвестных корпусов
 
 # Фактические адреса введённых в эксплуатацию коммерческих корпусов.
 COMMERCIAL_BUILDING_ADDRESSES = {
+    "4": "Россия, Москва, улица Корабельная, 1",
     "7": "Россия, Москва, улица Корабельная, 7",
     "12": "Россия, Москва, улица Корабельная, 2",
     "14": "Россия, Москва, улица Корабельная, 5",
@@ -132,39 +124,6 @@ def txt(parent, tag, value):
     return add_text(parent, tag, value)
 
 
-def parse_deadline(ready_raw: str) -> dict | None:
-    """
-    Разбирает подтверждённые форматы срока сдачи.
-
-    API сейчас возвращает внутренние коды вида YYQNN. Квартал можно извлекать
-    только когда третий символ находится в диапазоне 1..4, например 25101.
-    Также поддерживаются явные значения 25Q4 и 2025Q4. Коды 25552/25099 не
-    интерпретируются: придумывать для них квартал опаснее, чем опустить Deadline.
-    """
-    quarter_map = {"1": "first", "2": "second", "3": "third", "4": "fourth"}
-    s = str(ready_raw).strip()
-    explicit = re.fullmatch(r"(?:20)?(?P<year>\d{2})Q(?P<quarter>[1-4])", s, re.I)
-    internal = re.fullmatch(r"(?P<year>\d{2})(?P<quarter>[1-4])\d{2}", s)
-    match = explicit or internal
-    if match:
-        return {
-            "quarter": quarter_map[match.group("quarter")],
-            "year": "20" + match.group("year"),
-        }
-    return None
-
-
-def map_rooms(rooms_raw) -> int:
-    code = str(rooms_raw).strip().upper()
-    if code in ROOMS_MAP:
-        return ROOMS_MAP[code]
-    raise FeedGenerationError(f"Aeon: неизвестный тип комнат {rooms_raw!r}")
-
-
-def is_commercial_lot(lot: dict) -> bool:
-    return str(lot.get("rooms", "")).strip().upper() in COMMERCIAL_SIZE_CODES
-
-
 def map_category(lot: dict) -> str:
     article_type = str(lot.get("articletype", "")).strip().casefold()
     article_subtype = str(lot.get("articlesubtype", "")).strip().casefold()
@@ -172,12 +131,10 @@ def map_category(lot: dict) -> str:
         raise FeedGenerationError(f"Aeon: неподдерживаемый тип объекта {article_type!r}")
     if article_subtype not in ALLOWED_ARTICLE_SUBTYPES:
         raise FeedGenerationError(f"Aeon: неподдерживаемый подтип объекта {article_subtype!r}")
-    return COMMERCIAL_CATEGORY if is_commercial_lot(lot) else RESIDENTIAL_CATEGORY
+    return COMMERCIAL_CATEGORY
 
 
 def object_address(lot: dict) -> str:
-    if not is_commercial_lot(lot):
-        return ADDRESS
     building = str(lot.get("building", "")).strip()
     try:
         return COMMERCIAL_BUILDING_ADDRESSES[building]
@@ -207,8 +164,6 @@ def aeon_image_sources(lot: dict) -> tuple[str, str]:
 
 def make_aeon_object(
     lot: dict,
-    cian_id: str,
-    warnings: Counter,
     layout_url: str,
     floor_card_url: str,
 ) -> Element:
@@ -216,36 +171,21 @@ def make_aeon_object(
 
     external_id = lot.get("lotcode") or lot.get("id", "")
     category = map_category(lot)
-    commercial = category == COMMERCIAL_CATEGORY
-    object_kind = "Помещение свободного назначения" if commercial else f"ЖК {JK_NAME}"
     txt(obj, "ExternalId", external_id)
     txt(
         obj,
         "Description",
-        f"{object_kind}, корпус {lot.get('building', '')}, "
+        f"Помещение свободного назначения, корпус {lot.get('building', '')}, "
         f"этаж {lot.get('floor', '')}, лот {lot.get('num', '')}",
     )
     txt(obj, "Category", category)
     txt(obj, "Address", object_address(lot))
 
-    if not commercial:
-        txt(obj, "FlatRoomsCount", map_rooms(lot.get("rooms")))
     txt(obj, "TotalArea", lot.get("sq", 0))
     txt(obj, "FloorNumber", lot.get("floor", ""))
-    if commercial:
-        txt(obj, "Layout", "openSpace")
+    txt(obj, "Layout", "openSpace")
 
     building = str(lot.get("building", ""))
-    if not commercial:
-        jk = SubElement(obj, "JKSchema")
-        txt(jk, "Id",   cian_id)
-        txt(jk, "Name", JK_NAME)
-        house = SubElement(jk, "House")
-        txt(house, "Id",   building)
-        txt(house, "Name", building)
-        flat_el = SubElement(house, "Flat")
-        txt(flat_el, "FlatNumber",    lot.get("num", ""))
-        txt(flat_el, "SectionNumber", lot.get("section", ""))
 
     agent = SubElement(obj, "SubAgent")
     txt(agent, "Email", EMAIL)
@@ -260,48 +200,29 @@ def make_aeon_object(
     bld_el = SubElement(obj, "Building")
 
     floors = BUILDING_FLOORS.get(building, DEFAULT_FLOORS)
-    if commercial:
-        txt(bld_el, "Name", f"Ривер Парк Бизнес, корпус {building}")
+    txt(bld_el, "Name", f"Ривер Парк Бизнес, корпус {building}")
     txt(bld_el, "FloorsCount", floors)
-    if commercial:
-        txt(bld_el, "Type", "businessCenter")
-        txt(bld_el, "StatusType", "operational")
-
-    if not commercial:
-        ready_raw = lot.get("ready", "")
-        deadline = parse_deadline(ready_raw)
-        if deadline:
-            dl = SubElement(bld_el, "Deadline")
-            txt(dl, "Quarter",    deadline["quarter"])
-            txt(dl, "Year",       deadline["year"])
-            txt(dl, "IsComplete", "true" if building in KNOWN_COMPLETE_BUILDINGS else "false")
-        else:
-            warnings[str(ready_raw)] += 1
+    txt(bld_el, "Type", "businessCenter")
+    txt(bld_el, "StatusType", "operational")
 
     price = parse_price(lot.get("real_price"))
 
     bt = SubElement(obj, "BargainTerms")
     txt(bt, "Price",           price)
-    if commercial:
-        txt(bt, "PriceType", "all")
+    txt(bt, "PriceType", "all")
     txt(bt, "Currency",        "rur")
-    if commercial:
-        tax = SubElement(bt, "Tax")
-        txt(tax, "Type", "vat")
-        txt(tax, "Rate", "22")
-        txt(tax, "IncludedInPrice", "true")
-    else:
-        txt(bt, "MortgageAllowed", "true")
+    tax = SubElement(bt, "Tax")
+    txt(tax, "Type", "vat")
+    txt(tax, "Rate", "22")
+    txt(tax, "IncludedInPrice", "true")
 
     return obj
 
 
 def main():
-    cian_id = require_cian_id("CIAN_ID_AEON")
     lots = fetch_all_lots()
     valid_lots = []
     skipped  = 0
-    warnings: Counter = Counter()
 
     for lot in lots:
         lot_id = lot.get("lotcode") or lot.get("id", "?")
@@ -336,8 +257,6 @@ def main():
     objects = [
         make_aeon_object(
             lot,
-            cian_id,
-            warnings,
             image_urls[pair[0]],
             image_urls[pair[1]],
         )
@@ -345,11 +264,6 @@ def main():
     ]
 
     print(f"\n✓ В фид: {len(objects)}, пропущено: {skipped}")
-
-    if warnings:
-        print(f"\n⚠️  Нераспознанные коды ready ({sum(warnings.values())} лотов):")
-        for code, count in sorted(warnings.items()):
-            print(f"   ready={code!r}: {count}")
 
     write_feed_atomic(
         objects,

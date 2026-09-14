@@ -14,7 +14,7 @@ class WorkflowIsolationTests(unittest.TestCase):
         "generate_korenevo_feed.yml": "CIAN_ID_KORENEVO",
         "generate_nekrasovka_feed.yml": None,
         "generate_svet_feed.yml": "CIAN_ID_SVET",
-        "generate_aeon_feed.yml": "CIAN_ID_AEON",
+        "generate_aeon_feed.yml": None,
         "generate_sezar_feed.yml": "CIAN_ID_SEZAR_CITY",
     }
 
