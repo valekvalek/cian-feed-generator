@@ -1,48 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-09-14T08:28:45Z</generated>
-  <object>
-    <ExternalId>23590</ExternalId>
-    <Description>ЖК Свет, этаж 2, номер квартиры 2</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>28.7</TotalArea>
-    <FloorNumber>2</FloorNumber>
-    <JKSchema>
-      <Id>5449798</Id>
-      <Name>Свет</Name>
-      <House>
-        <Id>1</Id>
-        <Name>1</Name>
-        <Flat>
-          <FlatNumber>2</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/zdcvskrkctxxqcizptduaomk.jpg</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>first</Quarter>
-        <Year>2029</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>16245177</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
+  <generated>2026-09-14T09:42:09Z</generated>
   <object>
     <ExternalId>23591</ExternalId>
     <Description>ЖК Свет, этаж 2, номер квартиры 4</Description>
@@ -67,9 +26,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/wtvriqvnxemnukukmg0ct47l.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/4a3b49c6f5e8d2d9e60a41a89e44850fe7486c4b290794d2777cdac892e228f4.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/885c0c41f08c067131444f63225e55e4e61ebae34ec574202084ab2cd1f2cf54.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -108,9 +73,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/cdhemkl6batmqwm1vk7ib4sl.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/4658ccdd6d545606e4abff280309fda65205af187a803dccb80da3f0d094e238.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/99f1638781bf6abce357aa9a0396b468c1baa678028d3d645e6f3114189c87eb.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -149,9 +120,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/z3gaabcgod8nxzsxtc0gjzbx.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3ab2812d2dcc276721956fb3effeb07f4b99b8686efa85403b3299bab28ec2f6.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/0feb385df26deaca14ca54396e4fff15ce7269afecee1c6ca3353f6657421fa5.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -190,9 +167,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/7rqoija7hgqoo1d7ofxnaq76.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/9121c4a92139d633500029475607f77d06d8df1f53c26016ac7ef04799e6eddd.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/fed5d296452c2dda87f47be8c8eab028c4a3db9fcdc2392992b5a2f9c59aa6aa.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -231,9 +214,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/guiymnx5fm1zdygafdk3opqt.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/7ab74a3484e4c915e9dd99373456bd73eadf710795ee035a35939bd5f3d6918f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3d919832f63a8a700c4249f75b38755ec607eeba32852d42b283e888f4b23501.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -272,9 +261,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/bhsoaovvhfhu0dhg7pumpg5f.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/d8613d194801024692448a3aac1bd6cf46f8de56c95ccd362f92e27b926e5829.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/79b01b5bfdfecee3a63f386b7a0c9005e29f1d172e364019722876d8691dcb95.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -313,9 +308,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/fheqratnxbuykvtbwfqgfcuh.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e578d862c0bec0d0dee429fb5d3844ab19a81f565e14ce0bcb62c18a7a02f8d3.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/1d5dd148673b19378a816038a0043aec4f18b67e87e81beed6e5cb7b0d111f7a.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -354,9 +355,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ccaq1yb2deal0m2986wbkizd.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/bef838fce437b81e7bab010aaa52fe04cda53ddecbf7a94df8aa87428a9468fe.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/8a733d921c016c63c2f97400d63f8c0c70e2fcc1f3d6d248eb640173bf8fe50b.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -395,9 +402,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ccaq1yb2deal0m2986wbkizd.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/bef838fce437b81e7bab010aaa52fe04cda53ddecbf7a94df8aa87428a9468fe.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/8a733d921c016c63c2f97400d63f8c0c70e2fcc1f3d6d248eb640173bf8fe50b.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -436,9 +449,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/2nbtmp4ancwz5b3qoma0aejd.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/9e7f9d4cc6a01e42bda34addeea9c2490fd0610872e28966b19a8992348ce029.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/259f928afa7199fbf76f4f99329cb10afe5572a6d85849217025b1bf731b4322.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -477,9 +496,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/vodw1tzy05jwnok0lmwjwh3e.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/5cf3acadd540bf40fce712a1af34cb4300aa6b519f30895c6bdddbb9eb375006.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/03f99e6f0f058bef3812390528dbdf86d69b870abe5c80310d80a105d9e45dce.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -518,9 +543,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/o9xqvhcgxtp6dvheiehlwejl.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/bca7760bd825824b1064495f12dbb082be9debd3d8b414f9d051fc882f075756.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/129386100fd861efe2938ec2470d04f9b01e478080a72888c5220d4bc11e7441.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -559,9 +590,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ivjj7dvubbhny2fcdnamkgsf.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/6ab3562cb9203f1f1e678362db252e84fc5d0712d7a372c9583ee09a6c43c3ca.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/cb39e7f7788fa3f3aab2cc948e125afd35a2fa2d279da1907f51bb3e4cad9778.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -600,9 +637,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ezpnwo0vi7x0vvslxa6lys2i.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/16fa68cc1f8ea78db2459f931d8cadac51adfca970ec42d3dd28555e43485463.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/ee3c21602dcb127dc6fece20a7c41a6e81eecd3dacd65144209a0312eb6e0601.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -641,9 +684,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/gyicw2ixennnhuhwwmrrd8h7.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/55d6261bba53cff8697ecdff92c58c987ac53e383641cd0854b886da4d8b9190.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/d03bde83f00f98f307cba8698c84325ba1d346577de7452760dcf4bbba17e7b2.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -682,9 +731,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/idwdgweilynb68ynj9xp8xtk.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/f5d8e3c93cb3c111c88fdd9c927905be3bcc2a059c64ec988adc2d0b905db3f3.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/8af9691d94a8cbfd8ecd28909f8bb4f01e4cd9df1c4b1d27a3541f324daedb01.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -723,9 +778,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/knor8apnemqszyduvuk6sxn9.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/03f110bb2977eb674e7637b8f01b469c925325179c20765ef167746b015f8285.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/942dbb8dfa42cbe81dd589706f9d229ad5f9a3027cac4fb436c9ee7036bf1e8c.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -764,9 +825,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/knor8apnemqszyduvuk6sxn9.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/03f110bb2977eb674e7637b8f01b469c925325179c20765ef167746b015f8285.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/942dbb8dfa42cbe81dd589706f9d229ad5f9a3027cac4fb436c9ee7036bf1e8c.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -805,9 +872,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/osgkyqrnppvf4tqiydauqsfp.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/ad1ed4a9a8d2c6996f02f80b7a0eeb388f37385c1b98188171835bf9728a08f7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/94620219128a1d25f5bdde7c0c9b24198441e759eae05344793d89cdd6a79024.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -846,9 +919,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/5ldke4x2kq2653x4ug4cijhi.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/da862523ff0ac218f209ec5a0fba9527828db604a6a9118fba31cfade967cdd8.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b590f2a51d31d0f269a12b3349128e424131131615249f2427e01bc165fb44ec.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -887,9 +966,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/o5smz4p4kiacmln2k7gcwqbm.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/f241cb8644d2cb83e9ff234194351e374baefbc2ae9439e04e5335f1042fee73.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b31a6ce0aeeb0e07b8e60e86f31bd6798b3747cec2c3764c73760aeffafdc765.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -928,9 +1013,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/kojmsgmnycwvzcixxyplycym.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/1e9aa56f700509ad251bd1947720dd612c4c261340279ec5db3fe72c6126a440.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b7a5cf262307b34062317ffc9e4b0e06b70d60aa867dd61153f5c74c424cc30a.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -969,9 +1060,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/i9sgv4aybvnvkd8lrfs0gdea.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/59ecfed21ac2933cd98839bd7c0ff00a4c428c4728c2ff091deae21c0629cbc7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/f2cba3b4c7ae0110b299f8f3bd772e4eb1024e37ffd82c79b71efb8baff74def.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1010,9 +1107,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/toqwttjwabxvqpiimia9r45d.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/8e350a2d02cb7dd27b4e0dd5b18788a06061d78e2771d1bcb14928bd3cfc4d18.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/adc1ee7518629aad78bc1e0e4994f76ed2b4f1767103c442802dff8fd803b64e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1051,9 +1154,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/24zsz80yyrzreyv1ted01cpy.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/7e0646b9f68a4f26b005b36f22c232de50273e6c75ba41de2bbbf071f82b9bf2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/d24483806852c7359aa2e791c6baaeb7b7b6a93accdf001c13a99c36c980f5fb.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1092,9 +1201,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/weqt1i2v5nnqufxmrxfadlod.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2545707061c670b62f7f7814b9b2b34f4a4e90dfae3100dbf51d6a754b51234d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/9545029921e1c7902744c39903ed5c7634a1314bc3d3098e7f53a8c54311382e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1133,9 +1248,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/24zsz80yyrzreyv1ted01cpy.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/7e0646b9f68a4f26b005b36f22c232de50273e6c75ba41de2bbbf071f82b9bf2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/d24483806852c7359aa2e791c6baaeb7b7b6a93accdf001c13a99c36c980f5fb.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1174,9 +1295,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/weqt1i2v5nnqufxmrxfadlod.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2545707061c670b62f7f7814b9b2b34f4a4e90dfae3100dbf51d6a754b51234d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/9545029921e1c7902744c39903ed5c7634a1314bc3d3098e7f53a8c54311382e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1215,9 +1342,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/xvaodwmmmwunywbwgkhdpyxq.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c24230d1e7c1578fe15cfaf2f6f98416eae973af1580ad4d89448066181b157b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c15132326afb780168a208a3140188e752dfb2485ef593c18e522beb5d5b940b.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1256,9 +1389,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/xvaodwmmmwunywbwgkhdpyxq.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c24230d1e7c1578fe15cfaf2f6f98416eae973af1580ad4d89448066181b157b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c15132326afb780168a208a3140188e752dfb2485ef593c18e522beb5d5b940b.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1297,9 +1436,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/5ywng8gszonw7ntfeb5c4q2e.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c5a929c7979ad1f78bf3182dfd2d727b3189972dbc0c69c8be4b31ae124a2689.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b4020fc20ab9707c5a042e8e1bf0924eeacf2519a10321cd061fc3ca4f5196e7.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1338,9 +1483,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/5ywng8gszonw7ntfeb5c4q2e.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c5a929c7979ad1f78bf3182dfd2d727b3189972dbc0c69c8be4b31ae124a2689.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b4020fc20ab9707c5a042e8e1bf0924eeacf2519a10321cd061fc3ca4f5196e7.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1379,9 +1530,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/do3ypcbn0wjvzykpmxr5twfx.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/9a20ecdb1b95a68e2624ba960275c824943a03184c76e5ccf1ad7933f2e3d4f2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/9e59534f9a339d5b8192169a74a6dd6cc4d12f86f4e4969f0339c5a3b3eeb086.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1420,9 +1577,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/do3ypcbn0wjvzykpmxr5twfx.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/9a20ecdb1b95a68e2624ba960275c824943a03184c76e5ccf1ad7933f2e3d4f2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/9e59534f9a339d5b8192169a74a6dd6cc4d12f86f4e4969f0339c5a3b3eeb086.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1461,9 +1624,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/9d0lhgsx7xibazdlzkm3nnam.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/27fc568f358d9028e1bd2faff2028e2026477ec8750ba6e0099aae3df207c523.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b61dae2d26d4b9cab2b736cd260697c8961e6793dc91340709b7a0efd5d5cc04.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1502,9 +1671,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/cywis5tkfqwoghgztiwpkzre.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2d90abfa613e2ead10f7e865c5f28018d404e503de3334deb2bb2eab7337a97f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/4ba352bfa28ec90d35f5e3664932eb88717b1179712ff7d013239fb00a2f06b4.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1543,9 +1718,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ygvoptlw7zjk9iboyg0622se.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2dace450e3d72977c159e86cb7b78019352d24dd138bbfb70056a296b9de01e9.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/48f9bd60ed3a498e63a992c1ece0d4edf77a43fa473f6cacd8386306f74288fd.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1584,9 +1765,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ygvoptlw7zjk9iboyg0622se.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2dace450e3d72977c159e86cb7b78019352d24dd138bbfb70056a296b9de01e9.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/48f9bd60ed3a498e63a992c1ece0d4edf77a43fa473f6cacd8386306f74288fd.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1625,9 +1812,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/0irr01dps1nmvy7cjiyiq2n9.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/07d92090e14d87c2e978996601f40c746e110dce368a4c3ae5179abe2f4e45f5.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/0db8b8c408e2202155bad202af475ebf05a0c03f5f61cb82356c5cde97e7f5ae.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1666,9 +1859,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/aharaeithaebwnr472qecnwo.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/1debf2e715d14aba74a94e76d421dd6fd347f0d6de8b2899ac805d118af2cf02.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e2d7b75c5f362537a69fd26bd4e7b1d37e12d4f1a61bcfdf88793e3a4767d727.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1707,9 +1906,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/4lmzsnzb4qydtxqbwto8fktp.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/da141d785d473069adda5826875e35c43bef1479992eaa460da5df75557e157b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/adff0d056bd826e3f440d97ebb9c0293baf67400c8cd29608f360ef83cd9e521.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1748,9 +1953,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/m2vpxzzl7rlmbe1gbe50batr.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/d77d8fe29fbd25683c4db57f555efcc5b0fcbaccf4dc6800ac1a479076c7d27e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/4be74a3a52b90f713fd687cc5159816a5582c2b31d870c8d0850550798b26ec4.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1789,9 +2000,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/saywyqiz0sc0ay7dng3uqycj.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/8a9065ffd17500d0a1db11d22e6a9798ac7f5b68e2878d62bebbce84384fcff7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/f8ed7f74fb1ea28046110a4b078430ac7b294b71823c737c51491a4ac14d2c5b.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1830,9 +2047,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/7gqo7ho9esc0pgjjwx6qt3t8.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/dea1da1b85afe4118f4df2e7cf8e07455070014ead377fd74a6f2040c687ba29.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2e9e9e41a5f9ea3d0a2926c331439bbea9b2090de11cde539ce04e2a1640ce03.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1871,9 +2094,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/6ryzkm0ftyajfhwlewn8zuus.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/5a8d342d8c6bad61b016629da54a67dc310a0fd32d58ebdbba7dcd66edbb2275.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/8e0b8148090264b3ed2702ab8bec06d5a7b9fc0ff911745fd9c3f3b2e9c49170.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1912,9 +2141,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/batsthhtnxgyaebbkmpgmtwc.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/a9441add7529abec8a754230535ee0129fb0bbb86ee0fc7acbeff0abdebf3883.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3b4726e1115bbb365c7345ec410ee8eefd2e9f52a478afa226800a84ae92abc7.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1953,9 +2188,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/w0z7smufwt29auuzrlcfbmoc.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/f5c2b55128b9c04eb11449d122bfa07ae0730b7c161a512669914659ec23ae8a.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/f1addc657e62f4612314074848f5aa53cc2b375af2bf9ae919933e76bda1c96e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -1994,9 +2235,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/batsthhtnxgyaebbkmpgmtwc.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/a9441add7529abec8a754230535ee0129fb0bbb86ee0fc7acbeff0abdebf3883.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3b4726e1115bbb365c7345ec410ee8eefd2e9f52a478afa226800a84ae92abc7.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2035,9 +2282,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/atbr0rfivjy566ftz7v3gt3p.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/7974579647e944f3e9449b9f3a3c22294fe469491ecea6aa73b039d0f54bf342.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/933447691765d49e14d652da04eaaa42e5a5e1cc70008bc589881018640773a3.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2076,9 +2329,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/3bjwlv4s4fdzfjrdqiqcgmml.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3ccf6d1925629eb884d991beb351e457cce1f8d89c920257b5b26c11a8a3291f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/1f1892d47145ce1641c49cc99e7d54c9997bc684cb220dc0052337fe0fd9a64d.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2117,9 +2376,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/cosh1fadkhfqlro5pe6nrulk.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/a0b340859d40e3e800fd5c6a1d3962e4f5944733b0c8c8c6ec0dff1639036379.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/1fdb2374153ec4f2bff768b863dae762b956e296d8e42008bd5d4a64c6f5b812.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2158,9 +2423,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/cosh1fadkhfqlro5pe6nrulk.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/a0b340859d40e3e800fd5c6a1d3962e4f5944733b0c8c8c6ec0dff1639036379.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/1fdb2374153ec4f2bff768b863dae762b956e296d8e42008bd5d4a64c6f5b812.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2199,9 +2470,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/duxpcvfama62sny54rldh1st.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/07bc537d03a51847b4cdc9f9c12a73ad9a6a1b340f794b2f051cfc50b0bc5208.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/a75a7e00c40c634ae807b49fea27f14810608a49743478d01274f6e1962fa633.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2240,9 +2517,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/famarscwzelwhplpuvfcgnht.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2c584d78516f86e2e1d4d408616c1703f9637db909282bdfa3cadf71624ce915.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/72a9a212cbdf8a3b61944864900f88e814448bd58ea0bbd9414f0f0aab87c276.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2281,9 +2564,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/duxpcvfama62sny54rldh1st.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/07bc537d03a51847b4cdc9f9c12a73ad9a6a1b340f794b2f051cfc50b0bc5208.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/a75a7e00c40c634ae807b49fea27f14810608a49743478d01274f6e1962fa633.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2322,9 +2611,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/famarscwzelwhplpuvfcgnht.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2c584d78516f86e2e1d4d408616c1703f9637db909282bdfa3cadf71624ce915.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/72a9a212cbdf8a3b61944864900f88e814448bd58ea0bbd9414f0f0aab87c276.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2363,9 +2658,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/knviwsjatsynirqcwncucypg.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/edcc25f4890a69452761be618a4f20ad75b3dd1b5ad6ebcbc65153c098c68095.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/d709c99a7d8f1dc4a0ee2ede03567b5717ffe8ddc75f5d8873e5291c05b48c02.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2404,9 +2705,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/w0z7smufwt29auuzrlcfbmoc.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/f5c2b55128b9c04eb11449d122bfa07ae0730b7c161a512669914659ec23ae8a.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/f1addc657e62f4612314074848f5aa53cc2b375af2bf9ae919933e76bda1c96e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2445,9 +2752,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/0l86okkipjtt3k9u9pyywwfo.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3d037fd4be936dd355e9d3f929a16e3b5d4954307f55c0a4e1df342ac0d4b3d3.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e3ccbe09463260232f2d3dbd6e2f081fdf905a884182655edc1928e468c769b8.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2486,9 +2799,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/a4vp3np3jefwzrt9kjnvhc03.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/348f193b88e69017b2dac096f2e62dcfdfc59332d3d6aacec7ae419c7da6f0f6.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c0ddc687f55d9080ec6a71a11c271eeaa58ea2cdad5331245b0b2f28a8a09065.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2527,9 +2846,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/fhtxeacfqm5m7rnezbqju1lo.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/ff31d5f5eba71f84a44df67eb9775f1571ae538bc0994967ba63862b66eb5be0.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/0479aeac2ad440f9c553062d2fc2bc4f434f8ef1f25dbd5dd660d67586b804a8.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2568,9 +2893,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/fuyc9cjh3trlxq44twk5yfrn.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e070262204e7510ce131457c57c1e22dabf30de51e1391c8d2b9bbd3f45575cd.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b1f36ec1df57d1c420c02205e103733b5ecd121df33922a6dc65abadb122930f.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2609,9 +2940,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/sqwoartkx6zh3ecemkshawt4.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/39dfb02b3350db6ef547f16f1fff9aa00449ae0f02985823fcfb9abd3856f130.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/ee0ee1bb03822ad42f2bdf142de9c313e260a2f7d27e1c377ef33107d04aa206.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2650,9 +2987,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/7obncnnpihtks5brqwopfwhz.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/641b9ae2df5cae8b7617bd28c3c55371baa1aba5c60cf3cd75219f0a9835fd30.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/f6b7f2bd2e2d4de6fdd417e237e1bf4ea9ec1a7c8bd05222ea932e4502adfdfe.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2691,9 +3034,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/vsjfew5wduae7uus04lnseyt.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/7d4b4e5fc67ca9e61d3965084fc7af76382116cc59d7196cb17d812eb3683ce7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/aaf69c66ff89b905d72453227422674b1721edf24713795771610b78b1b5549a.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2732,9 +3081,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/7obncnnpihtks5brqwopfwhz.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/641b9ae2df5cae8b7617bd28c3c55371baa1aba5c60cf3cd75219f0a9835fd30.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/f6b7f2bd2e2d4de6fdd417e237e1bf4ea9ec1a7c8bd05222ea932e4502adfdfe.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2773,9 +3128,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/j9ynpddgnhmt150lbmvtfum2.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/58eb84989ac1437882e78c91646175eac1f32de4e92fe07ff60b8b162a36ab71.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/54ae0ab5251fcb80fc248daa24dd90c8ed3665a74063aaa55e8c344a569276e2.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2814,9 +3175,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/vsjfew5wduae7uus04lnseyt.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/7d4b4e5fc67ca9e61d3965084fc7af76382116cc59d7196cb17d812eb3683ce7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/aaf69c66ff89b905d72453227422674b1721edf24713795771610b78b1b5549a.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2855,9 +3222,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/1xz3ww4uh5cjmp8qe2tyensl.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/34f6566cfc0da86831e7dae5f474801d1b98bb2c63d7408f3243ab5ad560eb1f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/5c0add864c6a25d3e5b86fe22964a1f6189a14d0240242668fc25f3d14c4ba2f.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2896,9 +3269,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/k75kvbet77mctbqbowjnaxeo.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/a03d67396344992e4d78fa43bf345116cf13fb566721661a4bee47cc9e617bcc.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/97af59bfe927895499da8b780d3cd6316709b6cf27b4ea2c441da2fb12bba6bb.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2937,9 +3316,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/fhtxeacfqm5m7rnezbqju1lo.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/ff31d5f5eba71f84a44df67eb9775f1571ae538bc0994967ba63862b66eb5be0.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/0479aeac2ad440f9c553062d2fc2bc4f434f8ef1f25dbd5dd660d67586b804a8.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -2978,9 +3363,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/fq09tmryrzhv5gux51pwpszv.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/4a1b55bb6c2be19cf37606990335754581fc9dd5c97330ddbb658fccfdfd1c9c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/adc9ab372467dc994e6ac5c82d07088ae7052580ba4452266f0561a3b25b569f.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3019,9 +3410,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/toyovqz8vmjkwxjrde91e4ts.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/331e615a86dab2894b54b1a409295a20604c5acd8574f5b84ec2ab2132ca4279.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e30fe5ad30ea72d7f00e36c8de6491c1c100cbc27b1fecc080cd8ad0e79a1a00.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3060,9 +3457,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/wy0h27zt7a7thf1hyvqehwjf.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/860bf1a17ea09ad581d223b856c7563304c4f3161d2e22f52c2294850bc588cd.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c7bd5cfb5dfbb731c4718d8ae0ea39c4a683c8f1ff9c0b86d43b17461db05ce9.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3101,9 +3504,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/c4k2lgnjuwzst4rgdr9uiufe.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/0e55419e7608daff56457c60a49f5c5b582ed2a26ec9b14f645bb833ed85e19d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/a474d79ba9d9cce46d1152e9a636d15cceeade6e3423926cd57717400ce54abd.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3142,9 +3551,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/crsn3ytebz7skkhatztyzpr8.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/8c98f3b9752ec1affa8645576451d00feb40338ca4ca931ee5a72ad741b15671.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/7a4075ce4051563228959309ffb2425b35324d97b666dcfbde7aeb87e6b508da.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3183,9 +3598,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/kkv8dlmnlbhzlookoe6jlfen.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c420c08c36d083e739d86ef4a2622f3b02489b3f11f9f2a6bf3408dab85dfd56.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/65dd9906403818c3023b0e5e48bf482fe5681f42c6d46e0b9ff67d77aaad8350.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3224,9 +3645,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/toyovqz8vmjkwxjrde91e4ts.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/331e615a86dab2894b54b1a409295a20604c5acd8574f5b84ec2ab2132ca4279.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e30fe5ad30ea72d7f00e36c8de6491c1c100cbc27b1fecc080cd8ad0e79a1a00.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3265,9 +3692,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/kkv8dlmnlbhzlookoe6jlfen.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c420c08c36d083e739d86ef4a2622f3b02489b3f11f9f2a6bf3408dab85dfd56.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/65dd9906403818c3023b0e5e48bf482fe5681f42c6d46e0b9ff67d77aaad8350.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3306,9 +3739,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/3qbmbzqftkpekzy0tfw90qfc.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/1afa13f042594abc8d91d3ab9c3dcd319c62c66c9929c5681fa2c89d3fbc079e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/443edc4816df467edcd0960bdd949ea13188ebc43f8e3c45d465abec78c1887d.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3347,9 +3786,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/kbi59qmqphfkqp1znntnuhfv.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3374067245c8ed2e5f7bfe48d09a6c664aeb33e87c2172448cdb4e22c444f3ab.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/0f57ca7948f39be3b5c565a0c50505879c0cdbb11a58d864dd02f87e748f196c.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3388,9 +3833,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/lmk3uqndgpvg4maoroqg6k6u.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/314d2ff68b58c6e2c2c03cd27cd3bebca245f338738d91753328dfde3cc5b868.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/47a0c5a63446fce8757361d7984fef9fe1977d9be0e665ebbe636aa4e7885d94.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3401,47 +3852,6 @@
     </Building>
     <BargainTerms>
       <Price>28507572</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>23706</ExternalId>
-    <Description>ЖК Свет, этаж 22, номер квартиры 282</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва</Address>
-    <FlatRoomsCount>3</FlatRoomsCount>
-    <TotalArea>72.2</TotalArea>
-    <FloorNumber>22</FloorNumber>
-    <JKSchema>
-      <Id>5449798</Id>
-      <Name>Свет</Name>
-      <House>
-        <Id>1</Id>
-        <Name>1</Name>
-        <Flat>
-          <FlatNumber>282</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/gx1lwoyua3kpivqtnmie4mty.jpg</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>first</Quarter>
-        <Year>2029</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>28780866</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3470,9 +3880,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/tiedxe43kmwrbsvet8awdynj.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e1b91f07e524d9d30446487c44850e2883b157814a9d4fe3dee0d01580348512.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/fbb54f85e416b615cecf64f74cf9dd5cf8301434cb0716a55cd271b65a1e408c.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3511,9 +3927,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/yz4eucs0wsjpydrqqhvvhrob.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/4909e4d7be26535a8e3e24f1f9e377583203fa1da24d0cf29f2741ab2b89c64c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2c156f3d5f4c5b5b86f51178c9bf2f0948224dc407c125e92828074f7f799060.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3552,9 +3974,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/twkx9ofhq5mxierzi4wdgbtg.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e35c382d29c4445ce498bbd263679c07f4a573a73894d44d781824f6bd816ba2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/4d5237307b747ceecb13d1c32a14545aac55e09eb346bae8ad93e03a4e99c076.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3593,9 +4021,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/twkx9ofhq5mxierzi4wdgbtg.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e35c382d29c4445ce498bbd263679c07f4a573a73894d44d781824f6bd816ba2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/4d5237307b747ceecb13d1c32a14545aac55e09eb346bae8ad93e03a4e99c076.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3634,9 +4068,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/dub99xeo3ykhrccsean27nxl.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/324e3eb4b95305929f2b17b9f724f51d7b3960705cf0cc210aa057047a370072.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/7fac69b6e0b1e81040f69fa9d932efadf095718ad2afb89a92d90a4d6ca4c71f.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3675,9 +4115,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/i3ak3cqmgl87yl0llmm5chzo.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/24f93a9d69fd8aab7b64f91c4f7731c14f633bf8e4f05848ae1496bee89050af.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b343bf57f5f07c8555dc1f22a88939413b49d083bea2931702aabae3aeb814dd.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3716,9 +4162,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/i3ak3cqmgl87yl0llmm5chzo.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/24f93a9d69fd8aab7b64f91c4f7731c14f633bf8e4f05848ae1496bee89050af.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b343bf57f5f07c8555dc1f22a88939413b49d083bea2931702aabae3aeb814dd.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3757,9 +4209,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ltdhjerrwdghbvagfkwpoomx.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/94798be6ca77d1909c18dc5d013432fb23a7e5907f0975a78c3ad3a33af45a8b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/7698b540339e46b713a236493471f00c2a4b8e113b7585a1a3ea70c999bf1b82.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3798,9 +4256,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/jjd1hiyz9aih9oswaasezbqb.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/727c613803838db2d62e5e999d07969d142d8fa0652623107d3cf55fac7c627f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/694d1fb8f9bfa4fe5e9a58803ef973815cbbf0e3c4317d374fbbd5838e8bbc94.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3839,9 +4303,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/uz1pzalwwyytr2jdloroekg8.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2457c8a866c5d7ffe8dbb3f1acc379fa53be34c852e3604a00accc7024d3e76b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/05f6b4d2651cd6b5bf714301505d605a04fb2df4479c18498532ba9e030963b9.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3880,9 +4350,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/bqx9crdzbal11xr6dxgabtlp.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/9b5483fc9dfeaf96084ddbd83a478d654890ac6601b50d513cefec907764c173.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/1ff5dd173e1e5017021c5b0dec3b4e59cb4bed55caca3eb0610038d9953bbc4b.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3921,9 +4397,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/asqgohzohiojkymi86q1hwx4.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c16cf1a9d320c91388272508714584a884409161bfcba538930dbfc0310ba9bd.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/a42885a82e01fb515bb9a1695292feb22d4ed53ca7b2a9c0725503b81705411c.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3962,9 +4444,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/yoxggslsanjiguf7bxa1mith.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/d2f119398c9ceb2e3f5984faa0bb6e3aa0a5ddf123effccc99742be23f669687.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/cc5e0c517b4432224438909c863800e035bcbe197032cc7670538783e549c800.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4003,9 +4491,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ob8vxz65axoax92mu5mrsow1.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3dad9a2b52514c91348d83084f261b8001909cc5bfd1035522b391d0a25b44f4.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/f8ad5470a1e5475afb884ae8bc40bbc0f04e7052542bada5372591942684c456.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4044,9 +4538,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/yoxggslsanjiguf7bxa1mith.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/d2f119398c9ceb2e3f5984faa0bb6e3aa0a5ddf123effccc99742be23f669687.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/cc5e0c517b4432224438909c863800e035bcbe197032cc7670538783e549c800.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4085,9 +4585,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/smvjgn6ntu3baump5ftgm32p.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/5930242b3beb04ed19d71f5233f57168fe0676bc8d74fb688036a8c0ce068e7f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/a78e3148d75bb6771300176588d0c79137cb4c3e702c3e204ebbdd1fc9677f7e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4126,9 +4632,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/kop4k6pwkrdjvqllv1pl8nih.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/64e4c707d796a47da589e9adcda2bcdbed25884ed5072a792f060d10c5cfea6b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/cec3ed51a9902fc5fe8f3fb657b408b7202ee21ba46899ea4a1471961f32b351.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4167,9 +4679,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/n0jugnteabbiioqy9vefw4o0.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e1a401f49e3b27e53082a9af7d662b9eb623a61c350647305c739737426a1884.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/dbea01592c446cde94d688f94dc95942bbd031122358abf469fbb3ff2a1b9b04.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4208,9 +4726,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/v5q9iga0zh2d6ra66xhq2uga.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/af14bda30f2d174d915d1c04f277f16d118b6321d0496e1acdade5eecd87163e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3981a418a48fdb644b495c51adbf7737f6615a450408a5eebb6cec64ac2bbb60.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4249,9 +4773,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/7knbnzidecwb0aaboegcgypm.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/ea1dfe2587f156143599d5d592b7e8c2cc99dc887226210b586a6d0bb6b94250.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e5ac369c8a71b65d22118e19184b5178cd545ee9bcc88faae953cd0fe2ecac86.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4290,9 +4820,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/bv2e2owjyjaccz7po4dogmtj.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/bcbacdc1ec92a466b00621c35c16090b4ebf3623549d0dabb9a9356efff31b13.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/4b7da454acc65b9c6c9b38f398776bb7927a95fb4774934716863b7ea8d74cf3.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4331,9 +4867,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/oeylksw6nle2l34ferkaahhq.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/d3cac14525dd6ae7ae82b01e86bd9a49a4e6e4e20e8d0c930e18270652ebcba7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2b304283405a5332fe2322c0b537a79ccdbdc8824437baad1b78d64f1892a004.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4372,9 +4914,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ignk0iz5rocogdlgsz3ldsro.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3e573ddb85c5cc7d6e2d87fcd86e2632b906e7578cfe082ab519e7aa9bf210ce.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3e783144ef11cdcf335419d83a8d6888557560c58abe85c1cc200b1a57e531da.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4413,9 +4961,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/ekcgt7zumf0ni7dd9vq04mml.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/0667fdb638d426d7c1b6abe20a727a7c264c93050989129d1e85aeff1d41ca6a.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/a89625ee96fa86b5314ec3479bf5f24c4a5e845940a37db3c49eca5c0db0b5ef.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4454,9 +5008,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/d31ntuod1vl8fxew4kbrqg6c.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/5d732faad1b9996a2d00682f34bb30e0d973d7430a93b213ba0a8ec39f63b8b2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/ed02613bee227d5bdc3cfd0c4da8ce6c34ca3ec56e63df9efcf355c6a5e6f140.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4495,9 +5055,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/8lfb0e0u1hjcrvarybtlxfer.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/de319d487c8eee3054fc89a7953acea05df9750fa5eb4339a588db909cd7be27.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/8efb316a5051113e3a47b937e5f4a93edc917042e78cb3617d5f566a01dace25.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4536,9 +5102,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/cule5iaqfxadjmgf7fvtrtm1.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/6492d114791811d2c6d3d0477219578b7fbace8d85a71c11e568e7f4c77a32e7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/11a4cd70eff6c42fefe15c4c55b1f6ccca9fb7c7d923f2fb011c185d1227fce6.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4577,9 +5149,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/9cuo1xqfzqyj6e56uxtsnmfa.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/92d9d7c8409dfce098d14ac46c71bf0a0cea121831c964e7978699b762747d9a.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/5785cec9c6d836722f25c015586738d7b018b18cfd9ee557f5961407927f83a5.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4618,9 +5196,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/r5bdwulauyvven3q5ijeefik.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/6ae552578c9bb1c76104e88a9149bf6a323f66a63d465041bc8cae8cbfaacd06.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/1df90c5942346e672468283633217a74ec837962246ee21898c97dae7a891444.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4659,9 +5243,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/y4f6gplsnmg0xnwlk28s48gs.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/6902ba13ad5c8e457533f24a29c02c733b009c4a07f9f631b1954914824b1d62.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/292533f7c67b4c9d2766fc729a6290f362dcce83ffc894d22435965bc3af766e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4700,9 +5290,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/aezi6pvsfbldlphk2v70w9mj.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/12ed8ce4f03e6ba2fe509247aae1ce670f242581ace4c5dd149a25021607d611.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/c129f58dadd5945f39811f2af4bd48f206100141658c2adf00f691b9af611062.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4741,9 +5337,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/en8okgvu1vztrgta4bgva33b.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b6833f46d586e650ec6796ed4d7ebd2ac7908c529073f46661753c0a9743ad95.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/862502b46e008ae664bf4cabea7f1b054fdaf87308385f78b0ad03e05fa4c662.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4782,9 +5384,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/dmvj4yseyodqe7wluuu9zmlu.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/24254cbc8916aa5b415e159cf5a1eb8e8d16f83eb21d4c82d82b18160c854baf.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/fc1a10b71970d2f01e9be5e3143db256f967c35f4eace91f6663770833fc0dcc.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4823,9 +5431,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/w1zrdjhjj8zh7ap1bgcjmyiz.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/0954b8e53e964ca53bccabe376301194a8dd26a047802451a0543f62f4c62c3b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/14e38871293f8a487fa84d73be9b24c4d15f2dbfdc94aca83e7042b8a21c7eee.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4864,9 +5478,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/j62b2aovp1lq5gsebhumao4n.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/104ad12b5a1b7ff9b97930131a53cb8678f099a0e43cb7493204a30a5b13fd19.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/1c66546ca28694361a413513f8498e879b6276f8046d58daffacb8eee0a3a548.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4905,9 +5525,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/qx3eg8gdyp80l6t3zdhyao28.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/37d0898bcc9f8e80040fdcc3d6ad63891405b536acd7b007ae43f500df87419c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/e269a35cdf6bc8581a7c3dc134eae94023b3d1e0234bede8264ef7278cf18059.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4946,9 +5572,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/j62b2aovp1lq5gsebhumao4n.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/104ad12b5a1b7ff9b97930131a53cb8678f099a0e43cb7493204a30a5b13fd19.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/1c66546ca28694361a413513f8498e879b6276f8046d58daffacb8eee0a3a548.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -4987,9 +5619,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/mvveqn4qc3cpppbbhs3ynq0e.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b1e1365d8280aa2ac298aed0cc20f201e9c55183f78cfa0cc6eea2b5010a3518.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/055544b4c774f98cbc6f65da712e4618dfea972abda7dfa0b10348c4a8f9d322.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -5028,9 +5666,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/6d7i1is20jqce4hm6au2wbh0.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/dbb485b67e84b1d51e19eb520f8c67e2cf9de13aa2ae92418459c958f4504eba.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/6cb5006c5f004ecbf6b985b3165aa5ba7f7d03b563c7ebf933aed854ec3ff2e6.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -5069,9 +5713,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/rs84oglbegt95tiltesulltu.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/44dd3dbda92381becc50ce58a89e974f201b791cb4514d9ea58442592ddc5146.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/28a577c3cc6319143cea7a1f9e0db0fe4559f2ede9293bd67b7b3c34b02da81d.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -5110,9 +5760,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/v9khkcjbweggfrdkkbcajdgw.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/dbd7f7428d3d81f09ca70aea79d8683bcf07ef2dc95293834f3394032ec8fa11.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/8756cc7770394bcaea9d6ca36b46ed35ad2de0adb6d446ad729fe28e32810d76.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -5151,9 +5807,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/v9khkcjbweggfrdkkbcajdgw.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/dbd7f7428d3d81f09ca70aea79d8683bcf07ef2dc95293834f3394032ec8fa11.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/8756cc7770394bcaea9d6ca36b46ed35ad2de0adb6d446ad729fe28e32810d76.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -5192,9 +5854,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/xscye33wjnrbhyat3c1soyp0.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/b5092af00a23d3db93522d906a083341eb29eb739d1973c790b9850c1b73c3b7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/bc9143516285440a39705d58410d6033bfea558f02584afd58e992770b7ff467.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -5233,9 +5901,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/e48gu7hb44w7uvitsprenwyi.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/ea0494fb66c915fa6ab01dd87e1ee52a105c066dfe12268393cd600fd17cf670.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/dff0a0ad08701bea81d8d9b6467abd1783989a6ca89a06f9978efdec4ecc2f32.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -5274,9 +5948,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/cyetvanb0lugd9xrtv0yyuge.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/82fb3f4a2060ff3eb5db6aa7cfe693e05dee85dec94f2f38be435118be2d7f20.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2fab8b954eed39dad66c940de079a21a4ce77854b20bc3763bd0daefcf436bf9.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -5315,9 +5995,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/e48gu7hb44w7uvitsprenwyi.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/ea0494fb66c915fa6ab01dd87e1ee52a105c066dfe12268393cd600fd17cf670.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/dff0a0ad08701bea81d8d9b6467abd1783989a6ca89a06f9978efdec4ecc2f32.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -5356,9 +6042,15 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://d-a.ru/pdf/domoplaner/СВЕТ/x7je2icfad2weum3gz7lj4mo.jpg</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/5b5405b5e4ca55ec9971aaae0f2f5e50fcd4ecc5fb0962b636c94ad6f61f0e05.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/db2fbac192223022de10744e04e23bc9d95501f34168c29fc5f0af8880c87b25.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
