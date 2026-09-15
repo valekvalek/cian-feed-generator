@@ -22,6 +22,7 @@ ACTIVE_FEEDS = {
     Path("sezar/sezar_city_feed.xml"): 100,
 }
 SEZAR_FEED = Path("sezar/sezar_city_feed.xml")
+AEON_FEED = Path("aeon/aeon_riverpark_feed.xml")
 SEZAR_LAYOUT_DIR = Path("sezar/layouts")
 PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 FEED_GROUPS = {
@@ -101,6 +102,45 @@ def validate_sezar_images(*, require_layout_dir: bool = False) -> None:
                 )
 
 
+def validate_aeon_new_building_schema() -> None:
+    forbidden_paths = (
+        "Layout",
+        "Building/Name",
+        "Building/Type",
+        "Building/StatusType",
+        "BargainTerms/PriceType",
+        "BargainTerms/Tax",
+    )
+    for obj in parse(AEON_FEED).getroot().findall("object"):
+        external_id = (obj.findtext("ExternalId") or "").strip()
+        expected = {
+            "Category": "newBuildingFlatSale",
+            "FlatRoomsCount": "7",
+            "JKSchema/Id": "6178",
+            "JKSchema/Name": "Ривер Парк Коломенское",
+        }
+        for path, value in expected.items():
+            if (obj.findtext(path) or "").strip() != value:
+                raise FeedGenerationError(
+                    f"{AEON_FEED}: ExternalId={external_id}, ожидалось {path}={value!r}"
+                )
+        for path in (
+            "JKSchema/House/Id",
+            "JKSchema/House/Name",
+            "JKSchema/House/Flat/FlatNumber",
+            "JKSchema/House/Flat/SectionNumber",
+        ):
+            if not (obj.findtext(path) or "").strip():
+                raise FeedGenerationError(
+                    f"{AEON_FEED}: ExternalId={external_id}, пустое поле {path}"
+                )
+        for path in forbidden_paths:
+            if obj.find(path) is not None:
+                raise FeedGenerationError(
+                    f"{AEON_FEED}: ExternalId={external_id}, лишнее коммерческое поле {path}"
+                )
+
+
 def validate_group_relationships(group: str) -> None:
     if group == "nekrasovka":
         marusino = external_ids(Path("legenda/marusino_feed.xml"))
@@ -122,6 +162,9 @@ def validate_group_relationships(group: str) -> None:
     if group == "sezar":
         validate_sezar_images(require_layout_dir=True)
 
+    if group == "aeon":
+        validate_aeon_new_building_schema()
+
 
 def validate_relationships() -> None:
     marusino = external_ids(Path("legenda/marusino_feed.xml"))
@@ -136,6 +179,7 @@ def validate_relationships() -> None:
         raise FeedGenerationError("dominanta_feed.xml не совпадает с текущим фидом Свет")
 
     validate_sezar_images()
+    validate_aeon_new_building_schema()
 
 
 def validate_legacy_aliases(sources: set[Path] | None = None) -> None:

@@ -24,7 +24,7 @@ from feed_media import add_two_feed_images, prepare_media_images
 
 BASE_URL   = "https://river-park.ru"
 API_URL    = f"{BASE_URL}/ajax/flats/"
-JK_NAME    = "Ривер Парк Бизнес"
+JK_NAME    = "Ривер Парк Коломенское"
 JK_ID      = "6178"
 EMAIL      = "info@rusich.group"
 
@@ -61,8 +61,8 @@ BUILDING_FLOORS = {
 }
 DEFAULT_FLOORS = 13  # fallback для неизвестных корпусов
 
-# Фактические адреса введённых в эксплуатацию коммерческих корпусов.
-COMMERCIAL_BUILDING_ADDRESSES = {
+# Фактические адреса корпусов.
+BUILDING_ADDRESSES = {
     "4": "Россия, Москва, улица Корабельная, 1",
     "7": "Россия, Москва, улица Корабельная, 7",
     "12": "Россия, Москва, улица Корабельная, 2",
@@ -138,11 +138,9 @@ def map_category(lot: dict) -> str:
 def object_address(lot: dict) -> str:
     building = str(lot.get("building", "")).strip()
     try:
-        return COMMERCIAL_BUILDING_ADDRESSES[building]
+        return BUILDING_ADDRESSES[building]
     except KeyError as exc:
-        raise FeedGenerationError(
-            f"Aeon: неизвестный адрес коммерческого корпуса {building!r}"
-        ) from exc
+        raise FeedGenerationError(f"Aeon: неизвестный адрес корпуса {building!r}") from exc
 
 
 def aeon_image_sources(lot: dict) -> tuple[str, str]:
@@ -176,24 +174,34 @@ def make_aeon_object(
     txt(
         obj,
         "Description",
-        f"Помещение свободного назначения, корпус {lot.get('building', '')}, "
-        f"этаж {lot.get('floor', '')}, лот {lot.get('num', '')}",
+        f"ЖК {JK_NAME}, корпус {lot.get('building', '')}, "
+        f"этаж {lot.get('floor', '')}, квартира {lot.get('num', '')}",
     )
     txt(obj, "Category", category)
     txt(obj, "Address", object_address(lot))
 
-    jk = SubElement(obj, "JKSchema")
-    txt(jk, "Id", JK_ID)
-    txt(jk, "Name", JK_NAME)
-
-    # Требование принимающей системы: для всех ПСН передаём код свободной
-    # планировки 7, хотя FlatRoomsCount является квартирным полем ЦИАН.
+    # Служебный код ЦИАН для свободной планировки.
     txt(obj, "FlatRoomsCount", "7")
     txt(obj, "TotalArea", lot.get("sq", 0))
     txt(obj, "FloorNumber", lot.get("floor", ""))
-    txt(obj, "Layout", "openSpace")
 
-    building = str(lot.get("building", ""))
+    building = str(lot.get("building", "")).strip()
+    section = str(lot.get("section", "")).strip()
+    flat_number = str(lot.get("num", "")).strip()
+    if not building or not section or not flat_number:
+        raise FeedGenerationError(
+            f"Aeon: у лота {external_id} не заполнены корпус, секция или номер квартиры"
+        )
+
+    jk = SubElement(obj, "JKSchema")
+    txt(jk, "Id", JK_ID)
+    txt(jk, "Name", JK_NAME)
+    house = SubElement(jk, "House")
+    txt(house, "Id", building)
+    txt(house, "Name", building)
+    flat = SubElement(house, "Flat")
+    txt(flat, "FlatNumber", flat_number)
+    txt(flat, "SectionNumber", section)
 
     agent = SubElement(obj, "SubAgent")
     txt(agent, "Email", EMAIL)
@@ -208,21 +216,13 @@ def make_aeon_object(
     bld_el = SubElement(obj, "Building")
 
     floors = BUILDING_FLOORS.get(building, DEFAULT_FLOORS)
-    txt(bld_el, "Name", f"Ривер Парк Бизнес, корпус {building}")
     txt(bld_el, "FloorsCount", floors)
-    txt(bld_el, "Type", "businessCenter")
-    txt(bld_el, "StatusType", "operational")
 
     price = parse_price(lot.get("real_price"))
 
     bt = SubElement(obj, "BargainTerms")
     txt(bt, "Price",           price)
-    txt(bt, "PriceType", "all")
     txt(bt, "Currency",        "rur")
-    tax = SubElement(bt, "Tax")
-    txt(tax, "Type", "vat")
-    txt(tax, "Rate", "22")
-    txt(tax, "IncludedInPrice", "true")
 
     return obj
 

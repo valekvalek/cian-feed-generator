@@ -42,12 +42,20 @@ class AeonTests(unittest.TestCase):
         self.assertTrue(all(obj.findtext("FlatRoomsCount") == "7" for obj in objects))
         self.assertTrue(all(obj.findtext("JKSchema/Id") == "6178" for obj in objects))
         self.assertTrue(
-            all(obj.findtext("JKSchema/Name") == "Ривер Парк Бизнес" for obj in objects)
+            all(
+                obj.findtext("JKSchema/Name") == "Ривер Парк Коломенское"
+                for obj in objects
+            )
         )
-        self.assertEqual(objects[0].findtext("Layout"), "openSpace")
-        self.assertEqual(objects[0].findtext("Building/Type"), "businessCenter")
-        self.assertEqual(objects[0].findtext("BargainTerms/PriceType"), "all")
-        self.assertEqual(objects[0].findtext("BargainTerms/Tax/Rate"), "22")
+        self.assertEqual(objects[0].findtext("JKSchema/House/Id"), "12")
+        self.assertEqual(objects[0].findtext("JKSchema/House/Name"), "12")
+        self.assertEqual(objects[0].findtext("JKSchema/House/Flat/FlatNumber"), "8")
+        self.assertEqual(objects[0].findtext("JKSchema/House/Flat/SectionNumber"), "1")
+        self.assertIsNone(objects[0].find("Layout"))
+        self.assertIsNone(objects[0].find("Building/Type"))
+        self.assertIsNone(objects[0].find("Building/StatusType"))
+        self.assertIsNone(objects[0].find("BargainTerms/PriceType"))
+        self.assertIsNone(objects[0].find("BargainTerms/Tax"))
         self.assertEqual(
             objects[0].findtext("Address"),
             "Россия, Москва, улица Корабельная, 2",
