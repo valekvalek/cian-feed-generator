@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-09-17T06:04:06Z</generated>
+  <generated>2026-09-17T11:35:48Z</generated>
   <object>
     <ExternalId>29105251-90ea-ee11-b20e-faa2509cb15a</ExternalId>
     <Description>ЖК Легенда Коренево, этаж 2, номер квартиры К11</Description>
@@ -583,6 +583,51 @@
     </Building>
     <BargainTerms>
       <Price>7700442</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>a63ad4ab-90ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 8, номер квартиры К82</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>10</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>56.2</TotalArea>
+    <LivingArea>31.6</LivingArea>
+    <KitchenArea>6.0</KitchenArea>
+    <FloorNumber>8</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 1</Id>
+        <Name>Корпус 1</Name>
+        <Flat>
+          <FlatNumber>К82</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/0a012e52f55aec80cb27a495d60c8c206cb31552b43b3ad1004d87f3f7e1fa6b.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/885213c2edc21b698c6ae44c4f06503556e16204c8e296a78cc45aa9d4723f93.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>11574390</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
