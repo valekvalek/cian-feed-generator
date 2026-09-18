@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-09-18T11:07:33Z</generated>
+  <generated>2026-09-18T14:58:03Z</generated>
   <object>
     <ExternalId>69</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К69</Description>
@@ -3007,7 +3007,52 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>7282233</Price>
+      <Price>8894333</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>bad44563-90ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 3, номер квартиры К23</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>11</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.3</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>3</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 1</Id>
+        <Name>Корпус 1</Name>
+        <Flat>
+          <FlatNumber>К23</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/efccd0ad3ba9f1c1be75b5c780f94d55588862c344d399dbafc176ecaf507c36.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/885213c2edc21b698c6ae44c4f06503556e16204c8e296a78cc45aa9d4723f93.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>8894333</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3193,6 +3238,51 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>9fe79f9f-90ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 7, номер квартиры К71</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>11</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.3</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>7</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 1</Id>
+        <Name>Корпус 1</Name>
+        <Flat>
+          <FlatNumber>К71</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/b0af19f486e4261181dffdcab667760f70ac5caab5b0ee73c3354ec05099f782.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/885213c2edc21b698c6ae44c4f06503556e16204c8e296a78cc45aa9d4723f93.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>8894333</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>8aabaea5-90ea-ee11-b20e-faa2509cb15a</ExternalId>
     <Description>ЖК Легенда Коренево, этаж 8, номер квартиры К77</Description>
     <Category>newBuildingFlatSale</Category>
@@ -3278,6 +3368,51 @@
     </Building>
     <BargainTerms>
       <Price>7779828</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>ba6e57dc-90ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 5, номер квартиры К121</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>1</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.5</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>5</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 1</Id>
+        <Name>Корпус 1</Name>
+        <Flat>
+          <FlatNumber>К121</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/a5151c042003bfba3842f3ed7026e95be372a7aba006eaafdca1941b834098cc.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/04a11a021161662e6965a6683239d2e64f5e097be6338f9fec4aad3990decb33.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>9495780</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3502,7 +3637,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>11794932</Price>
+      <Price>14445732</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3637,7 +3772,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>7851456</Price>
+      <Price>9468256</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3817,7 +3952,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>7282233</Price>
+      <Price>8894333</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3908,6 +4043,51 @@
     </Building>
     <BargainTerms>
       <Price>6354504</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>c5acee5c-92ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 6, номер квартиры К133</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>1</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.5</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>6</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 2</Id>
+        <Name>Корпус 2</Name>
+        <Flat>
+          <FlatNumber>К133</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/7ee99f9f295d0e673c2a4210f776d6dd3c69ddd7645c2f7977b9288d7cbb92b9.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>9495780</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4177,7 +4357,7 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>11833697</Price>
+      <Price>14479797</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4723,6 +4903,51 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>4a43b391-94ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 7, номер квартиры К230</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>2</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.3</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>7</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 3</Id>
+        <Name>Корпус 3</Name>
+        <Flat>
+          <FlatNumber>К230</FlatNumber>
+          <SectionNumber>3</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/54b52f44513264bec33c43e8396fe3033168ace9192e9fe38a722496da81e936.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb617aebd89068aac2732a8498897052b4c53873c4da299db7069eb94ef1b740.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>8894333</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>4485ab97-94ea-ee11-b20e-faa2509cb15a</ExternalId>
     <Description>ЖК Легенда Коренево, этаж 7, номер квартиры К233</Description>
     <Category>newBuildingFlatSale</Category>
@@ -4763,6 +4988,96 @@
     </Building>
     <BargainTerms>
       <Price>6310980</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>e18ca89d-94ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 7, номер квартиры К240</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>12</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.5</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>7</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 3</Id>
+        <Name>Корпус 3</Name>
+        <Flat>
+          <FlatNumber>К240</FlatNumber>
+          <SectionNumber>3</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/4770d6a65bef47f4a49734a3bdb90caf8c058c8397f2ba7fc4d8fb3f5ff4cb88.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb617aebd89068aac2732a8498897052b4c53873c4da299db7069eb94ef1b740.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>9495780</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>f6a151fd-94ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 2, номер квартиры К3</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>3</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>56.4</TotalArea>
+    <LivingArea>31.6</LivingArea>
+    <KitchenArea>6.0</KitchenArea>
+    <FloorNumber>2</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 4</Id>
+        <Name>Корпус 4</Name>
+        <Flat>
+          <FlatNumber>К3</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/333a89cd47043fc868a33c30c7e1ba1ddce88c26288995baf5c030b09baac5ef.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/cb53c62c0bbafa68a14a3c7bf0b3025bdd9d1433704302f381957e6e4ef95902.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>14445732</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5078,6 +5393,51 @@
     </Building>
     <BargainTerms>
       <Price>6332742</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>9e4c91ef-95ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 4, номер квартиры К119</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>11</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.2</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>4</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 4</Id>
+        <Name>Корпус 4</Name>
+        <Flat>
+          <FlatNumber>К119</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/affe3f4ae60909e5eff066231997575a843635c77264317c38108231d0a7cb04.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/1f08cc6645117e59e6f2bd95ecbdf03657afd98496ab6b66207dd452b7423ad9.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>8868402</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5443,6 +5803,51 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>1693c28b-96ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 2, номер квартиры К19</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>10</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.1</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>2</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 5</Id>
+        <Name>Корпус 5</Name>
+        <Flat>
+          <FlatNumber>К19</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/a188d8425fc019a47b1f95a39714616086ce463c03ebe0ae42e6fc7ba506bd23.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>8842471</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>6fa6d89d-96ea-ee11-b20e-faa2509cb15a</ExternalId>
     <Description>ЖК Легенда Коренево, этаж 3, номер квартиры К31</Description>
     <Category>newBuildingFlatSale</Category>
@@ -5573,6 +5978,96 @@
     </Building>
     <BargainTerms>
       <Price>6419790</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>f18ceaa9-96ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 4, номер квартиры К41</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>10</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>33.9</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>4</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 5</Id>
+        <Name>Корпус 5</Name>
+        <Flat>
+          <FlatNumber>К41</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/a7eca8d8fbb7f6a4ee7e84ef5c3fc14624d2127abd4ad8d81fea6a18c1c5afd6.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>8790609</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>2c8deaa9-96ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 4, номер квартиры К42</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>11</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.5</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>4</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 5</Id>
+        <Name>Корпус 5</Name>
+        <Flat>
+          <FlatNumber>К42</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/4bcb16f7741b27c28a862c81164ae809887e14093cf4a011e89499fbb6b74c2d.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>9495780</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5713,6 +6208,96 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>bc260bc2-96ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 6, номер квартиры К63</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>10</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.0</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>6</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 5</Id>
+        <Name>Корпус 5</Name>
+        <Flat>
+          <FlatNumber>К63</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/f9727704ac194088645c149313fa7db75196b7a28bd04fa612267e72e902930c.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>8816540</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>99bf56d4-96ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 7, номер квартиры К74</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>10</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.0</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>7</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 5</Id>
+        <Name>Корпус 5</Name>
+        <Flat>
+          <FlatNumber>К74</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/600278722cabf924ad8776d2412da8ba63b5aaa98b45a945fa27e7f1baf3bd55.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>8816540</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>49c056d4-96ea-ee11-b20e-faa2509cb15a</ExternalId>
     <Description>ЖК Легенда Коренево, этаж 8, номер квартиры К77</Description>
     <Category>newBuildingFlatSale</Category>
@@ -5753,6 +6338,51 @@
     </Building>
     <BargainTerms>
       <Price>8868402</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>87c056d4-96ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 8, номер квартиры К78</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>3</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>56.4</TotalArea>
+    <LivingArea>31.6</LivingArea>
+    <KitchenArea>6.0</KitchenArea>
+    <FloorNumber>8</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 5</Id>
+        <Name>Корпус 5</Name>
+        <Flat>
+          <FlatNumber>К78</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6fcbaad529e2c5ddeb3f5a382e7d7f3c7eadaad99d1b01fa874e48cbebdc6752.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/6e5839b89a1ab0c57153aec504664234a5d548746ab79b47484c45e8a5228a9e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>14445732</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5803,6 +6433,51 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>eeff112f-97ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 1, номер квартиры К91</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>5</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>54.6</TotalArea>
+    <LivingArea>30.6</LivingArea>
+    <KitchenArea>5.0</KitchenArea>
+    <FloorNumber>1</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 5</Id>
+        <Name>Корпус 5</Name>
+        <Flat>
+          <FlatNumber>К91</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/d3793dadf674cbdfaf36b9d59c87962cbfe503b5862aa28e93a01c7702340a59.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/aecb20dc840060a73454115d5fd8674d63573a3e19120a6e15c01fa240262314.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>13984698</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>5604203b-97ea-ee11-b20e-faa2509cb15a</ExternalId>
     <Description>ЖК Легенда Коренево, этаж 2, номер квартиры К100</Description>
     <Category>newBuildingFlatSale</Category>
@@ -5843,6 +6518,51 @@
     </Building>
     <BargainTerms>
       <Price>6376266</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>745f1f53-97ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 4, номер квартиры К120</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>1</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.5</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>4</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 5</Id>
+        <Name>Корпус 5</Name>
+        <Flat>
+          <FlatNumber>К120</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/22275c434399f103f708976495a9cc83b633b422ebe28b98ffe4dabc85897b36.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/b8f31d2056e17b69275047d7d3e6e3440545a11f60822f68251855882887426e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>9495780</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5932,7 +6652,52 @@
       <FloorsCount>8</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>11857671</Price>
+      <Price>14522571</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>dcde0395-97ea-ee11-b20e-faa2509cb15a</ExternalId>
+    <Description>ЖК Легенда Коренево, этаж 8, номер квартиры К169</Description>
+    <Category>newBuildingFlatSale</Category>
+    <FlatOnFloorNumber>2</FlatOnFloorNumber>
+    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>34.3</TotalArea>
+    <LivingArea>14.1</LivingArea>
+    <KitchenArea>8.1</KitchenArea>
+    <FloorNumber>8</FloorNumber>
+    <JKSchema>
+      <Id>4703796</Id>
+      <Name>Легенда Коренево</Name>
+      <House>
+        <Id>Корпус 5</Id>
+        <Name>Корпус 5</Name>
+        <Flat>
+          <FlatNumber>К169</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/39725d9531c82cfbd74cd235713937ff28d18ebeaf93fbe087165058be8c7ef4.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/b8f31d2056e17b69275047d7d3e6e3440545a11f60822f68251855882887426e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>8</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>8894333</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
