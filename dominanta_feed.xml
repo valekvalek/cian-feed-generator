@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-09-25T07:55:26Z</generated>
+  <generated>2026-09-25T13:53:51Z</generated>
   <object>
     <ExternalId>23093</ExternalId>
     <Description>ЖК Свет, этаж 44, номер квартиры 571</Description>
@@ -45,53 +45,6 @@
     </Building>
     <BargainTerms>
       <Price>19000781</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>23609</ExternalId>
-    <Description>ЖК Свет, этаж 48, номер квартиры 623</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва</Address>
-    <FlatRoomsCount>9</FlatRoomsCount>
-    <TotalArea>30.9</TotalArea>
-    <FloorNumber>48</FloorNumber>
-    <JKSchema>
-      <Id>5449798</Id>
-      <Name>Свет</Name>
-      <House>
-        <Id>1</Id>
-        <Name>1</Name>
-        <Flat>
-          <FlatNumber>623</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/3ab2812d2dcc276721956fb3effeb07f4b99b8686efa85403b3299bab28ec2f6.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/0feb385df26deaca14ca54396e4fff15ce7269afecee1c6ca3353f6657421fa5.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>first</Quarter>
-        <Year>2029</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>19131160</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
