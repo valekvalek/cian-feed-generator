@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-10-09T09:23:20Z</generated>
+  <generated>2026-10-09T16:26:44Z</generated>
   <object>
     <ExternalId>12.1.3.12</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 3, квартира 12</Description>
@@ -1889,13 +1889,13 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>14.2.7.285</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 7, квартира 285</Description>
+    <ExternalId>14.2.9.321</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 9, квартира 321</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
     <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>42.2</TotalArea>
-    <FloorNumber>7</FloorNumber>
+    <TotalArea>42.1</TotalArea>
+    <FloorNumber>9</FloorNumber>
     <JKSchema>
       <Id>6178</Id>
       <Name>Ривер Парк Коломенское</Name>
@@ -1903,7 +1903,7 @@
         <Id>14</Id>
         <Name>14</Name>
         <Flat>
-          <FlatNumber>285</FlatNumber>
+          <FlatNumber>321</FlatNumber>
           <SectionNumber>2</SectionNumber>
         </Flat>
       </House>
@@ -1912,12 +1912,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/fefd0462097634948a9e13203c67605b40673a2812e71ef03c34cf89440520b4.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/0b3d9a1a1df2f48d4141da3296d1c808d41e2823ab95cbc6f03894a8d8b0f59a.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/aeace0ba930589e0c1af87e05c92d2dae40805fa48e8bde0bcf83577d0a19b1a.png</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/093445ccaa724527bb8ce4689b73b1c0f2a8d900ac712ae6b22010db082174ba.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1925,7 +1925,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16764085</Price>
+      <Price>16766880</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9415,7 +9415,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/33edaa0d88228e82571ca6faba08386337238b494a13761e33d38a5979f9e62c.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/bcbdef9c257e0be9708fb983fc55cd496b5d3456a6cae22897e9e7e635843d90.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
