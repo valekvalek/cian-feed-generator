@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-10-13T09:37:00Z</generated>
+  <generated>2026-10-13T17:41:35Z</generated>
   <object>
     <ExternalId>12.1.3.12</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 3, квартира 12</Description>
@@ -163,47 +163,6 @@
     </Building>
     <BargainTerms>
       <Price>14438019</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>12.1.9.54</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 9, квартира 54</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>35.5</TotalArea>
-    <FloorNumber>9</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>54</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/ed917ed54a76c6109859664dbfb16ffe0a6c4d615b2c300a86b60e5b4ed30dfd.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/1b5d3f693e614d51bbafde8b76c6e2b9f218bc877e6d40de6580c9cca543979b.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>14491802</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3716,7 +3675,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/650a305f5b1fab07ac940bb702d74e626bc6276d9dc4250febacb1c642353dca.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/2d65649f0ebe45c70d70d620a70f9af1ec9ddc725287851f7cb98f34ad0c4d00.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -3757,7 +3716,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/6a9f84092c90e2b94459aec911785a58b1a8b1db841e0363e230512033e4eb39.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/aea9c758a610043849b96f6d7e2385aa188a10912d6624493062486295eb642d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -3839,7 +3798,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/b950aedad75707f15acf52e7a98bd83a1613dd70ef909e2519bf21638ecf5307.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/373168e850aad7e82109bfc8d8519c34170ad3ce04eab6fbbb2ddc5dd514ff99.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -3880,7 +3839,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/b5910febd7a624d2e415faa1a06f36d434079ef9f23079bf73f199be2ac366cc.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/7c275cafe8907a365e5fb316ce8a5577ef9dfa374c439517943c768ee72cbc62.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -3921,7 +3880,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/0035d5fd2e7afaf3579a93595a0da4ec2618d43bcb34b5ddf0090bdde9160dab.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/a5ace9fbba83aa63dce7508b10543a67b53c737edc2e28adebba25458ef46fa8.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4044,7 +4003,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/c6b3f765be8462b341dd8dae42e078002ab9403d341470c6981b5ce12278e8dc.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/dac7130fad4b65dd33c279542a845373fe8ca2eaa9de6354f4b19bbffc795647.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4085,7 +4044,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/43cdba65d5c7eaf379e2757dc32a9afb066e0be58d626e41a090ebc134365835.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/75ad151c4f144274cc6b6593903dea5aecd9ab6f2ce40dabc30b2b893305c40f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4126,7 +4085,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/1a8a68c67778f50c6761756ed6b870499f4080fc64100eb31d997bd6ddc409d4.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/a0f7a3298841cef001ac98f8783c45fcc8386c2197c1d1df0a4dcb6326bb4f31.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4167,7 +4126,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/535ac090a837d9d89227745a469e120f31e5e2f48d199591da9bf2b824a3f25e.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/70537dea448047377abc91964f812cbd633a275a990313894d9a9796a27e314b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4249,7 +4208,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/e9c1dda34cd3fdf3419fdf703f662a23f7e4f931b9b190593c17b2232ca667c5.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/ca4571748f453fd994398ca4ec718284fb239751a95a65faa1b0acedde13cf41.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4290,7 +4249,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/51b2e6d7163a4718a8ced9bb5cd2e7b0da3715d7e818839612b96cc31c970813.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/7944eb6f1227e522f13b5d6f648a721bbe5db986331f26189ca6bc64c79d0100.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4331,7 +4290,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/8e45860437e2ff93f2787c88d026f9cf9e9b0f5eec4615d7cf04eb19087c1e61.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/fafe334962d1d30546156cb8201941adbc5de7d57412c36eb21e7cce991a41df.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4372,7 +4331,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/60a70d76326d426eb324fcfd83982926b14bcd10b98248faf6d30dd319062d54.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/010e89afa0b7d67ddeed16dd9206e8d05097d314eba5642db1a8d73bdcb49de4.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4413,7 +4372,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/286118f3237624fc0d943de88bc081564a3e9dbd538a1ba3205ae46496046aeb.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/50e06b06a198d436fa2b50714e260d2d5192fed99053e446b099873db3488abc.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4454,7 +4413,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/9b5c4bbeb209f84fafed5d9b234e823a6c1b3ead7994e44d84d35d9bdd25e2e8.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/4eef2d903e1a27ec74b276c1c6aacf7e58e54434608c6cee361b44aa9bfe1d59.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4495,7 +4454,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/e28aeffe8e3eee82ae9789783815690ad429ca3f539535aca5065afe4d7fa3c9.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/7daed8c9532c7852f3ca1d0d5aa9a0a25d63671119f53ea886f2cbb1ef752dd3.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4536,7 +4495,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/f078173dc089cb7aac1a3f0f5d664f784850ffda7b44de831bcf5fe653bdcf02.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/2840538af73fb4b8fb97b82234b929c977b6069eb1ae899b756c0138aa2e7f30.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4577,7 +4536,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/a3c56eed256aa764d739aa2d4002d3bfcfe2515a9dc83eca080e2323ea368e87.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/a925f5e9fdece80da10ee64b926e63ba4e853b400e784f838f1484e40bacd0e1.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4618,7 +4577,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/3c138c6218094e73772b1f7ef07f647f286802dff97cf8b0c85eebccaa4bc847.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/b7f07baa9a75964d5ec9b344cd4c3ffed13c3373784890e77ce04efcde43875d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4741,7 +4700,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/7827876864b8a4373b2fcf2c961bd45fe39a4c02fe296a1ddbc80b3013d06ac9.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/84a619c41d67104908a973165b3f1151e21aec6716d2b0ee8100a06bcd80a0a1.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4782,7 +4741,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/bdfd92b36bde6e0fc4bf74fdf21c2fa9c579878885836d7baf9ef848c9f71c2a.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/60f3481ff821796f8a24366f26773d1a75e880e1e9a9c08a151740ec3f341086.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4823,7 +4782,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/c53f8124c66ed3dbe255b3fceaeca6ab96ac384bbc35e53e95c21007ae49eea9.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/4f75f62222402f2a8bb48a5811ef73683fe8cdef52340b72956330ac653bfcf8.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4905,7 +4864,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/78480702178a4d490fc15508bd868a269b802a5b90b3ad17e2a6252c0eb952cc.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/b1baaf3775bcf96aa37c6450e2f371ac34ee5aaf0a7375bba7dacccceb702878.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4946,7 +4905,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/d503557f406f216c076b7cbb27e61eb02e9d45e32b338c3ace2c3dc1614ef1d5.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/b96398aa6511b32ccb1310c7a949814cd32cca175851770f0349b405f65627fc.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -4987,7 +4946,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/0681a2b7e9d947a5da4d0dab28b223fc1f17932a0a4c832fcc81d46575f2f5d2.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/9efb167e725da3b92ca09059c63cf21796df4c6a53507c1fec729f9f1eaa7056.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -5028,7 +4987,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/f337506bf0339e0c1c3a3efdedf5c8f1a85b58c41c60cdde175e2175d7cad05b.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/ca09a0b99d6289b4eaefd554d888faaed1c216d28552584e3d9f9b83b40f2515.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -5069,7 +5028,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/0370f9ab140ea0ce26c75e80d87930e3d3a973152481dc3ed21d8ba8d2fd6c4d.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/6bf4b2d0ae56c0500aac78009b1a0165bd625ce78806edb794b19a9800c4f75e.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -5110,7 +5069,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/8e33e0f06d6f8452efcf11d502ab618d9ab3a432a28ab8ab521e22100202b98e.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/7c6bb4d7b9163188144a68c9e28b9637cfcc555d1b32b9456739652977421a39.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -5151,7 +5110,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/abc87f1070481c8052fbc781b2050509e041a5a21b88b4f2f1bb525d51acf79a.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/fec8b80fbdcb7791b159739f309034e72e37fbb329f86ab9e5b6f9b1742fffba.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -5192,7 +5151,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/02bf600ebef61c034dcbdf3fe0af982293c5fef77880589cc647c6984231fbb3.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/2c5b88938e4d732cf9889342ee3cb284b43bbe3fe38c5b3b835cf36a071f845f.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -5233,7 +5192,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/1f448078abc6cc9482cb9c75e06536d2f35d3a081c203db2f341b5067488002e.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/b28c2865cb9afceedd21140383d4eca8fdff2f24c5589f12b6cf0040e301b195.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -5315,7 +5274,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/4d05eea3e3c8dc5624eba943565fa2d8328ed63f5025494129592ebf324e79e2.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/367fcb5956ac8a93478436e4af0c90aa29f1d06b3a1298818ccc0398134570ba.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -5356,7 +5315,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/6d04e969e2ea4873854d5bda080beff8f74c1de06c632002bc098e67e6ba296d.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/28651583a2cbb6bd738fccf636b2cfae577adff135dbb896f42722d28ad65080.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -5397,7 +5356,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/57b6ff7957a5157d9706be13be3d7c482054f61747cade17e92b55959de95b81.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/5934421430900a609a580cf93408df8f8376d2ed8047e5cb4d47b06329f3ac91.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -5438,7 +5397,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/913413598c9bb3aa52126d6213cda8b8b017bbfa892f07d11999a7abc017050b.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/c210aea2a67169d0077e021a293d6aaec59492df467d62281a4172bb1c673959.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -5739,47 +5698,6 @@
     </Building>
     <BargainTerms>
       <Price>21804882</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>7.2.9.238</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 7, этаж 9, квартира 238</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 7</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>55.2</TotalArea>
-    <FloorNumber>9</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>7</Id>
-        <Name>7</Name>
-        <Flat>
-          <FlatNumber>238</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/6758cc16717d8c373837089b6be7abe7c509761d9b260329c2a94c5c1280937d.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/1eccd36f94027ae2e13cda8c8783b9dc0274cdb95ea9ae8c8d37d51c6d5e31b0.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>12</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>21837668</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8841,7 +8759,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/24ce37585ec799b2f76903ca7eb5b6c0889099d9c9cfa3ba2bfc215c52ac7bf9.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/40df726db319abf0f3f6eb2fd09bf814b4b44018c5681e2329691c751e1dc1f6.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -9087,7 +9005,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/58382c62b752b748197241fe855948136c1631d17cae658152e4b1bb77b11aaf.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/153eda3bad48d8a9015fce2896650b83cd39c0f2394765ef5f27dc727272bfc6.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -9128,7 +9046,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/88187845fc7f1cbbfe2519e63d636dafdb4d21cd4005606c9b01040b44e8adf5.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/a11336277bc3e0e4436325a11d6e0b7d68f09903ad9880c50e484dba3576d912.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -9169,7 +9087,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/6edaed29e0ae69ed11f8b6ef2532ddb4131057bb9d9edeae3023b2411418f7d5.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/de0585919ff93937afa055dcd37a7eb6379003eaf50550b065d5cbaa841cf468.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -9251,7 +9169,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/4f7c475795909e8b3390965716b884830c1550b2916b544f4721b29897d30ac4.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/4afa27c4f03bba666d3fcb54d781fe7aba957f7342ce51e98c22aa65b04a953b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -9292,7 +9210,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/326da4bbf29d1042f7227dfef7305de88d86ac4c81677840a9794f7da4dc5a59.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/85b7729002bf8116ac148b3e36033a14de90a32729972f98a691eed54002d747.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -9415,7 +9333,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/7ae058b85f9df7b0417f0fde4097a8e37403b629a6360665ef501e74ab84fc4d.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/eba9fcfdbd84c7a17aea8ff7714cd5ffec0d05248dd17d858a56b45ca873ba56.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -9456,7 +9374,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/9232690bac2e36916b3976420b4d87508b35ebd2f0f000323f024bcaea523e2b.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/44c6ebbf2db5629fd5edcbb924caca27756e676596f07093ffa47c15319249b4.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -9907,7 +9825,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/c74ada1e5a835c2febb8b2f147b9457b9488e1bc3faf9023b853a672b9798898.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/65e938a06e5d7aa4a0c09d0b9c33f5174e9e15f699c830fc705e55d79c7f945c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -9948,7 +9866,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/135c7fa7387ad3c6a58a5db1f28044cbde459f4782859c328e43bf79a09e7942.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/65d652f21e5469c2ad4a2951128a173f61c8e58fe6df6fe60899cb5dff0a51fd.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -9989,7 +9907,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/c2de592eecf37870e79638f1d7736a04be0f3d8ac89e99271e15b860dd6d495d.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/0c34cfe1a08b82a6036e3f95ed6a7163c73eeb6a4be3df2ca48fd1c21bc5e9b2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -10030,7 +9948,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/9f235399a7a726359eaebe9ce3b06657aa045870c561d333be8b4e3f943a2f3c.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/094d08251b4eee39c6ca9c0f3598a3167104dfba955127835cdba8a3d203750d.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -10071,7 +9989,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/04450b844f0ea7330eff9aebaa4dc8d8322472a4709f47bf1d30fcf835cf3326.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/bd4c308af50a508b3ff2cc37e097e50645770bc179b2d79b45859527d9dcbbb1.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -10112,7 +10030,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/0aed147153f76b92aa77ef089e1c7604eabbf8c03022dda053527e3f4d161db4.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/c030c79448e15fb3ae58e7282e1675485475d31e0b7ae55645b4ca9c2191956c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -10153,7 +10071,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/ec9d8ec701cf99ae59941b4fed8abfe12c3e5a400e0d3643b06f5aee15c0fc55.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/1604af022908cb230c0b13ffbb1065d16cbb371e5d61861e9a5f3ff7615370bc.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -10194,7 +10112,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/29b57c5cccc31e3d3acc94acc1f37d81b777ba5c933c18051857a2a58a1b4dc6.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/3ae72be1c29ef68a57aa6f97b2fa9ce6e9f6bdd2df0da9419de66c42719515f2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -10481,7 +10399,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/a837cf54e9495cdf9c99260619780d747aae5498ae0e6bee9d90e7b8e27cd26e.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/f2cddbde3a978c4173ff5a0df52ad06c6da92b2ea2a2cde68d1f72e1a53abec9.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -10645,7 +10563,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/21df4ce6fdc0d4d0b8cb72a9dd727f76f132cccc32b8ee9cf26909a45bc883b9.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/238fc5aae317e93228d9b2fbb681ceee4e031a4e37cc71955f77ff709ace6ea2.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
@@ -10686,7 +10604,7 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/2681e23a31874bce403cf1583343c53e317c465305e0c1b35fbc0d5d7681d32d.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/f34f9f37c062a0dc71f91e8257059f1b998993386ea3b626ccee8cbe81936c0c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
