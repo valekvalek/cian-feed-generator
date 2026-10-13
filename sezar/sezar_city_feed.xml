@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-10-13T15:58:10Z</generated>
+  <generated>2026-10-13T21:14:38Z</generated>
   <object>
     <ExternalId>9e6d1be1-c816-494a-add1-e8af6c8390a7</ExternalId>
     <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 23, квартира 241</Description>
@@ -3316,12 +3316,12 @@
   </object>
   <object>
     <ExternalId>bfa3988f-8b48-401e-bb13-fbef8df7fec2</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 16, квартира 154</Description>
+    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 15, квартира 154</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
     <TotalArea>46.95</TotalArea>
-    <FloorNumber>16</FloorNumber>
+    <FloorNumber>15</FloorNumber>
     <JKSchema>
       <Id>4850351</Id>
       <Name>СЕЗАР СИТИ</Name>
@@ -3343,7 +3343,7 @@
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b99dec53c88104f2d39a617f4bd94515950b85c68892939ee4b4c667eb2a0028.png</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/8be4051338e053a90b3598807e3dd246804fa42b72d22e2db4e94edcc8557afc.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
