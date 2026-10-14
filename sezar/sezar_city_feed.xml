@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-10-14T06:08:19Z</generated>
+  <generated>2026-10-14T11:51:21Z</generated>
   <object>
     <ExternalId>9e6d1be1-c816-494a-add1-e8af6c8390a7</ExternalId>
     <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 23, квартира 241</Description>
@@ -45,7 +45,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23914800</Price>
+      <Price>24370320</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -93,7 +93,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24017952</Price>
+      <Price>24477200</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -141,7 +141,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24051300</Price>
+      <Price>24509420</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -189,7 +189,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24087168</Price>
+      <Price>24551261</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -237,7 +237,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24253320</Price>
+      <Price>24715288</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -285,7 +285,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24313380</Price>
+      <Price>24776492</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -333,55 +333,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24411492</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>d38e799b-f65b-4121-a81a-7eb9e3c6dd44</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 2, этаж 9, квартира 88</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>43.26</TotalArea>
-    <FloorNumber>9</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>2</Id>
-        <Name>2</Name>
-        <Flat>
-          <FlatNumber>88</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/536a58c11981def16b7725596ec925c47008f44821f935bdda6c1dd2dd48bad8.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b89eb76890e70505ddb04890b83c6bb2e226b41361b756cad9c469ac72155af5.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_2_1_9_88</Url>
-    <Building>
-      <FloorsCount>28</FloorsCount>
-      <Deadline>
-        <Quarter>third</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>24415944</Price>
+      <Price>24876473</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -429,7 +381,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24419904</Price>
+      <Price>24876986</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>d38e799b-f65b-4121-a81a-7eb9e3c6dd44</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 2, этаж 9, квартира 88</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>43.26</TotalArea>
+    <FloorNumber>9</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>2</Id>
+        <Name>2</Name>
+        <Flat>
+          <FlatNumber>88</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/536a58c11981def16b7725596ec925c47008f44821f935bdda6c1dd2dd48bad8.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b89eb76890e70505ddb04890b83c6bb2e226b41361b756cad9c469ac72155af5.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_2_1_9_88</Url>
+    <Building>
+      <FloorsCount>28</FloorsCount>
+      <Deadline>
+        <Quarter>third</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>24884536</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -477,55 +477,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24463136</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>d94ec183-aace-4a2d-9d5c-ca8b6f203529</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 2, этаж 12, квартира 121</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>42.88</TotalArea>
-    <FloorNumber>12</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>2</Id>
-        <Name>2</Name>
-        <Flat>
-          <FlatNumber>121</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/815d6a9ef60f9f52289e2ca59eacd0b0f5fb44e680a8593f09e5b7cc43fe3e94.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/1af88dad4a070b2d7982f4a6d42510a4808c500949c383a8bf83772f71561cf3.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_2_1_12_121</Url>
-    <Building>
-      <FloorsCount>28</FloorsCount>
-      <Deadline>
-        <Quarter>third</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>24527360</Price>
+      <Price>24921028</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -573,7 +525,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24537072</Price>
+      <Price>24995628</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>d94ec183-aace-4a2d-9d5c-ca8b6f203529</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 2, этаж 12, квартира 121</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>42.88</TotalArea>
+    <FloorNumber>12</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>2</Id>
+        <Name>2</Name>
+        <Flat>
+          <FlatNumber>121</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/815d6a9ef60f9f52289e2ca59eacd0b0f5fb44e680a8593f09e5b7cc43fe3e94.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/1af88dad4a070b2d7982f4a6d42510a4808c500949c383a8bf83772f71561cf3.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_2_1_12_121</Url>
+    <Building>
+      <FloorsCount>28</FloorsCount>
+      <Deadline>
+        <Quarter>third</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>24996296</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -621,7 +621,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24590496</Price>
+      <Price>25058886</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -669,7 +669,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24640896</Price>
+      <Price>25106720</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -717,7 +717,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25010000</Price>
+      <Price>25479696</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -765,7 +765,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25098276</Price>
+      <Price>25576338</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -813,7 +813,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25254144</Price>
+      <Price>25733517</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -861,7 +861,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25280904</Price>
+      <Price>25755396</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -909,7 +909,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25307328</Price>
+      <Price>25780666</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -957,7 +957,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25384576</Price>
+      <Price>25864348</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1005,7 +1005,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25384656</Price>
+      <Price>25866411</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1053,7 +1053,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25488408</Price>
+      <Price>25977426</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1101,7 +1101,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25633148</Price>
+      <Price>26112580</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1149,7 +1149,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25645620</Price>
+      <Price>26134108</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1197,7 +1197,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25686856</Price>
+      <Price>26167877</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1245,7 +1245,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25706484</Price>
+      <Price>26201381</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1293,7 +1293,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25720200</Price>
+      <Price>26204814</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1341,7 +1341,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25725804</Price>
+      <Price>26210369</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1389,7 +1389,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25738160</Price>
+      <Price>26231778</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1437,7 +1437,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25789480</Price>
+      <Price>26278943</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1485,7 +1485,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25852288</Price>
+      <Price>26335140</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1533,7 +1533,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25935000</Price>
+      <Price>26429000</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>4b96892f-d316-476d-8ae3-108370584012</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 3, квартира 20</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>47.14</TotalArea>
+    <FloorNumber>3</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>4</Id>
+        <Name>4</Name>
+        <Flat>
+          <FlatNumber>20</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/a934446ba0b32476e8729f61e35882bbf1df55d9571ec3566b7243bed80a63cc.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/0c4b311640d2b97667d5119c3172d720d09ea12bc70cd8e3f80bf4be55f684c7.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_3_20</Url>
+    <Building>
+      <FloorsCount>35</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>26430455</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1581,7 +1629,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26005884</Price>
+      <Price>26506545</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1629,7 +1677,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26138916</Price>
+      <Price>26629184</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1677,7 +1725,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26144000</Price>
+      <Price>26632300</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1725,7 +1773,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26200440</Price>
+      <Price>26699496</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1773,7 +1821,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26231544</Price>
+      <Price>26738427</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1821,7 +1869,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26260416</Price>
+      <Price>26760614</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1869,55 +1917,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26289900</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>d891f16f-b6ba-4e5e-bdcd-088376eada52</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 31, квартира 330</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>44.64</TotalArea>
-    <FloorNumber>31</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>330</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/0baee634c566e16f0a4ed0bcc6f303069584f9354248e2ce3586f603070a2fc6.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/101d2fa4169eda6523ebd0a4733a5f39860702e46dbd5ef27415fd273a9d3987.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_31_330</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>26319744</Price>
+      <Price>26790660</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1965,7 +1965,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26320284</Price>
+      <Price>26814388</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2013,7 +2013,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26328576</Price>
+      <Price>26824575</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>d891f16f-b6ba-4e5e-bdcd-088376eada52</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 31, квартира 330</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>44.64</TotalArea>
+    <FloorNumber>31</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>330</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/0baee634c566e16f0a4ed0bcc6f303069584f9354248e2ce3586f603070a2fc6.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/101d2fa4169eda6523ebd0a4733a5f39860702e46dbd5ef27415fd273a9d3987.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_31_330</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>26824712</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2061,7 +2109,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26348340</Price>
+      <Price>26846386</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2109,7 +2157,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26378100</Price>
+      <Price>26880540</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2157,55 +2205,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26389188</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>181e2fd6-4bd7-4908-b174-100443b1ea8e</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 18, квартира 182</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>46.24</TotalArea>
-    <FloorNumber>18</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>182</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/1a045ccced7812f44beb1968c4ab8ba9f6698025c5ef704ec044db6f83b8de46.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/c539d8e4ed925aa87887b466e84da5a9d2052603cb5bbb1e7265d8e5ceffc09c.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_18_182</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>26412288</Price>
+      <Price>26891839</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2253,7 +2253,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26419200</Price>
+      <Price>26912640</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>181e2fd6-4bd7-4908-b174-100443b1ea8e</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 18, квартира 182</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>46.24</TotalArea>
+    <FloorNumber>18</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>182</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/1a045ccced7812f44beb1968c4ab8ba9f6698025c5ef704ec044db6f83b8de46.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/c539d8e4ed925aa87887b466e84da5a9d2052603cb5bbb1e7265d8e5ceffc09c.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_18_182</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>26915379</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2301,7 +2349,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26423460</Price>
+      <Price>26926764</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2349,7 +2397,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26425612</Price>
+      <Price>26930813</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2397,7 +2445,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26449280</Price>
+      <Price>26954961</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2445,7 +2493,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26462268</Price>
+      <Price>26966311</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2493,7 +2541,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26480448</Price>
+      <Price>26977559</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2541,103 +2589,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26486272</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>29a6c400-8a6a-49c6-8e3f-d68fe9d8eaf0</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 31, квартира 324</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>45.53</TotalArea>
-    <FloorNumber>31</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>324</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/ad79623ed2b3cbe806ebe09cb54019761d81f2f0dfd90042eaf92d9c1983d798.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/a947b2d3557185fd1293419157de10dd249835d489e8cbbaf8c43d1e3fcbc4c8.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_31_324</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>26498460</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>2eda1029-cc37-4e70-835f-1297a868e583</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 12, квартира 121</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>46.95</TotalArea>
-    <FloorNumber>12</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>4</Id>
-        <Name>4</Name>
-        <Flat>
-          <FlatNumber>121</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/d11af9d36a34869757f2c3dd97fa9da4c11c267f3b827f3e533e4df9bba3b5f7.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b761f2ddbd5b560ad03ebffb085fb8a340a8f37c031b798c7a5624b9a601bbca.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_12_121</Url>
-    <Building>
-      <FloorsCount>35</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>26498580</Price>
+      <Price>26994542</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2685,7 +2637,103 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26502880</Price>
+      <Price>27000089</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>2eda1029-cc37-4e70-835f-1297a868e583</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 12, квартира 121</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>46.95</TotalArea>
+    <FloorNumber>12</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>4</Id>
+        <Name>4</Name>
+        <Flat>
+          <FlatNumber>121</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/d11af9d36a34869757f2c3dd97fa9da4c11c267f3b827f3e533e4df9bba3b5f7.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b761f2ddbd5b560ad03ebffb085fb8a340a8f37c031b798c7a5624b9a601bbca.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_12_121</Url>
+    <Building>
+      <FloorsCount>35</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>27007142</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>29a6c400-8a6a-49c6-8e3f-d68fe9d8eaf0</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 31, квартира 324</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>45.53</TotalArea>
+    <FloorNumber>31</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>324</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/ad79623ed2b3cbe806ebe09cb54019761d81f2f0dfd90042eaf92d9c1983d798.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/a947b2d3557185fd1293419157de10dd249835d489e8cbbaf8c43d1e3fcbc4c8.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_31_324</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>27008760</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2733,7 +2781,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26523264</Price>
+      <Price>27034124</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2781,7 +2829,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26534400</Price>
+      <Price>27035904</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2829,55 +2877,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26551872</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>5a5e28c8-2e63-440f-abc3-4714e28bbd6b</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 13, квартира 132</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>46.95</TotalArea>
-    <FloorNumber>13</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>4</Id>
-        <Name>4</Name>
-        <Flat>
-          <FlatNumber>132</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b69833c6b426620788dce8cef373e83f9c77ff061b7378b8c8a6041e2cc3d005.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/23db9d54291f96fb86b8251a2aa57990ff4e60a860f9458b747e84db1420904f.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_13_132</Url>
-    <Building>
-      <FloorsCount>35</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>26573700</Price>
+      <Price>27053983</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2925,7 +2925,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26573820</Price>
+      <Price>27079988</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2973,7 +2973,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26589520</Price>
+      <Price>27086708</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>5a5e28c8-2e63-440f-abc3-4714e28bbd6b</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 13, квартира 132</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>46.95</TotalArea>
+    <FloorNumber>13</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>4</Id>
+        <Name>4</Name>
+        <Flat>
+          <FlatNumber>132</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b69833c6b426620788dce8cef373e83f9c77ff061b7378b8c8a6041e2cc3d005.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/23db9d54291f96fb86b8251a2aa57990ff4e60a860f9458b747e84db1420904f.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_13_132</Url>
+    <Building>
+      <FloorsCount>35</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>27087521</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3021,7 +3069,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26615744</Price>
+      <Price>27113286</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3069,7 +3117,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26625144</Price>
+      <Price>27132290</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3117,7 +3165,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26667600</Price>
+      <Price>27167899</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3165,7 +3213,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26689728</Price>
+      <Price>27192449</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3213,7 +3261,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26704656</Price>
+      <Price>27209604</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3261,7 +3309,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26726848</Price>
+      <Price>27239735</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3309,7 +3357,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26735216</Price>
+      <Price>27242602</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3357,7 +3405,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26742720</Price>
+      <Price>27248278</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3405,7 +3453,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26770380</Price>
+      <Price>27280292</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3453,7 +3501,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26777520</Price>
+      <Price>27287568</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3501,7 +3549,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26801504</Price>
+      <Price>27319617</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3549,7 +3597,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26808064</Price>
+      <Price>27320550</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3597,7 +3645,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26814504</Price>
+      <Price>27323340</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3645,7 +3693,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26857496</Price>
+      <Price>27359558</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3693,7 +3741,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26892960</Price>
+      <Price>27409034</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3741,55 +3789,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26922356</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>190e00a7-ae5e-4f63-adf0-6124eccfecd6</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 32, квартира 332</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>45.54</TotalArea>
-    <FloorNumber>32</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>332</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/ab6cdec76603631f538def3ffec5bd2cd7fbdb5cbd06799b6897912edd0a046c.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/f90227702f490ca2b4c8c738e16ff8d7f17a92ac5042a865c819c39fecf252e6.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_32_332</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>26923248</Price>
+      <Price>27427319</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3837,19 +3837,19 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26932152</Price>
+      <Price>27439440</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>48c96ae6-085a-425f-80a2-b7ad742af3bc</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 36, квартира 379</Description>
+    <ExternalId>190e00a7-ae5e-4f63-adf0-6124eccfecd6</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 32, квартира 332</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>45.67</TotalArea>
-    <FloorNumber>36</FloorNumber>
+    <TotalArea>45.54</TotalArea>
+    <FloorNumber>32</FloorNumber>
     <JKSchema>
       <Id>4850351</Id>
       <Name>СЕЗАР СИТИ</Name>
@@ -3857,7 +3857,7 @@
         <Id>3</Id>
         <Name>3</Name>
         <Flat>
-          <FlatNumber>379</FlatNumber>
+          <FlatNumber>332</FlatNumber>
           <SectionNumber>1</SectionNumber>
         </Flat>
       </House>
@@ -3866,16 +3866,16 @@
       <Email>info@sezargroup.ru</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/88b9101f743db7afd1910f8a585a082c46bda4543740163027d6c8394c9e16ca.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/ab6cdec76603631f538def3ffec5bd2cd7fbdb5cbd06799b6897912edd0a046c.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/e82747d4db1f2965c07c5f15e97df3dba76a0293fffc677e09f2f30724913f95.png</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/f90227702f490ca2b4c8c738e16ff8d7f17a92ac5042a865c819c39fecf252e6.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_36_379</Url>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_32_332</Url>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3885,55 +3885,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26963568</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>f29f1e67-2af7-489b-877d-8b3e6c02122a</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 18, квартира 187</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>46.95</TotalArea>
-    <FloorNumber>18</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>4</Id>
-        <Name>4</Name>
-        <Flat>
-          <FlatNumber>187</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/8dd84a88be07c5952b11f200f1488e2c24d6711d856cccdceeef1f58b8461af3.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/4ca5fc7727834dbc8cf1beb85d7252242a5cbef9a6311759e0aa3855b90bb539.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_18_187</Url>
-    <Building>
-      <FloorsCount>35</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>26968080</Price>
+      <Price>27443497</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3981,7 +3933,103 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26969480</Price>
+      <Price>27479380</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>48c96ae6-085a-425f-80a2-b7ad742af3bc</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 36, квартира 379</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>45.67</TotalArea>
+    <FloorNumber>36</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>379</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/88b9101f743db7afd1910f8a585a082c46bda4543740163027d6c8394c9e16ca.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/e82747d4db1f2965c07c5f15e97df3dba76a0293fffc677e09f2f30724913f95.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_36_379</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>27482745</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>f29f1e67-2af7-489b-877d-8b3e6c02122a</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 18, квартира 187</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>46.95</TotalArea>
+    <FloorNumber>18</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>4</Id>
+        <Name>4</Name>
+        <Flat>
+          <FlatNumber>187</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/8dd84a88be07c5952b11f200f1488e2c24d6711d856cccdceeef1f58b8461af3.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/4ca5fc7727834dbc8cf1beb85d7252242a5cbef9a6311759e0aa3855b90bb539.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_18_187</Url>
+    <Building>
+      <FloorsCount>35</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>27489413</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4029,7 +4077,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26980800</Price>
+      <Price>27494720</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4077,7 +4125,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27014328</Price>
+      <Price>27521461</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4125,7 +4173,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27041560</Price>
+      <Price>27560324</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4173,7 +4221,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27045900</Price>
+      <Price>27561060</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4221,7 +4269,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27053796</Price>
+      <Price>27569106</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4269,7 +4317,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27096564</Price>
+      <Price>27605024</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4317,7 +4365,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27118564</Price>
+      <Price>27625217</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4365,7 +4413,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27127980</Price>
+      <Price>27639119</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4413,7 +4461,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27160056</Price>
+      <Price>27677390</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4461,7 +4509,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27173120</Price>
+      <Price>27694408</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4509,7 +4557,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27177280</Price>
+      <Price>27698927</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4557,7 +4605,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27189036</Price>
+      <Price>27706922</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4605,55 +4653,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27244476</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>5e76ec30-37fc-4446-9d69-25a4854f8743</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 37, квартира 396</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>45.44</TotalArea>
-    <FloorNumber>37</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>396</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/4b917b87906fec28739fc7ccfaf14b45bcf75b7e995966775564114fdafb5bfd.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/d2cae526cceac35e2e65bdfdeb11bb94beb83f8076f05cf5b458b84e2d9438f8.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_37_396</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>27245824</Price>
+      <Price>27754045</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4701,7 +4701,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27248512</Price>
+      <Price>27758539</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>5e76ec30-37fc-4446-9d69-25a4854f8743</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 37, квартира 396</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>45.44</TotalArea>
+    <FloorNumber>37</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>396</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/4b917b87906fec28739fc7ccfaf14b45bcf75b7e995966775564114fdafb5bfd.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/d2cae526cceac35e2e65bdfdeb11bb94beb83f8076f05cf5b458b84e2d9438f8.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_37_396</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>27772201</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4749,55 +4797,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27255488</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>0fa90c27-f3ae-4bef-964e-98bc4133252e</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 40, квартира 423</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>45.67</TotalArea>
-    <FloorNumber>40</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>423</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/a92aa6563092b0ab87b6de5ab373020d7969105df70cb25776b31804707bc1ca.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/cb49e8860fcd1e3ac3d20c5330f5c47a1c93c8932ac01ec184f810c966bb98e2.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_40_423</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>27274124</Price>
+      <Price>27782610</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4845,7 +4845,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27276704</Price>
+      <Price>27792574</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>0fa90c27-f3ae-4bef-964e-98bc4133252e</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 40, квартира 423</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>45.67</TotalArea>
+    <FloorNumber>40</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>423</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/a92aa6563092b0ab87b6de5ab373020d7969105df70cb25776b31804707bc1ca.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/cb49e8860fcd1e3ac3d20c5330f5c47a1c93c8932ac01ec184f810c966bb98e2.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_40_423</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>27795493</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4893,7 +4941,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27289792</Price>
+      <Price>27817124</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4941,55 +4989,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27318060</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>e9e3afac-8bd6-4224-92ac-b060e8886a68</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 26, квартира 266</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>47.01</TotalArea>
-    <FloorNumber>26</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>266</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/22c499e875416506b147b8774d9ff98e9d5c90831527605088bd1e764906f302.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b954fd963e04991953331118ea12147237402886105b2743923a890faae5ce7a.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_26_266</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>27322212</Price>
+      <Price>27832780</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5037,7 +5037,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27326480</Price>
+      <Price>27839140</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>e9e3afac-8bd6-4224-92ac-b060e8886a68</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 26, квартира 266</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>47.01</TotalArea>
+    <FloorNumber>26</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>266</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/22c499e875416506b147b8774d9ff98e9d5c90831527605088bd1e764906f302.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b954fd963e04991953331118ea12147237402886105b2743923a890faae5ce7a.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_26_266</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>27846468</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5085,55 +5133,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27339148</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>f82cc7e2-69b9-48eb-a879-17547aa26b10</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 41, квартира 434</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>45.67</TotalArea>
-    <FloorNumber>41</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>434</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/ea38a12bc35b813e15acf220102e5a98554f6cf9726ba9a0834c00035362a292.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/f886df17bb6726df783af44d20abb34ec07fc3a46b74204af24bc7ea15b57d5e.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_41_434</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>27347196</Price>
+      <Price>27867542</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5181,7 +5181,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27349056</Price>
+      <Price>27869990</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>f82cc7e2-69b9-48eb-a879-17547aa26b10</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 41, квартира 434</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>45.67</TotalArea>
+    <FloorNumber>41</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>434</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/ea38a12bc35b813e15acf220102e5a98554f6cf9726ba9a0834c00035362a292.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/f886df17bb6726df783af44d20abb34ec07fc3a46b74204af24bc7ea15b57d5e.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_41_434</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>27873680</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5229,55 +5277,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27391644</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>6fe70d22-8315-41f9-883e-cf6eb7b2ee41</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 39, квартира 418</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>45.44</TotalArea>
-    <FloorNumber>39</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>418</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/c6fefa9c8226e3567e2c565b5b7d745f9030979a5bf437f83b9169787978d13c.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/f59b6e1b69245bae402c1d13977a0966954e637035c581287fa98ea3ee47f137.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_39_418</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>27409408</Price>
+      <Price>27911515</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5325,7 +5325,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27410072</Price>
+      <Price>27922463</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>6fe70d22-8315-41f9-883e-cf6eb7b2ee41</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 39, квартира 418</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>45.44</TotalArea>
+    <FloorNumber>39</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>418</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/c6fefa9c8226e3567e2c565b5b7d745f9030979a5bf437f83b9169787978d13c.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/f59b6e1b69245bae402c1d13977a0966954e637035c581287fa98ea3ee47f137.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_39_418</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>27927788</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5373,7 +5421,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27432968</Price>
+      <Price>27947852</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5421,7 +5469,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27493760</Price>
+      <Price>28024824</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5469,7 +5517,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27508024</Price>
+      <Price>28028162</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5517,55 +5565,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27554816</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>de997e44-fed8-474a-8a56-01d762fe207f</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 36, квартира 376</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>46.11</TotalArea>
-    <FloorNumber>36</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>376</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/01d00e019dd0924d21de7a12f1ba813757cd8e5c17bcdfa2172db22adc695420.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/6e98578e0d2e439958a8a498c09c2a020da05265237f729d9011cb932be7dec3.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_36_376</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>27573780</Price>
+      <Price>28083374</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5613,7 +5613,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27575604</Price>
+      <Price>28100854</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>de997e44-fed8-474a-8a56-01d762fe207f</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 36, квартира 376</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>46.11</TotalArea>
+    <FloorNumber>36</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>376</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/01d00e019dd0924d21de7a12f1ba813757cd8e5c17bcdfa2172db22adc695420.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/6e98578e0d2e439958a8a498c09c2a020da05265237f729d9011cb932be7dec3.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_36_376</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>28102754</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5661,7 +5709,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27601656</Price>
+      <Price>28125429</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5709,7 +5757,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27605072</Price>
+      <Price>28134700</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5757,55 +5805,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27616564</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>b2c79279-8e2f-4b15-966b-027feb73bdbb</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 42, квартира 451</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>45.44</TotalArea>
-    <FloorNumber>42</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>451</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/46984a9b40995e45508a9f34bdd05142c5802932aafea1d0add21cb9d1202eba.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/9bf03cea1224ab890e1056da0e209cb573c73494a731c4e009f6b665210febd5.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_42_451</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>27627520</Price>
+      <Price>28138809</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5853,7 +5853,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27630792</Price>
+      <Price>28147720</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>b2c79279-8e2f-4b15-966b-027feb73bdbb</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 42, квартира 451</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>45.44</TotalArea>
+    <FloorNumber>42</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>451</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/46984a9b40995e45508a9f34bdd05142c5802932aafea1d0add21cb9d1202eba.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/9bf03cea1224ab890e1056da0e209cb573c73494a731c4e009f6b665210febd5.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_42_451</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>28161167</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5901,7 +5949,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27707720</Price>
+      <Price>28225530</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5949,7 +5997,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27731800</Price>
+      <Price>28250996</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5997,55 +6045,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27763840</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>92b76e28-fb50-4a33-ba26-7943bab1998b</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 1, этаж 8, квартира 73</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>49.34</TotalArea>
-    <FloorNumber>8</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>1</Id>
-        <Name>1</Name>
-        <Flat>
-          <FlatNumber>73</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/08011e8a8f99f17d8b21b76fb854f8d2e827773a080c2f275eaa814292096610.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/0c678d7f479861cc61915b4dcf708c80f8068d54dbe5f7e509e8ce50bd9498ab.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_1_2_8_73</Url>
-    <Building>
-      <FloorsCount>15</FloorsCount>
-      <Deadline>
-        <Quarter>third</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>27768552</Price>
+      <Price>28284705</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6093,28 +6093,28 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27773624</Price>
+      <Price>28295012</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>b9106091-601a-48aa-9dae-8006b67cf5cb</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 22, квартира 230</Description>
+    <ExternalId>92b76e28-fb50-4a33-ba26-7943bab1998b</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 1, этаж 8, квартира 73</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>48.39</TotalArea>
-    <FloorNumber>22</FloorNumber>
+    <TotalArea>49.34</TotalArea>
+    <FloorNumber>8</FloorNumber>
     <JKSchema>
       <Id>4850351</Id>
       <Name>СЕЗАР СИТИ</Name>
       <House>
-        <Id>3</Id>
-        <Name>3</Name>
+        <Id>1</Id>
+        <Name>1</Name>
         <Flat>
-          <FlatNumber>230</FlatNumber>
-          <SectionNumber>1</SectionNumber>
+          <FlatNumber>73</FlatNumber>
+          <SectionNumber>2</SectionNumber>
         </Flat>
       </House>
     </JKSchema>
@@ -6122,26 +6122,26 @@
       <Email>info@sezargroup.ru</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/27bd29f23582c63d5bcee1d667aeb516267113e8efa90dcb60a029f80de9841d.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/08011e8a8f99f17d8b21b76fb854f8d2e827773a080c2f275eaa814292096610.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b52ae3576becc9f96563b3a9980d485b8f55091debfe9b1ea793b54754974781.png</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/0c678d7f479861cc61915b4dcf708c80f8068d54dbe5f7e509e8ce50bd9498ab.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_22_230</Url>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_1_2_8_73</Url>
     <Building>
-      <FloorsCount>51</FloorsCount>
+      <FloorsCount>15</FloorsCount>
       <Deadline>
-        <Quarter>fourth</Quarter>
+        <Quarter>third</Quarter>
         <Year>2027</Year>
         <IsComplete>false</IsComplete>
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27795216</Price>
+      <Price>28297477</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6189,7 +6189,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27810080</Price>
+      <Price>28330090</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>b9106091-601a-48aa-9dae-8006b67cf5cb</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 22, квартира 230</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>48.39</TotalArea>
+    <FloorNumber>22</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>230</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/27bd29f23582c63d5bcee1d667aeb516267113e8efa90dcb60a029f80de9841d.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b52ae3576becc9f96563b3a9980d485b8f55091debfe9b1ea793b54754974781.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_22_230</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>28332539</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6237,7 +6285,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27813552</Price>
+      <Price>28339575</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6285,7 +6333,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27848536</Price>
+      <Price>28375167</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6333,7 +6381,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27863808</Price>
+      <Price>28394547</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6381,7 +6429,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27887328</Price>
+      <Price>28418515</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6429,7 +6477,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27909000</Price>
+      <Price>28440600</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6477,7 +6525,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27927872</Price>
+      <Price>28450615</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6525,55 +6573,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27930708</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>0c67b692-e351-4a5a-b6b2-9b5f7fee6cb2</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 27, квартира 286</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>47.44</TotalArea>
-    <FloorNumber>27</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>4</Id>
-        <Name>4</Name>
-        <Flat>
-          <FlatNumber>286</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/5e53c51987d8d318c1dacfaff9885d4efea1dec842554f4b0c9739972c296175.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b2f7dbf301bc5d88c21cbc58fcddc41b0f358bfe163239ad017374678e8f3dd7.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_27_286</Url>
-    <Building>
-      <FloorsCount>35</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>27970624</Price>
+      <Price>28456804</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6621,7 +6621,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27971160</Price>
+      <Price>28503944</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>0c67b692-e351-4a5a-b6b2-9b5f7fee6cb2</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 27, квартира 286</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>47.44</TotalArea>
+    <FloorNumber>27</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>4</Id>
+        <Name>4</Name>
+        <Flat>
+          <FlatNumber>286</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/5e53c51987d8d318c1dacfaff9885d4efea1dec842554f4b0c9739972c296175.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b2f7dbf301bc5d88c21cbc58fcddc41b0f358bfe163239ad017374678e8f3dd7.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_27_286</Url>
+    <Building>
+      <FloorsCount>35</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>28507265</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6669,7 +6717,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27991320</Price>
+      <Price>28514430</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6717,55 +6765,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28034160</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>3e62e80f-6352-4fe7-8b5c-06e22df431af</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 42, квартира 442</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>46.11</TotalArea>
-    <FloorNumber>42</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>442</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/a493f15c01edbd6ede888e2a8eb988feb8718b86f3797c6f0581b979ebe6e47b.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/5aac9151223dd99407e88c04ecfbe6f358f3a512568d866980a34a6e69d9f8d8.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_42_442</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>28034880</Price>
+      <Price>28568144</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6813,27 +6813,27 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28051760</Price>
+      <Price>28575848</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>9a1dc094-29c5-4f0b-9686-9cdd0638cfb7</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 17, квартира 173</Description>
+    <ExternalId>3e62e80f-6352-4fe7-8b5c-06e22df431af</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 42, квартира 442</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>48.88</TotalArea>
-    <FloorNumber>17</FloorNumber>
+    <TotalArea>46.11</TotalArea>
+    <FloorNumber>42</FloorNumber>
     <JKSchema>
       <Id>4850351</Id>
       <Name>СЕЗАР СИТИ</Name>
       <House>
-        <Id>4</Id>
-        <Name>4</Name>
+        <Id>3</Id>
+        <Name>3</Name>
         <Flat>
-          <FlatNumber>173</FlatNumber>
+          <FlatNumber>442</FlatNumber>
           <SectionNumber>1</SectionNumber>
         </Flat>
       </House>
@@ -6842,18 +6842,18 @@
       <Email>info@sezargroup.ru</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/5e0da8acf9d9a2cf7988abc82a5875d563cff4c9efc927f6c64a2f6ede048b36.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/a493f15c01edbd6ede888e2a8eb988feb8718b86f3797c6f0581b979ebe6e47b.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/66c721ab1979ee0a568e362becfde17264679e82c60a660e810484b79f99e0fd.png</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/5aac9151223dd99407e88c04ecfbe6f358f3a512568d866980a34a6e69d9f8d8.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_17_173</Url>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_42_442</Url>
     <Building>
-      <FloorsCount>35</FloorsCount>
+      <FloorsCount>51</FloorsCount>
       <Deadline>
         <Quarter>fourth</Quarter>
         <Year>2027</Year>
@@ -6861,7 +6861,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28076672</Price>
+      <Price>28576396</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6909,7 +6909,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28084476</Price>
+      <Price>28619418</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>9a1dc094-29c5-4f0b-9686-9cdd0638cfb7</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 17, квартира 173</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>48.88</TotalArea>
+    <FloorNumber>17</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>4</Id>
+        <Name>4</Name>
+        <Flat>
+          <FlatNumber>173</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/5e0da8acf9d9a2cf7988abc82a5875d563cff4c9efc927f6c64a2f6ede048b36.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/66c721ab1979ee0a568e362becfde17264679e82c60a660e810484b79f99e0fd.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_17_173</Url>
+    <Building>
+      <FloorsCount>35</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>28619436</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6957,7 +7005,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28115220</Price>
+      <Price>28650748</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7005,7 +7053,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28159204</Price>
+      <Price>28687830</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7053,7 +7101,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28174432</Price>
+      <Price>28703118</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7101,7 +7149,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28201692</Price>
+      <Price>28746757</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7149,7 +7197,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28232600</Price>
+      <Price>28761172</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7197,7 +7245,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28244736</Price>
+      <Price>28784686</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7245,7 +7293,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28309680</Price>
+      <Price>28854776</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7293,7 +7341,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28333240</Price>
+      <Price>28876783</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7341,55 +7389,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28395360</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>29f25b0f-9cf4-43f3-bbce-e57b0eb31f07</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 37, квартира 395</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>47.38</TotalArea>
-    <FloorNumber>37</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>395</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b142c9cd6314567869274c637908021ad855701c893a1478d69ac785a02ae0a5.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b11299b4f628fb07fc659da9e59ec791590264b8c8c124b21891b46ab3fd5c78.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_37_395</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>28409048</Price>
+      <Price>28926979</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7437,7 +7437,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28417428</Price>
+      <Price>28948936</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7485,28 +7485,28 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28426156</Price>
+      <Price>28957239</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>d3c700bf-75a2-4b36-aaf0-f0ef75bad787</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 1, этаж 13, квартира 170</Description>
+    <ExternalId>29f25b0f-9cf4-43f3-bbce-e57b0eb31f07</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 37, квартира 395</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>48.96</TotalArea>
-    <FloorNumber>13</FloorNumber>
+    <TotalArea>47.38</TotalArea>
+    <FloorNumber>37</FloorNumber>
     <JKSchema>
       <Id>4850351</Id>
       <Name>СЕЗАР СИТИ</Name>
       <House>
-        <Id>1</Id>
-        <Name>1</Name>
+        <Id>3</Id>
+        <Name>3</Name>
         <Flat>
-          <FlatNumber>170</FlatNumber>
-          <SectionNumber>3</SectionNumber>
+          <FlatNumber>395</FlatNumber>
+          <SectionNumber>1</SectionNumber>
         </Flat>
       </House>
     </JKSchema>
@@ -7514,26 +7514,26 @@
       <Email>info@sezargroup.ru</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/40361d3ab0f7244c5d9841f567bc119ae719518c15edba1c3ef00666539b77df.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b142c9cd6314567869274c637908021ad855701c893a1478d69ac785a02ae0a5.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/57ef9a5f4c71746880e3bacc7f3ed6b382036c1437b719e225db35686bdf0c09.png</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b11299b4f628fb07fc659da9e59ec791590264b8c8c124b21891b46ab3fd5c78.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_1_3_13_170</Url>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_37_395</Url>
     <Building>
-      <FloorsCount>16</FloorsCount>
+      <FloorsCount>51</FloorsCount>
       <Deadline>
-        <Quarter>third</Quarter>
+        <Quarter>fourth</Quarter>
         <Year>2027</Year>
         <IsComplete>false</IsComplete>
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28494720</Price>
+      <Price>28957898</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7581,7 +7581,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28503808</Price>
+      <Price>29039012</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>d3c700bf-75a2-4b36-aaf0-f0ef75bad787</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 1, этаж 13, квартира 170</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>48.96</TotalArea>
+    <FloorNumber>13</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>170</FlatNumber>
+          <SectionNumber>3</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/40361d3ab0f7244c5d9841f567bc119ae719518c15edba1c3ef00666539b77df.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/57ef9a5f4c71746880e3bacc7f3ed6b382036c1437b719e225db35686bdf0c09.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_1_3_13_170</Url>
+    <Building>
+      <FloorsCount>16</FloorsCount>
+      <Deadline>
+        <Quarter>third</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>29043464</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7629,55 +7677,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28561632</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>162df78c-b0e7-4526-b282-991f3f41de6b</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 49, квартира 510</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>45.36</TotalArea>
-    <FloorNumber>49</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>510</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/09d3ca26717b380ee94b89fbb603d55577623570d6982d5b13f79ac0f4e3e917.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/aa88acb6b1521f3bed410b7ee48500dde468ba5b3be3abdb9c0b3cd09feecdc8.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_49_510</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>28576800</Price>
+      <Price>29097700</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7725,7 +7725,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28579616</Price>
+      <Price>29120127</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>162df78c-b0e7-4526-b282-991f3f41de6b</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 49, квартира 510</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>45.36</TotalArea>
+    <FloorNumber>49</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>510</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/09d3ca26717b380ee94b89fbb603d55577623570d6982d5b13f79ac0f4e3e917.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/aa88acb6b1521f3bed410b7ee48500dde468ba5b3be3abdb9c0b3cd09feecdc8.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_49_510</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>29121120</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7773,7 +7821,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28668120</Price>
+      <Price>29218088</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7821,7 +7869,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28674240</Price>
+      <Price>29220416</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7869,7 +7917,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28681256</Price>
+      <Price>29223635</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7917,7 +7965,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28717920</Price>
+      <Price>29264928</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7965,7 +8013,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28731232</Price>
+      <Price>29282356</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8013,7 +8061,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28807040</Price>
+      <Price>29363471</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8061,7 +8109,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28935504</Price>
+      <Price>29482746</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8109,7 +8157,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28994112</Price>
+      <Price>29546381</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8157,7 +8205,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29421336</Price>
+      <Price>29981742</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8205,7 +8253,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29649156</Price>
+      <Price>30203404</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8253,7 +8301,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29850576</Price>
+      <Price>30419158</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8301,7 +8349,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>30064768</Price>
+      <Price>30627509</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -11518,6 +11566,54 @@
     </Building>
     <BargainTerms>
       <Price>39185232</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>8d48c61f-6656-417c-a0ee-b53fc1623808</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 2, этаж 8, квартира 72</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>2</FlatRoomsCount>
+    <TotalArea>71.87</TotalArea>
+    <FloorNumber>8</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>2</Id>
+        <Name>2</Name>
+        <Flat>
+          <FlatNumber>72</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/8fd8752fdc6a37ba4bc13399e789d845e8142f986682ddb2ab120a80c4fd7e1d.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/311cb00d390be73c31e004beecbcc79180a6e4149ad967d89c5b9028e2785be3.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_2_1_8_72</Url>
+    <Building>
+      <FloorsCount>28</FloorsCount>
+      <Deadline>
+        <Quarter>third</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>39241020</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
