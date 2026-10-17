@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-10-17T09:20:33Z</generated>
+  <generated>2026-10-17T13:42:51Z</generated>
   <object>
     <ExternalId>9e6d1be1-c816-494a-add1-e8af6c8390a7</ExternalId>
     <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 23, квартира 241</Description>
@@ -45,7 +45,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24370320</Price>
+      <Price>24371100</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -93,7 +93,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24477200</Price>
+      <Price>24480834</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -189,7 +189,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24551261</Price>
+      <Price>24554376</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -333,7 +333,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24876473</Price>
+      <Price>24877269</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -381,55 +381,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24876986</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>d38e799b-f65b-4121-a81a-7eb9e3c6dd44</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 2, этаж 9, квартира 88</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>43.26</TotalArea>
-    <FloorNumber>9</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>2</Id>
-        <Name>2</Name>
-        <Flat>
-          <FlatNumber>88</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/536a58c11981def16b7725596ec925c47008f44821f935bdda6c1dd2dd48bad8.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b89eb76890e70505ddb04890b83c6bb2e226b41361b756cad9c469ac72155af5.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_2_1_9_88</Url>
-    <Building>
-      <FloorsCount>28</FloorsCount>
-      <Deadline>
-        <Quarter>third</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>24884536</Price>
+      <Price>24878568</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -477,55 +429,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24921028</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>e7f46e23-9e3a-4416-9da8-df661132d8ea</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 2, этаж 10, квартира 99</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>43.26</TotalArea>
-    <FloorNumber>10</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>2</Id>
-        <Name>2</Name>
-        <Flat>
-          <FlatNumber>99</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/c07c944f94f1a0b768f3b87d76a9c67229707c20ced0d35644f271e0469f85f6.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/69d44e47d16662054036da3d8c0089fef8bf76b775a77a5c66d72ce3ccefeea6.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_2_1_10_99</Url>
-    <Building>
-      <FloorsCount>28</FloorsCount>
-      <Deadline>
-        <Quarter>third</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>24995628</Price>
+      <Price>24922612</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -573,7 +477,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24996296</Price>
+      <Price>24999040</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>e7f46e23-9e3a-4416-9da8-df661132d8ea</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 2, этаж 10, квартира 99</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>43.26</TotalArea>
+    <FloorNumber>10</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>2</Id>
+        <Name>2</Name>
+        <Flat>
+          <FlatNumber>99</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/c07c944f94f1a0b768f3b87d76a9c67229707c20ced0d35644f271e0469f85f6.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/69d44e47d16662054036da3d8c0089fef8bf76b775a77a5c66d72ce3ccefeea6.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_2_1_10_99</Url>
+    <Building>
+      <FloorsCount>28</FloorsCount>
+      <Deadline>
+        <Quarter>third</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>24999954</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -621,7 +573,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25058886</Price>
+      <Price>25061260</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -669,7 +621,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25106720</Price>
+      <Price>25108104</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -717,7 +669,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25479696</Price>
+      <Price>25481500</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -765,7 +717,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25576338</Price>
+      <Price>25577157</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -813,7 +765,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25733517</Price>
+      <Price>25734168</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -861,7 +813,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25755396</Price>
+      <Price>25756434</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -909,7 +861,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25780666</Price>
+      <Price>25785792</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -957,7 +909,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25864348</Price>
+      <Price>25866736</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1005,7 +957,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25866411</Price>
+      <Price>25868832</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1053,7 +1005,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25977426</Price>
+      <Price>25976907</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1101,7 +1053,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26112580</Price>
+      <Price>26117772</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1197,7 +1149,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26167877</Price>
+      <Price>26172736</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1245,7 +1197,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26201381</Price>
+      <Price>26204472</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1293,7 +1245,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26204814</Price>
+      <Price>26205160</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1341,7 +1293,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26210369</Price>
+      <Price>26211617</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1389,7 +1341,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26231778</Price>
+      <Price>26233760</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1437,7 +1389,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26278943</Price>
+      <Price>26278770</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1485,7 +1437,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26335140</Price>
+      <Price>26340776</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1581,7 +1533,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26430455</Price>
+      <Price>26436112</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1629,7 +1581,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26506545</Price>
+      <Price>26509672</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1677,7 +1629,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26629184</Price>
+      <Price>26629371</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1725,7 +1677,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26632300</Price>
+      <Price>26638000</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1773,7 +1725,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26699496</Price>
+      <Price>26702025</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1821,7 +1773,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26738427</Price>
+      <Price>26741799</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1869,7 +1821,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26760614</Price>
+      <Price>26764088</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1965,55 +1917,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26814388</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>ca7c44e5-9718-4de9-a2b6-92bc8b630375</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 33, квартира 347</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>44.96</TotalArea>
-    <FloorNumber>33</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>347</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/6076251d0c8170f76bea8caa53a109bc17da3b157c7b836154c10451633da38b.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/c8890b7035e897a5334d92dd1e2cad251da9ee9f6be3b57c70c68dc7bd1d4377.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_33_347</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>26824575</Price>
+      <Price>26817228</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2061,7 +1965,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26824712</Price>
+      <Price>26824176</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>ca7c44e5-9718-4de9-a2b6-92bc8b630375</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 33, квартира 347</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>44.96</TotalArea>
+    <FloorNumber>33</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>347</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/6076251d0c8170f76bea8caa53a109bc17da3b157c7b836154c10451633da38b.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/c8890b7035e897a5334d92dd1e2cad251da9ee9f6be3b57c70c68dc7bd1d4377.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_33_347</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>26827632</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2109,7 +2061,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26846386</Price>
+      <Price>26850705</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2157,7 +2109,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26880540</Price>
+      <Price>26882925</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2205,55 +2157,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26891839</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>c3cd338c-623b-4041-b9b2-19d58c140dea</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 3, квартира 19</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>48.00</TotalArea>
-    <FloorNumber>3</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>4</Id>
-        <Name>4</Name>
-        <Flat>
-          <FlatNumber>19</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/8ac9bdb4870c962ff5611fb731f0d268da9d98e2baa447a98f7109a30e0c8c80.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/4087973cb4f604e844a787a086a8b5c7af946ef9c9eb9d57550ce1472cfca429.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_3_19</Url>
-    <Building>
-      <FloorsCount>35</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>26912640</Price>
+      <Price>26894571</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2301,7 +2205,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26915379</Price>
+      <Price>26916304</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>c3cd338c-623b-4041-b9b2-19d58c140dea</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 3, квартира 19</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>48.00</TotalArea>
+    <FloorNumber>3</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>4</Id>
+        <Name>4</Name>
+        <Flat>
+          <FlatNumber>19</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/8ac9bdb4870c962ff5611fb731f0d268da9d98e2baa447a98f7109a30e0c8c80.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/4087973cb4f604e844a787a086a8b5c7af946ef9c9eb9d57550ce1472cfca429.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_3_19</Url>
+    <Building>
+      <FloorsCount>35</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>26918400</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2349,7 +2301,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26926764</Price>
+      <Price>26930520</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2397,7 +2349,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26930813</Price>
+      <Price>26935548</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2445,7 +2397,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26954961</Price>
+      <Price>26957920</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2493,7 +2445,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26966311</Price>
+      <Price>26968086</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2541,7 +2493,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26977559</Price>
+      <Price>26980416</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2589,7 +2541,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26994542</Price>
+      <Price>26994912</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2637,7 +2589,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27000089</Price>
+      <Price>27002142</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2685,7 +2637,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27007142</Price>
+      <Price>27005640</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2733,7 +2685,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27008760</Price>
+      <Price>27008396</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2781,7 +2733,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27034124</Price>
+      <Price>27036528</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2829,7 +2781,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27035904</Price>
+      <Price>27038400</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2877,7 +2829,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27053983</Price>
+      <Price>27056304</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2931,54 +2883,6 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>1bd8825c-b9a0-4cd1-9389-3509185f8d73</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 32, квартира 335</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>45.53</TotalArea>
-    <FloorNumber>32</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>335</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/a9353b3a306d197aa4e887a1ced5b800e41847960dae6623c457d928cf5435e8.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/137bf22f894fd7373b718ce95cface0ef720e9c2976a180470cbac5b07aa50da.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_32_335</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>27086708</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
     <ExternalId>5a5e28c8-2e63-440f-abc3-4714e28bbd6b</ExternalId>
     <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 13, квартира 132</Description>
     <Category>newBuildingFlatSale</Category>
@@ -3021,7 +2925,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27087521</Price>
+      <Price>27090150</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>1bd8825c-b9a0-4cd1-9389-3509185f8d73</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 32, квартира 335</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>45.53</TotalArea>
+    <FloorNumber>32</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>335</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/a9353b3a306d197aa4e887a1ced5b800e41847960dae6623c457d928cf5435e8.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/137bf22f894fd7373b718ce95cface0ef720e9c2976a180470cbac5b07aa50da.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_32_335</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>27090350</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3069,7 +3021,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27113286</Price>
+      <Price>27115136</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3117,7 +3069,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27132290</Price>
+      <Price>27133158</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3165,7 +3117,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27167899</Price>
+      <Price>27169965</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3213,7 +3165,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27192449</Price>
+      <Price>27193744</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3261,7 +3213,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27209604</Price>
+      <Price>27214704</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3309,7 +3261,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27239735</Price>
+      <Price>27240108</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3357,7 +3309,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27242602</Price>
+      <Price>27245152</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3405,7 +3357,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27248278</Price>
+      <Price>27249780</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3507,13 +3459,13 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>c90e8db2-8117-45a8-aa51-cbd4095a45f2</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 22, квартира 225</Description>
+    <ExternalId>8336dc2e-4ba3-4262-a6f1-c71ea12eca9d</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 20, квартира 200</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>46.66</TotalArea>
-    <FloorNumber>22</FloorNumber>
+    <TotalArea>47.01</TotalArea>
+    <FloorNumber>20</FloorNumber>
     <JKSchema>
       <Id>4850351</Id>
       <Name>СЕЗАР СИТИ</Name>
@@ -3521,7 +3473,7 @@
         <Id>3</Id>
         <Name>3</Name>
         <Flat>
-          <FlatNumber>225</FlatNumber>
+          <FlatNumber>200</FlatNumber>
           <SectionNumber>1</SectionNumber>
         </Flat>
       </House>
@@ -3530,16 +3482,16 @@
       <Email>info@sezargroup.ru</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/6ceef71ca402641ec9132e602bc4ed735ab1355c758cc1b222f073e58f2df370.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/412d17281ff24acf059cc0d3e49d633c13907d55bc9e6ed987663b709e519cf3.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b0f0cc097115f5b32c40112550c228c1d09b900c8ee4a75965b39f9804976002.png</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/614b29ab9b6b356def54ef55c45ca21f692adba42df2536f64395411f1af6fcb.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_22_225</Url>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_20_200</Url>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3549,7 +3501,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27319617</Price>
+      <Price>27322212</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3597,19 +3549,19 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27320550</Price>
+      <Price>27322553</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>8336dc2e-4ba3-4262-a6f1-c71ea12eca9d</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 20, квартира 200</Description>
+    <ExternalId>c90e8db2-8117-45a8-aa51-cbd4095a45f2</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 22, квартира 225</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
     <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>47.01</TotalArea>
-    <FloorNumber>20</FloorNumber>
+    <TotalArea>46.66</TotalArea>
+    <FloorNumber>22</FloorNumber>
     <JKSchema>
       <Id>4850351</Id>
       <Name>СЕЗАР СИТИ</Name>
@@ -3617,7 +3569,7 @@
         <Id>3</Id>
         <Name>3</Name>
         <Flat>
-          <FlatNumber>200</FlatNumber>
+          <FlatNumber>225</FlatNumber>
           <SectionNumber>1</SectionNumber>
         </Flat>
       </House>
@@ -3626,16 +3578,16 @@
       <Email>info@sezargroup.ru</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/412d17281ff24acf059cc0d3e49d633c13907d55bc9e6ed987663b709e519cf3.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/6ceef71ca402641ec9132e602bc4ed735ab1355c758cc1b222f073e58f2df370.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/614b29ab9b6b356def54ef55c45ca21f692adba42df2536f64395411f1af6fcb.png</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b0f0cc097115f5b32c40112550c228c1d09b900c8ee4a75965b39f9804976002.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_20_200</Url>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_22_225</Url>
     <Building>
       <FloorsCount>51</FloorsCount>
       <Deadline>
@@ -3645,7 +3597,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27323340</Price>
+      <Price>27324096</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3693,7 +3645,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27359558</Price>
+      <Price>27361424</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3741,7 +3693,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27409034</Price>
+      <Price>27409410</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3789,7 +3741,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27427319</Price>
+      <Price>27427511</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3837,7 +3789,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27439440</Price>
+      <Price>27440746</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3885,7 +3837,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27443497</Price>
+      <Price>27446958</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3933,7 +3885,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27479380</Price>
+      <Price>27482740</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3981,7 +3933,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27482745</Price>
+      <Price>27484206</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4029,7 +3981,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27489413</Price>
+      <Price>27493920</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4077,7 +4029,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27494720</Price>
+      <Price>27495600</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4125,7 +4077,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27521461</Price>
+      <Price>27524376</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4173,7 +4125,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27560324</Price>
+      <Price>27561590</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4221,7 +4173,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27561060</Price>
+      <Price>27562650</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4269,7 +4221,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27569106</Price>
+      <Price>27572952</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4317,7 +4269,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27605024</Price>
+      <Price>27604272</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4365,7 +4317,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27625217</Price>
+      <Price>27628129</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4413,7 +4365,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27639119</Price>
+      <Price>27639484</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4461,7 +4413,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27677390</Price>
+      <Price>27679212</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4509,7 +4461,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27694408</Price>
+      <Price>27695680</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4557,7 +4509,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27698927</Price>
+      <Price>27700296</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4605,7 +4557,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27706922</Price>
+      <Price>27709737</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4653,7 +4605,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27754045</Price>
+      <Price>27759564</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4701,7 +4653,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27758539</Price>
+      <Price>27760304</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4749,7 +4701,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27772201</Price>
+      <Price>27772928</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4797,7 +4749,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27782610</Price>
+      <Price>27783392</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4845,7 +4797,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27792574</Price>
+      <Price>27796734</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4893,7 +4845,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27795493</Price>
+      <Price>27799329</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4941,7 +4893,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27817124</Price>
+      <Price>27820632</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4989,7 +4941,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27832780</Price>
+      <Price>27833148</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5037,7 +4989,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27839140</Price>
+      <Price>27841257</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5085,7 +5037,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27846468</Price>
+      <Price>27848724</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5133,7 +5085,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27867542</Price>
+      <Price>27869231</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5181,7 +5133,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27869990</Price>
+      <Price>27873608</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5229,7 +5181,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27873680</Price>
+      <Price>27876968</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5277,7 +5229,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27911515</Price>
+      <Price>27911331</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5325,7 +5277,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27922463</Price>
+      <Price>27924368</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5373,7 +5325,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27927788</Price>
+      <Price>27931968</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5421,7 +5373,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27947852</Price>
+      <Price>27948978</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5469,7 +5421,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28024824</Price>
+      <Price>28027356</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5517,7 +5469,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28028162</Price>
+      <Price>28033416</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5565,7 +5517,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28083374</Price>
+      <Price>28081920</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5613,7 +5565,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28100854</Price>
+      <Price>28101753</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5661,7 +5613,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28102754</Price>
+      <Price>28104045</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5709,7 +5661,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28125429</Price>
+      <Price>28124268</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5757,7 +5709,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28134700</Price>
+      <Price>28134138</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5805,7 +5757,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28138809</Price>
+      <Price>28141223</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5853,7 +5805,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28147720</Price>
+      <Price>28150479</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5901,7 +5853,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28161167</Price>
+      <Price>28163712</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5949,7 +5901,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28225530</Price>
+      <Price>28230415</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5997,7 +5949,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28250996</Price>
+      <Price>28254540</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6045,7 +5997,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28284705</Price>
+      <Price>28286856</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6093,7 +6045,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28295012</Price>
+      <Price>28298008</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6141,7 +6093,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28297477</Price>
+      <Price>28301424</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6189,7 +6141,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28330090</Price>
+      <Price>28333900</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6237,7 +6189,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28332539</Price>
+      <Price>28337184</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6285,7 +6237,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28339575</Price>
+      <Price>28343817</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6333,7 +6285,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28375167</Price>
+      <Price>28377602</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6381,7 +6333,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28394547</Price>
+      <Price>28395456</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6429,7 +6381,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28418515</Price>
+      <Price>28422204</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6525,7 +6477,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28450615</Price>
+      <Price>28452424</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6573,7 +6525,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28456804</Price>
+      <Price>28458159</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6621,7 +6573,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28503944</Price>
+      <Price>28505820</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6669,7 +6621,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28507265</Price>
+      <Price>28506696</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6717,7 +6669,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28514430</Price>
+      <Price>28519365</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6765,7 +6717,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28568144</Price>
+      <Price>28570850</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6813,7 +6765,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28575848</Price>
+      <Price>28578860</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6861,7 +6813,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28576396</Price>
+      <Price>28578978</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6909,7 +6861,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28619418</Price>
+      <Price>28621302</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -6957,7 +6909,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28619436</Price>
+      <Price>28624128</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7005,7 +6957,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28650748</Price>
+      <Price>28651665</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7053,7 +7005,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28687830</Price>
+      <Price>28690868</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7101,7 +7053,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28703118</Price>
+      <Price>28702336</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7149,7 +7101,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28746757</Price>
+      <Price>28748499</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7197,7 +7149,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28761172</Price>
+      <Price>28764780</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7245,7 +7197,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28784686</Price>
+      <Price>28786797</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7293,7 +7245,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28854776</Price>
+      <Price>28856310</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7341,7 +7293,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28876783</Price>
+      <Price>28878110</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7389,7 +7341,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28926979</Price>
+      <Price>28930608</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7437,55 +7389,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28948936</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>c82946fb-0241-40d7-9b66-cf02d7e949b0</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 1, этаж 7, квартира 69</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>50.87</TotalArea>
-    <FloorNumber>7</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>1</Id>
-        <Name>1</Name>
-        <Flat>
-          <FlatNumber>69</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/2929ad919273150946be9b877cb10fe397f198bada7af9ca3753d7cb515c06de.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/2f368f8dbf892d35ce6e84435335aaee13d65ebe7ea688b468cb765a24c8c59c.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_1_2_7_69</Url>
-    <Building>
-      <FloorsCount>15</FloorsCount>
-      <Deadline>
-        <Quarter>third</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>28957239</Price>
+      <Price>28954692</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7533,7 +7437,55 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28957898</Price>
+      <Price>28958656</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>c82946fb-0241-40d7-9b66-cf02d7e949b0</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 1, этаж 7, квартира 69</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>50.87</TotalArea>
+    <FloorNumber>7</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>69</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/2929ad919273150946be9b877cb10fe397f198bada7af9ca3753d7cb515c06de.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/2f368f8dbf892d35ce6e84435335aaee13d65ebe7ea688b468cb765a24c8c59c.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_1_2_7_69</Url>
+    <Building>
+      <FloorsCount>15</FloorsCount>
+      <Deadline>
+        <Quarter>third</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>28960291</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7581,7 +7533,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29039012</Price>
+      <Price>29039202</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7629,7 +7581,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29043464</Price>
+      <Price>29043072</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7677,55 +7629,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29097700</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>9064cffc-761c-4895-ba70-0447d1193727</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 39, квартира 417</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>47.38</TotalArea>
-    <FloorNumber>39</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>417</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/37a47de7da68e676e2bc0662538b0fe37a78a8561633d3715d35bdbf34cc034b.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/d8442ed9f3bdbe49c421b1732b4008075f4eb45c80b107a317f933fff657da66.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_39_417</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>29120127</Price>
+      <Price>29098872</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7779,6 +7683,54 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>9064cffc-761c-4895-ba70-0447d1193727</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 39, квартира 417</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>47.38</TotalArea>
+    <FloorNumber>39</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>3</Id>
+        <Name>3</Name>
+        <Flat>
+          <FlatNumber>417</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/37a47de7da68e676e2bc0662538b0fe37a78a8561633d3715d35bdbf34cc034b.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/d8442ed9f3bdbe49c421b1732b4008075f4eb45c80b107a317f933fff657da66.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_39_417</Url>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>fourth</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>29124486</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>82c27e86-9916-4ae1-9778-8f4efd05a690</ExternalId>
     <Description>ЖК СЕЗАР СИТИ, корпус 2, этаж 24, квартира 243</Description>
     <Category>newBuildingFlatSale</Category>
@@ -7821,7 +7773,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29218088</Price>
+      <Price>29219430</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7869,7 +7821,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29220416</Price>
+      <Price>29221420</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -7917,7 +7869,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29223635</Price>
+      <Price>29226142</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8013,7 +7965,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29282356</Price>
+      <Price>29280840</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8061,7 +8013,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29363471</Price>
+      <Price>29366124</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8109,7 +8061,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29482746</Price>
+      <Price>29487159</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8157,7 +8109,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29546381</Price>
+      <Price>29550216</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8205,7 +8157,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29981742</Price>
+      <Price>29982702</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8253,7 +8205,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>30203404</Price>
+      <Price>30205464</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8301,7 +8253,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>30419158</Price>
+      <Price>30420132</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8349,7 +8301,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>30627509</Price>
+      <Price>30629456</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -8542,54 +8494,6 @@
     </Building>
     <BargainTerms>
       <Price>33341200</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>65510749-aa21-4b28-b8c2-3aff639df1b1</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 5, квартира 38</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>2</FlatRoomsCount>
-    <TotalArea>66.74</TotalArea>
-    <FloorNumber>5</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>4</Id>
-        <Name>4</Name>
-        <Flat>
-          <FlatNumber>38</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/df339d0093347ee77a94621777eb534a5358568dac98dbac95b84ac0deeb2e8a.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/6eb877dd4f68f85ef9e2b62c7454d86daffa4908b52559f4fbda5e401af43b63.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_4_1_5_38</Url>
-    <Building>
-      <FloorsCount>35</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>34170880</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
