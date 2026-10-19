@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-10-19T07:45:53Z</generated>
+  <generated>2026-10-19T15:35:52Z</generated>
   <object>
     <ExternalId>9e6d1be1-c816-494a-add1-e8af6c8390a7</ExternalId>
     <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 23, квартира 241</Description>
@@ -382,6 +382,54 @@
     </Building>
     <BargainTerms>
       <Price>24878568</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>d38e799b-f65b-4121-a81a-7eb9e3c6dd44</ExternalId>
+    <Description>ЖК СЕЗАР СИТИ, корпус 2, этаж 9, квартира 88</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>43.26</TotalArea>
+    <FloorNumber>9</FloorNumber>
+    <JKSchema>
+      <Id>4850351</Id>
+      <Name>СЕЗАР СИТИ</Name>
+      <House>
+        <Id>2</Id>
+        <Name>2</Name>
+        <Flat>
+          <FlatNumber>88</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@sezargroup.ru</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/536a58c11981def16b7725596ec925c47008f44821f935bdda6c1dd2dd48bad8.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b89eb76890e70505ddb04890b83c6bb2e226b41361b756cad9c469ac72155af5.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_2_1_9_88</Url>
+    <Building>
+      <FloorsCount>28</FloorsCount>
+      <Deadline>
+        <Quarter>third</Quarter>
+        <Year>2027</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>24883152</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
