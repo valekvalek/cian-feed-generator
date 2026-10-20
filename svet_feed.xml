@@ -1,7 +1,101 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-10-20T11:46:49Z</generated>
+  <generated>2026-10-20T17:16:00Z</generated>
+  <object>
+    <ExternalId>23979</ExternalId>
+    <Description>ЖК Свет, этаж 2, номер квартиры 6</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>9</FlatRoomsCount>
+    <TotalArea>33.1</TotalArea>
+    <FloorNumber>2</FloorNumber>
+    <JKSchema>
+      <Id>5449798</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>6</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/156b74f54227b832570de9350bd6d8e5a892b2a6a1241172bbab8d851609fa7f.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/fa2ee5836d6a365880890b86f5721dc37c97f552b490f1fb65d8144378574900.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>18726843</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>23978</ExternalId>
+    <Description>ЖК Свет, этаж 2, номер квартиры 3</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>1</FlatRoomsCount>
+    <TotalArea>37.3</TotalArea>
+    <FloorNumber>2</FloorNumber>
+    <JKSchema>
+      <Id>5449798</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>3</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/9c939e5ce97c85dea7c400d3a3cb73d67218199ac1c4c3ad77980b86af68e797.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/19647b62dcefcd946d3378f3ec7470d4248962651225e238a5921da41a866209.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>19307309</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
   <object>
     <ExternalId>23093</ExternalId>
     <Description>ЖК Свет, этаж 44, номер квартиры 571</Description>
@@ -4087,6 +4181,53 @@
     </Building>
     <BargainTerms>
       <Price>32628154</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>23980</ExternalId>
+    <Description>ЖК Свет, этаж 6, номер квартиры 60</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>3</FlatRoomsCount>
+    <TotalArea>82.1</TotalArea>
+    <FloorNumber>6</FloorNumber>
+    <JKSchema>
+      <Id>5449798</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>60</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/2457c8a866c5d7ffe8dbb3f1acc379fa53be34c852e3604a00accc7024d3e76b.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/05f6b4d2651cd6b5bf714301505d605a04fb2df4479c18498532ba9e030963b9.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>32641002</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
