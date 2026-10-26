@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-10-26T14:21:37Z</generated>
+  <generated>2026-10-26T20:33:43Z</generated>
   <object>
     <ExternalId>23093</ExternalId>
     <Description>ЖК Свет, этаж 44, номер квартиры 571</Description>
@@ -44,7 +44,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>19958420</Price>
+      <Price>19958421</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -91,7 +91,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>20129608</Price>
+      <Price>20129609</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -138,7 +138,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>20779339</Price>
+      <Price>20779341</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -185,7 +185,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>20853575</Price>
+      <Price>20853577</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -232,7 +232,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>21002047</Price>
+      <Price>21002049</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -326,7 +326,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>21260037</Price>
+      <Price>21260038</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -373,7 +373,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>21372056</Price>
+      <Price>21372057</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -420,7 +420,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>21558755</Price>
+      <Price>21558756</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -467,7 +467,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>21955283</Price>
+      <Price>21955284</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -514,7 +514,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>22111483</Price>
+      <Price>22111484</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -561,7 +561,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>22142764</Price>
+      <Price>22142765</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -608,7 +608,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>22300177</Price>
+      <Price>22300179</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -655,7 +655,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>22575650</Price>
+      <Price>22575651</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -702,7 +702,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23815884</Price>
+      <Price>23815885</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -749,7 +749,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23863431</Price>
+      <Price>23863433</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -796,7 +796,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23865540</Price>
+      <Price>23865542</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -843,7 +843,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>23891111</Price>
+      <Price>23891112</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -890,7 +890,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24067533</Price>
+      <Price>24067535</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -937,7 +937,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24200481</Price>
+      <Price>24200483</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -984,7 +984,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24325260</Price>
+      <Price>24325261</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1031,7 +1031,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24386456</Price>
+      <Price>24386457</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1078,7 +1078,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24529100</Price>
+      <Price>24529101</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1125,7 +1125,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24566614</Price>
+      <Price>24566615</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1172,7 +1172,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24576645</Price>
+      <Price>24576646</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1219,7 +1219,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>24847045</Price>
+      <Price>24847046</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1266,7 +1266,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25103581</Price>
+      <Price>25103582</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1313,7 +1313,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25153556</Price>
+      <Price>25153557</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1360,7 +1360,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25234049</Price>
+      <Price>25234050</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1407,7 +1407,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25282103</Price>
+      <Price>25282105</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1454,7 +1454,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25284580</Price>
+      <Price>25284581</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1501,7 +1501,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25335871</Price>
+      <Price>25335872</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1548,7 +1548,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25357950</Price>
+      <Price>25357951</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1595,7 +1595,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25403434</Price>
+      <Price>25403435</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1642,7 +1642,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25497706</Price>
+      <Price>25497708</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1689,7 +1689,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25551473</Price>
+      <Price>25551474</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1736,7 +1736,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25645760</Price>
+      <Price>25645761</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1783,7 +1783,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25647936</Price>
+      <Price>25647938</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1830,7 +1830,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25906625</Price>
+      <Price>25906626</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1877,7 +1877,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>25928616</Price>
+      <Price>25928617</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1924,7 +1924,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26163185</Price>
+      <Price>26163186</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -1971,7 +1971,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26699006</Price>
+      <Price>26699007</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2018,7 +2018,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26747570</Price>
+      <Price>26747571</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2065,7 +2065,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26928735</Price>
+      <Price>26928736</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2112,7 +2112,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>26999904</Price>
+      <Price>26999906</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2159,7 +2159,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27107730</Price>
+      <Price>27107731</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2206,7 +2206,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27316219</Price>
+      <Price>27316221</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2253,7 +2253,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27505818</Price>
+      <Price>27505820</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2300,7 +2300,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27560446</Price>
+      <Price>27560447</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2347,7 +2347,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27654743</Price>
+      <Price>27654744</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2394,7 +2394,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27709596</Price>
+      <Price>27709597</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2441,7 +2441,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27710688</Price>
+      <Price>27710689</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2488,7 +2488,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27761697</Price>
+      <Price>27761698</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2582,7 +2582,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27972085</Price>
+      <Price>27972086</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2629,7 +2629,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>27990411</Price>
+      <Price>27990412</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2676,7 +2676,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28049929</Price>
+      <Price>28049930</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2723,7 +2723,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28064336</Price>
+      <Price>28064337</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2770,7 +2770,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28082309</Price>
+      <Price>28082310</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2817,7 +2817,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28220700</Price>
+      <Price>28220701</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2864,7 +2864,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28389747</Price>
+      <Price>28389748</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2911,7 +2911,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28446096</Price>
+      <Price>28446097</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -2958,7 +2958,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28487034</Price>
+      <Price>28487035</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3005,7 +3005,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28542166</Price>
+      <Price>28542168</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3052,7 +3052,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28702944</Price>
+      <Price>28702946</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3099,7 +3099,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28756726</Price>
+      <Price>28756727</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3146,7 +3146,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28799700</Price>
+      <Price>28799701</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3193,7 +3193,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28936944</Price>
+      <Price>28936945</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3240,7 +3240,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>28953239</Price>
+      <Price>28953240</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3287,7 +3287,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29009585</Price>
+      <Price>29009587</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3334,7 +3334,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29023778</Price>
+      <Price>29023779</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3381,7 +3381,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29078207</Price>
+      <Price>29078208</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3428,7 +3428,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29132633</Price>
+      <Price>29132635</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3475,7 +3475,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29273288</Price>
+      <Price>29273289</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3522,7 +3522,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29347681</Price>
+      <Price>29347683</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3569,7 +3569,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29573078</Price>
+      <Price>29573080</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3616,7 +3616,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>29944354</Price>
+      <Price>29944355</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3663,7 +3663,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>30074756</Price>
+      <Price>30074757</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3710,7 +3710,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>30184630</Price>
+      <Price>30184631</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3757,7 +3757,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>30836189</Price>
+      <Price>30836190</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3804,7 +3804,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>31173063</Price>
+      <Price>31173064</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3851,7 +3851,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>31318818</Price>
+      <Price>31318819</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3898,7 +3898,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>31342330</Price>
+      <Price>31342331</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3945,7 +3945,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>31512000</Price>
+      <Price>31512001</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -3992,7 +3992,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32695097</Price>
+      <Price>32695098</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4039,7 +4039,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32759931</Price>
+      <Price>32759933</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4133,7 +4133,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>32967412</Price>
+      <Price>32967414</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4180,7 +4180,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33122936</Price>
+      <Price>33122937</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4227,7 +4227,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33157306</Price>
+      <Price>33157307</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4274,7 +4274,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33227920</Price>
+      <Price>33227921</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4321,7 +4321,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33231333</Price>
+      <Price>33231334</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4368,7 +4368,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33263536</Price>
+      <Price>33263537</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4415,7 +4415,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33298535</Price>
+      <Price>33298536</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4462,7 +4462,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33343445</Price>
+      <Price>33343446</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4509,7 +4509,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33400055</Price>
+      <Price>33400056</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4556,7 +4556,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33455921</Price>
+      <Price>33455922</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4603,7 +4603,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33580998</Price>
+      <Price>33580999</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4650,7 +4650,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33631419</Price>
+      <Price>33631420</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4697,7 +4697,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33828254</Price>
+      <Price>33828256</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4744,7 +4744,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>33833754</Price>
+      <Price>33833755</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4838,7 +4838,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>34023825</Price>
+      <Price>34023826</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4885,7 +4885,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>34284586</Price>
+      <Price>34284587</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -4932,7 +4932,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>34297059</Price>
+      <Price>34297060</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5026,7 +5026,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>34984279</Price>
+      <Price>34984280</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5073,7 +5073,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>35151085</Price>
+      <Price>35151086</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5120,7 +5120,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>35183011</Price>
+      <Price>35183013</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5167,7 +5167,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>35197613</Price>
+      <Price>35197614</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5214,7 +5214,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>35307048</Price>
+      <Price>35307049</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5261,7 +5261,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>35340801</Price>
+      <Price>35340802</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5308,7 +5308,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>35483989</Price>
+      <Price>35483990</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5355,7 +5355,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>35627176</Price>
+      <Price>35627177</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5402,7 +5402,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>35841960</Price>
+      <Price>35841961</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5449,7 +5449,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>36004155</Price>
+      <Price>36004156</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5496,7 +5496,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>37607057</Price>
+      <Price>37607058</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5543,7 +5543,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>37681538</Price>
+      <Price>37681539</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5590,7 +5590,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>38019455</Price>
+      <Price>38019456</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5637,7 +5637,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>38154853</Price>
+      <Price>38154854</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5684,7 +5684,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>38202912</Price>
+      <Price>38202913</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -5731,7 +5731,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>39340043</Price>
+      <Price>39340044</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
