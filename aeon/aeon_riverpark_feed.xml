@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-10-20T13:43:19Z</generated>
+  <generated>2026-10-27T13:26:00Z</generated>
   <object>
     <ExternalId>12.1.3.12</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 3, квартира 12</Description>
@@ -208,47 +208,6 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>12.1.10.61</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 10, квартира 61</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>35.5</TotalArea>
-    <FloorNumber>10</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>61</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/c94381f239e5e2f449b92506a815cb033c86db52e01b7f05cbee621c1acc8071.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/3d17e380dea98df7698f506493d5425b2bb345c0fd46a439218782795b99a364.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>14581439</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
     <ExternalId>12.1.13.82</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 13, квартира 82</Description>
     <Category>newBuildingFlatSale</Category>
@@ -286,47 +245,6 @@
     </Building>
     <BargainTerms>
       <Price>14593996</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>12.1.12.75</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 12, квартира 75</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>35.5</TotalArea>
-    <FloorNumber>12</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>75</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/0ff973f4511fba19ae73945460b6460f27f99c7e0a1e3ef1212e2199ec2fb8a4.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/51642dd2568f97450069a3dc4e6aa74ee9a8e94e69849ba21055b442454fc6e6.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>14617294</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -700,47 +618,6 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>12.1.6.34</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 6, квартира 34</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>38.3</TotalArea>
-    <FloorNumber>6</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>34</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/3604188acba4fedc58a774eef02de74dbb849886c9b0cf7e10fc66cb4d89c367.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/be88930a9c627d0e89d99ccc3e45778fb09ff06eb512dc1e9869b5f54bbb29e9.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>15719455</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
     <ExternalId>12.1.3.13</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 3, квартира 13</Description>
     <Category>newBuildingFlatSale</Category>
@@ -823,47 +700,6 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>12.1.10.62</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 10, квартира 62</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>38.4</TotalArea>
-    <FloorNumber>10</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>62</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/2a005c7551077222bcffa79809d20f22421fc5f8dce014b1a36fb22ecae39ed5.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/d311ee718d1d47286fa7d93ad9eed622341f29d19c9061b824868f29e8eb45da.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>15838066</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
     <ExternalId>12.1.7.41</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 7, квартира 41</Description>
     <Category>newBuildingFlatSale</Category>
@@ -942,6 +778,47 @@
     </Building>
     <BargainTerms>
       <Price>15937639</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>14.2.7.274</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 7, квартира 274</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>39.6</TotalArea>
+    <FloorNumber>7</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>14</Id>
+        <Name>14</Name>
+        <Flat>
+          <FlatNumber>274</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/57c129ee10bbbc83a91c8833aedb0c27b54bc7390ccd68233fb53060ae48eadd.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/aaa74c1318b9039b9fb6a802c7ee20fb7f11b5ed7f2821af432dbfad49861588.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>16085551</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1561,47 +1438,6 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>12.2.2.86</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 2, квартира 86</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>40.8</TotalArea>
-    <FloorNumber>2</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>86</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/fb5a09cdecce1cd51e9617b8c6fe044c8ab88a652ada5206bf634bc2f4d190e0.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/312702da146d8ed5e233d49f6a378f69350f400a920fb8db109ffb15bfef1934.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>16593431</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
     <ExternalId>7.1.12.117</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 7, этаж 12, квартира 117</Description>
     <Category>newBuildingFlatSale</Category>
@@ -1885,6 +1721,47 @@
     </Building>
     <BargainTerms>
       <Price>16781511</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>14.2.7.285</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 7, квартира 285</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>42.2</TotalArea>
+    <FloorNumber>7</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>14</Id>
+        <Name>14</Name>
+        <Flat>
+          <FlatNumber>285</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/fefd0462097634948a9e13203c67605b40673a2812e71ef03c34cf89440520b4.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/aeace0ba930589e0c1af87e05c92d2dae40805fa48e8bde0bcf83577d0a19b1a.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>16891951</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2586,47 +2463,6 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>14.2.4.224</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 4, квартира 224</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>43.8</TotalArea>
-    <FloorNumber>4</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>14</Id>
-        <Name>14</Name>
-        <Flat>
-          <FlatNumber>224</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/e5775145153c4f2fc67341d7bc17701ced184c42d39f5192a913b82748fa4137.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/bcdbfe4b53bae6fc7941ef150989a4e9f5f0706526314983b3716af959277529.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>17521300</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
     <ExternalId>14.1.6.65</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 6, квартира 65</Description>
     <Category>newBuildingFlatSale</Category>
@@ -3037,47 +2873,6 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>14.2.4.235</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 4, квартира 235</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>47.9</TotalArea>
-    <FloorNumber>4</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>14</Id>
-        <Name>14</Name>
-        <Flat>
-          <FlatNumber>235</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/8161640e1fc6d4daf5313b830c592d1f27f2d78fe3c04eae67b3a5a1793adad0.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/e8fac2b009e66cf80034893b07f7767b0e226a98719d47b806ad79af2f683190.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>17836901</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
     <ExternalId>12.1.5.22</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 5, квартира 22</Description>
     <Category>newBuildingFlatSale</Category>
@@ -3238,47 +3033,6 @@
     </Building>
     <BargainTerms>
       <Price>17892842</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>12.1.10.57</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 10, квартира 57</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>45</TotalArea>
-    <FloorNumber>10</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>57</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/8379c257f06609ad7aa2ca1c57b9ce125af0a18746d7b68b97a901cd4f27c909.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/b23c03c86d491f65f158329992e5c5d224829fa25ce8005fa238565e9b722d26.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>17921344</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5087,6 +4841,47 @@
     </BargainTerms>
   </object>
   <object>
+    <ExternalId>14.2.5.239</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 5, квартира 239</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>46.8</TotalArea>
+    <FloorNumber>5</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>14</Id>
+        <Name>14</Name>
+        <Flat>
+          <FlatNumber>239</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/6bf4b2d0ae56c0500aac78009b1a0165bd625ce78806edb794b19a9800c4f75e.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/c72b84aabddfe83c01e112382a26559761d0e94c7d5c014808f22fe0cbc0a052.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>21249896</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
     <ExternalId>14.2.6.257</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 6, квартира 257</Description>
     <Category>newBuildingFlatSale</Category>
@@ -5456,47 +5251,6 @@
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>7.2.5.170</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 7, этаж 5, квартира 170</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 7</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>55.6</TotalArea>
-    <FloorNumber>5</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>7</Id>
-        <Name>7</Name>
-        <Flat>
-          <FlatNumber>170</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/f5ca571960edb72accaa56a5dbf7d645100fe8a5331dc7e56d9b751f8cf3d5fa.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/aaaba51bb48880ab4cebf2ae09821edfe14cf0abdcefaa13825559eb616cba92.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>12</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>21612647</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
     <ExternalId>7.2.3.148</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 7, этаж 3, квартира 148</Description>
     <Category>newBuildingFlatSale</Category>
@@ -5616,47 +5370,6 @@
     </Building>
     <BargainTerms>
       <Price>21865544</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>7.2.9.230</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 7, этаж 9, квартира 230</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 7</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>56</TotalArea>
-    <FloorNumber>9</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>7</Id>
-        <Name>7</Name>
-        <Flat>
-          <FlatNumber>230</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/5911fb932e4ba1ea6c734db76a19bcd29343eb4c9ae42c5ce27b457519ae2cca.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/33de973ce4c7f3580ccbaab7f2b0c16435deb8266fabf6ce0e6deb1f65b15727.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>12</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>21881254</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6108,6 +5821,47 @@
     </Building>
     <BargainTerms>
       <Price>22642383</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>14.1.6.73</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 6, квартира 73</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>61.1</TotalArea>
+    <FloorNumber>6</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>14</Id>
+        <Name>14</Name>
+        <Flat>
+          <FlatNumber>73</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/49c5bb8981cd8b6b4627ede1ef84520c353bf9545180bf9403341adf19779c29.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/9125e6d9979317c508a3b2e3afb46414978bd916920faccf993b574b15e015b7.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>22704094</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7379,6 +7133,47 @@
     </Building>
     <BargainTerms>
       <Price>24242553</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>14.1.7.78</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 7, квартира 78</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>66.6</TotalArea>
+    <FloorNumber>7</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>14</Id>
+        <Name>14</Name>
+        <Flat>
+          <FlatNumber>78</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/cd9eb4ece36d2455a6f04aa080927623843f4607468efa25abee90e3049a27aa.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/6dfe8d05630a8a1ed84c86c141b63cc5fc78d208e4fd539ab98b846bb81aedfd.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>24307107</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
