@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-10-29T07:04:01Z</generated>
+  <generated>2026-10-29T14:18:13Z</generated>
   <object>
     <ExternalId>9e6d1be1-c816-494a-add1-e8af6c8390a7</ExternalId>
     <Description>ЖК СЕЗАР СИТИ, корпус 4, этаж 23, квартира 241</Description>
@@ -622,54 +622,6 @@
     </Building>
     <BargainTerms>
       <Price>25061260</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>b4b24575-4ce5-4470-aa8a-92997fdc702b</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 2, этаж 11, квартира 110</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>1</FlatRoomsCount>
-    <TotalArea>43.26</TotalArea>
-    <FloorNumber>11</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>2</Id>
-        <Name>2</Name>
-        <Flat>
-          <FlatNumber>110</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/b1c93091bcf6dc6c92dd988fb8a8d44e9ffd11884c09a7f7b087488d147b29c6.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/95f5a8079e2a3732afc7a61caa275f600eaa10fdf951a23b5e3c225370f19f06.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_2_1_11_110</Url>
-    <Building>
-      <FloorsCount>28</FloorsCount>
-      <Deadline>
-        <Quarter>third</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>25108104</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -10318,54 +10270,6 @@
     </Building>
     <BargainTerms>
       <Price>38376976</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>9479cf3a-ca55-4abd-bf58-a8ac7cf10fdf</ExternalId>
-    <Description>ЖК СЕЗАР СИТИ, корпус 3, этаж 4, квартира 31</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, 2-й Хорошёвский проезд, 7, стр. 8</Address>
-    <FlatRoomsCount>3</FlatRoomsCount>
-    <TotalArea>74.41</TotalArea>
-    <FloorNumber>4</FloorNumber>
-    <JKSchema>
-      <Id>4850351</Id>
-      <Name>СЕЗАР СИТИ</Name>
-      <House>
-        <Id>3</Id>
-        <Name>3</Name>
-        <Flat>
-          <FlatNumber>31</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@sezargroup.ru</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/02643a6759825d2d5106e08e5986f6bd4367be1450d31a3343c93b9b9dd3b2b2.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/sezar/layouts/8a8500c66c92968c26b5924a2d24a8e33fe0197889e8708a8683caa870f25ffe.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Url>https://sezar-group.ru/projects/sezarcity/flats/SC_1_3_1_4_31</Url>
-    <Building>
-      <FloorsCount>51</FloorsCount>
-      <Deadline>
-        <Quarter>fourth</Quarter>
-        <Year>2027</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>38395560</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
