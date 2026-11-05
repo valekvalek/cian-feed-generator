@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-11-05T02:37:51Z</generated>
+  <generated>2026-11-05T18:52:29Z</generated>
   <object>
     <ExternalId>12.1.3.12</ExternalId>
     <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 3, квартира 12</Description>
@@ -39,7 +39,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>14455947</Price>
+      <Price>14527657</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -80,7 +80,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>14473874</Price>
+      <Price>14545584</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -121,7 +121,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>14491802</Price>
+      <Price>14563512</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -162,7 +162,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>14509729</Price>
+      <Price>14581439</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -203,7 +203,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>14563512</Price>
+      <Price>14635222</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -244,7 +244,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>14581439</Price>
+      <Price>14653149</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -285,7 +285,48 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>14593996</Price>
+      <Price>14665504</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>12.1.12.75</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 12, квартира 75</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>35.5</TotalArea>
+    <FloorNumber>12</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>12</Id>
+        <Name>12</Name>
+        <Flat>
+          <FlatNumber>75</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/0ff973f4511fba19ae73945460b6460f27f99c7e0a1e3ef1212e2199ec2fb8a4.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/51642dd2568f97450069a3dc4e6aa74ee9a8e94e69849ba21055b442454fc6e6.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>14689004</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -326,7 +367,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>15031325</Price>
+      <Price>15109297</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -367,7 +408,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>15429993</Price>
+      <Price>15505137</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -408,7 +449,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>15469697</Price>
+      <Price>15547467</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -449,7 +490,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>15567687</Price>
+      <Price>15645457</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -490,7 +531,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>15608842</Price>
+      <Price>15689844</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -531,7 +572,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>15622158</Price>
+      <Price>15700130</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -572,7 +613,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>15627466</Price>
+      <Price>15708670</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -613,7 +654,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>15682173</Price>
+      <Price>15760347</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -654,7 +695,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>15701716</Price>
+      <Price>15779890</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -695,7 +736,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>15784105</Price>
+      <Price>15862077</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -736,130 +777,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>15803598</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>12.1.10.62</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 10, квартира 62</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>38.4</TotalArea>
-    <FloorNumber>10</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>62</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/2a005c7551077222bcffa79809d20f22421fc5f8dce014b1a36fb22ecae39ed5.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/d311ee718d1d47286fa7d93ad9eed622341f29d19c9061b824868f29e8eb45da.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>15838066</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>12.1.7.41</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 7, квартира 41</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>38.7</TotalArea>
-    <FloorNumber>7</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>41</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/8ba5e12d65a32d527d57bf7c6c597ab6c19c5f7e67407a3c7dee4c9243a96e24.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/73a47a8470053d386535009bc97f5ca3b99dc765dcfb5cffcc2f1a9fbee3195b.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>15903171</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>12.1.13.83</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 13, квартира 83</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>38.5</TotalArea>
-    <FloorNumber>13</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>83</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/f6480917a1ace60925967b947b828e42b91d309edd0464f2aea5219e10aa7543.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/9c06d336fd0a5bf24b6534dcd7843d96b6cc1d2ed7f63bf920c6f4932978f45d.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>15937639</Price>
+      <Price>15881570</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -900,48 +818,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16085551</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>14.2.8.292</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 8, квартира 292</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>39.6</TotalArea>
-    <FloorNumber>8</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>14</Id>
-        <Name>14</Name>
-        <Flat>
-          <FlatNumber>292</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/6d9f9f4fc14b009cf3aa83594d53f611462f1032d0ff89b341f3862d16aeff94.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/1d9e03745019021f5d4aac292491ad5046e874b756d4b2e542bfa3bcf2816bfc.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>16105549</Price>
+      <Price>16165543</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -982,59 +859,18 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16107072</Price>
+      <Price>16184640</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>7.1.3.19</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 7, этаж 3, квартира 19</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 7</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>40.4</TotalArea>
-    <FloorNumber>3</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>7</Id>
-        <Name>7</Name>
-        <Flat>
-          <FlatNumber>19</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/dbfe558c6f498348ab56a000fe389b692fffc0e48fcf420a53b92c747d7fbb1a.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/6c48880834f427ea78b1615dabf8a853d5f7cea0246b28f0c25478625833c752.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>12</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>16165116</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>14.2.9.310</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 9, квартира 310</Description>
+    <ExternalId>14.2.8.292</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 8, квартира 292</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
     <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>39.7</TotalArea>
-    <FloorNumber>9</FloorNumber>
+    <TotalArea>39.6</TotalArea>
+    <FloorNumber>8</FloorNumber>
     <JKSchema>
       <Id>6178</Id>
       <Name>Ривер Парк Коломенское</Name>
@@ -1042,7 +878,7 @@
         <Id>14</Id>
         <Name>14</Name>
         <Flat>
-          <FlatNumber>310</FlatNumber>
+          <FlatNumber>292</FlatNumber>
           <SectionNumber>2</SectionNumber>
         </Flat>
       </House>
@@ -1051,12 +887,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/fafb13210e56da0c3770fa3775b6d8eefef486b73e7a1f7e539ae39a54872bb7.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/6d9f9f4fc14b009cf3aa83594d53f611462f1032d0ff89b341f3862d16aeff94.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/360e4d7ed9fbd2f9588128cce4924baaffdbd65c1088657c613687d1f524e2fe.png</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/1d9e03745019021f5d4aac292491ad5046e874b756d4b2e542bfa3bcf2816bfc.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1064,7 +900,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16166268</Price>
+      <Price>16185541</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1105,18 +941,18 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16168460</Price>
+      <Price>16246230</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
   <object>
-    <ExternalId>14.2.13.381</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 13, квартира 381</Description>
+    <ExternalId>14.2.9.310</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 9, квартира 310</Description>
     <Category>newBuildingFlatSale</Category>
     <Address>Россия, Москва, улица Корабельная, 5</Address>
     <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>39.6</TotalArea>
-    <FloorNumber>13</FloorNumber>
+    <TotalArea>39.7</TotalArea>
+    <FloorNumber>9</FloorNumber>
     <JKSchema>
       <Id>6178</Id>
       <Name>Ривер Парк Коломенское</Name>
@@ -1124,7 +960,7 @@
         <Id>14</Id>
         <Name>14</Name>
         <Flat>
-          <FlatNumber>381</FlatNumber>
+          <FlatNumber>310</FlatNumber>
           <SectionNumber>2</SectionNumber>
         </Flat>
       </House>
@@ -1133,12 +969,12 @@
       <Email>info@rusich.group</Email>
     </SubAgent>
     <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/2fc7c4db1b3cd1cc990c5148d26a1cb5a2a6e099a5acc5f4909581174463cb00.png</FullUrl>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/fafb13210e56da0c3770fa3775b6d8eefef486b73e7a1f7e539ae39a54872bb7.png</FullUrl>
       <PhotoType>realtyObjectLayout</PhotoType>
     </LayoutPhoto>
     <Photos>
       <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/7438126173ad46222415dac17b62a1ad7d6d2979ae95f5526fd9def51de7b21f.png</FullUrl>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/360e4d7ed9fbd2f9588128cce4924baaffdbd65c1088657c613687d1f524e2fe.png</FullUrl>
         <PhotoType>realtyObject</PhotoType>
       </PhotoSchema>
     </Photos>
@@ -1146,7 +982,48 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16207379</Price>
+      <Price>16246462</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>7.1.3.19</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 7, этаж 3, квартира 19</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>40.4</TotalArea>
+    <FloorNumber>3</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>7</Id>
+        <Name>7</Name>
+        <Flat>
+          <FlatNumber>19</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/dbfe558c6f498348ab56a000fe389b692fffc0e48fcf420a53b92c747d7fbb1a.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/6c48880834f427ea78b1615dabf8a853d5f7cea0246b28f0c25478625833c752.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>12</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>16246724</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1187,7 +1064,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16258542</Price>
+      <Price>16335908</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1228,7 +1105,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16285115</Price>
+      <Price>16362885</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1269,7 +1146,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16304558</Price>
+      <Price>16382328</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1310,7 +1187,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16356801</Price>
+      <Price>16438813</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1351,7 +1228,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16366873</Price>
+      <Price>16451511</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1392,7 +1269,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16400406</Price>
+      <Price>16481610</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1433,7 +1310,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16441008</Price>
+      <Price>16522212</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1474,7 +1351,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16548894</Price>
+      <Price>16632522</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1515,7 +1392,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16593431</Price>
+      <Price>16675847</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1556,7 +1433,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16638489</Price>
+      <Price>16718279</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1597,7 +1474,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16711103</Price>
+      <Price>16799781</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1638,7 +1515,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16748264</Price>
+      <Price>16833104</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1679,7 +1556,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16761361</Price>
+      <Price>16841959</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1720,7 +1597,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16762970</Price>
+      <Price>16843770</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1761,7 +1638,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16773802</Price>
+      <Price>16859046</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1802,7 +1679,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16781511</Price>
+      <Price>16862109</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1843,7 +1720,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16891951</Price>
+      <Price>16977195</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1884,7 +1761,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16894443</Price>
+      <Price>16979485</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1925,7 +1802,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16917025</Price>
+      <Price>16999037</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -1966,7 +1843,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16954967</Price>
+      <Price>17043645</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2007,7 +1884,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16979246</Price>
+      <Price>17061460</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2048,7 +1925,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>16999799</Price>
+      <Price>17082013</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2089,7 +1966,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17019817</Price>
+      <Price>17105061</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2130,7 +2007,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17077719</Price>
+      <Price>17161145</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2171,7 +2048,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17078621</Price>
+      <Price>17162653</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2212,7 +2089,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17087083</Price>
+      <Price>17176569</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2253,7 +2130,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17093153</Price>
+      <Price>17182437</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2294,7 +2171,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17119296</Price>
+      <Price>17203530</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2335,7 +2212,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17146617</Price>
+      <Price>17237921</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2376,7 +2253,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17212584</Price>
+      <Price>17303888</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2417,7 +2294,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17363695</Price>
+      <Price>17449141</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2458,7 +2335,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17402342</Price>
+      <Price>17494656</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2499,7 +2376,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17419739</Price>
+      <Price>17504983</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2540,7 +2417,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17441050</Price>
+      <Price>17526294</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2581,7 +2458,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17504983</Price>
+      <Price>17590227</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2622,7 +2499,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17521300</Price>
+      <Price>17609776</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2663,7 +2540,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17525102</Price>
+      <Price>17610548</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2704,7 +2581,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17535756</Price>
+      <Price>17621000</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2745,7 +2622,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17549281</Price>
+      <Price>17634121</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2786,7 +2663,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17557067</Price>
+      <Price>17642311</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2827,7 +2704,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17667104</Price>
+      <Price>17757398</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2868,7 +2745,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17716115</Price>
+      <Price>17803177</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2909,7 +2786,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17774829</Price>
+      <Price>17867143</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2950,7 +2827,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17801740</Price>
+      <Price>17892842</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -2991,7 +2868,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17824516</Price>
+      <Price>17915618</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3032,48 +2909,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17830444</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>14.2.4.235</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 4, квартира 235</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>47.9</TotalArea>
-    <FloorNumber>4</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>14</Id>
-        <Name>14</Name>
-        <Flat>
-          <FlatNumber>235</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/8161640e1fc6d4daf5313b830c592d1f27f2d78fe3c04eae67b3a5a1793adad0.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/e8fac2b009e66cf80034893b07f7767b0e226a98719d47b806ad79af2f683190.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>17836901</Price>
+      <Price>17921344</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3114,7 +2950,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17847291</Price>
+      <Price>17938393</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3155,48 +2991,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17883207</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>12.1.7.36</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 7, квартира 36</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>45.1</TotalArea>
-    <FloorNumber>7</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>36</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/d2c75f8f28775f947d1e57bd8ae363a226ad68bfc708571c097ee209c5786fc5.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/7720693a2d98d2079104c67ca2d35da5f87995441371d66c171bab9f4364cc0f.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>17892842</Price>
+      <Price>17969663</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3237,7 +3032,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>17982329</Price>
+      <Price>18079087</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3278,7 +3073,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18031232</Price>
+      <Price>18123546</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3319,7 +3114,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18058327</Price>
+      <Price>18150439</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3360,7 +3155,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18062242</Price>
+      <Price>18154354</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3401,7 +3196,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18074850</Price>
+      <Price>18167164</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3442,7 +3237,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18085270</Price>
+      <Price>18177382</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3483,7 +3278,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18108298</Price>
+      <Price>18200410</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3524,7 +3319,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18144085</Price>
+      <Price>18236399</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3565,7 +3360,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18171087</Price>
+      <Price>18263401</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3606,7 +3401,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18177382</Price>
+      <Price>18269494</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3647,7 +3442,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18267703</Price>
+      <Price>18358199</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3688,7 +3483,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18331154</Price>
+      <Price>18421852</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3729,7 +3524,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18543297</Price>
+      <Price>18623693</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3770,7 +3565,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18580332</Price>
+      <Price>18655274</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3811,7 +3606,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18583495</Price>
+      <Price>18663891</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3852,7 +3647,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18623693</Price>
+      <Price>18704089</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3893,7 +3688,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18643792</Price>
+      <Price>18724188</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3934,7 +3729,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18650336</Price>
+      <Price>18730934</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -3975,7 +3770,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18661659</Price>
+      <Price>18737005</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4016,7 +3811,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18679730</Price>
+      <Price>18754470</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4057,7 +3852,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18730934</Price>
+      <Price>18811532</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4098,7 +3893,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18751084</Price>
+      <Price>18831682</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4139,7 +3934,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18757679</Price>
+      <Price>18838479</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4180,7 +3975,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>18818279</Price>
+      <Price>18899079</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4221,7 +4016,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>19457076</Price>
+      <Price>19549996</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4262,7 +4057,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>19564784</Price>
+      <Price>19650230</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4303,7 +4098,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20116685</Price>
+      <Price>20201727</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4344,7 +4139,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20137945</Price>
+      <Price>20222987</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4385,7 +4180,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20159206</Price>
+      <Price>20244248</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4426,7 +4221,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20396782</Price>
+      <Price>20487076</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4467,7 +4262,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20419356</Price>
+      <Price>20509650</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4508,7 +4303,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20425866</Price>
+      <Price>20511312</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4549,7 +4344,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20452742</Price>
+      <Price>20538390</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4590,7 +4385,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20464503</Price>
+      <Price>20554797</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4631,7 +4426,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20486025</Price>
+      <Price>20578945</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4672,7 +4467,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20535848</Price>
+      <Price>20626950</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4713,7 +4508,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20554797</Price>
+      <Price>20645091</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4754,7 +4549,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20555532</Price>
+      <Price>20646028</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4795,7 +4590,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20558623</Price>
+      <Price>20649725</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4836,7 +4631,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20599944</Price>
+      <Price>20690238</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4877,7 +4672,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20624090</Price>
+      <Price>20714788</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4918,7 +4713,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>20758309</Price>
+      <Price>20852845</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -4959,7 +4754,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21157323</Price>
+      <Price>21251657</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5000,7 +4795,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21249896</Price>
+      <Price>21344432</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5041,7 +4836,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21273530</Price>
+      <Price>21368066</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5082,7 +4877,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21302139</Price>
+      <Price>21393645</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5123,7 +4918,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21303309</Price>
+      <Price>21395017</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5164,7 +4959,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21327255</Price>
+      <Price>21419165</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5205,7 +5000,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21413672</Price>
+      <Price>21526388</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5246,7 +5041,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21439078</Price>
+      <Price>21530584</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5287,7 +5082,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21440871</Price>
+      <Price>21532579</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5328,7 +5123,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21489269</Price>
+      <Price>21581381</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5369,7 +5164,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21558353</Price>
+      <Price>21650465</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5410,7 +5205,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21612647</Price>
+      <Price>21724959</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5451,7 +5246,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21687054</Price>
+      <Price>21799366</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5492,7 +5287,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21702478</Price>
+      <Price>21814588</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5533,7 +5328,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21865544</Price>
+      <Price>21977048</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5574,7 +5369,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21937867</Price>
+      <Price>22050381</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5615,7 +5410,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>21961008</Price>
+      <Price>22072714</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5656,7 +5451,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>22010793</Price>
+      <Price>22123105</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5697,7 +5492,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>22038871</Price>
+      <Price>22151183</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5738,7 +5533,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>22168564</Price>
+      <Price>22294208</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5779,7 +5574,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>22194757</Price>
+      <Price>22318583</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5820,7 +5615,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>22487013</Price>
+      <Price>22610031</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5861,7 +5656,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>22504404</Price>
+      <Price>22616716</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5902,7 +5697,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>22611527</Price>
+      <Price>22734949</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5943,7 +5738,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>22633259</Price>
+      <Price>22745773</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -5984,7 +5779,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>22642383</Price>
+      <Price>22765805</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6025,7 +5820,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>22704094</Price>
+      <Price>22827516</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6066,7 +5861,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23067194</Price>
+      <Price>23193040</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6107,7 +5902,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23083460</Price>
+      <Price>23208902</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6148,7 +5943,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23094880</Price>
+      <Price>23220726</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6189,7 +5984,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23108909</Price>
+      <Price>23234149</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6230,7 +6025,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23177542</Price>
+      <Price>23302984</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6271,7 +6066,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23189264</Price>
+      <Price>23315110</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6312,7 +6107,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23201793</Price>
+      <Price>23325821</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6353,7 +6148,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23239398</Price>
+      <Price>23360194</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6394,7 +6189,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23269397</Price>
+      <Price>23393627</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6435,7 +6230,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23287831</Price>
+      <Price>23411657</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6476,48 +6271,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23356828</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>14.1.5.52</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 5, квартира 52</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>63</TotalArea>
-    <FloorNumber>5</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>14</Id>
-        <Name>14</Name>
-        <Flat>
-          <FlatNumber>52</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/36e8e9c3965e485e3adf322b16574c4de064aa1650fc4b7a96ac51340d5739fe.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/557dabf4ae7a5f25be899bce53a5c165b3dfc030f25f46555505a0082b9b4343.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>23416539</Price>
+      <Price>23480856</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6558,7 +6312,48 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23418842</Price>
+      <Price>23542870</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>14.1.5.52</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 5, квартира 52</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>63</TotalArea>
+    <FloorNumber>5</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>14</Id>
+        <Name>14</Name>
+        <Flat>
+          <FlatNumber>52</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/36e8e9c3965e485e3adf322b16574c4de064aa1650fc4b7a96ac51340d5739fe.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/557dabf4ae7a5f25be899bce53a5c165b3dfc030f25f46555505a0082b9b4343.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>23543799</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6599,7 +6394,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23425926</Price>
+      <Price>23550156</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6640,7 +6435,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23478028</Price>
+      <Price>23601854</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6681,7 +6476,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23480856</Price>
+      <Price>23604884</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6722,7 +6517,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23488041</Price>
+      <Price>23612271</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6763,7 +6558,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23508985</Price>
+      <Price>23632811</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6804,7 +6599,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23512332</Price>
+      <Price>23641410</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6845,7 +6640,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23528374</Price>
+      <Price>23649574</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6886,7 +6681,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23532170</Price>
+      <Price>23652764</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6927,7 +6722,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23552949</Price>
+      <Price>23673341</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -6968,7 +6763,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23601786</Price>
+      <Price>23722582</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7009,7 +6804,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23632811</Price>
+      <Price>23756637</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7050,7 +6845,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23697671</Price>
+      <Price>23825133</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7091,7 +6886,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23770631</Price>
+      <Price>23900517</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7132,48 +6927,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>23862891</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>14.2.11.348</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 11, квартира 348</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>64.3</TotalArea>
-    <FloorNumber>11</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>14</Id>
-        <Name>14</Name>
-        <Flat>
-          <FlatNumber>348</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/0a41820d04cbf38da7c5bbcb3c5560cfba6d5d603df8b4e74f8a4dbb49fc8297.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/d8c775f071baf13454e5b50d6a4a55ae239d5c62791a5f2b2341928d5088493d.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>23900517</Price>
+      <Price>23990555</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7214,7 +6968,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24208870</Price>
+      <Price>24343604</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7255,7 +7009,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24209072</Price>
+      <Price>24343806</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7296,7 +7050,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24242553</Price>
+      <Price>24377287</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7337,7 +7091,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24307107</Price>
+      <Price>24441639</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7378,7 +7132,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24312633</Price>
+      <Price>24447569</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7419,7 +7173,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24319352</Price>
+      <Price>24454894</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7460,48 +7214,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24389959</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>14.1.6.64</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 6, квартира 64</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>64.9</TotalArea>
-    <FloorNumber>6</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>14</Id>
-        <Name>14</Name>
-        <Flat>
-          <FlatNumber>64</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/8409c2115613436a12f632cd9585a5a0fecccaada0b59213838c3b94a2f68dec.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/f258514b0d42b69fdf2f495e5737db461129251f7c064c8e527b8042ca506c3b.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>24450825</Price>
+      <Price>24521259</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7542,7 +7255,48 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24452094</Price>
+      <Price>24580970</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>14.1.6.64</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 6, квартира 64</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>64.9</TotalArea>
+    <FloorNumber>6</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>14</Id>
+        <Name>14</Name>
+        <Flat>
+          <FlatNumber>64</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/8409c2115613436a12f632cd9585a5a0fecccaada0b59213838c3b94a2f68dec.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/f258514b0d42b69fdf2f495e5737db461129251f7c064c8e527b8042ca506c3b.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>24581923</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7583,7 +7337,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24454894</Price>
+      <Price>24590436</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7624,7 +7378,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24476539</Price>
+      <Price>24600769</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7665,7 +7419,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24485231</Price>
+      <Price>24609663</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7706,7 +7460,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24522690</Price>
+      <Price>24651768</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7747,7 +7501,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24626257</Price>
+      <Price>24747053</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7788,7 +7542,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>24979151</Price>
+      <Price>25106007</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7829,7 +7583,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25032516</Price>
+      <Price>25170886</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7870,7 +7624,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25074293</Price>
+      <Price>25201149</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7911,7 +7665,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25109968</Price>
+      <Price>25245510</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7952,7 +7706,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25131788</Price>
+      <Price>25270966</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -7993,48 +7747,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25209684</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>14.1.7.82</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 7, квартира 82</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>68.8</TotalArea>
-    <FloorNumber>7</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>14</Id>
-        <Name>14</Name>
-        <Flat>
-          <FlatNumber>82</FlatNumber>
-          <SectionNumber>1</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/ad02b28fce93dabb26c768aae1c5f601d550e0e45b81f8052af361323ffe7225.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/1e37b1f80e2628bf5f3685b1a5e738c450306510d2e5474455c893b331ab1872.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>25281124</Price>
+      <Price>25348458</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8075,7 +7788,48 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25281757</Price>
+      <Price>25416491</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>14.1.7.82</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 7, квартира 82</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>68.8</TotalArea>
+    <FloorNumber>7</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>14</Id>
+        <Name>14</Name>
+        <Flat>
+          <FlatNumber>82</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/ad02b28fce93dabb26c768aae1c5f601d550e0e45b81f8052af361323ffe7225.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/1e37b1f80e2628bf5f3685b1a5e738c450306510d2e5474455c893b331ab1872.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>25420100</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8116,7 +7870,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25292110</Price>
+      <Price>25432096</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8157,7 +7911,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25346934</Price>
+      <Price>25482678</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8198,7 +7952,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25432096</Price>
+      <Price>25572082</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8239,7 +7993,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25454596</Price>
+      <Price>25589532</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8280,7 +8034,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25512241</Price>
+      <Price>25651217</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8321,7 +8075,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25638953</Price>
+      <Price>25778131</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8362,7 +8116,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25723295</Price>
+      <Price>25862473</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8403,7 +8157,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25740627</Price>
+      <Price>25876573</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8444,7 +8198,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25754883</Price>
+      <Price>25895677</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8485,7 +8239,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25910831</Price>
+      <Price>26046777</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8526,7 +8280,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>25915295</Price>
+      <Price>26051443</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8567,7 +8321,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>26115232</Price>
+      <Price>26252996</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8608,7 +8362,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>26201939</Price>
+      <Price>26333845</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8649,7 +8403,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>26270533</Price>
+      <Price>26392945</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8690,48 +8444,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>26327645</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>7.2.3.139</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 7, этаж 3, квартира 139</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 7</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>65.5</TotalArea>
-    <FloorNumber>3</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>7</Id>
-        <Name>7</Name>
-        <Flat>
-          <FlatNumber>139</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/daf70147cf6db2716f290fe968a6b278dfa208d3ab9a67069c40696809c0c988.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/d954f90a8401a1f7f177ac2f97bacfd5b5a76504e6049efe29348e09fabc004b.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>12</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>26671579</Price>
+      <Price>26453693</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8772,7 +8485,7 @@
       <FloorsCount>12</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>26739028</Price>
+      <Price>26876792</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8813,48 +8526,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>26898760</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>7.2.10.252</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 7, этаж 10, квартира 252</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 7</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>68.3</TotalArea>
-    <FloorNumber>10</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>7</Id>
-        <Name>7</Name>
-        <Flat>
-          <FlatNumber>252</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/717ee63c4355218caae5ccc24989d4833cffb304a6f18f0f5fec3624bcb31587.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/52fe7ebaf9272c07254d73f3312ccf0a1394625fcb649ab8413b3b37b21cd5a6.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>12</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>26912337</Price>
+      <Price>27016324</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8895,7 +8567,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>26912650</Price>
+      <Price>27024962</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8936,7 +8608,48 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>26924921</Price>
+      <Price>27037637</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>7.2.10.252</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 7, этаж 10, квартира 252</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 7</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>68.3</TotalArea>
+    <FloorNumber>10</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>7</Id>
+        <Name>7</Name>
+        <Flat>
+          <FlatNumber>252</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/717ee63c4355218caae5ccc24989d4833cffb304a6f18f0f5fec3624bcb31587.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/52fe7ebaf9272c07254d73f3312ccf0a1394625fcb649ab8413b3b37b21cd5a6.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>12</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>27050303</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -8977,130 +8690,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>26945329</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>12.2.2.85</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 2, квартира 85</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 2</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>71.3</TotalArea>
-    <FloorNumber>2</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>12</Id>
-        <Name>12</Name>
-        <Flat>
-          <FlatNumber>85</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/78396cdd7d3dc9b8be32f4f43f37a17d6e8b60053d8e2b50c4448f0a6cb183cb.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/5fbdcc359eb8d22ce401734bdf9a9e02bcd0d07231d1e44b130b74fa6a48ac7a.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>27144292</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>14.2.7.273</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 7, квартира 273</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>60.8</TotalArea>
-    <FloorNumber>7</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>14</Id>
-        <Name>14</Name>
-        <Flat>
-          <FlatNumber>273</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/4afa27c4f03bba666d3fcb54d781fe7aba957f7342ce51e98c22aa65b04a953b.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/096dd696f74dce9ae3821ecff760a6e28c565993cc7665e93e09d66af7f98913.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>27157073</Price>
-      <Currency>rur</Currency>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>14.2.10.327</ExternalId>
-    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 10, квартира 327</Description>
-    <Category>newBuildingFlatSale</Category>
-    <Address>Россия, Москва, улица Корабельная, 5</Address>
-    <FlatRoomsCount>7</FlatRoomsCount>
-    <TotalArea>60.6</TotalArea>
-    <FloorNumber>10</FloorNumber>
-    <JKSchema>
-      <Id>6178</Id>
-      <Name>Ривер Парк Коломенское</Name>
-      <House>
-        <Id>14</Id>
-        <Name>14</Name>
-        <Flat>
-          <FlatNumber>327</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/85b7729002bf8116ac148b3e36033a14de90a32729972f98a691eed54002d747.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/3ff76a15bf3503094f7a70d81d45a4d174c40f7afed69f8e3d91f66f4f9f966d.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>13</FloorsCount>
-    </Building>
-    <BargainTerms>
-      <Price>27159550</Price>
+      <Price>27067741</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9141,7 +8731,89 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27160529</Price>
+      <Price>27276477</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>14.2.7.273</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 7, квартира 273</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>60.8</TotalArea>
+    <FloorNumber>7</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>14</Id>
+        <Name>14</Name>
+        <Flat>
+          <FlatNumber>273</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/4afa27c4f03bba666d3fcb54d781fe7aba957f7342ce51e98c22aa65b04a953b.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/096dd696f74dce9ae3821ecff760a6e28c565993cc7665e93e09d66af7f98913.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>27279889</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>14.2.10.327</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 14, этаж 10, квартира 327</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 5</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>60.6</TotalArea>
+    <FloorNumber>10</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>14</Id>
+        <Name>14</Name>
+        <Flat>
+          <FlatNumber>327</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/85b7729002bf8116ac148b3e36033a14de90a32729972f98a691eed54002d747.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/3ff76a15bf3503094f7a70d81d45a4d174c40f7afed69f8e3d91f66f4f9f966d.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>27281962</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9182,7 +8854,48 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27161420</Price>
+      <Price>27283428</Price>
+      <Currency>rur</Currency>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>12.2.2.85</ExternalId>
+    <Description>ЖК Ривер Парк Коломенское, корпус 12, этаж 2, квартира 85</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва, улица Корабельная, 2</Address>
+    <FlatRoomsCount>7</FlatRoomsCount>
+    <TotalArea>71.3</TotalArea>
+    <FloorNumber>2</FloorNumber>
+    <JKSchema>
+      <Id>6178</Id>
+      <Name>Ривер Парк Коломенское</Name>
+      <House>
+        <Id>12</Id>
+        <Name>12</Name>
+        <Flat>
+          <FlatNumber>85</FlatNumber>
+          <SectionNumber>2</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/78396cdd7d3dc9b8be32f4f43f37a17d6e8b60053d8e2b50c4448f0a6cb183cb.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/aeon/layouts/5fbdcc359eb8d22ce401734bdf9a9e02bcd0d07231d1e44b130b74fa6a48ac7a.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>13</FloorsCount>
+    </Building>
+    <BargainTerms>
+      <Price>27288318</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9223,7 +8936,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27173714</Price>
+      <Price>27296328</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9264,7 +8977,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27220756</Price>
+      <Price>27343168</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9305,7 +9018,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27273344</Price>
+      <Price>27389898</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9346,7 +9059,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27284956</Price>
+      <Price>27400096</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9387,7 +9100,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27342429</Price>
+      <Price>27458781</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9428,7 +9141,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27344703</Price>
+      <Price>27460449</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9469,7 +9182,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27464488</Price>
+      <Price>27606696</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9510,7 +9223,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27642248</Price>
+      <Price>27784456</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9551,7 +9264,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27685124</Price>
+      <Price>27827736</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9592,7 +9305,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27713352</Price>
+      <Price>27855560</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9633,7 +9346,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27833416</Price>
+      <Price>27946940</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9674,7 +9387,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>27897213</Price>
+      <Price>28010535</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9715,7 +9428,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28035862</Price>
+      <Price>28162314</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9756,7 +9469,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28099088</Price>
+      <Price>28225540</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9797,7 +9510,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28130701</Price>
+      <Price>28257153</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9838,7 +9551,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28207302</Price>
+      <Price>28333956</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9879,7 +9592,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28238965</Price>
+      <Price>28365619</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9920,7 +9633,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28270629</Price>
+      <Price>28397283</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -9961,7 +9674,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28302292</Price>
+      <Price>28428946</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10002,7 +9715,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28411113</Price>
+      <Price>28537969</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10043,7 +9756,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28743055</Price>
+      <Price>28891727</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10084,7 +9797,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28746623</Price>
+      <Price>28895699</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10125,7 +9838,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28910836</Price>
+      <Price>29062538</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10166,7 +9879,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>28987308</Price>
+      <Price>29139212</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10207,7 +9920,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>29047133</Price>
+      <Price>29172777</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10248,7 +9961,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>29177188</Price>
+      <Price>29329092</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10289,7 +10002,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>29367529</Price>
+      <Price>29495597</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10330,7 +10043,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>30564280</Price>
+      <Price>30721234</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10371,7 +10084,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>31212453</Price>
+      <Price>31348399</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10412,7 +10125,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>34980859</Price>
+      <Price>35139429</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10453,7 +10166,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>35591045</Price>
+      <Price>35747999</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
@@ -10494,7 +10207,7 @@
       <FloorsCount>13</FloorsCount>
     </Building>
     <BargainTerms>
-      <Price>35767853</Price>
+      <Price>35925413</Price>
       <Currency>rur</Currency>
     </BargainTerms>
   </object>
