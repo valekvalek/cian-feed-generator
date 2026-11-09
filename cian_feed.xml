@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-11-09T06:12:43Z</generated>
+  <generated>2026-11-09T17:25:30Z</generated>
   <object>
     <ExternalId>69</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К69</Description>
@@ -12648,56 +12648,6 @@
     </Building>
     <BargainTerms>
       <Price>9792210</Price>
-      <Currency>rur</Currency>
-      <MortgageAllowed>true</MortgageAllowed>
-    </BargainTerms>
-  </object>
-  <object>
-    <ExternalId>f5282775-92ea-ee11-b20e-faa2509cb15a</ExternalId>
-    <Description>ЖК Легенда Коренево, этаж 7, номер квартиры К154</Description>
-    <Category>newBuildingFlatSale</Category>
-    <FlatOnFloorNumber>10</FlatOnFloorNumber>
-    <Address>Россия, Московская область, Железнодорожный, Коренево</Address>
-    <FlatRoomsCount>2</FlatRoomsCount>
-    <TotalArea>53.7</TotalArea>
-    <LivingArea>31.6</LivingArea>
-    <KitchenArea>6.0</KitchenArea>
-    <FloorNumber>7</FloorNumber>
-    <JKSchema>
-      <Id>4703796</Id>
-      <Name>Легенда Коренево</Name>
-      <House>
-        <Id>Корпус 2</Id>
-        <Name>Корпус 2</Name>
-        <Flat>
-          <FlatNumber>К154</FlatNumber>
-          <SectionNumber>2</SectionNumber>
-        </Flat>
-      </House>
-    </JKSchema>
-    <SubAgent>
-      <Email>info@rusich.group</Email>
-    </SubAgent>
-    <LayoutPhoto>
-      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/c07cd8d54dd11aab3d0ba0194c71a0218003f9924ee6e0e3e8e5349d7d2c24f7.png</FullUrl>
-      <PhotoType>realtyObjectLayout</PhotoType>
-    </LayoutPhoto>
-    <Photos>
-      <PhotoSchema>
-        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/legenda/korenevo_layouts/e94975b8b033ddf03a0426133257d51e6ee2e1ac8f2858b0d8b11a9aa7dddfd4.png</FullUrl>
-        <PhotoType>realtyObject</PhotoType>
-      </PhotoSchema>
-    </Photos>
-    <Building>
-      <FloorsCount>8</FloorsCount>
-      <Deadline>
-        <Quarter>second</Quarter>
-        <Year>2026</Year>
-        <IsComplete>false</IsComplete>
-      </Deadline>
-    </Building>
-    <BargainTerms>
-      <Price>18217341</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
