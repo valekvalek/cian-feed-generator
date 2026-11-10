@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-11-10T17:44:19Z</generated>
+  <generated>2026-11-10T23:14:10Z</generated>
   <object>
     <ExternalId>69</ExternalId>
     <Description>ЖК Легенда Марусино, этаж 1, номер квартиры К69</Description>
@@ -9147,7 +9147,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>12266118</Price>
+      <Price>11652812</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -11997,7 +11997,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>12266118</Price>
+      <Price>11652812</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -14897,7 +14897,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>17992268</Price>
+      <Price>17092655</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -16597,7 +16597,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>9792210</Price>
+      <Price>9302600</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
@@ -20997,7 +20997,7 @@
       </Deadline>
     </Building>
     <BargainTerms>
-      <Price>9792210</Price>
+      <Price>9302600</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
