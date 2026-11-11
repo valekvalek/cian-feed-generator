@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed>
   <feed_version>2</feed_version>
-  <generated>2026-11-11T06:36:56Z</generated>
+  <generated>2026-11-11T15:20:00Z</generated>
   <object>
     <ExternalId>23093</ExternalId>
     <Description>ЖК Свет, этаж 44, номер квартиры 571</Description>
@@ -3711,6 +3711,53 @@
     </Building>
     <BargainTerms>
       <Price>29379708</Price>
+      <Currency>rur</Currency>
+      <MortgageAllowed>true</MortgageAllowed>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>24159</ExternalId>
+    <Description>ЖК Свет, этаж 26, номер квартиры 334</Description>
+    <Category>newBuildingFlatSale</Category>
+    <Address>Россия, Москва</Address>
+    <FlatRoomsCount>3</FlatRoomsCount>
+    <TotalArea>67.2</TotalArea>
+    <FloorNumber>26</FloorNumber>
+    <JKSchema>
+      <Id>5449798</Id>
+      <Name>Свет</Name>
+      <House>
+        <Id>1</Id>
+        <Name>1</Name>
+        <Flat>
+          <FlatNumber>334</FlatNumber>
+          <SectionNumber>1</SectionNumber>
+        </Flat>
+      </House>
+    </JKSchema>
+    <SubAgent>
+      <Email>info@rusich.group</Email>
+    </SubAgent>
+    <LayoutPhoto>
+      <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/feb714533d4afcef2684a5c745b843632345902cb90f83bd681a2e6e0adae03c.png</FullUrl>
+      <PhotoType>realtyObjectLayout</PhotoType>
+    </LayoutPhoto>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://raw.githubusercontent.com/valekvalek/cian-feed-generator/main/dominanta/layouts/349cd530fac1bf3860339e80dfc0d7c7d2cc108b6d8fef4ef75ac950cdcb9d10.png</FullUrl>
+        <PhotoType>realtyObject</PhotoType>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <FloorsCount>51</FloorsCount>
+      <Deadline>
+        <Quarter>first</Quarter>
+        <Year>2029</Year>
+        <IsComplete>false</IsComplete>
+      </Deadline>
+    </Building>
+    <BargainTerms>
+      <Price>29468609</Price>
       <Currency>rur</Currency>
       <MortgageAllowed>true</MortgageAllowed>
     </BargainTerms>
